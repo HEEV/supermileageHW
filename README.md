@@ -6,7 +6,7 @@ Kicad files for PCBs on the Ceaderville Supermileage team.
 
 -- parts_library: Files dedicated for the supermileage team.
 
--Project Folders
+- Project Folders
 -- can_sensor: PCB to connect generic sensors to the CANBus.
 
 -- current_sensor: Three port current sensor board that connects to the CANBus. 
