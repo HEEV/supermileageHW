@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name random)(type KiCad)(uri /home/nebk/kicad/user_modules_2015.pretty)(options "")(descr ""))
+  (lib (name supermileage)(type KiCad)(uri /home/nebk/Documents/supermileage/car_schematics/parts_library/supermileage_footprints.pretty)(options "")(descr "Footprints for Supermileage"))
+)
