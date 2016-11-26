@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTP2558AA-RA
+D 5x8 Red-Orange/Green bicolor LED display
+K display
+F /home/nebk/kicad/EllicottSamuel/datasheets/ltp2558AA.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F042C6
+F datasheets/stm32f102x4_6.pdf
+$ENDCMP
+#
+#End Doc Library

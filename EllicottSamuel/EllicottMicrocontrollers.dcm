@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM23F102C4
+D stm32f102x4 or 6 medium density ARM uc 48 pin
+K stm32
+F datasheets/stm32f102x4_6.pdf
+$ENDCMP
+#
+$CMP STM32F042C6
+D stm32f042x4 or 6 medium density ARM uc 48 pin
+K stm32
+F datasheets/stm32f102x4_6.pdf
+$ENDCMP
+#
+$CMP STM32F102C4
+D stm32f102x4 or 6 medium density ARM uc 48 pin
+K stm32
+F datasheets/stm32f102x4_6.pdf
+$ENDCMP
+#
+$CMP stm32f042F6
+D stm32f042x6 or x4 microcontroller
+K stm32
+F datasheets/stm32f042x4_6.pdf
+$ENDCMP
+#
+$CMP stm32f042x6
+D stm32f042x6 or x4 microcontroller
+K stm32
+F datasheets/stm32f042x4_6.pdf
+$ENDCMP
+#
+#End Doc Library

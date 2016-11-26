@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5317
+D 3.3v LDO 6v max
+K 3.3v, ldo
+F datasheets/mic5317.pdf
+$ENDCMP
+#
+$CMP NCP1117LP
+D 5v LDO 18v max
+K 5v, ldo
+F datasheets/ncp1117LP.pdf
+$ENDCMP
+#
+#End Doc Library

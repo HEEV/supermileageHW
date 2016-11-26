@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STP16CPC26
+D Low voltage 16-bit constant current LED sink driver
+K LED, display driver
+F datasheets/stp16cpc26.pdf
+$ENDCMP
+#
+$CMP mcp2561
+D can tranciver with common mode stabilization
+K mcp256x, can
+F datasheets/mcp256x.pdf
+$ENDCMP
+#
+$CMP mcp2562
+D CAN tranciver with dual supply
+K mcp256x, can
+F datasheets/mcp256x.pdf
+$ENDCMP
+#
+#End Doc Library

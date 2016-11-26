@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS710
+D Allegro Current Sensor
+K current sensor, allegro
+F doc/ACS710-Datasheet.pdf
+$ENDCMP
+#
+$CMP ASDX100A24R
+D Honeywell 5v absolute pressure transducer
+K pressure, honeywell, transducer
+F doc/ASDX_Series.pdf
+$ENDCMP
+#
+$CMP G4V-MINI
+D All Sensors 1in H_2O Differential Sensor
+K pressure, honeywell, transducer
+F doc/1-Inch-G4-Mini.pdf
+$ENDCMP
+#
+$CMP HSCDRR004MD
+D Honeywell 3.3v differential pressure transducer
+K honeywell, transducer, pressure
+F doc/HSC_and_SSC_Series.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NPN_PHOTO
+D NPN Phototransitor in a LED case
+K phototransistor
+$ENDCMP
+#
+$CMP PEC11L
+D Rotory Encoder with pushbutton switch
+K encoder
+F datasheets/pec11l.pdf
+$ENDCMP
+#
+#End Doc Library
