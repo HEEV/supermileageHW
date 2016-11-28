@@ -1,4 +1,4 @@
-update=Thu 20 Oct 2016 10:00:56 PM EDT
+update=Sun 27 Nov 2016 07:24:45 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../kicad/EllicottSamuel;../car_schematics/parts_library
+LibDir=../parts_library;../EllicottSamuel
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,13 +70,3 @@ LibName28=contrib
 LibName29=valves
 LibName30=Supermileage
 LibName31=EllicottPower
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
