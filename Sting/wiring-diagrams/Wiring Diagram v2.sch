@@ -1,0 +1,754 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:Wiring Diagram v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 1 11
+Title "Sting - Gasoline Prototype"
+Date "2016-05-25"
+Rev "1.5"
+Comp "Cedarville University"
+Comment1 "Samuel Ellicott"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 850  1050 1250 1200
+U 57E1381B
+F0 "Steering_Wheel" 60
+F1 "Steering_Wheel.sch" 60
+F2 "GND" I R 2100 2200 60 
+F3 "POWER_INDICATOR" I R 2100 1500 60 
+F4 "ENGINE_STOP_OUT" I R 2100 1200 60 
+F5 "ENGINE_START_OUT" I R 2100 1300 60 
+F6 "HORN_OUT" I R 2100 1800 60 
+F7 "DRIVER_KILL_OUT" I R 2100 1100 60 
+F8 "EFI_INDICATOR" I R 2100 1700 60 
+F9 "O2_INDICATOR" I R 2100 1600 60 
+F10 "SW_POWER" I R 2100 1400 60 
+F11 "5V" I R 2100 2000 60 
+F12 "SIGNAL" I R 2100 2100 60 
+$EndSheet
+$Sheet
+S 6200 1000 1050 1300
+U 57E2AF30
+F0 "Back Of Car" 60
+F1 "Back_Of_Car.sch" 60
+F2 "Engine_Start" I L 6200 1800 60 
+F3 "Kill_In" I L 6200 1100 60 
+F4 "Kill_Out" I L 6200 1200 60 
+F5 "12VBatt" I L 6200 2100 60 
+F6 "GND_MAIN" I L 6200 2200 60 
+F7 "O2_Power" I L 6200 1300 60 
+F8 "EFI_Power" I L 6200 1400 60 
+F9 "EFI_GND" I L 6200 1700 60 
+F10 "CANH" B R 7250 1200 60 
+F11 "CANL" B R 7250 1300 60 
+F12 "CAN_GND" I R 7250 1400 60 
+F13 "CAN_PWR" I R 7250 1100 60 
+$EndSheet
+$Sheet
+S 6200 3625 725  225 
+U 581FC33A
+F0 "Horn" 60
+F1 "Horn.sch" 60
+F2 "HORN_ACTIVE" I L 6200 3700 60 
+F3 "GND" I L 6200 3800 60 
+$EndSheet
+$Sheet
+S 2150 5075 1150 3925
+U 58202F4F
+F0 "Computer" 60
+F1 "Computer.sch" 60
+F2 "J1_18_POWER" I L 2150 6850 60 
+F3 "J1_17_POWER" I L 2150 6750 60 
+F4 "J1_12_POWER" I L 2150 6250 60 
+F5 "J2_9_WHEEL_TACH" I L 2150 8000 60 
+F6 "J1_1_Wake" I L 2150 5150 60 
+F7 "J2_18_FAN" O L 2150 8900 60 
+F8 "J1_15_GND" I L 2150 6550 60 
+F9 "J1_16_GND" I L 2150 6650 60 
+F10 "J2_17_HORN" O L 2150 8800 60 
+F11 "J2_8_PITOT_TEMP" I L 2150 7900 60 
+F12 "J2_10_PITOT" I L 2150 8100 60 
+F13 "J2_11_SYSTEM_V" I L 2150 8200 60 
+F14 "J2_3_ARM_STATUS" I L 2150 7400 60 
+F15 "J2_4_HIGH_P_EFI" I L 2150 7500 60 
+F16 "J2_12_LOW_P_EFI" I L 2150 8300 60 
+F17 "J2_6_ENGINE_START" O L 2150 7700 60 
+F18 "J2_5_ENGINE_STOP" O L 2150 7600 60 
+F19 "J1_6_SEN_5V" O L 2150 5650 60 
+F20 "J1_11_SEN_GND" O L 2150 6150 60 
+F21 "J1_3_CAN_H" B L 2150 5350 60 
+F22 "J1_9_CAN_L" B L 2150 5950 60 
+$EndSheet
+$Sheet
+S 5325 7025 775  325 
+U 582DB1D2
+F0 "Pitot" 60
+F1 "Pressure.sch" 60
+F2 "P1_GND" I L 5325 7300 60 
+F3 "P2_PRESSURE" I L 5325 7225 60 
+F4 "P3_3.3V" I L 5325 7150 60 
+F5 "P4_5-9V" I L 5325 7075 60 
+$EndSheet
+$Sheet
+S 5325 8025 775  325 
+U 5827D1EC
+F0 "HP EFI" 60
+F1 "Pressure.sch" 60
+F2 "P1_GND" I L 5325 8300 60 
+F3 "P2_PRESSURE" I L 5325 8225 60 
+F4 "P3_3.3V" I L 5325 8150 60 
+F5 "P4_5-9V" I L 5325 8075 60 
+$EndSheet
+$Sheet
+S 5325 7525 775  325 
+U 5827D621
+F0 "LP EFI" 60
+F1 "Pressure.sch" 60
+F2 "P1_GND" I L 5325 7800 60 
+F3 "P2_PRESSURE" I L 5325 7725 60 
+F4 "P3_3.3V" I L 5325 7650 60 
+F5 "P4_5-9V" I L 5325 7575 60 
+$EndSheet
+$Comp
+L CONN_01X18 P?
+U 1 1 586B46AB
+P 1850 6000
+F 0 "P?" H 1850 6950 50  0000 C CNN
+F 1 "CONN_01X18" V 1950 6000 50  0000 C CNN
+F 2 "" H 1850 6000 50  0000 C CNN
+F 3 "" H 1850 6000 50  0000 C CNN
+	1    1850 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X18 P?
+U 1 1 586BFED3
+P 1850 8050
+F 0 "P?" H 1850 9000 50  0000 C CNN
+F 1 "CONN_01X18" V 1950 8050 50  0000 C CNN
+F 2 "" H 1850 8050 50  0000 C CNN
+F 3 "" H 1850 8050 50  0000 C CNN
+	1    1850 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X18 P?
+U 1 1 58707A2D
+P 1550 6000
+F 0 "P?" H 1550 6950 50  0000 C CNN
+F 1 "CONN_01X18" V 1650 6000 50  0000 C CNN
+F 2 "" H 1550 6000 50  0000 C CNN
+F 3 "" H 1550 6000 50  0000 C CNN
+	1    1550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X18 P?
+U 1 1 58707FEE
+P 1550 8050
+F 0 "P?" H 1550 9000 50  0000 C CNN
+F 1 "CONN_01X18" V 1650 8050 50  0000 C CNN
+F 2 "" H 1550 8050 50  0000 C CNN
+F 3 "" H 1550 8050 50  0000 C CNN
+	1    1550 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58718B57
+P 2700 3250
+F 0 "P?" H 2700 3900 50  0000 C CNN
+F 1 "CONN_01X12" V 2800 3250 50  0000 C CNN
+F 2 "" H 2700 3250 50  0000 C CNN
+F 3 "" H 2700 3250 50  0000 C CNN
+	1    2700 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58721B64
+P 2700 1650
+F 0 "P?" H 2700 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 2800 1650 50  0000 C CNN
+F 2 "" H 2700 1650 50  0000 C CNN
+F 3 "" H 2700 1650 50  0000 C CNN
+	1    2700 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58723F53
+P 2400 1650
+F 0 "P?" H 2400 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 2500 1650 50  0000 C CNN
+F 2 "" H 2400 1650 50  0000 C CNN
+F 3 "" H 2400 1650 50  0000 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58739874
+P 5550 1650
+F 0 "P?" H 5550 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 5650 1650 50  0000 C CNN
+F 2 "" H 5550 1650 50  0000 C CNN
+F 3 "" H 5550 1650 50  0000 C CNN
+	1    5550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 5873A376
+P 5850 1650
+F 0 "P?" H 5850 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 5950 1650 50  0000 C CNN
+F 2 "" H 5850 1650 50  0000 C CNN
+F 3 "" H 5850 1650 50  0000 C CNN
+	1    5850 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 587447E1
+P 5550 3650
+F 0 "P?" H 5550 3900 50  0000 C CNN
+F 1 "CONN_01X04" V 5650 3650 50  0000 C CNN
+F 2 "" H 5550 3650 50  0000 C CNN
+F 3 "" H 5550 3650 50  0000 C CNN
+	1    5550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58745FFC
+P 5850 3650
+F 0 "P?" H 5850 3900 50  0000 C CNN
+F 1 "CONN_01X04" V 5950 3650 50  0000 C CNN
+F 2 "" H 5850 3650 50  0000 C CNN
+F 3 "" H 5850 3650 50  0000 C CNN
+	1    5850 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58752B64
+P 2400 3250
+F 0 "P?" H 2400 3900 50  0000 C CNN
+F 1 "CONN_01X12" V 2500 3250 50  0000 C CNN
+F 2 "" H 2400 3250 50  0000 C CNN
+F 3 "" H 2400 3250 50  0000 C CNN
+	1    2400 3250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	800  5050 900  5150
+Entry Wire Line
+	800  5550 900  5650
+Entry Wire Line
+	800  6150 900  6250
+Entry Wire Line
+	800  6450 900  6550
+Entry Wire Line
+	800  7300 900  7400
+Entry Wire Line
+	800  7500 900  7600
+Entry Wire Line
+	800  7600 900  7700
+Entry Wire Line
+	800  8100 900  8200
+Entry Wire Line
+	800  8700 900  8800
+$Sheet
+S 3000 1000 2200 2950
+U 57E6D70C
+F0 "Relay Box (Box of Doom)" 60
+F1 "Relay_Box.sch" 60
+F2 "S_W_12_GND" I L 3000 2200 60 
+F3 "H_4_GND" I R 5200 3800 60 
+F4 "S_W_10_5V" I L 3000 2000 60 
+F5 "E_1_TO_KILL" I R 5200 1100 60 
+F6 "E_2_FROM_KILL" I R 5200 1200 60 
+F7 "E_3_O2_POWER" I R 5200 1300 60 
+F8 "E_4_EFI_POWER" I R 5200 1400 60 
+F9 "E_8_START_RELAY" I R 5200 1800 60 
+F10 "E_11_BATT_IN" I R 5200 2100 60 
+F11 "E_12_BATT_GND" I R 5200 2200 60 
+F12 "S_W_1_DRV_KILL" I L 3000 1100 60 
+F13 "S_W_2_E_STOP" I L 3000 1200 60 
+F14 "S_W_3_E_START" I L 3000 1300 60 
+F15 "S_W_4_SW_POWER" I L 3000 1400 60 
+F16 "S_W_5_PWR_IND" I L 3000 1500 60 
+F17 "S_W_6_O2_IND" I L 3000 1600 60 
+F18 "S_W_7_EFI_IND" I L 3000 1700 60 
+F19 "S_W_8_HORN" I L 3000 1800 60 
+F20 "H_3_HORN" I R 5200 3700 60 
+F21 "S_W_11_THROTTLE" I L 3000 2100 60 
+F22 "E_7_EFI_GND" I R 5200 1700 60 
+F23 "C_12_GND" I L 3000 3800 60 
+F24 "C_11_Wake" I L 3000 3700 60 
+F25 "C_9_Power" I L 3000 3500 60 
+F26 "C_7_E_Start" I L 3000 3300 60 
+F27 "C_6_E_Stop" I L 3000 3200 60 
+F28 "C_5_Horn" I L 3000 3100 60 
+F29 "C_1_5v" I L 3000 2700 60 
+F30 "C_2_THROTTLE" I L 3000 2800 60 
+F31 "C_4_Arm_Status" I L 3000 3000 60 
+F32 "C_10_CAN_Power" I L 3000 3600 60 
+$EndSheet
+Entry Wire Line
+	800  2600 900  2700
+Entry Wire Line
+	800  2700 900  2800
+Entry Wire Line
+	800  2900 900  3000
+Entry Wire Line
+	800  3000 900  3100
+Entry Wire Line
+	800  3100 900  3200
+Entry Wire Line
+	800  3200 900  3300
+Entry Wire Line
+	800  3400 900  3500
+Entry Wire Line
+	800  3500 900  3600
+Entry Wire Line
+	800  3600 900  3700
+Entry Wire Line
+	800  3700 900  3800
+Text Label 950  3700 0    60   ~ 0
+Grey
+Text Label 950  2700 0    60   ~ 0
+Pink
+Text Label 950  3000 0    60   ~ 0
+Lt_Blu
+Text Label 950  3100 0    60   ~ 0
+Brown
+Text Label 950  3800 0    60   ~ 0
+Black
+Text Label 950  3600 0    60   ~ 0
+White
+Text Label 950  3500 0    60   ~ 0
+White
+Text Label 950  3200 0    60   ~ 0
+Green
+Text Label 950  3300 0    60   ~ 0
+Blue
+Text Label 950  2800 0    60   ~ 0
+Yellow
+Text Label 950  5150 0    60   ~ 0
+Grey
+Text Label 950  6250 0    60   ~ 0
+White
+Text Label 950  7400 0    60   ~ 0
+Lt_Blu
+Text Label 950  7600 0    60   ~ 0
+Green
+Text Label 950  7700 0    60   ~ 0
+Blue
+Text Label 950  6550 0    60   ~ 0
+Black
+Text Label 950  8800 0    60   ~ 0
+Brown
+$Sheet
+S 2150 9250 775  500 
+U 58788C84
+F0 "Arduino" 60
+F1 "Arduino.sch" 60
+F2 "Power" I L 2150 9350 60 
+F3 "5v" O L 2150 9450 60 
+F4 "Throttle" I L 2150 9550 60 
+F5 "GND" I L 2150 9650 60 
+$EndSheet
+Wire Wire Line
+	2050 5150 2150 5150
+Wire Wire Line
+	2050 5350 2150 5350
+Wire Wire Line
+	2050 5650 2150 5650
+Wire Wire Line
+	2050 5950 2150 5950
+Wire Wire Line
+	2050 6150 2150 6150
+Wire Wire Line
+	2050 6250 2150 6250
+Wire Wire Line
+	2050 6550 2150 6550
+Wire Wire Line
+	2050 6650 2150 6650
+Wire Wire Line
+	2050 6750 2150 6750
+Wire Wire Line
+	2050 6850 2150 6850
+Wire Wire Line
+	2050 7400 2150 7400
+Wire Wire Line
+	2050 7500 2150 7500
+Wire Wire Line
+	2050 7600 2150 7600
+Wire Wire Line
+	2050 7700 2150 7700
+Wire Wire Line
+	2050 7900 2150 7900
+Wire Wire Line
+	2050 8000 2150 8000
+Wire Wire Line
+	2050 8100 2150 8100
+Wire Wire Line
+	2050 8200 2150 8200
+Wire Wire Line
+	2050 8300 2150 8300
+Wire Wire Line
+	2050 8800 2150 8800
+Wire Wire Line
+	2050 8900 2150 8900
+Wire Wire Line
+	2900 2200 3000 2200
+Wire Wire Line
+	2900 2100 3000 2100
+Wire Wire Line
+	2900 2000 3000 2000
+Wire Wire Line
+	2900 1800 3000 1800
+Wire Wire Line
+	2900 1700 3000 1700
+Wire Wire Line
+	2900 1600 3000 1600
+Wire Wire Line
+	2900 1500 3000 1500
+Wire Wire Line
+	2900 1400 3000 1400
+Wire Wire Line
+	2900 1300 3000 1300
+Wire Wire Line
+	2900 1200 3000 1200
+Wire Wire Line
+	2900 1100 3000 1100
+Wire Wire Line
+	2100 2200 2200 2200
+Wire Wire Line
+	2100 2100 2200 2100
+Wire Wire Line
+	2100 2000 2200 2000
+Wire Wire Line
+	2100 1800 2200 1800
+Wire Wire Line
+	2100 1700 2200 1700
+Wire Wire Line
+	2100 1600 2200 1600
+Wire Wire Line
+	2100 1500 2200 1500
+Wire Wire Line
+	2100 1400 2200 1400
+Wire Wire Line
+	2100 1300 2200 1300
+Wire Wire Line
+	2100 1200 2200 1200
+Wire Wire Line
+	2100 1100 2200 1100
+Wire Wire Line
+	2900 2700 3000 2700
+Wire Wire Line
+	2900 2800 3000 2800
+Wire Wire Line
+	2900 3000 3000 3000
+Wire Wire Line
+	2900 3100 3000 3100
+Wire Wire Line
+	2900 3200 3000 3200
+Wire Wire Line
+	2900 3300 3000 3300
+Wire Wire Line
+	2900 3500 3000 3500
+Wire Wire Line
+	2900 3600 3000 3600
+Wire Wire Line
+	2900 3700 3000 3700
+Wire Wire Line
+	2900 3800 3000 3800
+Wire Wire Line
+	5200 1100 5350 1100
+Wire Wire Line
+	5200 1200 5350 1200
+Wire Wire Line
+	5200 1300 5350 1300
+Wire Wire Line
+	5200 1400 5350 1400
+Wire Wire Line
+	5200 1700 5350 1700
+Wire Wire Line
+	5200 1800 5350 1800
+Wire Wire Line
+	5200 2100 5350 2100
+Wire Wire Line
+	5200 2200 5350 2200
+Wire Wire Line
+	6050 2200 6200 2200
+Wire Wire Line
+	6050 2100 6200 2100
+Wire Wire Line
+	6050 1800 6200 1800
+Wire Wire Line
+	6050 1200 6200 1200
+Wire Wire Line
+	6050 1100 6200 1100
+Wire Wire Line
+	5200 3800 5350 3800
+Wire Wire Line
+	5200 3700 5350 3700
+Wire Wire Line
+	6050 3800 6200 3800
+Wire Wire Line
+	6050 3700 6200 3700
+Wire Bus Line
+	800  2550 800  2600
+Wire Bus Line
+	800  2600 800  2700
+Wire Bus Line
+	800  2700 800  2900
+Wire Bus Line
+	800  2900 800  3000
+Wire Bus Line
+	800  3000 800  3100
+Wire Bus Line
+	800  3100 800  3200
+Wire Bus Line
+	800  3200 800  3400
+Wire Bus Line
+	800  3400 800  3500
+Wire Bus Line
+	800  3500 800  3600
+Wire Bus Line
+	800  3600 800  3700
+Wire Bus Line
+	800  3700 800  4300
+Wire Bus Line
+	800  4300 800  5050
+Wire Bus Line
+	800  5050 800  5250
+Wire Bus Line
+	800  5250 800  5550
+Wire Bus Line
+	800  5550 800  5850
+Wire Bus Line
+	800  5850 800  6050
+Wire Bus Line
+	800  6050 800  6150
+Wire Bus Line
+	800  6150 800  6450
+Wire Bus Line
+	800  6450 800  7300
+Wire Bus Line
+	800  7300 800  7500
+Wire Bus Line
+	800  7500 800  7600
+Wire Bus Line
+	800  7600 800  8100
+Wire Bus Line
+	800  8100 800  8700
+Wire Bus Line
+	800  8700 800  9250
+Wire Bus Line
+	800  9250 800  9350
+Wire Bus Line
+	800  9350 800  9450
+Wire Bus Line
+	800  9450 800  9550
+Wire Bus Line
+	800  9550 800  9700
+Wire Wire Line
+	1350 5150 900  5150
+Wire Wire Line
+	1350 6250 900  6250
+Wire Wire Line
+	1350 6550 900  6550
+Wire Wire Line
+	1350 7400 900  7400
+Wire Wire Line
+	1350 7600 900  7600
+Wire Wire Line
+	1350 7700 900  7700
+Wire Wire Line
+	1350 8200 900  8200
+Wire Wire Line
+	1350 8800 900  8800
+Wire Wire Line
+	2200 2700 900  2700
+Wire Wire Line
+	900  2800 2200 2800
+Wire Wire Line
+	900  3000 2200 3000
+Wire Wire Line
+	900  3100 2200 3100
+Wire Wire Line
+	900  3200 2200 3200
+Wire Wire Line
+	900  3300 2200 3300
+Wire Wire Line
+	900  3500 2200 3500
+Wire Wire Line
+	900  3600 2200 3600
+Wire Wire Line
+	900  3700 2200 3700
+Wire Wire Line
+	900  3800 2200 3800
+Wire Wire Line
+	1350 5650 900  5650
+Wire Wire Line
+	2050 9350 2150 9350
+Wire Wire Line
+	2050 9450 2150 9450
+Wire Wire Line
+	2050 9550 2150 9550
+Wire Wire Line
+	2050 9650 2150 9650
+$Comp
+L CONN_01X04 P?
+U 1 1 587A95C2
+P 1850 9500
+F 0 "P?" H 1850 9750 50  0000 C CNN
+F 1 "CONN_01X04" V 1950 9500 50  0000 C CNN
+F 2 "" H 1850 9500 50  0000 C CNN
+F 3 "" H 1850 9500 50  0000 C CNN
+	1    1850 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 587A9C8F
+P 1550 9500
+F 0 "P?" H 1550 9750 50  0000 C CNN
+F 1 "CONN_01X04" V 1650 9500 50  0000 C CNN
+F 2 "" H 1550 9500 50  0000 C CNN
+F 3 "" H 1550 9500 50  0000 C CNN
+	1    1550 9500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	900  9350 1350 9350
+Wire Wire Line
+	900  9450 1350 9450
+Wire Wire Line
+	900  9550 1350 9550
+Wire Wire Line
+	900  9650 1350 9650
+Entry Wire Line
+	800  9250 900  9350
+Entry Wire Line
+	800  9350 900  9450
+Entry Wire Line
+	800  9450 900  9550
+Entry Wire Line
+	800  9550 900  9650
+Wire Wire Line
+	900  5350 1350 5350
+Wire Wire Line
+	900  5950 1350 5950
+Entry Wire Line
+	800  5250 900  5350
+Entry Wire Line
+	800  5850 900  5950
+Text Label 950  5350 0    60   ~ 0
+CANH
+Text Label 950  5950 0    60   ~ 0
+CANL
+Text Label 950  5650 0    60   ~ 0
+Pink
+Wire Wire Line
+	900  6150 1350 6150
+Entry Wire Line
+	800  6050 900  6150
+Text Label 950  9450 0    60   ~ 0
+Pink
+Text Label 950  9550 0    60   ~ 0
+Yellow
+Text Label 950  9650 0    60   ~ 0
+Black
+Text Label 950  9350 0    60   ~ 0
+White
+Text Label 950  6150 0    60   ~ 0
+22g_gry
+Entry Bus Bus
+	800  4300 900  4400
+Wire Bus Line
+	900  4400 3900 4400
+Wire Bus Line
+	3900 4400 3900 9000
+Wire Bus Line
+	3900 9000 7800 9000
+Wire Bus Line
+	7800 9000 7800 1500
+Wire Bus Line
+	7800 1500 7800 1400
+Wire Bus Line
+	7800 1400 7800 1300
+Wire Bus Line
+	7800 1300 7800 1200
+Wire Bus Line
+	7800 1200 7800 1050
+Wire Wire Line
+	6050 1300 6200 1300
+Wire Wire Line
+	6050 1400 6200 1400
+Wire Wire Line
+	6050 1700 6200 1700
+Wire Wire Line
+	7700 1100 7250 1100
+Wire Wire Line
+	7700 1200 7250 1200
+Wire Wire Line
+	7700 1300 7250 1300
+Wire Wire Line
+	7700 1400 7250 1400
+Entry Wire Line
+	7700 1100 7800 1200
+Entry Wire Line
+	7700 1200 7800 1300
+Entry Wire Line
+	7700 1300 7800 1400
+Entry Wire Line
+	7700 1400 7800 1500
+Text Label 7350 1200 0    60   ~ 0
+CANH
+Text Label 7350 1300 0    60   ~ 0
+CANL
+Text Label 7350 1400 0    60   ~ 0
+22g_gry
+Text Label 7350 1100 0    60   ~ 0
+White
+$EndSCHEMATC

@@ -1,0 +1,228 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:Wiring Diagram v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 3 11
+Title "Sting - Gasoline Prototype"
+Date ""
+Rev ""
+Comp "Cedarville University"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Motor M1
+U 1 1 57E6F264
+P 3250 1550
+F 0 "M1" H 3250 1550 60  0000 C CNN
+F 1 "Motor" H 3250 1800 60  0000 C CNN
+F 2 "" H 3250 1550 60  0000 C CNN
+F 3 "" H 3250 1550 60  0000 C CNN
+F 4 "Mouser" H 3250 1550 60  0001 C CNN "Distributor"
+	1    3250 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Starter_Relay CR1
+U 1 1 57E6F37B
+P 2400 1150
+F 0 "CR1" V 2200 1150 60  0000 C CNN
+F 1 "Starter_Relay" V 2650 1250 60  0000 C CNN
+F 2 "" H 2400 1150 60  0001 C CNN
+F 3 "" H 2400 1150 60  0001 C CNN
+	1    2400 1150
+	0    1    1    0   
+$EndComp
+Text HLabel 4300 1550 2    60   Input ~ 0
+GND_MAIN
+Text HLabel 2550 750  0    60   Input ~ 0
+12VBatt
+$Comp
+L LED D?
+U 1 1 57E7BBBA
+P 1850 1550
+F 0 "D?" H 1850 1650 50  0001 C CNN
+F 1 "Engine Start" H 1850 1400 50  0000 C CNN
+F 2 "" H 1850 1550 50  0000 C CNN
+F 3 "" H 1850 1550 50  0000 C CNN
+	1    1850 1550
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1250 1050 0    60   Input ~ 0
+Engine_Start
+$Comp
+L SW_SPST SW1
+U 1 1 57E6F41A
+P 3150 1050
+F 0 "SW1" H 3150 1200 60  0000 C CNN
+F 1 "Batt_on" H 3150 950 60  0000 C CNN
+F 2 "" H 3150 1050 60  0000 C CNN
+F 3 "" H 3150 1050 60  0000 C CNN
+	1    3150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery BT?
+U 1 1 57E6F190
+P 3900 1050
+F 0 "BT?" V 3700 1000 50  0000 L CNN
+F 1 "Battery" V 4050 1000 50  0000 L CNN
+F 2 "" V 3900 1090 50  0000 C CNN
+F 3 "" V 3900 1090 50  0000 C CNN
+	1    3900 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 57FB6E88
+P 2550 2350
+F 0 "SW?" H 2550 2500 60  0000 C CNN
+F 1 "ExternalKill" H 2550 2250 60  0000 C CNN
+F 2 "" H 2550 2350 60  0000 C CNN
+F 3 "" H 2550 2350 60  0000 C CNN
+	1    2550 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 2350 0    60   Input ~ 0
+Kill_In
+Text HLabel 2950 2350 2    60   Input ~ 0
+Kill_Out
+$Sheet
+S 1950 3000 1350 1900
+U 5873550E
+F0 "EFI_Breakout" 60
+F1 "EFI_Breakout.sch" 60
+F2 "P_4_12v" I L 1950 3100 60 
+F3 "P_2_GND" I L 1950 3300 60 
+F4 "P_3_O2" I L 1950 3200 60 
+F5 "INJ_2_B" O R 3300 4450 60 
+F6 "INJ_1_A" O R 3300 4550 60 
+F7 "IGN_2_B" O R 3300 4700 60 
+F8 "RPM_4_12v" O R 3300 3550 60 
+F9 "RPM_3_Sen" I R 3300 3650 60 
+F10 "RPM_2_GND" O R 3300 3750 60 
+F11 "O2_4_12v" O R 3300 3100 60 
+F12 "O2_3_Sen" I R 3300 3200 60 
+F13 "O2_2_Cal" U R 3300 3300 60 
+F14 "O2_1_GND" O R 3300 3400 60 
+F15 "MAT_1_A" O L 1950 4550 60 
+F16 "MAT_2_B" O L 1950 4450 60 
+F17 "CLT_1_A" O L 1950 4800 60 
+F18 "CLT_2_B" O L 1950 4700 60 
+F19 "IAC_3_1B" O L 1950 4100 60 
+F20 "IAC_4_2B" O L 1950 4000 60 
+F21 "CAN_1_GND" U L 1950 3850 60 
+F22 "CAN_2_CANL" B L 1950 3750 60 
+F23 "CAN_3_CANH" B L 1950 3650 60 
+F24 "CAN_4_PWR" U L 1950 3550 60 
+F25 "P_1_GND" I L 1950 3400 60 
+F26 "RPM_1_GND" O R 3300 3850 60 
+F27 "IGN_1_A" O R 3300 4800 60 
+F28 "TPS_3_SEN" I R 3300 4100 60 
+F29 "TPS_4_REF" O R 3300 4000 60 
+F30 "TPS_2_GND" O R 3300 4200 60 
+F31 "TPS_1_GND" O R 3300 4300 60 
+F32 "IAC_1_1A" O L 1950 4300 60 
+F33 "IAC_2_2A" O L 1950 4200 60 
+$EndSheet
+$Comp
+L RPM_Sensor U?
+U 1 1 58736630
+P 5050 4550
+F 0 "U?" H 5050 4300 60  0001 C CNN
+F 1 "RPM_Sensor" H 5050 4700 60  0000 C CNN
+F 2 "" H 5050 4550 60  0000 C CNN
+F 3 "" H 5050 4550 60  0000 C CNN
+	1    5050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L O2_Sensor U?
+U 1 1 58736636
+P 5050 4000
+F 0 "U?" H 5050 3650 60  0001 C CNN
+F 1 "O2_Sensor" H 5050 4150 60  0000 C CNN
+F 2 "" H 5050 4000 60  0000 C CNN
+F 3 "" H 5050 4000 60  0000 C CNN
+	1    5050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1250 2950 1250
+Wire Wire Line
+	2950 1250 2950 1550
+Wire Wire Line
+	3550 1550 4050 1550
+Wire Wire Line
+	4050 1550 4300 1550
+Connection ~ 4050 1550
+Wire Wire Line
+	1250 1050 1850 1050
+Wire Wire Line
+	1850 1050 2100 1050
+Wire Wire Line
+	2100 1250 2100 1950
+Wire Wire Line
+	4050 1950 2100 1950
+Wire Wire Line
+	2100 1950 1850 1950
+Connection ~ 2100 1950
+Wire Wire Line
+	2850 750  2850 1050
+Wire Wire Line
+	2550 750  2850 750 
+Connection ~ 2850 1050
+Wire Wire Line
+	2700 1050 2850 1050
+Wire Wire Line
+	2850 1050 2950 1050
+Wire Wire Line
+	3750 1050 3350 1050
+Wire Wire Line
+	4050 1050 4050 1550
+Wire Wire Line
+	4050 1550 4050 1950
+Wire Wire Line
+	2150 2350 2350 2350
+Wire Wire Line
+	2750 2350 2950 2350
+Wire Wire Line
+	1850 1950 1850 1750
+Wire Wire Line
+	1850 1350 1850 1050
+Connection ~ 1850 1050
+$EndSCHEMATC
