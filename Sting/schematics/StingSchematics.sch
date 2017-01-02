@@ -736,4 +736,9 @@ Text GLabel 4650 7100 0    60   UnSpc ~ 0
 CAN_PWR
 Wire Wire Line
 	4650 7100 4750 7100
+Text GLabel 1600 1450 2    60   Output ~ 0
+System_V
+Wire Wire Line
+	1600 1450 1500 1450
+Connection ~ 1500 1450
 $EndSCHEMATC

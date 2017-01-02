@@ -851,9 +851,9 @@ Wire Bus Line
 Wire Bus Line
 	9250 4800 9250 5000
 Wire Bus Line
-	9250 5000 9250 5400
+	9250 5000 9250 5300
 Wire Bus Line
-	8100 5400 9250 5400
+	8100 5300 9250 5300
 Wire Bus Line
 	8100 2250 8100 2350
 Wire Bus Line
@@ -903,7 +903,7 @@ Wire Bus Line
 Wire Bus Line
 	8100 4650 8100 4750
 Wire Bus Line
-	8100 4750 8100 5400
+	8100 4750 8100 5300
 Wire Wire Line
 	5250 2950 3750 2950
 Connection ~ 3750 2950

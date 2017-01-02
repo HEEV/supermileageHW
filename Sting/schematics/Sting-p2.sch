@@ -159,7 +159,7 @@ F 3 "" H 2300 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4650 1500 950  1750
+S 4650 1500 950  1900
 U 58697D86
 F0 "CM0711" 60
 F1 "Computer.sch" 60
@@ -169,9 +169,9 @@ F4 "GND" U R 5600 1600 60
 F5 "E_Start" O L 4650 2200 60 
 F6 "E_Stop" O L 4650 2350 60 
 F7 "Horn" O L 4650 2500 60 
-F8 "CANH" B L 4650 2800 60 
-F9 "CANL" B L 4650 2950 60 
-F10 "CAN_GND" U L 4650 3100 60 
+F8 "CANH" B L 4650 2950 60 
+F9 "CANL" B L 4650 3100 60 
+F10 "CAN_GND" U L 4650 3250 60 
 F11 "Arm_Status" I L 4650 2650 60 
 $EndSheet
 Text Label 3350 1600 2    60   ~ 0
@@ -186,11 +186,11 @@ Text GLabel 4600 2500 0    60   Output ~ 0
 Computer_Horn
 Text GLabel 4600 2650 0    60   Input ~ 0
 Arm_Status
-Text GLabel 4600 2950 0    60   BiDi ~ 0
+Text GLabel 4600 3100 0    60   BiDi ~ 0
 CANL
-Text GLabel 4600 2800 0    60   BiDi ~ 0
+Text GLabel 4600 2950 0    60   BiDi ~ 0
 CANH
-Text GLabel 4600 3100 0    60   UnSpc ~ 0
+Text GLabel 4600 3250 0    60   UnSpc ~ 0
 CAN_GND
 Text GLabel 2250 4750 2    60   UnSpc ~ 0
 CAN_PWR
@@ -250,4 +250,8 @@ Wire Wire Line
 Wire Wire Line
 	2000 4750 2250 4750
 Connection ~ 2000 3900
+Text GLabel 4600 2800 0    60   Input ~ 0
+System_V
+Wire Wire Line
+	4650 3250 4600 3250
 $EndSCHEMATC
