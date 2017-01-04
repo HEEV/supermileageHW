@@ -260,27 +260,23 @@ F 3 "" H 9300 4900 50  0000 C CNN
 $EndComp
 Text Label 7050 2050 0    49   ~ 0
 Lt_Blue-External
-Text Label 8200 2975 1    49   ~ 0
+Text Label 8325 3000 1    49   ~ 0
 Lt_Blue
-Text Label 8400 2975 1    49   ~ 0
+Text Label 8425 3000 1    49   ~ 0
 P_Green
-Text Label 8475 2650 0    49   ~ 0
+Text Label 8775 2650 2    49   ~ 0
 Black
-Text Label 8550 3150 0    49   ~ 0
+Text Label 8100 3450 1    49   ~ 0
 Black
-Text Label 8600 2750 0    49   ~ 0
-Blue
-Text Label 8600 3450 0    49   ~ 0
-L_Blue
-Text Label 8600 3550 0    49   ~ 0
-Green
-Text Label 8500 3425 1    49   ~ 0
+Text Label 8800 3450 2    49   ~ 0
+Lt_Blue
+Text Label 8525 3000 1    49   ~ 0
 Blue
 Text Label 8500 3950 0    49   ~ 0
 P_Green
 Text Label 8600 4150 0    49   ~ 0
 Brown
-Text Label 8600 5050 0    49   ~ 0
+Text Label 8500 4850 1    49   ~ 0
 Black
 Text Label 8600 4950 0    49   ~ 0
 Brown
@@ -322,29 +318,27 @@ F 3 "" H 2325 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8775 2150 8200 2150
+	8775 2150 8325 2150
 Wire Wire Line
-	8200 2150 8200 3450
+	8325 2150 8325 3450
 Wire Wire Line
-	8200 3450 8800 3450
+	8325 3450 8800 3450
 Wire Wire Line
-	8800 3950 8400 3950
+	8800 3950 8425 3950
 Wire Wire Line
-	8400 3950 8400 2275
+	8425 3950 8425 2300
 Wire Wire Line
-	8450 3150 8775 3150
+	8625 3150 8775 3150
 Wire Wire Line
-	8775 3150 8350 3200
+	8100 3200 8100 6350
 Wire Wire Line
-	8350 3200 8350 6350
+	8100 6350 8800 6350
 Wire Wire Line
-	8350 6350 8800 6350
+	8775 2750 8525 2750
 Wire Wire Line
-	8775 2750 8500 2750
+	8525 2750 8525 3600
 Wire Wire Line
-	8500 2750 8500 3600
-Wire Wire Line
-	8500 3600 8800 3650
+	8525 3600 8800 3650
 Wire Wire Line
 	5750 5375 5700 5100
 Wire Wire Line
@@ -352,9 +346,9 @@ Wire Wire Line
 Wire Wire Line
 	3425 2800 3425 6325
 Wire Wire Line
-	8800 5650 8400 5650
+	8800 5650 8200 5650
 Wire Wire Line
-	8400 4150 8800 4150
+	8200 4150 8800 4150
 Wire Wire Line
 	3225 3850 3225 6325
 Wire Wire Line
@@ -394,19 +388,19 @@ Wire Wire Line
 Wire Wire Line
 	9500 2750 9900 2750
 Wire Wire Line
-	8400 4150 8400 4950
+	8200 4150 8200 4950
 Wire Wire Line
-	8400 4950 8800 4950
+	8200 4950 8800 4950
 Wire Wire Line
-	8400 5650 8400 5000
+	8200 5650 8200 5000
 Wire Wire Line
-	8400 5000 8800 4950
+	8200 5000 8800 4950
 Wire Wire Line
-	8800 5050 8550 5050
+	8800 5050 8500 5050
 Wire Wire Line
-	8550 5050 8550 4600
+	8500 5050 8500 4600
 Wire Wire Line
-	8550 4600 8800 4550
+	8500 4600 8800 4550
 Wire Wire Line
 	9500 5650 9900 5650
 Wire Wire Line
@@ -426,17 +420,17 @@ Wire Wire Line
 Wire Wire Line
 	9900 4950 9500 4950
 Wire Wire Line
-	8800 5250 8500 5250
+	8800 5250 8400 5250
 Wire Wire Line
-	8500 5250 8500 4350
+	8400 5250 8400 4350
 Wire Wire Line
-	8500 4350 8800 4350
+	8400 4350 8800 4350
 Wire Wire Line
-	8800 5350 8450 5350
+	8800 5350 8300 5350
 Wire Wire Line
-	8450 5350 8450 4450
+	8300 5350 8300 4450
 Wire Wire Line
-	8450 4450 8800 4450
+	8300 4450 8800 4450
 Wire Wire Line
 	9900 4350 9500 4350
 Wire Wire Line
@@ -446,11 +440,9 @@ Wire Wire Line
 Wire Wire Line
 	9900 5350 9500 5350
 Wire Wire Line
-	8450 3150 8450 2700
+	8625 3150 8625 2700
 Wire Wire Line
-	8450 2700 8775 2650
-Wire Wire Line
-	8400 2275 8775 2250
+	8625 2700 8775 2650
 Wire Wire Line
 	3525 6325 3525 2600
 Wire Wire Line
@@ -604,7 +596,33 @@ Wire Wire Line
 Wire Bus Line
 	6800 6425 6800 6350
 Wire Bus Line
-	6800 6350 6800 2450
+	6800 6350 6800 6250
+Wire Bus Line
+	6800 6250 6800 6150
+Wire Bus Line
+	6800 6150 6800 5950
+Wire Bus Line
+	6800 5950 6800 5850
+Wire Bus Line
+	6800 5850 6800 5650
+Wire Bus Line
+	6800 5650 6800 4650
+Wire Bus Line
+	6800 4650 6800 4150
+Wire Bus Line
+	6800 4150 6800 3950
+Wire Bus Line
+	6800 3950 6800 3850
+Wire Bus Line
+	6800 3850 6800 3750
+Wire Bus Line
+	6800 3750 6800 3650
+Wire Bus Line
+	6800 3650 6800 3150
+Wire Bus Line
+	6800 3150 6800 2750
+Wire Bus Line
+	6800 2750 6800 2450
 Wire Bus Line
 	6800 2450 6800 2350
 Wire Bus Line
@@ -849,4 +867,30 @@ Entry Wire Line
 	6800 3150 6900 3050
 Entry Wire Line
 	6800 2750 6900 2650
+Text Label 8500 2150 0    49   ~ 0
+Lt_Blue
+Wire Wire Line
+	8100 3200 8625 3200
+Wire Wire Line
+	8625 3200 8775 3150
+Text Label 8625 3000 1    49   ~ 0
+Black
+Wire Wire Line
+	8425 2300 8625 2300
+Wire Wire Line
+	8625 2300 8775 2250
+Text Label 8775 2250 2    49   ~ 0
+P_Green
+Text Label 8100 4850 1    49   ~ 0
+Black
+Text Label 8200 5400 1    49   ~ 0
+Brown
+Text Label 8200 4850 1    49   ~ 0
+Brown
+Text Label 8300 4850 1    49   ~ 0
+Yellow
+Text Label 8400 4850 1    49   ~ 0
+Pink
+Text Label 8550 4550 0    49   ~ 0
+Black
 $EndSCHEMATC
