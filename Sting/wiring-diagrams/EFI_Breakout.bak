@@ -30,11 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
+LIBS:can_sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 4 13
 Title "EFI Breakout"
 Date ""
 Rev "1.7"

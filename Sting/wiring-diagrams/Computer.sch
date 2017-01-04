@@ -30,11 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
+LIBS:can_sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 13
 Title "Sting - Gasoline Prototype"
 Date "2017-01-01"
 Rev "1.0"

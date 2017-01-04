@@ -30,11 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
+LIBS:can_sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 8500 11000 portrait
 encoding utf-8
-Sheet 2 11
+Sheet 2 13
 Title "Sting - Gasoline Prototype"
 Date ""
 Rev ""
