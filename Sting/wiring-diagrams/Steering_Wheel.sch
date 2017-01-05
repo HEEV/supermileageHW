@@ -34,7 +34,7 @@ LIBS:can_sensor-cache
 LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
-$Descr A 8500 11000 portrait
+$Descr USLetter 8500 11000 portrait
 encoding utf-8
 Sheet 2 14
 Title "Sting - Gasoline Prototype"
