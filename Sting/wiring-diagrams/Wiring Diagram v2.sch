@@ -30,8 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
-LIBS:can_sensor-cache
-LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -501,61 +499,7 @@ Wire Wire Line
 Wire Wire Line
 	5625 3700 5875 3700
 Wire Bus Line
-	800  2550 800  2600
-Wire Bus Line
-	800  2600 800  2700
-Wire Bus Line
-	800  2700 800  2900
-Wire Bus Line
-	800  2900 800  3000
-Wire Bus Line
-	800  3000 800  3100
-Wire Bus Line
-	800  3100 800  3200
-Wire Bus Line
-	800  3200 800  3400
-Wire Bus Line
-	800  3400 800  3500
-Wire Bus Line
-	800  3500 800  3600
-Wire Bus Line
-	800  3600 800  3700
-Wire Bus Line
-	800  3700 800  4500
-Wire Bus Line
-	800  4500 800  4850
-Wire Bus Line
-	800  4850 800  5050
-Wire Bus Line
-	800  5050 800  5350
-Wire Bus Line
-	800  5350 800  5650
-Wire Bus Line
-	800  5650 800  5850
-Wire Bus Line
-	800  5850 800  5950
-Wire Bus Line
-	800  5950 800  6250
-Wire Bus Line
-	800  6250 800  7100
-Wire Bus Line
-	800  7100 800  7300
-Wire Bus Line
-	800  7300 800  7400
-Wire Bus Line
-	800  7400 800  7900
-Wire Bus Line
-	800  7900 800  8500
-Wire Bus Line
-	800  8500 800  9050
-Wire Bus Line
-	800  9050 800  9150
-Wire Bus Line
-	800  9150 800  9250
-Wire Bus Line
-	800  9250 800  9350
-Wire Bus Line
-	800  9350 800  9450
+	800  2550 800  9450
 Wire Wire Line
 	1350 4950 900  4950
 Wire Wire Line
@@ -669,19 +613,9 @@ Text Label 950  5950 0    60   ~ 0
 Entry Bus Bus
 	800  4500 900  4400
 Wire Bus Line
-	7800 4400 7700 4400
+	7800 4400 900  4400
 Wire Bus Line
-	7700 4400 900  4400
-Wire Bus Line
-	7800 1050 7800 1200
-Wire Bus Line
-	7800 1200 7800 1300
-Wire Bus Line
-	7800 1300 7800 1400
-Wire Bus Line
-	7800 1400 7800 1500
-Wire Bus Line
-	7800 1500 7800 4400
+	7800 1050 7800 4400
 Wire Wire Line
 	5625 1300 6200 1300
 Wire Wire Line
@@ -785,31 +719,7 @@ This is Sting! It glows blue when orks are near.\nAnd it is at those times, Frod
 Entry Bus Bus
 	7700 4400 7800 4500
 Wire Bus Line
-	7800 4500 7800 4850
-Wire Bus Line
-	7800 4850 7800 4950
-Wire Bus Line
-	7800 4950 7800 5050
-Wire Bus Line
-	7800 5050 7800 5150
-Wire Bus Line
-	7800 5150 7800 6200
-Wire Bus Line
-	7800 6200 7800 6300
-Wire Bus Line
-	7800 6300 7800 6400
-Wire Bus Line
-	7800 6400 7800 6500
-Wire Bus Line
-	7800 6500 7800 7625
-Wire Bus Line
-	7800 7625 7800 7725
-Wire Bus Line
-	7800 7725 7800 7825
-Wire Bus Line
-	7800 7825 7800 7925
-Wire Bus Line
-	7800 7925 7800 8050
+	7800 4500 7800 8050
 Wire Wire Line
 	7700 4950 7200 4950
 Wire Wire Line

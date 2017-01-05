@@ -30,8 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
-LIBS:can_sensor-cache
-LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -198,18 +196,18 @@ GND
 $Comp
 L SW_SPST SW4
 U 1 1 57E14E5E
-P 3550 5625
-F 0 "SW4" H 3550 5775 60  0000 C CNN
-F 1 "Driver Kill" H 3550 5525 60  0000 C CNN
-F 2 "" H 3550 5625 60  0000 C CNN
-F 3 "" H 3550 5625 60  0000 C CNN
-	1    3550 5625
+P 3550 5525
+F 0 "SW4" H 3550 5675 60  0000 C CNN
+F 1 "Driver Kill" H 3550 5425 60  0000 C CNN
+F 2 "" H 3550 5525 60  0000 C CNN
+F 3 "" H 3550 5525 60  0000 C CNN
+	1    3550 5525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5450 3975 5600 3975
 Wire Wire Line
-	3150 5625 3350 5625
+	3150 5525 3350 5525
 Wire Wire Line
 	4500 4425 4700 4425
 Wire Wire Line
@@ -230,10 +228,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 6575 3350 6575
 Wire Wire Line
-	3750 5625 4000 5625
+	3750 5525 4000 5525
 Wire Wire Line
 	4000 6075 3750 6075
-Connection ~ 4000 5625
+Connection ~ 4000 5525
 Wire Wire Line
 	4000 6575 3750 6575
 Connection ~ 4000 6075
@@ -242,11 +240,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 4925 5850 5325
 Wire Wire Line
-	4300 5325 5850 5325
+	4000 5325 5850 5325
 Wire Wire Line
 	5850 5325 5950 5325
-Wire Wire Line
-	4300 5075 4300 5325
 Connection ~ 5850 5325
 Wire Wire Line
 	6350 4925 6450 4925
@@ -259,9 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 5525 5000 5525
 Wire Wire Line
-	4000 5525 4000 5625
+	4000 5525 4000 5525
 Wire Wire Line
-	4000 5625 4000 6075
+	4000 5525 4000 6075
 Wire Wire Line
 	4000 6075 4000 6575
 Wire Wire Line
@@ -269,7 +265,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 5525 4300 5525
 Wire Wire Line
-	4300 5075 3150 5075
+	4300 5075 4000 5075
+Wire Wire Line
+	4000 5075 3150 5075
 Wire Wire Line
 	4300 4775 3150 4775
 Wire Wire Line
@@ -288,7 +286,7 @@ HORN_OUT
 Wire Wire Line
 	4000 6925 3150 6925
 Connection ~ 4000 6575
-Text HLabel 3150 5625 0    60   Input ~ 0
+Text HLabel 3150 5525 0    60   Input ~ 0
 DRIVER_KILL_OUT
 Wire Wire Line
 	5000 4425 5450 4425
@@ -315,4 +313,7 @@ Wire Wire Line
 	3150 3875 5600 3875
 Wire Wire Line
 	5600 4075 3150 4075
+Wire Wire Line
+	4000 5325 4000 5075
+Connection ~ 4000 5075
 $EndSCHEMATC

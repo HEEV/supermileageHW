@@ -30,8 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
-LIBS:can_sensor-cache
-LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
