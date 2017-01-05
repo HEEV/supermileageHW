@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10_Terminal_Strip
+D Connector, double row, 02x15
+K connector
+$ENDCMP
+#
+$CMP 15_Terminal_Strip
+D Connector, double row, 02x15
+K connector
+$ENDCMP
+#
+$CMP 8_Terminal_Strip
+D Connector, double row, 02x15
+K connector
+$ENDCMP
+#
 $CMP ACS710
 D Allegro Current Sensor
 K current sensor, allegro
