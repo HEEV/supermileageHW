@@ -127,8 +127,8 @@ $Comp
 L CONN_01X12 P?
 U 1 1 58025EF3
 P 8175 4000
-F 0 "P?" H 8175 4650 50  0000 C CNN
-F 1 "To_Steering_Wheel" V 8275 4000 50  0000 C CNN
+F 0 "P?" H 8175 4650 50  0001 C CNN
+F 1 "Steering Wheel" V 8275 4000 50  0000 C CNN
 F 2 "" H 8175 4000 50  0000 C CNN
 F 3 "" H 8175 4000 50  0000 C CNN
 	1    8175 4000
@@ -138,8 +138,8 @@ $Comp
 L CONN_01X12 P?
 U 1 1 58025FD5
 P 8150 2600
-F 0 "P?" H 8150 3250 50  0000 C CNN
-F 1 "To_Engine" V 8250 2600 50  0000 C CNN
+F 0 "P?" H 8150 3250 50  0001 C CNN
+F 1 "To Engine" V 8250 2600 50  0000 C CNN
 F 2 "" H 8150 2600 50  0000 C CNN
 F 3 "" H 8150 2600 50  0000 C CNN
 	1    8150 2600
@@ -149,8 +149,8 @@ $Comp
 L CONN_01X12 P?
 U 1 1 58026060
 P 8175 5800
-F 0 "P?" H 8175 6450 50  0000 C CNN
-F 1 "To_Computer" V 8275 5800 50  0000 C CNN
+F 0 "P?" H 8175 6450 50  0001 C CNN
+F 1 "Computer" V 8275 5800 50  0000 C CNN
 F 2 "" H 8175 5800 50  0000 C CNN
 F 3 "" H 8175 5800 50  0000 C CNN
 	1    8175 5800
@@ -159,90 +159,90 @@ $EndComp
 $Comp
 L CONN_01X12 P?
 U 1 1 5804354D
-P 8475 5800
-F 0 "P?" H 8475 6450 50  0000 C CNN
-F 1 "To_Computer" V 8575 5800 50  0000 C CNN
-F 2 "" H 8475 5800 50  0000 C CNN
-F 3 "" H 8475 5800 50  0000 C CNN
-	1    8475 5800
+P 8375 5800
+F 0 "P?" H 8375 6450 50  0001 C CNN
+F 1 "Computer" V 8475 5800 50  0001 C CNN
+F 2 "" H 8375 5800 50  0000 C CNN
+F 3 "" H 8375 5800 50  0000 C CNN
+	1    8375 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X12 P?
 U 1 1 58043E9C
-P 8475 4000
-F 0 "P?" H 8475 4650 50  0000 C CNN
-F 1 "To_Steering_Wheel" V 8575 4000 50  0000 C CNN
-F 2 "" H 8475 4000 50  0000 C CNN
-F 3 "" H 8475 4000 50  0000 C CNN
-	1    8475 4000
+P 8375 4000
+F 0 "P?" H 8375 4650 50  0001 C CNN
+F 1 "To_Steering_Wheel" V 8475 4000 50  0001 C CNN
+F 2 "" H 8375 4000 50  0000 C CNN
+F 3 "" H 8375 4000 50  0000 C CNN
+	1    8375 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X12 P?
 U 1 1 5804442E
-P 8475 2600
-F 0 "P?" H 8475 3250 50  0000 C CNN
-F 1 "To_Engine" V 8575 2600 50  0000 C CNN
-F 2 "" H 8475 2600 50  0000 C CNN
-F 3 "" H 8475 2600 50  0000 C CNN
-	1    8475 2600
+P 8375 2600
+F 0 "P?" H 8375 3250 50  0001 C CNN
+F 1 "To_Engine" V 8475 2600 50  0001 C CNN
+F 2 "" H 8375 2600 50  0000 C CNN
+F 3 "" H 8375 2600 50  0000 C CNN
+	1    8375 2600
 	-1   0    0    -1  
 $EndComp
-Text HLabel 9075 2050 2    60   Output ~ 0
+Text HLabel 8975 2050 2    60   Output ~ 0
 E_1_TO_KILL
-Text HLabel 9075 2150 2    60   Input ~ 0
+Text HLabel 8975 2150 2    60   Input ~ 0
 E_2_FROM_KILL
-Text HLabel 9075 2250 2    60   Output ~ 0
+Text HLabel 8975 2250 2    60   Output ~ 0
 E_3_O2_POWER
-Text HLabel 9075 2350 2    60   Output ~ 0
+Text HLabel 8975 2350 2    60   Output ~ 0
 E_4_EFI_POWER
-Text HLabel 9075 2650 2    60   Output ~ 0
+Text HLabel 8975 2650 2    60   Output ~ 0
 E_7_EFI_GND
-Text HLabel 9075 2750 2    60   Output ~ 0
+Text HLabel 8975 2750 2    60   Output ~ 0
 E_8_START_RELAY
-Text HLabel 9075 3050 2    60   Input ~ 0
+Text HLabel 8975 3050 2    60   Input ~ 0
 E_11_BATT_IN
-Text HLabel 9075 3150 2    60   Input ~ 0
+Text HLabel 8975 3150 2    60   Input ~ 0
 E_12_BATT_GND
-Text HLabel 9075 3450 2    60   Output ~ 0
+Text HLabel 8975 3450 2    60   Output ~ 0
 S_W_1_DRV_KILL
-Text HLabel 9075 3550 2    60   Input ~ 0
+Text HLabel 8975 3550 2    60   Input ~ 0
 S_W_2_E_STOP
-Text HLabel 9075 3650 2    60   Input ~ 0
+Text HLabel 8975 3650 2    60   Input ~ 0
 S_W_3_E_START
-Text HLabel 9075 3750 2    60   Input ~ 0
+Text HLabel 8975 3750 2    60   Input ~ 0
 S_W_4_SW_POWER
-Text HLabel 9075 3850 2    60   Output ~ 0
+Text HLabel 8975 3850 2    60   Output ~ 0
 S_W_5_PWR_IND
-Text HLabel 9075 3950 2    60   Output ~ 0
+Text HLabel 8975 3950 2    60   Output ~ 0
 S_W_6_O2_IND
-Text HLabel 9075 4050 2    60   Output ~ 0
+Text HLabel 8975 4050 2    60   Output ~ 0
 S_W_7_EFI_IND
-Text HLabel 9075 4150 2    60   Input ~ 0
+Text HLabel 8975 4150 2    60   Input ~ 0
 S_W_8_HORN
-Text HLabel 9075 4550 2    60   Output ~ 0
+Text HLabel 8975 4550 2    60   Output ~ 0
 S_W_12_GND
-Text HLabel 9075 6350 2    60   Output ~ 0
+Text HLabel 8975 6350 2    60   Output ~ 0
 C_12_GND
-Text HLabel 9075 6250 2    60   Output ~ 0
+Text HLabel 8975 6250 2    60   Output ~ 0
 C_11_Wake
-Text HLabel 9075 6150 2    60   Output ~ 0
+Text HLabel 8975 6150 2    60   Output ~ 0
 C_10_CAN_Power
-Text HLabel 9075 6050 2    60   Output ~ 0
+Text HLabel 8975 6050 2    60   Output ~ 0
 C_9_Power
-Text HLabel 9075 5850 2    60   Input ~ 0
+Text HLabel 8975 5850 2    60   Input ~ 0
 C_7_E_Start
-Text HLabel 9075 5750 2    60   Input ~ 0
+Text HLabel 8975 5750 2    60   Input ~ 0
 C_6_E_Stop
-Text HLabel 9075 5650 2    60   Input ~ 0
+Text HLabel 8975 5650 2    60   Input ~ 0
 C_5_Horn
 $Comp
 L CONN_01X04 P?
 U 1 1 581DEDA2
 P 8175 4900
-F 0 "P?" H 8175 5150 50  0000 C CNN
-F 1 "HORN" V 8275 4900 50  0000 C CNN
+F 0 "P?" H 8175 5150 50  0001 C CNN
+F 1 "Horn" V 8275 4900 50  0000 C CNN
 F 2 "" H 8175 4900 50  0000 C CNN
 F 3 "" H 8175 4900 50  0000 C CNN
 	1    8175 4900
@@ -251,12 +251,12 @@ $EndComp
 $Comp
 L CONN_01X04 P?
 U 1 1 581DEE44
-P 8475 4900
-F 0 "P?" H 8475 5150 50  0000 C CNN
-F 1 "HORN" V 8575 4900 50  0000 C CNN
-F 2 "" H 8475 4900 50  0000 C CNN
-F 3 "" H 8475 4900 50  0000 C CNN
-	1    8475 4900
+P 8375 4900
+F 0 "P?" H 8375 5150 50  0001 C CNN
+F 1 "HORN" V 8475 4900 50  0001 C CNN
+F 2 "" H 8375 4900 50  0000 C CNN
+F 3 "" H 8375 4900 50  0000 C CNN
+	1    8375 4900
 	-1   0    0    -1  
 $EndComp
 Text Label 6225 2050 0    49   ~ 0
@@ -285,9 +285,9 @@ Text Label 7725 5650 0    49   ~ 0
 Brown
 Text Label 7725 6350 0    49   ~ 0
 Black
-Text HLabel 9075 5050 2    60   Output ~ 0
+Text HLabel 8975 5050 2    60   Output ~ 0
 H_4_GND
-Text HLabel 9075 4950 2    60   Output ~ 0
+Text HLabel 8975 4950 2    60   Output ~ 0
 H_3_HORN
 Text Label 7725 4350 0    49   ~ 0
 Pink
@@ -297,15 +297,15 @@ Text Label 7725 4450 0    49   ~ 0
 Yellow
 Text Label 7725 5350 0    49   ~ 0
 Yellow
-Text HLabel 9075 4350 2    60   Output ~ 0
+Text HLabel 8975 4350 2    60   Output ~ 0
 S_W_10_5V
-Text HLabel 9075 5250 2    60   Input ~ 0
+Text HLabel 8975 5250 2    60   Input ~ 0
 C_1_5v
-Text HLabel 9075 5350 2    60   Output ~ 0
+Text HLabel 8975 5350 2    60   Output ~ 0
 C_2_THROTTLE
-Text HLabel 9075 4450 2    60   Input ~ 0
+Text HLabel 8975 4450 2    60   Input ~ 0
 S_W_11_THROTTLE
-Text HLabel 9075 5550 2    60   Output ~ 0
+Text HLabel 8975 5550 2    60   Output ~ 0
 C_4_Arm_Status
 $Comp
 L CB CB4
@@ -365,29 +365,29 @@ Wire Wire Line
 Wire Wire Line
 	4375 3550 1825 3550
 Wire Wire Line
-	8675 3450 9075 3450
+	8575 3450 8975 3450
 Wire Wire Line
-	9075 3550 8675 3550
+	8975 3550 8575 3550
 Wire Wire Line
-	8675 3650 9075 3650
+	8575 3650 8975 3650
 Wire Wire Line
-	9075 3750 8675 3750
+	8975 3750 8575 3750
 Wire Wire Line
-	8675 3850 9075 3850
+	8575 3850 8975 3850
 Wire Wire Line
-	9075 3950 8675 3950
+	8975 3950 8575 3950
 Wire Wire Line
-	8675 4050 9075 4050
+	8575 4050 8975 4050
 Wire Wire Line
-	9075 4150 8675 4150
+	8975 4150 8575 4150
 Wire Wire Line
-	8675 4550 9075 4550
+	8575 4550 8975 4550
 Wire Wire Line
-	8675 3150 9075 3150
+	8575 3150 8975 3150
 Wire Wire Line
-	9075 3050 8675 3050
+	8975 3050 8575 3050
 Wire Wire Line
-	8675 2750 9075 2750
+	8575 2750 8975 2750
 Wire Wire Line
 	7375 4150 7375 4950
 Wire Wire Line
@@ -403,23 +403,23 @@ Wire Wire Line
 Wire Wire Line
 	7675 4600 7975 4550
 Wire Wire Line
-	8675 5650 9075 5650
+	8575 5650 8975 5650
 Wire Wire Line
-	9075 5750 8675 5750
+	8975 5750 8575 5750
 Wire Wire Line
-	8675 5850 9075 5850
+	8575 5850 8975 5850
 Wire Wire Line
-	8675 6050 9075 6050
+	8575 6050 8975 6050
 Wire Wire Line
-	9075 6150 8675 6150
+	8975 6150 8575 6150
 Wire Wire Line
-	8675 6250 9075 6250
+	8575 6250 8975 6250
 Wire Wire Line
-	9075 6350 8675 6350
+	8975 6350 8575 6350
 Wire Wire Line
-	8675 5050 9075 5050
+	8575 5050 8975 5050
 Wire Wire Line
-	9075 4950 8675 4950
+	8975 4950 8575 4950
 Wire Wire Line
 	7975 5250 7575 5250
 Wire Wire Line
@@ -433,13 +433,13 @@ Wire Wire Line
 Wire Wire Line
 	7475 4450 7975 4450
 Wire Wire Line
-	9075 4350 8675 4350
+	8975 4350 8575 4350
 Wire Wire Line
-	8675 4450 9075 4450
+	8575 4450 8975 4450
 Wire Wire Line
-	8675 5250 9075 5250
+	8575 5250 8975 5250
 Wire Wire Line
-	9075 5350 8675 5350
+	8975 5350 8575 5350
 Wire Wire Line
 	7800 3150 7800 2700
 Wire Wire Line
@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 6325 2700 2600
 Wire Wire Line
-	9075 5550 8675 5550
+	8975 5550 8575 5550
 Wire Wire Line
 	4825 5375 4825 6325
 Wire Wire Line
@@ -585,15 +585,15 @@ Lt_Blue-Arm_Status_C
 Text Label 5125 6325 1    49   ~ 0
 Green-E_Stop_C
 Wire Wire Line
-	9075 2650 8675 2650
+	8975 2650 8575 2650
 Wire Wire Line
-	8675 2350 9075 2350
+	8575 2350 8975 2350
 Wire Wire Line
-	9075 2250 8675 2250
+	8975 2250 8575 2250
 Wire Wire Line
-	8675 2150 9075 2150
+	8575 2150 8975 2150
 Wire Wire Line
-	9075 2050 8675 2050
+	8975 2050 8575 2050
 Wire Bus Line
 	5975 6425 5975 6350
 Wire Bus Line

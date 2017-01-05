@@ -36,8 +36,8 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 14
-Title "Sting - Gasoline Prototype"
+Sheet 11 14
+Title "Pressure Sensor"
 Date "2016-10-20"
 Rev "2"
 Comp "Cedarville University"
