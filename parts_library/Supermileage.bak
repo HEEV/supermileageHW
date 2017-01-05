@@ -1125,8 +1125,8 @@ ENDDEF
 #
 # Servo
 #
-DEF Servo M 0 1 Y Y 1 F N
-F0 "M" 0 100 60 H V C CNN
+DEF Servo M 0 40 Y Y 1 F N
+F0 "M" 100 0 60 H V C CNN
 F1 "Servo" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
