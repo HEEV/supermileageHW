@@ -53,11 +53,7 @@ GND
 Wire Wire Line
 	4300 3550 4300 3700
 Wire Wire Line
-	1800 3550 4300 3550
-Wire Wire Line
-	4300 3550 4400 3550
-Wire Wire Line
-	4400 3550 4500 3550
+	1800 3550 4500 3550
 Wire Wire Line
 	3350 4150 3350 3450
 Wire Wire Line
@@ -102,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 4000 1900 4000
 Wire Wire Line
-	1800 4350 2450 4350
+	1800 4350 3350 4350
 Text Label 5550 4550 0    60   ~ 0
 E_Start
 Text Label 5550 4650 0    60   ~ 0
@@ -113,8 +109,6 @@ Wire Wire Line
 	5550 4550 5450 4550
 Text Label 5550 4750 0    60   ~ 0
 Horn
-Wire Wire Line
-	2450 4350 3350 4350
 $Comp
 L CM0711_b U?
 U 1 1 5869477B
@@ -137,9 +131,7 @@ Connection ~ 4400 3550
 Wire Wire Line
 	4300 6250 4300 6350
 Wire Wire Line
-	4300 6350 4400 6350
-Wire Wire Line
-	4400 6350 4500 6350
+	4300 6350 4500 6350
 Wire Wire Line
 	4500 6350 4500 6250
 $Comp
@@ -165,9 +157,7 @@ CANL
 Text HLabel 1800 5350 0    60   UnSpc ~ 0
 CAN_GND
 Wire Wire Line
-	3350 5350 1900 5350
-Wire Wire Line
-	1900 5350 1800 5350
+	1800 5350 3350 5350
 Text Label 1900 5150 0    60   ~ 0
 CANH
 Text Label 1900 5250 0    60   ~ 0
@@ -186,16 +176,10 @@ Wire Wire Line
 	5450 5800 5550 5800
 Wire Wire Line
 	5550 4750 5450 4750
-Wire Wire Line
-	2450 4350 2450 4350
 Text Label 3300 4450 2    60   ~ 0
 System_V
-Wire Wire Line
-	2500 4450 3350 4450
 Text HLabel 1800 4450 0    60   Input ~ 0
 System_V
 Wire Wire Line
-	1800 4450 2500 4450
-Wire Wire Line
-	2500 4450 2500 4450
+	1800 4450 3350 4450
 $EndSCHEMATC
