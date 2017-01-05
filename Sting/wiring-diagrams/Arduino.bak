@@ -31,16 +31,17 @@ LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
 LIBS:can_sensor-cache
+LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 7 14
+Title "Arduino"
+Date "2017-01-04"
+Rev "1.0"
+Comp "Cedarville University"
+Comment1 "Samuel Ellicott"
 Comment2 ""
 Comment3 ""
 Comment4 ""

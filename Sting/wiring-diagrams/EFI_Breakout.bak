@@ -31,18 +31,19 @@ LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
 LIBS:can_sensor-cache
+LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title "EFI Breakout"
-Date ""
+Date "2017-01-04"
 Rev "1.7"
 Comp "Cedarville University"
-Comment1 "Andy Raines"
-Comment2 "Shematic for Megasquirt breakout box"
-Comment3 ""
+Comment1 "Edited by Samuel Ellicott"
+Comment2 "Andy Raines"
+Comment3 "Shematic for Megasquirt breakout box"
 Comment4 ""
 $EndDescr
 $Comp
@@ -51,7 +52,7 @@ U 1 1 586D10CA
 P 5700 3450
 AR Path="/57E22A72/586D10CA" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CA" Ref="J?"  Part="1" 
-F 0 "J?" H 5750 4800 50  0000 C CNN
+F 0 "J?" H 5750 4800 50  0001 C CNN
 F 1 "DB25" H 5650 2100 50  0000 C CNN
 F 2 "Connect:DB25MC" H 5700 3450 50  0001 C CNN
 F 3 "" H 5700 3450 50  0000 C CNN
@@ -155,7 +156,7 @@ U 1 1 586D10D0
 P 6200 3450
 AR Path="/57E22A72/586D10D0" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D0" Ref="J?"  Part="1" 
-F 0 "J?" H 6250 4800 50  0000 C CNN
+F 0 "J?" H 6250 4800 50  0001 C CNN
 F 1 "DB25" H 6150 2100 50  0000 C CNN
 F 2 "" H 6200 3450 50  0001 C CNN
 F 3 "" H 6200 3450 50  0000 C CNN
@@ -168,7 +169,7 @@ U 1 1 586D10D1
 P 10200 3400
 AR Path="/57E22A72/586D10D1" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D1" Ref="J?"  Part="1" 
-F 0 "J?" H 10300 5300 50  0000 C CNN
+F 0 "J?" H 10300 5300 50  0001 C CNN
 F 1 "Megasquirt" H 10150 1450 50  0000 C CNN
 F 2 "" H 10200 3400 50  0001 C CNN
 F 3 "" H 10200 3400 50  0000 C CNN

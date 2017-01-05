@@ -31,17 +31,18 @@ LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
 LIBS:can_sensor-cache
+LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 6 14
 Title "Sting - Gasoline Prototype"
-Date ""
-Rev ""
+Date "2017-01-04"
+Rev "1.6"
 Comp "Cedarville University"
-Comment1 ""
-Comment2 ""
+Comment1 "Edited by Samuel Ellicott"
+Comment2 "Eric Conley"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -57,10 +58,10 @@ F 3 "" H 2925 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW?
+L SW_SPST SW10
 U 1 1 57FAAF38
 P 2925 3850
-F 0 "SW?" H 2925 4000 60  0000 C CNN
+F 0 "SW10" H 2925 4000 60  0000 C CNN
 F 1 "Computer" H 2925 3750 60  0000 C CNN
 F 2 "" H 2925 3850 60  0000 C CNN
 F 3 "" H 2925 3850 60  0000 C CNN
@@ -486,10 +487,10 @@ Wire Wire Line
 Wire Wire Line
 	3525 2600 3125 2600
 $Comp
-L SW_SPDT SW7
+L SW_SPDT SW9
 U 1 1 58871F7E
 P 2925 3150
-F 0 "SW7" H 2850 3000 60  0000 C CNN
+F 0 "SW9" H 2925 3025 60  0000 C CNN
 F 1 "O2" H 2875 3275 60  0000 C CNN
 F 2 "" H 2925 3150 60  0000 C CNN
 F 3 "" H 2925 3150 60  0000 C CNN
@@ -893,4 +894,6 @@ Text Label 8400 4850 1    49   ~ 0
 Pink
 Text Label 8550 4550 0    49   ~ 0
 Black
+Text Notes 3000 6700 0    60   ~ 0
+Wires with a C sufix provide the same functionality as the non-C wire\nbut are connected to the computer.
 $EndSCHEMATC

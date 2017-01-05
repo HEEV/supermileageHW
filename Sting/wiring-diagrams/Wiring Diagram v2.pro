@@ -1,4 +1,4 @@
-update=Sun 01 Jan 2017 11:29:43 AM CST
+update=Tue 03 Jan 2017 11:08:41 PM CST
 version=1
 last_client=kicad
 [general]
@@ -61,3 +61,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Supermileage
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

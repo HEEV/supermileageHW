@@ -31,11 +31,12 @@ LIBS:valves
 LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
 LIBS:can_sensor-cache
+LIBS:Current Sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 13
+Sheet 9 14
 Title "Sting - Gasoline Prototype"
 Date "2016-10-20"
 Rev "2"
@@ -52,7 +53,8 @@ P 6850 5450
 AR Path="/582DB1D2/58275680" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/58275680" Ref="U?"  Part="1" 
 AR Path="/58828DE1/58275680" Ref="U?"  Part="1" 
-F 0 "U?" H 6850 5150 60  0000 C CNN
+AR Path="/5882A967/58275680" Ref="U?"  Part="1" 
+F 0 "U?" H 6850 5150 60  0001 C CNN
 F 1 "HSCDRR004MD" H 6850 5750 60  0000 C CNN
 F 2 "supermileage:DIP-8" H 6100 6000 60  0001 C CNN
 F 3 "" H 6100 6000 60  0000 C CNN
@@ -66,7 +68,8 @@ P 2450 4300
 AR Path="/582DB1D2/58275681" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58275681" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58275681" Ref="P?"  Part="1" 
-F 0 "P?" H 2450 4550 50  0000 C CNN
+AR Path="/5882A967/58275681" Ref="P?"  Part="1" 
+F 0 "P?" H 2450 4550 50  0001 C CNN
 F 1 "CONN_01X04" V 2550 4300 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" H 2450 4300 50  0001 C CNN
 F 3 "" H 2450 4300 50  0000 C CNN
@@ -80,7 +83,8 @@ P 7600 5450
 AR Path="/582DB1D2/58275682" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275682" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275682" Ref="C?"  Part="1" 
-F 0 "C?" H 7625 5550 50  0000 L CNN
+AR Path="/5882A967/58275682" Ref="C?"  Part="1" 
+F 0 "C?" H 7625 5550 50  0001 L CNN
 F 1 "0.1uf" H 7625 5350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7638 5300 50  0001 C CNN
 F 3 "" H 7600 5450 50  0000 C CNN
@@ -95,7 +99,8 @@ P 7900 5450
 AR Path="/582DB1D2/58275683" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275683" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275683" Ref="C?"  Part="1" 
-F 0 "C?" H 7925 5550 50  0000 L CNN
+AR Path="/5882A967/58275683" Ref="C?"  Part="1" 
+F 0 "C?" H 7925 5550 50  0001 L CNN
 F 1 "10uf" H 7925 5350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7938 5300 50  0001 C CNN
 F 3 "" H 7900 5450 50  0000 C CNN
@@ -109,6 +114,7 @@ P 7750 5700
 AR Path="/582DB1D2/58275684" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275684" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275684" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275684" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7750 5450 50  0001 C CNN
 F 1 "GND" H 7750 5550 50  0000 C CNN
 F 2 "" H 7750 5700 50  0000 C CNN
@@ -123,6 +129,7 @@ P 7750 5200
 AR Path="/582DB1D2/58275685" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275685" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275685" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275685" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7750 5050 50  0001 C CNN
 F 1 "+3.3V" H 7750 5340 50  0000 C CNN
 F 2 "" H 7750 5200 50  0000 C CNN
@@ -137,6 +144,7 @@ P 6300 5250
 AR Path="/582DB1D2/58275686" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275686" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275686" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275686" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6300 5100 50  0001 C CNN
 F 1 "+3.3V" H 6300 5390 50  0000 C CNN
 F 2 "" H 6300 5250 50  0000 C CNN
@@ -151,6 +159,7 @@ P 2800 4600
 AR Path="/582DB1D2/58275687" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275687" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275687" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275687" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2800 4350 50  0001 C CNN
 F 1 "GND" H 2800 4450 50  0000 C CNN
 F 2 "" H 2800 4600 50  0000 C CNN
@@ -165,6 +174,7 @@ P 3450 5100
 AR Path="/582DB1D2/58275688" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275688" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275688" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275688" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3450 4850 50  0001 C CNN
 F 1 "GND" H 3450 4950 50  0000 C CNN
 F 2 "" H 3450 5100 50  0000 C CNN
@@ -179,6 +189,7 @@ P 6400 5750
 AR Path="/582DB1D2/58275689" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275689" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275689" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275689" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6400 5500 50  0001 C CNN
 F 1 "GND" H 6400 5600 50  0000 C CNN
 F 2 "" H 6400 5750 50  0000 C CNN
@@ -193,57 +204,61 @@ Out
 $Comp
 L TEST_1P W?
 U 1 1 5827568A
-P 3700 3000
+P 3775 3000
 AR Path="/582DB1D2/5827568A" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568A" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568A" Ref="W?"  Part="1" 
-F 0 "W?" H 3700 3270 50  0000 C CNN
-F 1 "Mount" H 3700 3200 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 3900 3000 50  0001 C CNN
-F 3 "" H 3900 3000 50  0000 C CNN
-	1    3700 3000
+AR Path="/5882A967/5827568A" Ref="W?"  Part="1" 
+F 0 "W?" H 3775 3270 50  0001 C CNN
+F 1 "Mount" H 3775 3200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 3975 3000 50  0001 C CNN
+F 3 "" H 3975 3000 50  0000 C CNN
+	1    3775 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W?
 U 1 1 5827568B
-P 4050 3000
+P 4125 3000
 AR Path="/582DB1D2/5827568B" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568B" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568B" Ref="W?"  Part="1" 
-F 0 "W?" H 4050 3270 50  0000 C CNN
-F 1 "Mount" H 4050 3200 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4250 3000 50  0001 C CNN
-F 3 "" H 4250 3000 50  0000 C CNN
-	1    4050 3000
+AR Path="/5882A967/5827568B" Ref="W?"  Part="1" 
+F 0 "W?" H 4125 3270 50  0001 C CNN
+F 1 "Mount" H 4125 3200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4325 3000 50  0001 C CNN
+F 3 "" H 4325 3000 50  0000 C CNN
+	1    4125 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W?
 U 1 1 5827568C
-P 4350 3000
+P 4425 3000
 AR Path="/582DB1D2/5827568C" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568C" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568C" Ref="W?"  Part="1" 
-F 0 "W?" H 4350 3270 50  0000 C CNN
-F 1 "Mount" H 4350 3200 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4550 3000 50  0001 C CNN
-F 3 "" H 4550 3000 50  0000 C CNN
-	1    4350 3000
+AR Path="/5882A967/5827568C" Ref="W?"  Part="1" 
+F 0 "W?" H 4425 3270 50  0001 C CNN
+F 1 "Mount" H 4425 3200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4625 3000 50  0001 C CNN
+F 3 "" H 4625 3000 50  0000 C CNN
+	1    4425 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W?
 U 1 1 5827568D
-P 4700 3000
+P 4775 3000
 AR Path="/582DB1D2/5827568D" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568D" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568D" Ref="W?"  Part="1" 
-F 0 "W?" H 4700 3270 50  0000 C CNN
-F 1 "Mount" H 4700 3200 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4900 3000 50  0001 C CNN
-F 3 "" H 4900 3000 50  0000 C CNN
-	1    4700 3000
+AR Path="/5882A967/5827568D" Ref="W?"  Part="1" 
+F 0 "W?" H 4775 3270 50  0001 C CNN
+F 1 "Mount" H 4775 3200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4975 3000 50  0001 C CNN
+F 3 "" H 4975 3000 50  0000 C CNN
+	1    4775 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -253,6 +268,7 @@ P 4300 4200
 AR Path="/582DB1D2/5827568E" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/5827568E" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/5827568E" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/5827568E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4300 3950 50  0001 C CNN
 F 1 "GND" H 4300 4050 50  0000 C CNN
 F 2 "" H 4300 4200 50  0000 C CNN
@@ -267,7 +283,8 @@ P 4300 3450
 AR Path="/582DB1D2/5827568F" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/5827568F" Ref="U?"  Part="1" 
 AR Path="/58828DE1/5827568F" Ref="U?"  Part="1" 
-F 0 "U?" H 4300 3400 60  0000 C CNN
+AR Path="/5882A967/5827568F" Ref="U?"  Part="1" 
+F 0 "U?" H 4300 3400 60  0001 C CNN
 F 1 "NJM2870F0" H 4300 3600 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4300 3400 60  0001 C CNN
 F 3 "" H 4300 3400 60  0000 C CNN
@@ -281,6 +298,7 @@ P 3750 3850
 AR Path="/582DB1D2/58275690" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275690" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275690" Ref="C?"  Part="1" 
+AR Path="/5882A967/58275690" Ref="C?"  Part="1" 
 F 0 "C?" H 3775 3950 50  0000 L CNN
 F 1 "0.1uf" H 3775 3750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 3700 50  0001 C CNN
@@ -296,7 +314,8 @@ P 4900 3950
 AR Path="/582DB1D2/58275691" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275691" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275691" Ref="C?"  Part="1" 
-F 0 "C?" H 4925 4050 50  0000 L CNN
+AR Path="/5882A967/58275691" Ref="C?"  Part="1" 
+F 0 "C?" H 4925 4050 50  0001 L CNN
 F 1 "0.1uf" H 4925 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 3800 50  0001 C CNN
 F 3 "" H 4900 3950 50  0000 C CNN
@@ -311,7 +330,8 @@ P 5500 3950
 AR Path="/582DB1D2/58275692" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275692" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275692" Ref="C?"  Part="1" 
-F 0 "C?" H 5525 4050 50  0000 L CNN
+AR Path="/5882A967/58275692" Ref="C?"  Part="1" 
+F 0 "C?" H 5525 4050 50  0001 L CNN
 F 1 "10uf" H 5525 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5538 3800 50  0001 C CNN
 F 3 "" H 5500 3950 50  0000 C CNN
@@ -325,7 +345,8 @@ P 5200 3950
 AR Path="/582DB1D2/58275693" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/58275693" Ref="C?"  Part="1" 
 AR Path="/58828DE1/58275693" Ref="C?"  Part="1" 
-F 0 "C?" H 5225 4050 50  0000 L CNN
+AR Path="/5882A967/58275693" Ref="C?"  Part="1" 
+F 0 "C?" H 5225 4050 50  0001 L CNN
 F 1 "0.1uf" H 5225 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5238 3800 50  0001 C CNN
 F 3 "" H 5200 3950 50  0000 C CNN
@@ -333,11 +354,11 @@ F 4 "Mouser" H 5200 3950 60  0001 C CNN "Distributor"
 	1    5200 3950
 	1    0    0    -1  
 $EndComp
-Text Notes 3650 2600 0    60   ~ 0
+Text Notes 3925 2775 0    60   ~ 0
 Mounting Holes
 Text Notes 700  1400 0    60   ~ 0
 Comments:\n\nQ1 and Q2 are reverse polarity protection transistors. They are P-Channel\nMosfets, so they have a very small resistance when on. \nCare should be taken in their selection so that their V-GS threshold is\nunder 1v\n\nU2 is a 5v regulator for the 5v pressure transducer. The output of U3 \ngoes through a selectable attenuator for a full 5v output or a 3.3v output.
-Text Notes 2100 4000 0    60   ~ 0
+Text Notes 1950 4000 0    60   ~ 0
 Molex DuraClik
 $Comp
 L CONN_01X03 P?
@@ -346,7 +367,8 @@ P 6350 2750
 AR Path="/582DB1D2/58275694" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58275694" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58275694" Ref="P?"  Part="1" 
-F 0 "P?" H 6350 2950 50  0000 C CNN
+AR Path="/5882A967/58275694" Ref="P?"  Part="1" 
+F 0 "P?" H 6350 2950 50  0001 C CNN
 F 1 "CONN_01X03" V 6500 2750 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6350 2750 50  0001 C CNN
 F 3 "" H 6350 2750 50  0000 C CNN
@@ -362,6 +384,7 @@ P 5500 3400
 AR Path="/582DB1D2/58275695" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275695" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275695" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275695" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5500 3250 50  0001 C CNN
 F 1 "+5V" H 5500 3540 50  0000 C CNN
 F 2 "" H 5500 3400 50  0000 C CNN
@@ -376,6 +399,7 @@ P 6750 2900
 AR Path="/582DB1D2/58275696" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275696" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275696" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275696" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6750 2750 50  0001 C CNN
 F 1 "+5V" H 6750 3040 50  0000 C CNN
 F 2 "" H 6750 2900 50  0000 C CNN
@@ -390,6 +414,7 @@ P 6750 3800
 AR Path="/582DB1D2/58275697" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/58275697" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/58275697" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/58275697" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6750 3550 50  0001 C CNN
 F 1 "GND" H 6750 3650 50  0000 C CNN
 F 2 "" H 6750 3800 50  0000 C CNN
@@ -406,8 +431,9 @@ P 6250 3150
 AR Path="/582DB1D2/58275698" Ref="R?"  Part="1" 
 AR Path="/5827D1EC/58275698" Ref="R?"  Part="1" 
 AR Path="/58828DE1/58275698" Ref="R?"  Part="1" 
-F 0 "R?" V 6330 3150 50  0000 C CNN
-F 1 "1k8" V 6250 3150 50  0000 C CNN
+AR Path="/5882A967/58275698" Ref="R?"  Part="1" 
+F 0 "R?" V 6330 3150 50  0001 C CNN
+F 1 "1k8" V 6350 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 3150 50  0001 C CNN
 F 3 "" H 6250 3150 50  0000 C CNN
 	1    6250 3150
@@ -420,8 +446,9 @@ P 6250 3550
 AR Path="/582DB1D2/58275699" Ref="R?"  Part="1" 
 AR Path="/5827D1EC/58275699" Ref="R?"  Part="1" 
 AR Path="/58828DE1/58275699" Ref="R?"  Part="1" 
-F 0 "R?" V 6330 3550 50  0000 C CNN
-F 1 "8k2" V 6250 3550 50  0000 C CNN
+AR Path="/5882A967/58275699" Ref="R?"  Part="1" 
+F 0 "R?" V 6330 3550 50  0001 C CNN
+F 1 "8k2" V 6350 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 3550 50  0001 C CNN
 F 3 "" H 6250 3550 50  0000 C CNN
 	1    6250 3550
@@ -541,7 +568,8 @@ P 8000 3300
 AR Path="/582DB1D2/5827569A" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/5827569A" Ref="C?"  Part="1" 
 AR Path="/58828DE1/5827569A" Ref="C?"  Part="1" 
-F 0 "C?" H 8025 3400 50  0000 L CNN
+AR Path="/5882A967/5827569A" Ref="C?"  Part="1" 
+F 0 "C?" H 8025 3400 50  0001 L CNN
 F 1 "0.1uf" H 8025 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8038 3150 50  0001 C CNN
 F 3 "" H 8000 3300 50  0000 C CNN
@@ -556,7 +584,8 @@ P 8350 3300
 AR Path="/582DB1D2/5827569B" Ref="C?"  Part="1" 
 AR Path="/5827D1EC/5827569B" Ref="C?"  Part="1" 
 AR Path="/58828DE1/5827569B" Ref="C?"  Part="1" 
-F 0 "C?" H 8375 3400 50  0000 L CNN
+AR Path="/5882A967/5827569B" Ref="C?"  Part="1" 
+F 0 "C?" H 8375 3400 50  0001 L CNN
 F 1 "10uf" H 8375 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8388 3150 50  0001 C CNN
 F 3 "" H 8350 3300 50  0000 C CNN
@@ -570,6 +599,7 @@ P 8200 3050
 AR Path="/582DB1D2/5827569C" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/5827569C" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/5827569C" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/5827569C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8200 2900 50  0001 C CNN
 F 1 "+5V" H 8200 3190 50  0000 C CNN
 F 2 "" H 8200 3050 50  0000 C CNN
@@ -584,6 +614,7 @@ P 8200 3550
 AR Path="/582DB1D2/5827569D" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/5827569D" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/5827569D" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/5827569D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8200 3300 50  0001 C CNN
 F 1 "GND" H 8200 3400 50  0000 C CNN
 F 2 "" H 8200 3550 50  0000 C CNN
@@ -616,7 +647,8 @@ P 3450 3750
 AR Path="/582DB1D2/5827569E" Ref="Q?"  Part="1" 
 AR Path="/5827D1EC/5827569E" Ref="Q?"  Part="1" 
 AR Path="/58828DE1/5827569E" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3350 3900 50  0000 R CNN
+AR Path="/5882A967/5827569E" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 3900 50  0001 R CNN
 F 1 "Q_PMOS_GSD" V 3700 4000 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3650 3850 50  0001 C CNN
 F 3 "" H 3450 3750 50  0000 C CNN
@@ -632,7 +664,8 @@ P 3450 4850
 AR Path="/582DB1D2/5827569F" Ref="Q?"  Part="1" 
 AR Path="/5827D1EC/5827569F" Ref="Q?"  Part="1" 
 AR Path="/58828DE1/5827569F" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3350 5000 50  0000 R CNN
+AR Path="/5882A967/5827569F" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 5000 50  0001 R CNN
 F 1 "Q_PMOS_GSD" V 3700 5150 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3650 4950 50  0001 C CNN
 F 3 "" H 3450 4850 50  0000 C CNN
@@ -650,6 +683,7 @@ P 3800 4750
 AR Path="/582DB1D2/582756A0" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/582756A0" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/582756A0" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/582756A0" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3800 4600 50  0001 C CNN
 F 1 "+3.3V" H 3800 4890 50  0000 C CNN
 F 2 "" H 3800 4750 50  0000 C CNN
@@ -672,7 +706,8 @@ P 7300 3300
 AR Path="/582DB1D2/582756A1" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/582756A1" Ref="U?"  Part="1" 
 AR Path="/58828DE1/582756A1" Ref="U?"  Part="1" 
-F 0 "U?" H 7300 3000 60  0000 C CNN
+AR Path="/5882A967/582756A1" Ref="U?"  Part="1" 
+F 0 "U?" H 7300 3000 60  0001 C CNN
 F 1 "ASDX100A24R" H 7300 3600 60  0000 C CNN
 F 2 "supermileage:ASDX100A24R" H 6550 3850 60  0001 C CNN
 F 3 "" H 6550 3850 60  0000 C CNN
@@ -686,7 +721,8 @@ P 7400 4400
 AR Path="/582DB1D2/582756A2" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/582756A2" Ref="U?"  Part="1" 
 AR Path="/58828DE1/582756A2" Ref="U?"  Part="1" 
-F 0 "U?" H 7400 4100 60  0000 C CNN
+AR Path="/5882A967/582756A2" Ref="U?"  Part="1" 
+F 0 "U?" H 7400 4100 60  0001 C CNN
 F 1 "G4V-MINI" H 7400 4700 60  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6650 4950 60  0001 C CNN
 F 3 "" H 6650 4950 60  0000 C CNN
@@ -700,6 +736,7 @@ P 6750 4200
 AR Path="/582DB1D2/582756A3" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/582756A3" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/582756A3" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/582756A3" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6750 4050 50  0001 C CNN
 F 1 "+5V" H 6750 4340 50  0000 C CNN
 F 2 "" H 6750 4200 50  0000 C CNN
@@ -721,6 +758,7 @@ P 6750 4600
 AR Path="/582DB1D2/582756A4" Ref="#PWR?"  Part="1" 
 AR Path="/5827D1EC/582756A4" Ref="#PWR?"  Part="1" 
 AR Path="/58828DE1/582756A4" Ref="#PWR?"  Part="1" 
+AR Path="/5882A967/582756A4" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6750 4350 50  0001 C CNN
 F 1 "GND" H 6750 4450 50  0000 C CNN
 F 2 "" H 6750 4600 50  0000 C CNN
@@ -741,7 +779,8 @@ P 2100 4300
 AR Path="/582DB1D2/58276BE6" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58276BE6" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58276BE6" Ref="P?"  Part="1" 
-F 0 "P?" H 2100 4550 50  0000 C CNN
+AR Path="/5882A967/58276BE6" Ref="P?"  Part="1" 
+F 0 "P?" H 2100 4550 50  0001 C CNN
 F 1 "CONN_01X04" V 2200 4300 50  0000 C CNN
 F 2 "" H 2100 4300 50  0000 C CNN
 F 3 "" H 2100 4300 50  0000 C CNN
@@ -764,4 +803,6 @@ Wire Wire Line
 	1725 4350 1900 4350
 Wire Wire Line
 	1900 4450 1725 4450
+Text Notes 725  7800 0    60   ~ 0
+Full schematics with reference numbers are in the \npressure_sensor folder in the supermileagehw git repo at \nhttps://bitbucket.org/nebk/supermileagehw
 $EndSCHEMATC
