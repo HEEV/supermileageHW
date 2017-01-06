@@ -1,4 +1,4 @@
-update=Saturday, September 24, 2016 'AMt' 11:54:45 AM
+update=Thu 05 Jan 2017 11:14:26 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../parts-lib-common
+LibDir=../../parts_library
 [eeschema/libraries]
 LibName1=power
 LibName2=device

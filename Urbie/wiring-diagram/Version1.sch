@@ -1,0 +1,319 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:Version1-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3950 3750 950  950 
+U 57E6B036
+F0 "Indicator Lights" 60
+F1 "IndicatorLights.sch" 60
+F2 "L1-LeftBlink" I R 4900 3850 60 
+F3 "L3-RightBlink" I R 4900 3950 60 
+F4 "L2-Brights" I R 4900 4050 60 
+F5 "L4-DVEnb" I R 4900 4150 60 
+F6 "L5-PwrOn" I R 4900 4250 60 
+F7 "L6-O2" I R 4900 4350 60 
+F8 "L7-EFI" I R 4900 4450 60 
+F9 "L8-GND" O R 4900 4550 60 
+$EndSheet
+$Sheet
+S 1300 2900 1100 550 
+U 57EFE347
+F0 "Steering Wheel" 60
+F1 "SteeringWheelUrbie.sch" 60
+F2 "Sb2-EsPower" I R 2400 3100 60 
+F3 "Sb3-Horn" I R 2400 3200 60 
+F4 "Sb1-EngineStop" O R 2400 3000 60 
+F5 "Sb4-Horn" O R 2400 3300 60 
+F6 "Sb5-EngineStart" O R 2400 3400 60 
+$EndSheet
+$Sheet
+S 3100 2250 1750 1250
+U 57EFE34A
+F0 "Switch Connector Harness" 60
+F1 "SwitchConnector(Sa,Sb,S).sch" 60
+F2 "S1-LftBlink" I R 4850 2350 60 
+F3 "S2-RtBlink" I R 4850 2450 60 
+F4 "S5-Powerlights12v" I R 4850 2750 60 
+F5 "S6-EngineStop" I R 4850 2850 60 
+F6 "S7-EngineStart" I R 4850 2950 60 
+F7 "S8-PowerWheel" I R 4850 3050 60 
+F8 "S9-Horn" I R 4850 3150 60 
+F9 "S11-Horn" I R 4850 3250 60 
+F10 "S12-EngineStop" I R 4850 3350 60 
+F11 "Sa1-PowerLights" I L 3100 2300 60 
+F12 "Sa2-Brights" I L 3100 2400 60 
+F13 "Sa3-head" I L 3100 2500 60 
+F14 "Sa4-Running" I L 3100 2600 60 
+F15 "Sa5-RtBlink" I L 3100 2700 60 
+F16 "Sa6-LftBlink" I L 3100 2800 60 
+F17 "Sb1-EngineStop" I L 3100 3000 60 
+F18 "Sb2-EsPower" I L 3100 3100 60 
+F19 "Sb3-Horn" I L 3100 3200 60 
+F20 "Sb4-Horn" I L 3100 3300 60 
+F21 "Sb5-EngineStart" I L 3100 3400 60 
+F22 "S3-Running" I R 4850 2550 60 
+F23 "S4-Head" I R 4850 2650 60 
+$EndSheet
+$Sheet
+S 1300 2050 1050 700 
+U 57EFDAC9
+F0 "LightSwitchConnector" 60
+F1 "LightSwitchConnector.sch" 60
+F2 "Sa2-Brights" I R 2350 2250 60 
+F3 "Sa3-Head" I R 2350 2350 60 
+F4 "Sa4-Running" I R 2350 2450 60 
+F5 "Sa1-PowerLights" I R 2350 2150 60 
+F6 "Sa5-RtBlink" I R 2350 2550 60 
+F7 "Sa6-LftBlnk" I R 2350 2650 60 
+$EndSheet
+Wire Wire Line
+	2400 3000 3100 3000
+Wire Wire Line
+	2400 3100 3100 3100
+Wire Wire Line
+	2400 3200 3100 3200
+Wire Wire Line
+	2400 3300 3100 3300
+Wire Wire Line
+	2400 3400 3100 3400
+Wire Wire Line
+	2350 2150 3000 2150
+Wire Wire Line
+	3000 2150 3000 2300
+Wire Wire Line
+	3000 2300 3100 2300
+Wire Wire Line
+	2350 2250 2950 2250
+Wire Wire Line
+	2950 2250 2950 2400
+Wire Wire Line
+	2950 2400 3100 2400
+Wire Wire Line
+	2350 2350 2900 2350
+Wire Wire Line
+	2900 2350 2900 2500
+Wire Wire Line
+	2900 2500 3100 2500
+Wire Wire Line
+	2350 2450 2850 2450
+Wire Wire Line
+	2850 2450 2850 2600
+Wire Wire Line
+	2850 2600 3100 2600
+Wire Wire Line
+	2350 2550 2800 2550
+Wire Wire Line
+	2800 2550 2800 2700
+Wire Wire Line
+	2800 2700 3100 2700
+Wire Wire Line
+	2350 2650 2750 2650
+Wire Wire Line
+	2750 2650 2750 2800
+Wire Wire Line
+	2750 2800 3100 2800
+$Sheet
+S 5400 1850 2000 4400
+U 57F9E678
+F0 "Switch Panel" 60
+F1 "SwitchPanel.sch" 60
+F2 "Ov1LftBlnk" I L 5400 5050 60 
+F3 "Ov2RtBlnk" I L 5400 5150 60 
+F4 "Ov3" I L 5400 5250 60 
+F5 "Ov4" I L 5400 5350 60 
+F6 "Ov5" I L 5400 5450 60 
+F7 "Ov6Brake1" I L 5400 5550 60 
+F8 "Ov7BBrake2" I L 5400 5650 60 
+F9 "Ov8Horn" I L 5400 5750 60 
+F10 "Ov9WiperPwr" I L 5400 5850 60 
+F11 "Ov10WiperPwr" I L 5400 5950 60 
+F12 "Ov11AcceleratorYellow" I L 5400 6050 60 
+F13 "Ov12AcceleratorRed" I L 5400 6150 60 
+F14 "L1-LeftBlink" I L 5400 3850 60 
+F15 "L3-RightBlink" I L 5400 3950 60 
+F16 "L2-Brights" I L 5400 4050 60 
+F17 "L4-DVEnb" I L 5400 4150 60 
+F18 "L5-PwrOn" I L 5400 4250 60 
+F19 "L6-O2" I L 5400 4350 60 
+F20 "L7-EFI" I L 5400 4450 60 
+F21 "L9-GND" O L 5400 4550 60 
+F22 "S1-LftBlink" I L 5400 2350 60 
+F23 "S2-RtBlink" I L 5400 2450 60 
+F24 "S3-Running" I L 5400 2550 60 
+F25 "S4-Head" I L 5400 2650 60 
+F26 "S5-Powerlights12v" I L 5400 2750 60 
+F27 "S6-Brights" I L 5400 2850 60 
+F28 "S7-EngineStart" I L 5400 2950 60 
+F29 "S8-PowerWheel" I L 5400 3050 60 
+F30 "S9-Horn" I L 5400 3150 60 
+F31 "S11-Horn" I L 5400 3250 60 
+F32 "S12-EngineStop" I L 5400 3350 60 
+F33 "S2,1" I L 5400 1950 60 
+F34 "S2,2" I L 5400 2050 60 
+F35 "BoD1.4:C.2" I R 7400 2500 60 
+F36 "BoD1.3:BoD-C,5" I R 7400 2400 60 
+F37 "BoD1.6" I R 7400 2700 60 
+F38 "BoD1.7" I R 7400 2800 60 
+F39 "BoD1.8:BoC9" I R 7400 2900 60 
+F40 "BoD1.9" I R 7400 3000 60 
+F41 "BoD1.10:C4,R5.13(ESto)" I R 7400 3100 60 
+F42 "BoD1.11:DvEnb" I R 7400 3200 60 
+F43 "BoD1.12:Gnd" I R 7400 3300 60 
+F44 "BoD2.1:ESta" I R 7400 3650 60 
+F45 "BoD2.2-CC_Horn" I R 7400 3750 60 
+F46 "BoD2.3:Running" I R 7400 3850 60 
+F47 "BoD2.4:EFI" I R 7400 3950 60 
+F48 "BoD2.5:LFTBlinkOut" I R 7400 4050 60 
+F49 "BoD2.6:RTBlinkOut" I R 7400 4150 60 
+F50 "BoD2.8:RTBlinkIN" I R 7400 4350 60 
+F51 "BoD2.9:LFBlink" I R 7400 4450 60 
+F52 "BoD2.11:AccYell" I R 7400 4650 60 
+F53 "BoD2.12:AccRd" I R 7400 4750 60 
+F54 "BoD1.1:Pwr" I R 7400 2200 60 
+F55 "BoD2.10:FlashTo" I R 7400 4550 60 
+F56 "BoD1.2:ToR8:9" I R 7400 2300 60 
+F57 "BoD1.5:BoC1" I R 7400 2600 60 
+F58 "BoD2.7:BrakeOut" I R 7400 4250 60 
+$EndSheet
+$Sheet
+S 4300 1900 550  200 
+U 58023893
+F0 "Wiper Switch" 60
+F1 "WiperSwitch.sch" 60
+F2 "S2,1" I R 4850 1950 60 
+F3 "S2,2" I R 4850 2050 60 
+$EndSheet
+$Sheet
+S 3700 4950 1200 1300
+U 58026621
+F0 "Front Harness" 60
+F1 "FrontHarness.sch" 60
+F2 "Ov1LftBlnk" I R 4900 5050 60 
+F3 "Ov2RtBlnk" I R 4900 5150 60 
+F4 "Ov3" I R 4900 5250 60 
+F5 "Ov4" I R 4900 5350 60 
+F6 "Ov5" I R 4900 5450 60 
+F7 "Ov6Brake1" I R 4900 5550 60 
+F8 "Ov7BBrake2" I R 4900 5650 60 
+F9 "Ov8Horn" I R 4900 5750 60 
+F10 "Ov9WiperPwr" I R 4900 5850 60 
+F11 "Ov10WiperPwr" I R 4900 5950 60 
+F12 "Ov11AcceleratorYellow" I R 4900 6050 60 
+F13 "Ov12AcceleratorRed" I R 4900 6150 60 
+$EndSheet
+Wire Wire Line
+	4850 1950 5400 1950
+Wire Wire Line
+	5400 2050 4850 2050
+Wire Wire Line
+	4850 2350 5400 2350
+Wire Wire Line
+	5400 2450 4850 2450
+Wire Wire Line
+	4850 2550 5400 2550
+Wire Wire Line
+	4850 2650 5400 2650
+Wire Wire Line
+	4850 2750 5400 2750
+Wire Wire Line
+	4850 2850 5400 2850
+Wire Wire Line
+	4850 2950 5400 2950
+Wire Wire Line
+	4850 3050 5400 3050
+Wire Wire Line
+	4850 3150 5400 3150
+Wire Wire Line
+	4850 3250 5400 3250
+Wire Wire Line
+	4850 3350 5400 3350
+Wire Wire Line
+	4900 3850 5400 3850
+Wire Wire Line
+	4900 3950 5400 3950
+Wire Wire Line
+	4900 4050 5400 4050
+Wire Wire Line
+	4900 4150 5400 4150
+Wire Wire Line
+	4900 4250 5400 4250
+Wire Wire Line
+	4900 4350 5400 4350
+Wire Wire Line
+	4900 4450 5400 4450
+Wire Wire Line
+	4900 4550 5400 4550
+Wire Wire Line
+	4900 5050 5400 5050
+Wire Wire Line
+	4900 5150 5400 5150
+Wire Wire Line
+	4900 5250 5400 5250
+Wire Wire Line
+	4900 5350 5400 5350
+Wire Wire Line
+	4900 5450 5400 5450
+Wire Wire Line
+	4900 5550 5400 5550
+Wire Wire Line
+	4900 5650 5400 5650
+Wire Wire Line
+	4900 5750 5400 5750
+Wire Wire Line
+	4900 5850 5400 5850
+Wire Wire Line
+	4900 5950 5400 5950
+Wire Wire Line
+	4900 6050 5400 6050
+Wire Wire Line
+	4900 6150 5400 6150
+$Sheet
+S 7900 1900 1750 4350
+U 58330ACD
+F0 "Box of Doom" 60
+F1 "RelayBox.sch" 60
+$EndSheet
+$EndSCHEMATC

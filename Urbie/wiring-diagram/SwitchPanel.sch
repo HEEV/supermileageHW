@@ -464,15 +464,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 3650 5900 3650
 Wire Wire Line
-	6300 3350 7400 3350
-Wire Wire Line
-	7400 3350 7400 3300
-Wire Wire Line
-	7400 3300 7350 3300
-Wire Wire Line
-	7350 3300 7350 3350
-Connection ~ 7350 3350
-Wire Wire Line
 	5800 3000 5800 3750
 Wire Wire Line
 	5800 3000 1650 3000
@@ -489,8 +480,6 @@ Wire Wire Line
 	9950 4000 10150 4000
 Wire Wire Line
 	6300 1850 6300 3350
-Wire Wire Line
-	8500 2250 8500 2250
 Wire Wire Line
 	7200 1300 7200 2250
 Wire Wire Line
@@ -597,4 +586,6 @@ Wire Wire Line
 Connection ~ 8550 5400
 Text Label 8650 2850 2    60   ~ 0
 EFI
+Wire Wire Line
+	6300 3350 7350 3350
 $EndSCHEMATC
