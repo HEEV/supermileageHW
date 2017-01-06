@@ -1,0 +1,416 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:Version1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X12 P?
+U 1 1 58028162
+P 9050 2000
+F 0 "P?" H 9050 2650 50  0000 C CNN
+F 1 "CONN_01X12" V 9150 2000 50  0000 C CNN
+F 2 "" H 9050 2000 50  0000 C CNN
+F 3 "" H 9050 2000 50  0000 C CNN
+	1    9050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5802823B
+P 8100 1600
+F 0 "P?" H 8100 1950 50  0000 C CNN
+F 1 "CONN_01X06" V 8200 1600 50  0000 C CNN
+F 2 "" H 8100 1600 50  0000 C CNN
+F 3 "" H 8100 1600 50  0000 C CNN
+	1    8100 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 580282AA
+P 7900 1600
+F 0 "P?" H 7900 1950 50  0000 C CNN
+F 1 "CONN_01X06" V 8000 1600 50  0000 C CNN
+F 2 "" H 7900 1600 50  0000 C CNN
+F 3 "" H 7900 1600 50  0000 C CNN
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5802832D
+P 7300 950
+F 0 "P?" H 7300 1300 50  0000 C CNN
+F 1 "CONN_01X06" V 7400 950 50  0000 C CNN
+F 2 "" H 7300 950 50  0000 C CNN
+F 3 "" H 7300 950 50  0000 C CNN
+	1    7300 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 58028372
+P 6500 950
+F 0 "P?" H 6500 1300 50  0000 C CNN
+F 1 "CONN_01X06" V 6600 950 50  0000 C CNN
+F 2 "" H 6500 950 50  0000 C CNN
+F 3 "" H 6500 950 50  0000 C CNN
+	1    6500 950 
+	0    -1   -1   0   
+$EndComp
+Text Notes 7050 800  0    60   ~ 0
+Right Lights
+Text Notes 6250 800  0    60   ~ 0
+Left Lights
+Wire Wire Line
+	7700 1350 6550 1350
+Wire Wire Line
+	6550 1350 6550 1150
+Wire Wire Line
+	7700 1450 7350 1450
+Wire Wire Line
+	7350 1450 7350 1150
+Wire Wire Line
+	7550 1850 7700 1850
+Wire Wire Line
+	7500 1250 6750 1250
+Wire Wire Line
+	6750 1250 6750 1150
+Wire Wire Line
+	7500 1250 7550 1150
+Wire Wire Line
+	7550 1150 7550 1850
+Wire Wire Line
+	7250 1150 7200 1450
+Wire Wire Line
+	7200 1450 6450 1450
+Wire Wire Line
+	6450 1450 6450 1150
+Wire Wire Line
+	7700 1550 7250 1550
+Wire Wire Line
+	7250 1550 7250 1150
+Wire Wire Line
+	7150 1150 7100 1550
+Wire Wire Line
+	7100 1550 6350 1550
+Wire Wire Line
+	6350 1550 6350 1150
+Wire Wire Line
+	7700 1650 7150 1650
+Wire Wire Line
+	7150 1650 7150 1150
+Wire Wire Line
+	7050 1150 7000 1650
+Wire Wire Line
+	7000 1650 6250 1650
+Wire Wire Line
+	6250 1650 6250 1150
+Wire Wire Line
+	7700 1750 7050 1750
+Wire Wire Line
+	7050 1750 7050 1150
+Wire Wire Line
+	8300 1350 8850 1450
+Wire Wire Line
+	8300 1450 8850 1550
+Wire Wire Line
+	8300 1550 8850 1650
+Wire Wire Line
+	8300 1650 8850 1750
+Wire Wire Line
+	8300 1750 8850 1850
+$Comp
+L CONN_01X02 P?
+U 1 1 580286C8
+P 8700 3450
+F 0 "P?" H 8700 3600 50  0000 C CNN
+F 1 "CONN_01X02" V 8800 3450 50  0000 C CNN
+F 2 "" H 8700 3450 50  0000 C CNN
+F 3 "" H 8700 3450 50  0000 C CNN
+	1    8700 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5802873A
+P 8250 3450
+F 0 "P?" H 8250 3600 50  0000 C CNN
+F 1 "CONN_01X02" V 8350 3450 50  0000 C CNN
+F 2 "" H 8250 3450 50  0000 C CNN
+F 3 "" H 8250 3450 50  0000 C CNN
+	1    8250 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58028769
+P 7750 3450
+F 0 "P?" H 7750 3600 50  0000 C CNN
+F 1 "CONN_01X02" V 7850 3450 50  0000 C CNN
+F 2 "" H 7750 3450 50  0000 C CNN
+F 3 "" H 7750 3450 50  0000 C CNN
+	1    7750 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5802879B
+P 7250 3450
+F 0 "P?" H 7250 3600 50  0000 C CNN
+F 1 "CONN_01X02" V 7350 3450 50  0000 C CNN
+F 2 "" H 7250 3450 50  0000 C CNN
+F 3 "" H 7250 3450 50  0000 C CNN
+	1    7250 3450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8750 2550 8750 3250
+Wire Wire Line
+	8750 2550 8850 2550
+Wire Wire Line
+	8650 3250 8650 2450
+Wire Wire Line
+	8650 2450 8850 2450
+Wire Wire Line
+	8300 3250 8300 2350
+Wire Wire Line
+	8300 2350 8850 2350
+Wire Wire Line
+	8200 3250 8200 2250
+Wire Wire Line
+	8200 2250 8850 2250
+Text Label 8300 1850 0    60   ~ 0
+ChassisGnd
+Wire Wire Line
+	7700 3250 7700 2150
+Wire Wire Line
+	7700 2150 8850 2150
+Wire Wire Line
+	7300 3250 7300 2050
+Wire Wire Line
+	7300 2050 8850 2050
+Wire Wire Line
+	7200 3250 7200 1950
+Wire Wire Line
+	7200 1950 8850 1950
+Text Label 7800 3250 1    60   ~ 0
+ChassisGnd
+Text Notes 7650 3200 1    60   ~ 0
+Horn
+Text Notes 8150 3200 1    60   ~ 0
+Wiper
+Text Notes 8600 3250 1    60   ~ 0
+Accelerator
+Text Notes 7150 3250 1    60   ~ 0
+Parking Brake & Brake
+$Comp
+L CONN_01X02 P?
+U 1 1 58028EF7
+P 7250 3650
+F 0 "P?" H 7250 3800 50  0000 C CNN
+F 1 "CONN_01X02" V 7350 3650 50  0000 C CNN
+F 2 "" H 7250 3650 50  0000 C CNN
+F 3 "" H 7250 3650 50  0000 C CNN
+	1    7250 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58028F8A
+P 7750 3650
+F 0 "P?" H 7750 3800 50  0000 C CNN
+F 1 "CONN_01X02" V 7850 3650 50  0000 C CNN
+F 2 "" H 7750 3650 50  0000 C CNN
+F 3 "" H 7750 3650 50  0000 C CNN
+	1    7750 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58028FCD
+P 8250 3650
+F 0 "P?" H 8250 3800 50  0000 C CNN
+F 1 "CONN_01X02" V 8350 3650 50  0000 C CNN
+F 2 "" H 8250 3650 50  0000 C CNN
+F 3 "" H 8250 3650 50  0000 C CNN
+	1    8250 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5802900E
+P 8700 3650
+F 0 "P?" H 8700 3800 50  0000 C CNN
+F 1 "CONN_01X02" V 8800 3650 50  0000 C CNN
+F 2 "" H 8700 3650 50  0000 C CNN
+F 3 "" H 8700 3650 50  0000 C CNN
+	1    8700 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CR CR?
+U 1 1 58029053
+P 8300 4650
+F 0 "CR?" H 8300 4475 60  0000 C CNN
+F 1 "CR" H 8300 4400 60  0000 C CNN
+F 2 "" H 8300 4650 60  0000 C CNN
+F 3 "" H 8300 4650 60  0000 C CNN
+	1    8300 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 580290A9
+P 7350 4300
+F 0 "SW?" H 7350 4450 60  0000 C CNN
+F 1 "SW_SPST" H 7350 4200 60  0000 C CNN
+F 2 "" H 7350 4300 60  0000 C CNN
+F 3 "" H 7350 4300 60  0000 C CNN
+	1    7350 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 2 58029195
+P 7350 4900
+F 0 "SW?" H 7350 5050 60  0000 C CNN
+F 1 "SW_SPST" H 7350 4800 60  0000 C CNN
+F 2 "" H 7350 4900 60  0000 C CNN
+F 3 "" H 7350 4900 60  0000 C CNN
+	1    7350 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4100 7350 3850
+Wire Wire Line
+	7350 3850 7300 3850
+Wire Wire Line
+	7350 4500 7350 4700
+Wire Wire Line
+	7350 5100 7350 5250
+Wire Wire Line
+	7350 5250 7200 5250
+Wire Wire Line
+	7200 5250 7200 3850
+$Comp
+L Horn SP?
+U 1 1 58029492
+P 7750 4100
+F 0 "SP?" H 7750 4500 60  0000 C CNN
+F 1 "Horn" H 7750 4400 60  0000 C CNN
+F 2 "" H 7750 4100 60  0000 C CNN
+F 3 "" H 7750 4100 60  0000 C CNN
+	1    7750 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 4100 7700 4100
+Wire Wire Line
+	7700 4100 7700 3850
+Wire Wire Line
+	7800 4100 7800 3850
+Wire Wire Line
+	8750 4200 8750 3850
+Wire Wire Line
+	8650 3850 8650 4850
+Wire Wire Line
+	8650 4850 8750 4850
+Text HLabel 9450 1450 2    60   Input ~ 0
+Ov1LftBlnk
+Text HLabel 9450 1550 2    60   Input ~ 0
+Ov2RtBlnk
+$Comp
+L CONN_01X12 P?
+U 1 1 5802982C
+P 9250 2000
+F 0 "P?" H 9250 2650 50  0000 C CNN
+F 1 "CONN_01X12" V 9350 2000 50  0000 C CNN
+F 2 "" H 9250 2000 50  0000 C CNN
+F 3 "" H 9250 2000 50  0000 C CNN
+	1    9250 2000
+	-1   0    0    -1  
+$EndComp
+Text HLabel 9450 1650 2    60   Input ~ 0
+Ov3
+Text HLabel 9450 1750 2    60   Input ~ 0
+Ov4
+Text HLabel 9450 1850 2    60   Input ~ 0
+Ov5
+Text HLabel 9450 1950 2    60   Input ~ 0
+Ov6Brake1
+Text HLabel 9450 2050 2    60   Input ~ 0
+Ov7BBrake2
+Text HLabel 9450 2150 2    60   Input ~ 0
+Ov8Horn
+Text HLabel 9450 2250 2    60   Input ~ 0
+Ov9WiperPwr
+Text HLabel 9450 2350 2    60   Input ~ 0
+Ov10WiperPwr
+Text HLabel 9450 2450 2    60   Input ~ 0
+Ov11AcceleratorYellow
+Text HLabel 9450 2550 2    60   Input ~ 0
+Ov12AcceleratorRed
+Wire Wire Line
+	8200 3850 8200 4450
+Wire Wire Line
+	8200 4450 8300 4450
+Wire Wire Line
+	8300 4450 8300 3850
+Text Label 8300 4850 3    60   ~ 0
+ChassisGnd
+$Comp
+L SW_NO SW?
+U 1 1 5802AC24
+P 8750 4400
+F 0 "SW?" H 8875 4550 60  0000 C CNN
+F 1 "SW_NO" H 8750 4300 60  0000 C CNN
+F 2 "" H 8750 4400 60  0000 C CNN
+F 3 "" H 8750 4400 60  0000 C CNN
+	1    8750 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 4850 8750 4600
+$EndSCHEMATC

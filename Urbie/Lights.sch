@@ -1,0 +1,706 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:UrbieSchematics-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 6 6
+Title "Urbie - Gasoline Urban Concept"
+Date "2016-11-19"
+Rev "1.1"
+Comp "Cedarville University"
+Comment1 "Tineka Witt"
+Comment2 "Lights"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Light Rear_Turn/Park/Brake
+U 1 1 582759D5
+P 6150 1750
+F 0 "Rear_Turn/Park/Brake" H 6150 1550 60  0000 C CNN
+F 1 "Light" H 6150 2050 60  0001 C CNN
+F 2 "" H 6150 1750 60  0001 C CNN
+F 3 "" H 6150 1750 60  0001 C CNN
+	1    6150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flahsher U?
+U 1 1 58275B72
+P 2400 1400
+F 0 "U?" H 2400 1300 60  0001 C CNN
+F 1 "Flahsher" H 2400 1400 60  0000 C CNN
+F 2 "" H 2850 1950 60  0001 C CNN
+F 3 "" H 2850 1950 60  0001 C CNN
+	1    2400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST Brake
+U 1 1 58275D2C
+P 2700 2050
+F 0 "Brake" H 2700 2200 60  0001 C CNN
+F 1 "Brake" H 2700 1950 60  0000 C CNN
+F 2 "" H 2700 2050 60  0000 C CNN
+F 3 "" H 2700 2050 60  0000 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR4
+U 2 1 58275E97
+P 4500 1400
+F 0 "CR4" H 4500 1225 60  0000 C CNN
+F 1 "4P_Relay" H 4500 1150 60  0000 C CNN
+F 2 "" H 4500 1400 60  0000 C CNN
+F 3 "" H 4500 1400 60  0000 C CNN
+	2    4500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58276085
+P 5300 1650
+F 0 "D?" H 5300 1750 50  0001 C CNN
+F 1 "D" H 5300 1550 50  0001 C CNN
+F 2 "" H 5300 1650 50  0000 C CNN
+F 3 "" H 5300 1650 50  0000 C CNN
+	1    5300 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 582760EF
+P 5000 1900
+F 0 "D?" H 5000 2000 50  0001 C CNN
+F 1 "D" H 5000 1800 50  0001 C CNN
+F 2 "" H 5000 1900 50  0000 C CNN
+F 3 "" H 5000 1900 50  0000 C CNN
+	1    5000 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D?
+U 1 1 58276143
+P 5000 2300
+F 0 "D?" H 5000 2400 50  0001 C CNN
+F 1 "D" H 5000 2200 50  0001 C CNN
+F 2 "" H 5000 2300 50  0000 C CNN
+F 3 "" H 5000 2300 50  0000 C CNN
+	1    5000 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R 1K
+U 1 1 5827650D
+P 4500 2300
+F 0 "1K" V 4580 2300 50  0001 C CNN
+F 1 "1K" V 4600 2300 50  0000 C CNN
+F 2 "" V 4430 2300 50  0000 C CNN
+F 3 "" H 4500 2300 50  0000 C CNN
+	1    4500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Light Front_Turn
+U 1 1 58276679
+P 6800 1550
+F 0 "Front_Turn" H 6800 1350 60  0000 C CNN
+F 1 "Light" H 6800 1850 60  0001 C CNN
+F 2 "" H 6800 1550 60  0001 C CNN
+F 3 "" H 6800 1550 60  0001 C CNN
+	1    6800 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 582766D6
+P 7400 900
+F 0 "#PWR?" H 7400 650 50  0001 C CNN
+F 1 "GND" H 7400 750 50  0000 C CNN
+F 2 "" H 7400 900 50  0000 C CNN
+F 3 "" H 7400 900 50  0000 C CNN
+	1    7400 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 582769A0
+P 7400 9000
+F 0 "#PWR?" H 7400 8750 50  0001 C CNN
+F 1 "GND" H 7400 8850 50  0000 C CNN
+F 2 "" H 7400 9000 50  0000 C CNN
+F 3 "" H 7400 9000 50  0000 C CNN
+	1    7400 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR5
+U 2 1 582774AD
+P 4500 3350
+F 0 "CR5" H 4500 3175 60  0000 C CNN
+F 1 "4P_Relay" H 4500 3100 60  0000 C CNN
+F 2 "" H 4500 3350 60  0000 C CNN
+F 3 "" H 4500 3350 60  0000 C CNN
+	2    4500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5827778D
+P 5000 3850
+F 0 "D?" H 5000 3950 50  0001 C CNN
+F 1 "D" H 5000 3750 50  0001 C CNN
+F 2 "" H 5000 3850 50  0000 C CNN
+F 3 "" H 5000 3850 50  0000 C CNN
+	1    5000 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D?
+U 1 1 58277829
+P 5300 3600
+F 0 "D?" H 5300 3700 50  0001 C CNN
+F 1 "D" H 5300 3500 50  0001 C CNN
+F 2 "" H 5300 3600 50  0000 C CNN
+F 3 "" H 5300 3600 50  0000 C CNN
+	1    5300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Light Rear_Turn/Park/Brake
+U 1 1 58277DA3
+P 6100 3700
+F 0 "Rear_Turn/Park/Brake" H 6100 3500 60  0000 C CNN
+F 1 "Light" H 6100 4000 60  0001 C CNN
+F 2 "" H 6100 3700 60  0001 C CNN
+F 3 "" H 6100 3700 60  0001 C CNN
+	1    6100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Light Front_Turn
+U 1 1 58277E3C
+P 6800 3500
+F 0 "Front_Turn" H 6800 3300 60  0000 C CNN
+F 1 "Light" H 6800 3800 60  0001 C CNN
+F 2 "" H 6800 3500 60  0001 C CNN
+F 3 "" H 6800 3500 60  0001 C CNN
+	1    6800 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4P_Relay CR4
+U 5 1 58277F1E
+P 4500 1900
+F 0 "CR4" H 4500 1725 60  0000 C CNN
+F 1 "4P_Relay" H 4500 1650 60  0000 C CNN
+F 2 "" H 4500 1900 60  0000 C CNN
+F 3 "" H 4500 1900 60  0000 C CNN
+	5    4500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR5
+U 5 1 58277FA3
+P 4500 3850
+F 0 "CR5" H 4500 3675 60  0000 C CNN
+F 1 "4P_Relay" H 4500 3600 60  0000 C CNN
+F 2 "" H 4500 3850 60  0000 C CNN
+F 3 "" H 4500 3850 60  0000 C CNN
+	5    4500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 1K
+U 1 1 5827817F
+P 4500 4300
+F 0 "1K" V 4580 4300 50  0001 C CNN
+F 1 "1K" V 4600 4300 50  0000 C CNN
+F 2 "" V 4430 4300 50  0000 C CNN
+F 3 "" H 4500 4300 50  0000 C CNN
+	1    4500 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58278273
+P 5000 4300
+F 0 "D?" H 5000 4400 50  0001 C CNN
+F 1 "D" H 5000 4200 50  0001 C CNN
+F 2 "" H 5000 4300 50  0000 C CNN
+F 3 "" H 5000 4300 50  0000 C CNN
+	1    5000 4300
+	-1   0    0    1   
+$EndComp
+Text Notes 6400 3650 0    60   ~ 0
+Left
+$Comp
+L Light Left_FrontPark
+U 1 1 58278E31
+P 6050 4750
+F 0 "Left_FrontPark" H 6050 4550 60  0000 C CNN
+F 1 "Light" H 6050 5050 60  0001 C CNN
+F 2 "" H 6050 4750 60  0001 C CNN
+F 3 "" H 6050 4750 60  0001 C CNN
+	1    6050 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Light Right_FrontPark
+U 1 1 58278F26
+P 6800 5000
+F 0 "Right_FrontPark" H 6800 4800 60  0000 C CNN
+F 1 "Light" H 6800 5300 60  0001 C CNN
+F 2 "" H 6800 5000 60  0001 C CNN
+F 3 "" H 6800 5000 60  0001 C CNN
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Light Left_Headlights
+U 1 1 58279618
+P 6050 5500
+F 0 "Left_Headlights" H 6050 5300 60  0000 C CNN
+F 1 "Light" H 6050 5800 60  0001 C CNN
+F 2 "" H 6050 5500 60  0001 C CNN
+F 3 "" H 6050 5500 60  0001 C CNN
+	1    6050 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Light Right_Headlights
+U 1 1 58279676
+P 6800 5650
+F 0 "Right_Headlights" H 6800 5450 60  0000 C CNN
+F 1 "Light" H 6800 5950 60  0001 C CNN
+F 2 "" H 6800 5650 60  0001 C CNN
+F 3 "" H 6800 5650 60  0001 C CNN
+	1    6800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Light Left_Brights
+U 1 1 5827A63D
+P 6050 6300
+F 0 "Left_Brights" H 6050 6100 60  0000 C CNN
+F 1 "Light" H 6050 6600 60  0001 C CNN
+F 2 "" H 6050 6300 60  0001 C CNN
+F 3 "" H 6050 6300 60  0001 C CNN
+	1    6050 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Light Right_Brights
+U 1 1 5827A8EC
+P 6750 6500
+F 0 "Right_Brights" H 6750 6300 60  0000 C CNN
+F 1 "Light" H 6750 6800 60  0001 C CNN
+F 2 "" H 6750 6500 60  0001 C CNN
+F 3 "" H 6750 6500 60  0001 C CNN
+	1    6750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED Brights_Indicator
+U 1 1 5827AE7F
+P 6100 6900
+F 0 "Brights_Indicator" H 6150 7000 50  0000 C CNN
+F 1 "LED" H 6100 6800 50  0001 C CNN
+F 2 "" H 6100 6900 50  0000 C CNN
+F 3 "" H 6100 6900 50  0000 C CNN
+	1    6100 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R 680Ohm
+U 1 1 5827AFAF
+P 6600 6900
+F 0 "680Ohm" V 6680 6900 50  0001 C CNN
+F 1 "6k8" V 6700 6900 50  0000 C CNN
+F 2 "" V 6530 6900 50  0000 C CNN
+F 3 "" H 6600 6900 50  0000 C CNN
+	1    6600 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch_DPST Hazard
+U 1 1 5827C77E
+P 2100 7650
+F 0 "Hazard" H 2400 7700 50  0001 C CNN
+F 1 "Hazard" H 2100 7350 50  0000 C CNN
+F 2 "" H 2100 7650 50  0000 C CNN
+F 3 "" H 2100 7650 50  0000 C CNN
+	1    2100 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR4
+U 1 1 5827D3E2
+P 4450 7450
+F 0 "CR4" H 4450 7300 60  0000 C CNN
+F 1 "4P_Relay" H 4450 7600 60  0000 C CNN
+F 2 "" H 4450 7450 60  0000 C CNN
+F 3 "" H 4450 7450 60  0000 C CNN
+	1    4450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR5
+U 1 1 5827D454
+P 4450 7850
+F 0 "CR5" H 4450 7700 60  0000 C CNN
+F 1 "4P_Relay" H 4450 8000 60  0000 C CNN
+F 2 "" H 4450 7850 60  0000 C CNN
+F 3 "" H 4450 7850 60  0000 C CNN
+	1    4450 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Light Rear_CenterBrake
+U 1 1 5827EAAC
+P 6150 2400
+F 0 "Rear_CenterBrake" H 6150 2200 60  0000 C CNN
+F 1 "Light" H 6150 2700 60  0001 C CNN
+F 2 "" H 6150 2400 60  0001 C CNN
+F 3 "" H 6150 2400 60  0001 C CNN
+	1    6150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5827EC15
+P 5000 2550
+F 0 "D?" H 5000 2650 50  0001 C CNN
+F 1 "D" H 5000 2450 50  0001 C CNN
+F 2 "" H 5000 2550 50  0000 C CNN
+F 3 "" H 5000 2550 50  0000 C CNN
+	1    5000 2550
+	-1   0    0    1   
+$EndComp
+Text Notes 6350 1700 0    60   ~ 0
+Right
+$Comp
+L CB CB9
+U 1 1 5827FC87
+P 1200 1400
+F 0 "CB9" H 1200 1325 60  0000 C CNN
+F 1 "5A" H 1200 1225 60  0000 C CNN
+F 2 "" H 1200 1400 60  0000 C CNN
+F 3 "" H 1200 1400 60  0000 C CNN
+	1    1200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5827FE6A
+P 900 800
+F 0 "#PWR?" H 900 650 50  0001 C CNN
+F 1 "+12V" H 900 940 50  0000 C CNN
+F 2 "" H 900 800 50  0000 C CNN
+F 3 "" H 900 800 50  0000 C CNN
+	1    900  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 582807FA
+P 900 8950
+F 0 "#PWR?" H 900 8800 50  0001 C CNN
+F 1 "+12V" H 900 9090 50  0000 C CNN
+F 2 "" H 900 8950 50  0000 C CNN
+F 3 "" H 900 8950 50  0000 C CNN
+	1    900  8950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 582A8B64
+P 5850 3100
+F 0 "D?" H 5850 3200 50  0001 C CNN
+F 1 "Left Indicator" H 5850 3200 50  0000 C CNN
+F 2 "" H 5850 3100 50  0000 C CNN
+F 3 "" H 5850 3100 50  0000 C CNN
+	1    5850 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 1400 1550 7850
+Wire Wire Line
+	1350 1400 1850 1400
+Connection ~ 1550 1400
+Connection ~ 1550 2050
+Wire Wire Line
+	2950 1400 4350 1400
+Wire Wire Line
+	3750 1400 3750 3350
+Wire Wire Line
+	3750 3350 4350 3350
+Connection ~ 3750 1400
+Wire Wire Line
+	4050 1900 4050 3850
+Wire Wire Line
+	4050 3850 4350 3850
+Wire Wire Line
+	4650 1400 6750 1400
+Wire Wire Line
+	5300 1150 5300 1500
+Connection ~ 5300 1400
+Wire Wire Line
+	4650 1900 4850 1900
+Wire Wire Line
+	4350 2300 3600 2300
+Wire Wire Line
+	3600 2300 3600 5150
+Wire Wire Line
+	3350 5150 6750 5150
+Connection ~ 3600 5150
+Wire Wire Line
+	4650 2300 4850 2300
+Wire Wire Line
+	5150 1900 6100 1900
+Wire Wire Line
+	5300 1800 5300 2300
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 2300 5150 2300
+Wire Wire Line
+	7400 1400 6850 1400
+Wire Wire Line
+	7400 900  7400 9000
+Connection ~ 7400 1400
+Wire Wire Line
+	6200 1900 7400 1900
+Connection ~ 7400 1900
+Wire Wire Line
+	4650 3850 4850 3850
+Wire Wire Line
+	4650 3350 6750 3350
+Connection ~ 5300 3350
+Wire Wire Line
+	6850 3350 7400 3350
+Connection ~ 7400 3350
+Wire Wire Line
+	7400 3850 6150 3850
+Connection ~ 7400 3850
+Wire Wire Line
+	5300 3750 5300 4300
+Wire Wire Line
+	5150 3850 6050 3850
+Connection ~ 5300 3850
+Wire Wire Line
+	3600 4300 4350 4300
+Connection ~ 3600 4300
+Wire Wire Line
+	4650 4300 4850 4300
+Wire Wire Line
+	5300 4300 5150 4300
+Wire Wire Line
+	6850 5150 7400 5150
+Connection ~ 7400 5150
+Wire Wire Line
+	7400 4600 6100 4600
+Connection ~ 7400 4600
+Wire Wire Line
+	5700 4600 6000 4600
+Wire Wire Line
+	5700 4600 5700 5150
+Connection ~ 5700 5150
+Wire Wire Line
+	1750 5150 1550 5150
+Connection ~ 1550 5150
+Wire Wire Line
+	1550 5650 1750 5650
+Connection ~ 1550 5650
+Wire Wire Line
+	1750 6000 1550 6000
+Connection ~ 1550 6000
+Wire Wire Line
+	1750 6900 1550 6900
+Connection ~ 1550 6900
+Wire Wire Line
+	3350 5800 6750 5800
+Wire Wire Line
+	5650 5800 5650 5350
+Wire Wire Line
+	5650 5350 6000 5350
+Connection ~ 5650 5800
+Wire Wire Line
+	6850 5800 7400 5800
+Connection ~ 7400 5800
+Wire Wire Line
+	6100 5350 7400 5350
+Connection ~ 7400 5350
+Wire Wire Line
+	3350 6150 6000 6150
+Wire Wire Line
+	6100 6150 7400 6150
+Connection ~ 7400 6150
+Wire Wire Line
+	5650 6150 5650 6900
+Wire Wire Line
+	5650 6650 6700 6650
+Connection ~ 5650 6150
+Wire Wire Line
+	6800 6650 7400 6650
+Connection ~ 7400 6650
+Wire Wire Line
+	5650 6900 5900 6900
+Connection ~ 5650 6650
+Wire Wire Line
+	6450 6900 6300 6900
+Wire Wire Line
+	6750 6900 7400 6900
+Connection ~ 7400 6900
+Wire Wire Line
+	3350 6800 3850 6800
+Wire Wire Line
+	3850 6800 3850 7450
+Wire Wire Line
+	2400 7450 4250 7450
+Connection ~ 3850 7450
+Wire Wire Line
+	1550 7850 1800 7850
+Wire Wire Line
+	1800 7450 1550 7450
+Connection ~ 1550 7450
+Wire Wire Line
+	3350 7000 3650 7000
+Wire Wire Line
+	3650 7000 3650 7850
+Wire Wire Line
+	2400 7850 4250 7850
+Connection ~ 3650 7850
+Wire Wire Line
+	4650 7850 7400 7850
+Connection ~ 7400 7850
+Wire Wire Line
+	4650 7450 7400 7450
+Connection ~ 7400 7450
+Connection ~ 4050 2550
+Wire Wire Line
+	6200 2550 7400 2550
+Connection ~ 7400 2550
+Wire Wire Line
+	5150 2550 6100 2550
+Wire Wire Line
+	4850 2550 4050 2550
+Wire Wire Line
+	1050 1400 900  1400
+Wire Wire Line
+	900  800  900  8950
+Connection ~ 900  1400
+Wire Wire Line
+	4350 1900 4050 1900
+Wire Wire Line
+	2900 2050 4050 2050
+Connection ~ 4050 2050
+Wire Wire Line
+	5300 3100 5300 3450
+Wire Wire Line
+	5300 3100 5650 3100
+$Comp
+L R R?
+U 1 1 582A8C66
+P 6400 3100
+F 0 "R?" V 6480 3100 50  0001 C CNN
+F 1 "680R" V 6500 3100 50  0000 C CNN
+F 2 "" V 6330 3100 50  0000 C CNN
+F 3 "" H 6400 3100 50  0000 C CNN
+	1    6400 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3100 6250 3100
+Wire Wire Line
+	6550 3100 7400 3100
+Connection ~ 7400 3100
+$Comp
+L LED D?
+U 1 1 582A8E65
+P 5850 1150
+F 0 "D?" H 5850 1250 50  0001 C CNN
+F 1 "Right Indicator" H 5850 1250 50  0000 C CNN
+F 2 "" H 5850 1150 50  0000 C CNN
+F 3 "" H 5850 1150 50  0000 C CNN
+	1    5850 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 582A8ECC
+P 6400 1150
+F 0 "R?" V 6480 1150 50  0001 C CNN
+F 1 "680R" V 6500 1150 50  0000 C CNN
+F 2 "" V 6330 1150 50  0000 C CNN
+F 3 "" H 6400 1150 50  0000 C CNN
+	1    6400 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1150 7400 1150
+Connection ~ 7400 1150
+Wire Wire Line
+	6250 1150 6050 1150
+Wire Wire Line
+	5650 1150 5300 1150
+Text Notes 3800 5075 0    60   ~ 0
+Running Lights
+$Comp
+L UrbieLightSwitch SW?
+U 1 1 58434A5C
+P 3250 6250
+F 0 "SW?" H 2550 5225 60  0001 C CNN
+F 1 "UrbieLightSwitch" H 2550 7625 60  0000 C CNN
+F 2 "" H 3600 5700 60  0001 C CNN
+F 3 "" H 3600 5700 60  0001 C CNN
+	1    3250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST Brake?
+U 1 2 586F32D3
+P 2000 2050
+F 0 "Brake?" H 2000 2200 60  0001 C CNN
+F 1 "Parking Brake" H 2000 1950 60  0000 C CNN
+F 2 "" H 2000 2050 60  0000 C CNN
+F 3 "" H 2000 2050 60  0000 C CNN
+	1    2000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 2050 1800 2050
+Wire Wire Line
+	2200 2050 2500 2050
+$EndSCHEMATC

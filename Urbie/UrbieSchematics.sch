@@ -1,0 +1,752 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:UrbieSchematics-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 1 6
+Title "Urbie - Gasoline Urban Concept"
+Date "2016-11-19"
+Rev "1.7"
+Comp "Cedarville University"
+Comment1 "Tineka Witt"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery BT?
+U 1 1 5745DF94
+P 6550 1100
+F 0 "BT?" V 6725 1100 50  0001 L CNN
+F 1 "Main Battery" V 6675 850 50  0000 L CNN
+F 2 "" V 6550 1140 50  0000 C CNN
+F 3 "" V 6550 1140 50  0000 C CNN
+	1    6550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5745E309
+P 1500 1000
+F 0 "#PWR?" H 1500 850 50  0001 C CNN
+F 1 "+12V" H 1500 1140 50  0000 C CNN
+F 2 "" H 1500 1000 50  0000 C CNN
+F 3 "" H 1500 1000 50  0000 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB1
+U 1 1 5745EB4B
+P 1850 1100
+F 0 "CB1" H 1850 1300 60  0000 C CNN
+F 1 "15A" H 1850 1000 60  0000 C CNN
+F 2 "" H 1850 1100 60  0000 C CNN
+F 3 "" H 1850 1100 60  0000 C CNN
+F 4 "Mouser" H 1850 1100 60  0001 C CNN "Distributor"
+	1    1850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB2
+U 1 1 5745ECAF
+P 1850 2400
+F 0 "CB2" H 1850 2600 60  0000 C CNN
+F 1 "5A" H 1850 2300 60  0000 C CNN
+F 2 "" H 1850 2400 60  0000 C CNN
+F 3 "" H 1850 2400 60  0000 C CNN
+F 4 "Mouser" H 1850 2400 60  0001 C CNN "Distributor"
+	1    1850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW1
+U 1 1 5745EFDC
+P 2550 1100
+F 0 "SW1" H 2550 1250 60  0000 C CNN
+F 1 "Master Power" H 2550 1000 60  0000 C CNN
+F 2 "" H 2550 1100 60  0000 C CNN
+F 3 "" H 2550 1100 60  0000 C CNN
+	1    2550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW2
+U 1 1 5745F17B
+P 2550 2400
+F 0 "SW2" H 2550 2550 60  0001 C CNN
+F 1 "Key" H 2550 2300 60  0000 C CNN
+F 2 "" H 2550 2400 60  0000 C CNN
+F 3 "" H 2550 2400 60  0000 C CNN
+	1    2550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW3
+U 1 1 5745F1FD
+P 3100 2400
+F 0 "SW3" H 3100 2550 60  0001 C CNN
+F 1 "External" H 3100 2300 60  0000 C CNN
+F 2 "" H 3100 2400 60  0000 C CNN
+F 3 "" H 3100 2400 60  0000 C CNN
+	1    3100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW4
+U 1 1 5745F230
+P 3650 2400
+F 0 "SW4" H 3650 2550 60  0001 C CNN
+F 1 "Driver" H 3650 2300 60  0000 C CNN
+F 2 "" H 3650 2400 60  0000 C CNN
+F 3 "" H 3650 2400 60  0000 C CNN
+	1    3650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_NO SW5
+U 1 1 5745FA2B
+P 4800 2400
+F 0 "SW5" H 4925 2550 60  0001 C CNN
+F 1 "Engine Start" H 4800 2300 60  0000 C CNN
+F 2 "" H 4800 2400 60  0000 C CNN
+F 3 "" H 4800 2400 60  0000 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CR CR1
+U 1 1 574604CA
+P 6700 2400
+F 0 "CR1" H 6700 2250 60  0000 C CNN
+F 1 "Starter" H 6700 2550 60  0000 C CNN
+F 2 "" H 6700 2400 60  0000 C CNN
+F 3 "" H 6700 2400 60  0000 C CNN
+F 4 "Mouser" H 6700 2400 60  0001 C CNN "Distributor"
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CR CR1
+U 2 1 57460537
+P 5900 1450
+F 0 "CR1" H 5900 1275 60  0000 C CNN
+F 1 "Starter" H 5900 1600 60  0000 C CNN
+F 2 "" H 5900 1450 60  0000 C CNN
+F 3 "" H 5900 1450 60  0000 C CNN
+	2    5900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 574B62AD
+P 6050 2800
+F 0 "D?" H 6050 2900 50  0001 C CNN
+F 1 "D" H 6050 2700 50  0001 C CNN
+F 2 "" H 6050 2800 50  0000 C CNN
+F 3 "" H 6050 2800 50  0000 C CNN
+	1    6050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 574B6632
+P 6500 2850
+F 0 "D?" H 6500 2750 50  0001 C CNN
+F 1 "Engine Start" H 6500 2950 50  0000 C CNN
+F 2 "" H 6500 2850 50  0000 C CNN
+F 3 "" H 6500 2850 50  0000 C CNN
+	1    6500 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CR CR3
+U 1 1 574B6FFB
+P 6700 3700
+F 0 "CR3" H 6700 3525 60  0000 C CNN
+F 1 "CR" H 6700 3450 60  0001 C CNN
+F 2 "" H 6700 3700 60  0000 C CNN
+F 3 "" H 6700 3700 60  0000 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CR CR3
+U 3 1 574B710A
+P 4800 3200
+F 0 "CR3" H 4800 3025 60  0000 C CNN
+F 1 "CR" H 4800 2950 60  0001 C CNN
+F 2 "" H 4800 3200 60  0000 C CNN
+F 3 "" H 4800 3200 60  0000 C CNN
+	3    4800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_NO SW6
+U 1 1 574B71D3
+P 4800 3700
+F 0 "SW6" H 4925 3850 60  0001 C CNN
+F 1 "Engine Stop" H 4800 3600 60  0000 C CNN
+F 2 "" H 4800 3700 60  0000 C CNN
+F 3 "" H 4800 3700 60  0000 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_NO SW?
+U 1 1 574B8F31
+P 2600 7150
+F 0 "SW?" H 2725 7300 60  0001 C CNN
+F 1 "Horn" H 2600 7050 60  0000 C CNN
+F 2 "" H 2600 7150 60  0000 C CNN
+F 3 "" H 2600 7150 60  0000 C CNN
+	1    2600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 574BA137
+P 5600 2100
+F 0 "D?" H 5600 2200 50  0001 C CNN
+F 1 "Drive Status" H 5600 2200 50  0000 C CNN
+F 2 "" H 5600 2100 50  0000 C CNN
+F 3 "" H 5600 2100 50  0000 C CNN
+	1    5600 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 574BA223
+P 5200 1900
+F 0 "D?" H 5200 2000 50  0001 C CNN
+F 1 "Power On" H 5200 2000 50  0000 C CNN
+F 2 "" H 5200 1900 50  0000 C CNN
+F 3 "" H 5200 1900 50  0000 C CNN
+	1    5200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R
+U 1 1 574BA2CD
+P 6000 2100
+F 0 "R" V 6080 2100 50  0001 C CNN
+F 1 "680R" V 5925 2100 50  0000 C CNN
+F 2 "" V 5930 2100 50  0000 C CNN
+F 3 "" H 6000 2100 50  0000 C CNN
+	1    6000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R
+U 1 1 574BA322
+P 6000 1900
+F 0 "R" V 6080 1900 50  0001 C CNN
+F 1 "680R" V 5925 1900 50  0000 C CNN
+F 2 "" V 5930 1900 50  0000 C CNN
+F 3 "" H 6000 1900 50  0000 C CNN
+	1    6000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 574BCF95
+P 6200 4250
+F 0 "D?" H 6200 4350 50  0001 C CNN
+F 1 "EFI on" H 6250 4150 50  0000 C CNN
+F 2 "" H 6200 4250 50  0000 C CNN
+F 3 "" H 6200 4250 50  0000 C CNN
+	1    6200 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 574BD060
+P 6650 4250
+F 0 "R?" V 6730 4250 50  0001 C CNN
+F 1 "680R" V 6575 4250 50  0000 C CNN
+F 2 "" V 6580 4250 50  0000 C CNN
+F 3 "" H 6650 4250 50  0000 C CNN
+	1    6650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SPDT SW?
+U 1 1 574BE58C
+P 3550 5150
+F 0 "SW?" H 3550 5050 60  0001 C CNN
+F 1 "O2 Switch" H 3550 5400 60  0000 C CNN
+F 2 "" H 3550 5150 60  0000 C CNN
+F 3 "" H 3550 5150 60  0000 C CNN
+	1    3550 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L O2_Sensor U?
+U 1 1 574BF13D
+P 6650 6300
+F 0 "U?" H 6650 5950 60  0001 C CNN
+F 1 "O2_Sensor" H 6650 6450 60  0000 C CNN
+F 2 "" H 6650 6300 60  0000 C CNN
+F 3 "" H 6650 6300 60  0000 C CNN
+	1    6650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RPM_Sensor U?
+U 1 1 574C7D55
+P 6650 5750
+F 0 "U?" H 6650 5500 60  0001 C CNN
+F 1 "RPM_Sensor" H 6650 5900 60  0000 C CNN
+F 2 "" H 6650 5750 60  0000 C CNN
+F 3 "" H 6650 5750 60  0000 C CNN
+	1    6650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuel_Injector L?
+U 1 1 574C922C
+P 6650 4850
+F 0 "L?" H 6650 4700 60  0001 C CNN
+F 1 "Fuel_Injector" H 6650 5000 60  0000 C CNN
+F 2 "" H 6650 4850 60  0000 C CNN
+F 3 "" H 6650 4850 60  0000 C CNN
+	1    6650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ignition U?
+U 1 1 574CABB8
+P 6650 5300
+F 0 "U?" H 6650 5150 60  0001 C CNN
+F 1 "Ignition" H 6650 5450 60  0000 C CNN
+F 2 "" H 6650 5300 60  0000 C CNN
+F 3 "" H 6650 5300 60  0000 C CNN
+	1    6650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 574CD77C
+P 7200 8850
+F 0 "#PWR?" H 7200 8600 50  0001 C CNN
+F 1 "GND" H 7200 8700 50  0000 C CNN
+F 2 "" H 7200 8850 50  0000 C CNN
+F 3 "" H 7200 8850 50  0000 C CNN
+	1    7200 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Horn SP?
+U 1 1 574CF991
+P 6700 7150
+F 0 "SP?" H 6700 7050 60  0001 C CNN
+F 1 "Horn" H 6700 7450 60  0000 C CNN
+F 2 "" H 6700 7150 60  0000 C CNN
+F 3 "" H 6700 7150 60  0000 C CNN
+	1    6700 7150
+	1    0    0    -1  
+$EndComp
+Text Label 4900 7150 2    60   ~ 0
+Horn
+Text Label 4100 3200 2    60   ~ 0
+Arm_Status
+Text Label 5950 2400 2    60   ~ 0
+Start_Engine
+Text Label 5950 3700 2    60   ~ 0
+Stop_Engine
+Text Label 4900 1900 2    60   ~ 0
+Power_On
+Text Label 4900 2100 2    60   ~ 0
+Drive_On
+Text Label 6000 3200 2    60   ~ 0
+Latch
+Text Label 5900 4250 2    60   ~ 0
+EFI_Power
+$Sheet
+S 4750 4450 1000 1600
+U 574C158D
+F0 "EFI Breakout" 60
+F1 "EFI_Breakout.sch" 60
+F2 "12v" U L 4750 4550 60 
+F3 "GND" U R 5750 4550 60 
+F4 "O2" U L 4750 5150 60 
+F5 "Inj_A" U R 5750 4800 60 
+F6 "Inj_B" U R 5750 4900 60 
+F7 "Ing_A" U R 5750 5050 60 
+F8 "Ing_B" U R 5750 5150 60 
+F9 "RPM_12v" U R 5750 5300 60 
+F10 "RPM_S" U R 5750 5400 60 
+F11 "RPM_GND" U R 5750 5500 60 
+F12 "O2_12v" U R 5750 5650 60 
+F13 "O2_S" U R 5750 5750 60 
+F14 "O2_Cal" U R 5750 5850 60 
+F15 "O2_GND" U R 5750 5950 60 
+$EndSheet
+$Comp
+L 4P_Relay CR2
+U 1 1 57A033A7
+P 6700 3200
+F 0 "CR2" H 6700 3025 60  0000 C CNN
+F 1 "4P_Relay" H 6700 2950 60  0000 C CNN
+F 2 "" H 6700 3200 60  0000 C CNN
+F 3 "" H 6700 3200 60  0000 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR2
+U 2 1 57A034BE
+P 2550 4550
+F 0 "CR2" H 2550 4375 60  0000 C CNN
+F 1 "4P_Relay" H 2550 4300 60  0000 C CNN
+F 2 "" H 2550 4550 60  0000 C CNN
+F 3 "" H 2550 4550 60  0000 C CNN
+	2    2550 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4P_Relay CR2
+U 4 1 57A04179
+P 5400 3200
+F 0 "CR2" H 5400 3025 60  0000 C CNN
+F 1 "4P_Relay" H 5400 2950 60  0000 C CNN
+F 2 "" H 5400 3200 60  0000 C CNN
+F 3 "" H 5400 3200 60  0000 C CNN
+	4    5400 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Motor M
+U 1 1 57A0B372
+P 6550 1450
+F 0 "M" H 6550 1450 60  0000 C CNN
+F 1 "Starter Motor" H 6550 1250 60  0000 C CNN
+F 2 "" H 6550 1450 60  0000 C CNN
+F 3 "" H 6550 1450 60  0000 C CNN
+F 4 "Mouser" H 6550 1450 60  0001 C CNN "Distributor"
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 732  9253 768  1047
+U 57A204AA
+F0 "Page 2" 60
+F1 "Urbie-p2.sch" 60
+$EndSheet
+$Comp
+L +12V #PWR?
+U 1 1 574D131E
+P 1500 8800
+F 0 "#PWR?" H 1500 8650 50  0001 C CNN
+F 1 "+12V" H 1500 8940 50  0000 C CNN
+F 2 "" H 1500 8800 50  0000 C CNN
+F 3 "" H 1500 8800 50  0000 C CNN
+	1    1500 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CB CB3
+U 1 1 57DF0115
+P 1850 4550
+F 0 "CB3" H 1850 4750 60  0000 C CNN
+F 1 "5A" H 1850 4450 60  0000 C CNN
+F 2 "" H 1850 4550 60  0000 C CNN
+F 3 "" H 1850 4550 60  0000 C CNN
+F 4 "Mouser" H 1850 4550 60  0001 C CNN "Distributor"
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB4
+U 1 1 57DF042F
+P 1950 7150
+F 0 "CB4" H 1950 7350 60  0000 C CNN
+F 1 "5A" H 1950 7050 60  0000 C CNN
+F 2 "" H 1950 7150 60  0000 C CNN
+F 3 "" H 1950 7150 60  0000 C CNN
+F 4 "Mouser" H 1950 7150 60  0001 C CNN "Distributor"
+	1    1950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 57DF1B80
+P 2600 7550
+F 0 "SW?" H 2600 7700 60  0001 C CNN
+F 1 "Wiper" H 2600 7450 60  0000 C CNN
+F 2 "" H 2600 7550 60  0000 C CNN
+F 3 "" H 2600 7550 60  0000 C CNN
+	1    2600 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1100 6400 1100
+Wire Wire Line
+	2000 1100 2350 1100
+Wire Wire Line
+	1500 1100 1700 1100
+Wire Wire Line
+	1500 1000 1500 8800
+Connection ~ 1500 1100
+Wire Wire Line
+	2000 2400 2350 2400
+Wire Wire Line
+	2750 2400 2900 2400
+Wire Wire Line
+	3300 2400 3450 2400
+Wire Wire Line
+	6700 1100 7200 1100
+Wire Wire Line
+	1500 2400 1700 2400
+Connection ~ 1500 2400
+Wire Wire Line
+	5000 2400 6500 2400
+Wire Wire Line
+	3850 2400 4600 2400
+Wire Wire Line
+	6300 2850 6300 2850
+Wire Wire Line
+	6300 2850 6300 2400
+Connection ~ 6300 2400
+Wire Wire Line
+	6050 2650 6050 2400
+Connection ~ 6050 2400
+Wire Wire Line
+	5550 3200 6500 3200
+Wire Wire Line
+	6050 2950 6050 3200
+Connection ~ 6050 3200
+Wire Wire Line
+	5000 3700 6500 3700
+Wire Wire Line
+	4200 3700 4600 3700
+Wire Wire Line
+	7200 2400 6900 2400
+Connection ~ 7200 2400
+Connection ~ 7200 2850
+Wire Wire Line
+	7200 3200 6900 3200
+Connection ~ 7200 3200
+Wire Wire Line
+	7200 3700 6900 3700
+Connection ~ 7200 3700
+Connection ~ 2150 2400
+Wire Wire Line
+	5400 1900 5850 1900
+Wire Wire Line
+	5800 2100 5850 2100
+Wire Wire Line
+	4200 2100 5400 2100
+Wire Wire Line
+	5000 1900 2150 1900
+Wire Wire Line
+	7200 1900 6150 1900
+Connection ~ 7200 1900
+Wire Wire Line
+	7200 2100 6150 2100
+Connection ~ 7200 2100
+Wire Wire Line
+	2000 4550 2400 4550
+Wire Wire Line
+	2700 4550 4750 4550
+Wire Wire Line
+	3000 4250 3000 5050
+Wire Wire Line
+	3000 4250 6000 4250
+Wire Wire Line
+	3000 5050 3350 5050
+Connection ~ 3000 4550
+Wire Wire Line
+	3350 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 4550
+Connection ~ 2200 4550
+Wire Wire Line
+	6400 4250 6500 4250
+Wire Wire Line
+	7200 4250 6800 4250
+Wire Wire Line
+	6000 6250 6000 5650
+Wire Wire Line
+	6000 5650 5750 5650
+Wire Wire Line
+	5750 5750 5950 5750
+Wire Wire Line
+	5950 5750 5950 6350
+Wire Wire Line
+	5950 6350 6350 6350
+Wire Wire Line
+	6350 6450 5900 6450
+Wire Wire Line
+	5900 6450 5900 5850
+Wire Wire Line
+	5900 5850 5750 5850
+Wire Wire Line
+	6350 6550 5850 6550
+Wire Wire Line
+	5850 6550 5850 5950
+Wire Wire Line
+	5850 5950 5750 5950
+Wire Wire Line
+	3750 5150 4750 5150
+Wire Wire Line
+	6000 6250 6350 6250
+Wire Wire Line
+	7200 4550 5750 4550
+Wire Wire Line
+	5750 5300 6200 5300
+Wire Wire Line
+	5750 5400 6150 5400
+Wire Wire Line
+	5750 5500 6100 5500
+Wire Wire Line
+	6200 5300 6200 5700
+Wire Wire Line
+	6350 5800 6150 5800
+Wire Wire Line
+	6150 5800 6150 5400
+Wire Wire Line
+	6350 5900 6100 5900
+Wire Wire Line
+	6100 5900 6100 5500
+Wire Wire Line
+	5750 5050 6350 5050
+Wire Wire Line
+	5750 5150 6300 5150
+Wire Wire Line
+	6200 5700 6350 5700
+Wire Wire Line
+	6350 5050 6350 5250
+Wire Wire Line
+	6300 5350 6350 5350
+Wire Wire Line
+	6300 5150 6300 5350
+Wire Wire Line
+	6350 4800 5750 4800
+Wire Wire Line
+	5750 4900 6350 4900
+Wire Wire Line
+	7200 7150 6750 7150
+Wire Wire Line
+	7200 1100 7200 8850
+Wire Wire Line
+	4200 2100 4200 3700
+Connection ~ 4200 2400
+Connection ~ 4200 3200
+Wire Wire Line
+	4950 3200 5250 3200
+Wire Wire Line
+	4100 3200 4650 3200
+Wire Wire Line
+	5750 1450 5500 1450
+Wire Wire Line
+	5500 1450 5500 1100
+Connection ~ 5500 1100
+Wire Wire Line
+	6250 1450 6050 1450
+Wire Wire Line
+	6850 1450 7200 1450
+Connection ~ 7200 1450
+Wire Wire Line
+	2150 1900 2150 2400
+Wire Wire Line
+	48150 7100 48150 -23100
+Wire Wire Line
+	6800 7550 7200 7550
+Connection ~ 7200 7550
+Wire Wire Line
+	1700 4550 1500 4550
+Connection ~ 1500 4550
+Wire Wire Line
+	1500 7150 1800 7150
+Connection ~ 1500 7150
+Wire Wire Line
+	2100 7150 2400 7150
+Wire Wire Line
+	2800 7150 6650 7150
+Wire Wire Line
+	2250 7150 2250 7850
+Connection ~ 2250 7150
+Wire Wire Line
+	2250 7550 2400 7550
+Wire Wire Line
+	2800 7550 6200 7550
+Wire Wire Line
+	2250 7850 6050 7850
+Connection ~ 2250 7550
+$Sheet
+S 1650 9250 750  1050
+U 57DF722A
+F0 "Lights" 60
+F1 "Lights.sch" 60
+$EndSheet
+$Comp
+L R R?
+U 1 1 5828560B
+P 6900 2850
+F 0 "R?" V 6980 2850 50  0001 C CNN
+F 1 "680R" V 6825 2850 50  0000 C CNN
+F 2 "" V 6830 2850 50  0000 C CNN
+F 3 "" H 6900 2850 50  0000 C CNN
+	1    6900 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2850 6700 2850
+Wire Wire Line
+	7050 2850 7200 2850
+Connection ~ 7200 4250
+Connection ~ 7200 4550
+Text Notes 3025 2650 0    60   ~ 0
+Kill
+Text Notes 3550 2650 0    60   ~ 0
+Kill
+Text Notes 3175 5025 0    60   ~ 0
+Auto
+Text Notes 3125 5325 0    60   ~ 0
+Man
+$Comp
+L Motor M?
+U 1 1 5843533C
+P 6500 7550
+F 0 "M?" H 6500 7550 60  0000 C CNN
+F 1 "Motor" H 6500 7350 60  0000 C CNN
+F 2 "" H 6500 7550 60  0000 C CNN
+F 3 "" H 6500 7550 60  0000 C CNN
+	1    6500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7850 6250 7650
+$EndSCHEMATC
