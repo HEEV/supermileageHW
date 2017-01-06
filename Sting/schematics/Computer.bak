@@ -176,14 +176,10 @@ Wire Wire Line
 	5450 5800 5550 5800
 Wire Wire Line
 	5550 4750 5450 4750
-Wire Wire Line
-	2450 4350 2450 4350
 Text Label 3300 4450 2    60   ~ 0
 System_V
-Wire Wire Line
-	1800 4450 3350 4450
 Text HLabel 1800 4450 0    60   Input ~ 0
 System_V
 Wire Wire Line
-	2500 4450 2500 4450
+	1800 4450 3350 4450
 $EndSCHEMATC
