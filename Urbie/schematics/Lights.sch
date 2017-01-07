@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:UrbieSchematics-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -678,7 +679,7 @@ Wire Wire Line
 Text Notes 3800 5075 0    60   ~ 0
 Running Lights
 $Comp
-L UrbieLightSwitch SW?
+L UrbieLightSwitch-RESCUE-UrbieSchematics SW?
 U 1 1 58434A5C
 P 3250 6250
 F 0 "SW?" H 2550 5225 60  0001 C CNN

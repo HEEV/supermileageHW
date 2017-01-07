@@ -45,19 +45,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3450 3500 0    60   Input ~ 0
-L1-LeftBlink
+L1:LtBlink
 Text HLabel 3450 3700 0    60   Input ~ 0
-L3-RightBlink
+L3:RtBlink
 Text HLabel 3450 3600 0    60   Input ~ 0
-L2-Brights
+L2:Brights
 Text HLabel 3450 3800 0    60   Input ~ 0
-L4-DVEnb
+L4:DrvEn
 Text HLabel 3450 3900 0    60   Input ~ 0
-L5-PwrOn
+L5:PwrOn
 Text HLabel 3450 4000 0    60   Input ~ 0
-L6-O2
+L6:O2
 Text HLabel 3450 4100 0    60   Input ~ 0
-L7-EFI
+L7:EFI
 $Comp
 L LED D?
 U 1 1 57EFD4D4
@@ -146,7 +146,7 @@ Wire Wire Line
 	5550 5350 5200 5350
 Connection ~ 5550 5050
 Text HLabel 3450 4300 0    60   Output ~ 0
-L9-GND
+L9:GND
 Connection ~ 5550 3500
 Wire Wire Line
 	4050 3500 4800 3500

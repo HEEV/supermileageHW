@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:UrbieSchematics-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -305,7 +306,7 @@ L SW_SPDT SW?
 U 1 1 574BE58C
 P 3550 5150
 F 0 "SW?" H 3550 5050 60  0001 C CNN
-F 1 "O2 Switch" H 3550 5400 60  0000 C CNN
+F 1 "O2 Switch" H 3550 5450 60  0000 C CNN
 F 2 "" H 3550 5150 60  0000 C CNN
 F 3 "" H 3550 5150 60  0000 C CNN
 	1    3550 5150
@@ -732,9 +733,9 @@ Text Notes 3025 2650 0    60   ~ 0
 Kill
 Text Notes 3550 2650 0    60   ~ 0
 Kill
-Text Notes 3175 5025 0    60   ~ 0
+Text Notes 3150 5000 0    60   ~ 0
 Auto
-Text Notes 3125 5325 0    60   ~ 0
+Text Notes 3150 5350 0    60   ~ 0
 Man
 $Comp
 L Motor M?

@@ -86,15 +86,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 2750 5450 2750
 Wire Wire Line
-	6050 1750 6250 1750
+	6050 1750 7200 1750
 Wire Wire Line
-	6250 1750 7200 1750
-Wire Wire Line
-	6250 1750 6250 2050
-Wire Wire Line
-	6250 2050 6250 2250
-Wire Wire Line
-	6250 2250 6250 2750
+	6250 1750 6250 2750
 Wire Wire Line
 	6250 2050 6050 2050
 Wire Wire Line
@@ -105,17 +99,17 @@ Wire Wire Line
 Connection ~ 6250 2250
 Connection ~ 6250 1750
 Text HLabel 7200 1750 2    60   Input ~ 0
-Sa1-PowerLights
+Sa1:MainLights
 Text HLabel 7200 2550 2    60   Input ~ 0
-Sa2-Brights
+Sa2:Brights
 Text HLabel 7200 2350 2    60   Input ~ 0
-Sa3-Head
+Sa3:Head
 Text HLabel 7200 2150 2    60   Input ~ 0
-Sa4-Running
+Sa4:Running
 Text HLabel 7200 1950 2    60   Input ~ 0
-Sa5-RtBlink
+Sa5:RtBlink
 Text HLabel 7200 1850 2    60   Input ~ 0
-Sa6-LftBlnk
+Sa6:LftBlnk
 Wire Wire Line
 	6050 2550 7200 2550
 Wire Wire Line

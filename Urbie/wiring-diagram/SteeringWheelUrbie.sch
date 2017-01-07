@@ -48,8 +48,8 @@ $Comp
 L SW_NO SW?
 U 1 1 57EFE3D4
 P 3750 2350
-F 0 "SW?" H 3875 2500 60  0000 C CNN
-F 1 "SW_NO" H 3750 2250 60  0000 C CNN
+F 0 "SW?" H 3875 2500 60  0001 C CNN
+F 1 "Engine Start" H 3750 2650 60  0000 C CNN
 F 2 "" H 3750 2350 60  0000 C CNN
 F 3 "" H 3750 2350 60  0000 C CNN
 	1    3750 2350
@@ -59,8 +59,8 @@ $Comp
 L SW_NO SW?
 U 1 1 57EFE3F8
 P 5050 2350
-F 0 "SW?" H 5175 2500 60  0000 C CNN
-F 1 "SW_NO" H 5050 2250 60  0000 C CNN
+F 0 "SW?" H 5175 2500 60  0001 C CNN
+F 1 "Engine Stop" H 5050 2650 60  0000 C CNN
 F 2 "" H 5050 2350 60  0000 C CNN
 F 3 "" H 5050 2350 60  0000 C CNN
 	1    5050 2350
@@ -70,53 +70,47 @@ $Comp
 L SW_NO SW?
 U 1 1 57EFE423
 P 4450 3100
-F 0 "SW?" H 4575 3250 60  0000 C CNN
-F 1 "SW_NO" H 4450 3000 60  0000 C CNN
+F 0 "SW?" H 4575 3250 60  0001 C CNN
+F 1 "Horn" H 4450 3400 60  0000 C CNN
 F 2 "" H 4450 3100 60  0000 C CNN
 F 3 "" H 4450 3100 60  0000 C CNN
 	1    4450 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 3450 1900 0    60   ~ 0
-Engine Start
-Text Notes 4850 2000 0    60   ~ 0
-Engine Stop
-Text Notes 4350 2800 0    60   ~ 0
-Horn
 Wire Wire Line
-	4850 2350 4850 2550
-Wire Wire Line
-	4850 2550 3950 2550
+	4850 2550 4850 2350
 Wire Wire Line
 	3950 2350 3950 4150
 Text HLabel 1750 4150 0    60   Input ~ 0
-Sb2-EsPower
-Text HLabel 1750 4350 0    60   Input ~ 0
-Sb3-Horn
-Text HLabel 7000 4450 2    60   Output ~ 0
-Sb1-EngineStop
-Text HLabel 7000 4600 2    60   Output ~ 0
-Sb4-Horn
-Text HLabel 7000 4750 2    60   Output ~ 0
-Sb5-EngineStart
+Sb2:DrvEn
+Text HLabel 1750 4250 0    60   Input ~ 0
+Sb3:HornPWR
+Text HLabel 1750 4050 0    60   Output ~ 0
+Sb1:EStop
+Text HLabel 1750 4350 0    60   Output ~ 0
+Sb4:Horn
+Text HLabel 1750 4450 0    60   Output ~ 0
+Sb5:EStart
 Wire Wire Line
-	7000 4750 3550 4750
+	3550 4450 3550 2350
 Wire Wire Line
-	3550 4750 3550 2350
+	4250 4350 4250 3100
 Wire Wire Line
-	3550 2350 3600 2350
+	5250 4050 5250 2350
 Wire Wire Line
-	7000 4600 4250 4600
+	4650 4250 4650 3100
 Wire Wire Line
-	4250 4600 4250 3100
-Wire Wire Line
-	7000 4450 5250 4450
-Wire Wire Line
-	5250 4450 5250 2350
-Wire Wire Line
-	4650 4350 4650 3100
-Wire Wire Line
-	1750 4350 4650 4350
+	1750 4250 4650 4250
 Wire Wire Line
 	3950 4150 1750 4150
+Wire Wire Line
+	4050 2550 4850 2550
+Wire Wire Line
+	4050 2550 3950 2350
+Wire Wire Line
+	5250 4050 1750 4050
+Wire Wire Line
+	4250 4350 1750 4350
+Wire Wire Line
+	3550 4450 1750 4450
 $EndSCHEMATC
