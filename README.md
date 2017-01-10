@@ -12,4 +12,9 @@ Kicad files for PCBs on the Ceaderville Supermileage team.
     * pressure_sensor: Pressure sensor board, output as an analog voltage. 
 	Supported sensors are the Honeywell ASDX100A24R, Honeywell HSCDRR004MD, and the
 	AllSensors G4V-Mini.
-    * Sting: wiring diagrams and schematics for Sting.
+    * Sting: wiring diagrams and schematics for Sting produced using Kicad.
+        * wiring diagrams: kicad files for the wiring diagrams.
+	* schematics: kicad files for the schematics
+    * Urbie: wiring diagrams and schematics for Urbie produced using Kicad.
+    	* wiring diagrams: kicad files for the wiring diagrams.
+	* schematics: kicad files for the schematics
