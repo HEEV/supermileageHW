@@ -48,12 +48,12 @@ $EndDescr
 $Comp
 L HSCDRR004MD U1
 U 1 1 58023AC1
-P 6850 5450
-F 0 "U1" H 6850 5150 60  0000 C CNN
-F 1 "HSCDRR004MD" H 6850 5750 60  0000 C CNN
-F 2 "supermileage:DIP-8" H 6100 6000 60  0001 C CNN
-F 3 "" H 6100 6000 60  0000 C CNN
-	1    6850 5450
+P 7375 5450
+F 0 "U1" H 7375 5150 60  0000 C CNN
+F 1 "HSCDRR004MD" H 7375 5750 60  0000 C CNN
+F 2 "supermileage:DIP-8" H 6625 6000 60  0001 C CNN
+F 3 "" H 6625 6000 60  0000 C CNN
+	1    7375 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -70,57 +70,57 @@ $EndComp
 $Comp
 L C C1
 U 1 1 58023C8B
-P 7600 5450
-F 0 "C1" H 7625 5550 50  0000 L CNN
-F 1 "0.1uf" H 7625 5350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7638 5300 50  0001 C CNN
-F 3 "" H 7600 5450 50  0000 C CNN
-F 4 "Mouser" H 7600 5450 60  0001 C CNN "Distributor"
-	1    7600 5450
+P 8125 5450
+F 0 "C1" H 8150 5550 50  0000 L CNN
+F 1 "0.1uf" H 8150 5350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8163 5300 50  0001 C CNN
+F 3 "" H 8125 5450 50  0000 C CNN
+F 4 "Mouser" H 8125 5450 60  0001 C CNN "Distributor"
+	1    8125 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 58023D54
-P 7900 5450
-F 0 "C2" H 7925 5550 50  0000 L CNN
-F 1 "10uf" H 7925 5350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7938 5300 50  0001 C CNN
-F 3 "" H 7900 5450 50  0000 C CNN
-	1    7900 5450
+P 8425 5450
+F 0 "C2" H 8450 5550 50  0000 L CNN
+F 1 "10uf" H 8450 5350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8463 5300 50  0001 C CNN
+F 3 "" H 8425 5450 50  0000 C CNN
+	1    8425 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
 U 1 1 58023E59
-P 7750 5700
-F 0 "#PWR01" H 7750 5450 50  0001 C CNN
-F 1 "GND" H 7750 5550 50  0000 C CNN
-F 2 "" H 7750 5700 50  0000 C CNN
-F 3 "" H 7750 5700 50  0000 C CNN
-	1    7750 5700
+P 8275 5700
+F 0 "#PWR01" H 8275 5450 50  0001 C CNN
+F 1 "GND" H 8275 5550 50  0000 C CNN
+F 2 "" H 8275 5700 50  0000 C CNN
+F 3 "" H 8275 5700 50  0000 C CNN
+	1    8275 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR02
 U 1 1 58023EE3
-P 7750 5200
-F 0 "#PWR02" H 7750 5050 50  0001 C CNN
-F 1 "+3.3V" H 7750 5340 50  0000 C CNN
-F 2 "" H 7750 5200 50  0000 C CNN
-F 3 "" H 7750 5200 50  0000 C CNN
-	1    7750 5200
+P 8275 5200
+F 0 "#PWR02" H 8275 5050 50  0001 C CNN
+F 1 "+3.3V" H 8275 5340 50  0000 C CNN
+F 2 "" H 8275 5200 50  0000 C CNN
+F 3 "" H 8275 5200 50  0000 C CNN
+	1    8275 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR03
 U 1 1 58023F26
-P 6300 5250
-F 0 "#PWR03" H 6300 5100 50  0001 C CNN
-F 1 "+3.3V" H 6300 5390 50  0000 C CNN
-F 2 "" H 6300 5250 50  0000 C CNN
-F 3 "" H 6300 5250 50  0000 C CNN
-	1    6300 5250
+P 6825 5250
+F 0 "#PWR03" H 6825 5100 50  0001 C CNN
+F 1 "+3.3V" H 6825 5390 50  0000 C CNN
+F 2 "" H 6825 5250 50  0000 C CNN
+F 3 "" H 6825 5250 50  0000 C CNN
+	1    6825 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -148,17 +148,17 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 58024526
-P 6400 5750
-F 0 "#PWR06" H 6400 5500 50  0001 C CNN
-F 1 "GND" H 6400 5600 50  0000 C CNN
-F 2 "" H 6400 5750 50  0000 C CNN
-F 3 "" H 6400 5750 50  0000 C CNN
-	1    6400 5750
+P 6925 5750
+F 0 "#PWR06" H 6925 5500 50  0001 C CNN
+F 1 "GND" H 6925 5600 50  0000 C CNN
+F 2 "" H 6925 5750 50  0000 C CNN
+F 3 "" H 6925 5750 50  0000 C CNN
+	1    6925 5750
 	1    0    0    -1  
 $EndComp
 Text Label 2800 4350 2    60   ~ 0
 Out
-Text Label 6300 5500 0    60   ~ 0
+Text Label 6825 5500 0    60   ~ 0
 Out
 $Comp
 L TEST_1P W1
@@ -275,8 +275,8 @@ F 4 "Mouser" H 5200 3950 60  0001 C CNN "Distributor"
 $EndComp
 Text Notes 3650 2600 0    60   ~ 0
 Mounting Holes
-Text Notes 700  1400 0    60   ~ 0
-Comments:\n\nQ1 and Q2 are reverse polarity protection transistors. They are P-Channel\nMosfets, so they have a very small resistance when on. \nCare should be taken in their selection so that their V-GS threshold is\nunder 1v\n\nU2 is a 5v regulator for the 5v pressure transducer. The output of U3 \ngoes through a selectable attenuator for a full 5v output or a 3.3v output.
+Text Notes 650  1900 0    60   ~ 0
+Comments:\n\nQ1 and Q2 are reverse polarity protection transistors. They are P-Channel\nMosfets, so they have a very small resistance when on. \nCare should be taken in their selection so that their V-GS threshold is\nunder 1v\n\nU2 is a 5v regulator for the 5v pressure transducer. The output of U3 \ngoes through a selectable attenuator for a full 5v output or a 3.3v output.\n\nThere are positions for three pressure transducers on this board; \nhowever only one of them can be populated at a time. The top two\ntransducers are 5v and have a selectable attenuator for using with a\n3.3v microcontroller. The bottom transducer is 3.3v.
 Text Notes 2100 4000 0    60   ~ 0
 Molex DuraClik
 $Comp
@@ -291,7 +291,7 @@ F 3 "" H 6350 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 5900 2500 0    60   ~ 0
-Attenuator Selector
+5v->3.3v Attenuator Select
 $Comp
 L +5V #PWR08
 U 1 1 58099C74
@@ -332,7 +332,7 @@ L R R1
 U 1 1 5809A0C0
 P 6250 3150
 F 0 "R1" V 6330 3150 50  0000 C CNN
-F 1 "1k8" V 6250 3150 50  0000 C CNN
+F 1 "1k" V 6250 3150 47  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 3150 50  0001 C CNN
 F 3 "" H 6250 3150 50  0000 C CNN
 	1    6250 3150
@@ -343,7 +343,7 @@ L R R2
 U 1 1 5809A167
 P 6250 3550
 F 0 "R2" V 6330 3550 50  0000 C CNN
-F 1 "8k2" V 6250 3550 50  0000 C CNN
+F 1 "2k" V 6250 3550 47  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 3550 50  0001 C CNN
 F 3 "" H 6250 3550 50  0000 C CNN
 	1    6250 3550
@@ -352,23 +352,23 @@ $EndComp
 Text Label 6050 3350 0    60   ~ 0
 Out
 Wire Wire Line
-	7600 5600 7600 5650
+	8125 5600 8125 5650
 Wire Wire Line
-	7600 5650 7900 5650
+	8125 5650 8425 5650
 Wire Wire Line
-	7900 5650 7900 5600
+	8425 5650 8425 5600
 Wire Wire Line
-	7750 5700 7750 5650
-Connection ~ 7750 5650
+	8275 5700 8275 5650
+Connection ~ 8275 5650
 Wire Wire Line
-	7600 5300 7600 5250
+	8125 5300 8125 5250
 Wire Wire Line
-	7600 5250 7900 5250
+	8125 5250 8425 5250
 Wire Wire Line
-	7900 5250 7900 5300
+	8425 5250 8425 5300
 Wire Wire Line
-	7750 5200 7750 5250
-Connection ~ 7750 5250
+	8275 5200 8275 5250
+Connection ~ 8275 5250
 Wire Wire Line
 	2650 4350 2800 4350
 Wire Wire Line
@@ -380,11 +380,11 @@ Wire Wire Line
 Wire Wire Line
 	3450 5050 3450 5100
 Wire Wire Line
-	6400 5750 6400 5600
+	6925 5750 6925 5600
 Wire Wire Line
-	6400 5600 6450 5600
+	6925 5600 6975 5600
 Wire Wire Line
-	6300 5500 6450 5500
+	6825 5500 6975 5500
 Wire Wire Line
 	3100 4750 3250 4750
 Wire Wire Line
@@ -527,6 +527,8 @@ F 0 "Q1" V 3350 3900 50  0000 R CNN
 F 1 "Q_PMOS_GSD" V 3700 4000 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3650 3850 50  0001 C CNN
 F 3 "" H 3450 3750 50  0000 C CNN
+F 4 "Mouser" H 3450 3750 60  0001 C CNN "Distributor"
+F 5 "NTR3A30PZT1G" H 3450 3750 60  0001 C CNN "PN"
 	1    3450 3750
 	0    -1   -1   0   
 $EndComp
@@ -540,12 +542,14 @@ F 0 "Q2" V 3350 5000 50  0000 R CNN
 F 1 "Q_PMOS_GSD" V 3700 5150 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3650 4950 50  0001 C CNN
 F 3 "" H 3450 4850 50  0000 C CNN
+F 4 "Mouser" H 3450 4850 60  0001 C CNN "Distributor"
+F 5 "NTR3A30PZT1G" H 3450 4850 60  0001 C CNN "PN"
 	1    3450 4850
 	0    -1   -1   0   
 $EndComp
-Text Notes 6350 4950 0    60   ~ 0
+Text Notes 6875 4950 0    60   ~ 0
 3.3V differential pressure transducer
-Text Notes 6550 2300 0    60   ~ 0
+Text Notes 7000 2750 0    60   ~ 0
 5V absolute pressure transducer
 $Comp
 L +3.3V #PWR013
@@ -561,9 +565,9 @@ $EndComp
 Wire Wire Line
 	3800 4750 3650 4750
 Wire Wire Line
-	6450 5400 6300 5400
+	6975 5400 6825 5400
 Wire Wire Line
-	6300 5400 6300 5250
+	6825 5400 6825 5250
 Wire Wire Line
 	6450 2950 6450 3050
 $Comp

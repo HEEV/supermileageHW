@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 9
+Sheet 6 13
 Title "Urbie - Relay Box"
 Date "2017-01-06"
 Rev "1.2"
@@ -213,9 +213,9 @@ Text Label 3075 3425 2    60   ~ 0
 Orn:Throt_Sig
 Text Label 3075 3525 2    60   ~ 0
 Red:Throt_PWR
-Text HLabel 9750 4750 2    60   Input ~ 0
+Text HLabel 9750 5475 2    60   Input ~ 0
 MP_1
-Text HLabel 9750 4850 2    60   Input ~ 0
+Text HLabel 9750 5775 2    60   Input ~ 0
 MP_2
 Text Label 8225 1125 0    60   ~ 0
 Gray:Comp_PWR
@@ -489,6 +489,278 @@ Text Label 6175 6500 1    60   ~ 0
 O_Grn:DrvEn
 Text Label 6375 6500 1    60   ~ 0
 O_Grn:ArmStatus
+Text Label 6275 6500 1    60   ~ 0
+O_Grn:DrvEn
+Text Label 8225 4175 0    60   ~ 0
+Rear_L_Turn
+Text Label 8225 4075 0    60   ~ 0
+Rear_R_Turn
+Text Label 8225 3975 0    60   ~ 0
+Grn:Start_Light
+Text Label 4825 6500 1    60   ~ 0
+Pur:Rear_Brake
+Text Label 8225 4275 0    60   ~ 0
+Pur:Rear_Brake
+Text Label 6675 6500 1    60   ~ 0
+Pink:O2_Auto
+$Comp
+L CONN_01X12 P?
+U 1 1 5870DD6B
+P 1975 2975
+F 0 "P?" H 1975 3625 50  0001 C CNN
+F 1 "Engine" H 2050 3675 50  0001 C CNN
+F 2 "" H 1975 2975 50  0000 C CNN
+F 3 "" H 1975 2975 50  0000 C CNN
+	1    1975 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 5870DD71
+P 1825 2975
+F 0 "P?" H 1825 3625 50  0001 C CNN
+F 1 "Steering Col 2" H 1900 3650 50  0000 C CNN
+F 2 "" H 1825 2975 50  0000 C CNN
+F 3 "" H 1825 2975 50  0000 C CNN
+	1    1825 2975
+	1    0    0    -1  
+$EndComp
+Text Label 7725 3975 1    60   ~ 0
+White:EFI_Power
+Text Label 3075 1725 2    60   ~ 0
+L_Blu:EFI_PWR
+Text Label 7675 5850 3    60   ~ 0
+L_Blu:EFI_PWR
+Text Label 7625 3975 1    60   ~ 0
+White:EFI_On
+$Comp
+L CONN_01X12 P?
+U 1 1 58715B73
+P 1975 1475
+F 0 "P?" H 1975 2125 50  0001 C CNN
+F 1 "Engine" H 2050 2175 50  0001 C CNN
+F 2 "" H 1975 1475 50  0000 C CNN
+F 3 "" H 1975 1475 50  0000 C CNN
+	1    1975 1475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 58715B79
+P 1825 1475
+F 0 "P?" H 1825 2125 50  0001 C CNN
+F 1 "Steering Col 1" H 1900 2150 50  0000 C CNN
+F 2 "" H 1825 1475 50  0000 C CNN
+F 3 "" H 1825 1475 50  0000 C CNN
+	1    1825 1475
+	1    0    0    -1  
+$EndComp
+Text Label 3375 2675 0    60   ~ 0
+Blk:GND
+Text Label 3375 2575 0    60   ~ 0
+Blk:GND
+Text Label 3375 2475 0    60   ~ 0
+Blk:GND
+Text Label 3375 2375 0    60   ~ 0
+Blk:GND
+Text Label 7900 2475 2    60   ~ 0
+Blk_GND
+Text Label 7900 2575 2    60   ~ 0
+Blk_GND
+Text Label 7900 2675 2    60   ~ 0
+Blk_GND
+Entry Wire Line
+	8050 4175 8150 4275
+Entry Wire Line
+	8050 4075 8150 4175
+Entry Wire Line
+	8050 3975 8150 4075
+Entry Wire Line
+	8050 3875 8150 3975
+Entry Wire Line
+	8050 3425 8150 3525
+Entry Wire Line
+	8050 3325 8150 3425
+Entry Wire Line
+	8050 3025 8150 3125
+Entry Wire Line
+	8050 2425 8150 2525
+Entry Wire Line
+	8050 2325 8150 2425
+Entry Wire Line
+	8050 2025 8150 2125
+Entry Wire Line
+	8050 1725 8150 1825
+Entry Wire Line
+	8050 1625 8150 1725
+Entry Wire Line
+	8050 1525 8150 1625
+Entry Wire Line
+	8050 1425 8150 1525
+Entry Wire Line
+	8050 1325 8150 1425
+Entry Wire Line
+	8050 1225 8150 1325
+Entry Wire Line
+	8050 1125 8150 1225
+Entry Wire Line
+	8050 1025 8150 1125
+Entry Wire Line
+	7950 3175 8050 3075
+Entry Wire Line
+	7950 2675 8050 2575
+Entry Wire Line
+	7950 2575 8050 2475
+Entry Wire Line
+	7950 2475 8050 2375
+Entry Wire Line
+	7950 1875 8050 1775
+Entry Wire Line
+	7950 1675 8050 1575
+Entry Wire Line
+	7950 1275 8050 1175
+Entry Wire Line
+	7950 1175 8050 1075
+Entry Wire Line
+	7950 3075 8050 2975
+Entry Wire Line
+	3225 3275 3325 3375
+Entry Wire Line
+	3225 3175 3325 3275
+Entry Wire Line
+	3225 3075 3325 3175
+Entry Wire Line
+	3225 2975 3325 3075
+Entry Wire Line
+	3225 2575 3325 2675
+Entry Wire Line
+	3225 2475 3325 2575
+Entry Wire Line
+	3225 2375 3325 2475
+Entry Wire Line
+	3225 2275 3325 2375
+Entry Wire Line
+	3225 1775 3325 1875
+Entry Wire Line
+	3225 1675 3325 1775
+Entry Wire Line
+	3225 1575 3325 1675
+Entry Wire Line
+	3225 1475 3325 1575
+Entry Wire Line
+	3225 1275 3325 1375
+Entry Wire Line
+	3225 1175 3325 1275
+Entry Wire Line
+	3225 1075 3325 1175
+Entry Wire Line
+	3125 2425 3225 2325
+Entry Wire Line
+	3125 2525 3225 2425
+Entry Wire Line
+	3125 2625 3225 2525
+Entry Wire Line
+	3125 2725 3225 2625
+Entry Wire Line
+	3125 2825 3225 2725
+Entry Wire Line
+	3125 2925 3225 2825
+Entry Wire Line
+	3125 3025 3225 2925
+Entry Wire Line
+	3125 3125 3225 3025
+Entry Wire Line
+	3125 3225 3225 3125
+Entry Wire Line
+	3125 3325 3225 3225
+Entry Wire Line
+	3125 3425 3225 3325
+Entry Wire Line
+	3125 3525 3225 3425
+Entry Wire Line
+	3125 2025 3225 1925
+Entry Wire Line
+	3125 1925 3225 1825
+Entry Wire Line
+	3125 1825 3225 1725
+Entry Wire Line
+	3125 1725 3225 1625
+Entry Wire Line
+	3125 1625 3225 1525
+Entry Wire Line
+	3125 1325 3225 1225
+Entry Wire Line
+	3125 1225 3225 1125
+Entry Wire Line
+	3125 1125 3225 1025
+Entry Wire Line
+	3125 1025 3225 925 
+Entry Wire Line
+	3125 925  3225 825 
+Entry Wire Line
+	7675 6575 7775 6675
+Entry Wire Line
+	7525 6575 7625 6675
+Entry Wire Line
+	7425 6575 7525 6675
+Entry Wire Line
+	6675 6575 6775 6675
+Entry Wire Line
+	6575 6575 6675 6675
+Entry Wire Line
+	6475 6575 6575 6675
+Entry Wire Line
+	6375 6575 6475 6675
+Entry Wire Line
+	6275 6575 6375 6675
+Entry Wire Line
+	6175 6575 6275 6675
+Entry Wire Line
+	4975 6575 5075 6675
+Entry Wire Line
+	4825 6575 4925 6675
+Entry Wire Line
+	3775 6575 3875 6675
+Entry Wire Line
+	3625 6575 3725 6675
+Entry Wire Line
+	3475 6575 3575 6675
+Entry Wire Line
+	8050 2825 8150 2925
+Text Label 5675 4050 1    60   ~ 0
+White:C_IO_PWR
+Entry Wire Line
+	3225 2875 3325 2975
+Text Label 5675 5625 3    60   ~ 0
+White:Comp_IO_PWR
+Entry Wire Line
+	5825 6575 5925 6675
+Entry Wire Line
+	5675 6575 5775 6675
+Text Label 5825 6500 1    60   ~ 0
+Gray:IO_EN
+$Comp
+L CONN_01X12 P?
+U 1 1 587AA139
+P 9400 6025
+F 0 "P?" H 9400 6675 50  0001 C CNN
+F 1 "Engine" H 9475 6725 50  0001 C CNN
+F 2 "" H 9400 6025 50  0000 C CNN
+F 3 "" H 9400 6025 50  0000 C CNN
+	1    9400 6025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P?
+U 1 1 587AA13F
+P 9250 6025
+F 0 "P?" H 9250 6675 50  0001 C CNN
+F 1 "Power" H 9325 6725 50  0000 C CNN
+F 2 "" H 9250 6025 50  0000 C CNN
+F 3 "" H 9250 6025 50  0000 C CNN
+	1    9250 6025
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7375 3950 7375 4100
 Wire Wire Line
@@ -657,8 +929,6 @@ Wire Wire Line
 	6175 5575 6175 6575
 Wire Wire Line
 	6175 5575 6325 5400
-Text Label 6275 6500 1    60   ~ 0
-O_Grn:DrvEn
 Wire Wire Line
 	6275 5575 6275 6575
 Wire Wire Line
@@ -667,46 +937,12 @@ Wire Wire Line
 	6375 5575 6375 6575
 Wire Wire Line
 	6325 5400 6375 5575
-Text Label 8225 4175 0    60   ~ 0
-Rear_L_Turn
-Text Label 8225 4075 0    60   ~ 0
-Rear_R_Turn
-Text Label 8225 3975 0    60   ~ 0
-Grn:Start_Light
-Text Label 4825 6500 1    60   ~ 0
-Pur:Rear_Brake
 Wire Wire Line
 	4825 5425 4825 6575
-Text Label 8225 4275 0    60   ~ 0
-Pur:Rear_Brake
-Text Label 6675 6500 1    60   ~ 0
-Pink:O2_Auto
 Wire Wire Line
 	6675 5575 6675 6575
 Wire Wire Line
 	6475 5400 6675 5575
-$Comp
-L CONN_01X12 P?
-U 1 1 5870DD6B
-P 1975 2975
-F 0 "P?" H 1975 3625 50  0001 C CNN
-F 1 "Engine" H 2050 3675 50  0001 C CNN
-F 2 "" H 1975 2975 50  0000 C CNN
-F 3 "" H 1975 2975 50  0000 C CNN
-	1    1975 2975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X12 P?
-U 1 1 5870DD71
-P 1825 2975
-F 0 "P?" H 1825 3625 50  0001 C CNN
-F 1 "Steering Col 2" H 1900 3650 50  0000 C CNN
-F 2 "" H 1825 2975 50  0000 C CNN
-F 3 "" H 1825 2975 50  0000 C CNN
-	1    1825 2975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2175 2425 3125 2425
 Wire Wire Line
@@ -781,8 +1017,6 @@ Wire Wire Line
 	8150 3425 9050 3425
 Wire Wire Line
 	8150 3525 9050 3525
-Text Label 7725 3975 1    60   ~ 0
-White:EFI_Power
 Wire Wire Line
 	2175 925  3125 925 
 Wire Wire Line
@@ -801,12 +1035,8 @@ Wire Wire Line
 	2175 1925 3125 1925
 Wire Wire Line
 	2175 2025 3125 2025
-Text Label 3075 1725 2    60   ~ 0
-L_Blu:EFI_PWR
 Wire Wire Line
 	2175 1725 3125 1725
-Text Label 7675 5850 3    60   ~ 0
-L_Blu:EFI_PWR
 Wire Wire Line
 	7425 5875 7425 6575
 Wire Wire Line
@@ -815,34 +1045,10 @@ Wire Wire Line
 	7525 5800 7525 6575
 Wire Wire Line
 	7675 5400 7675 6575
-Text Label 7625 3975 1    60   ~ 0
-White:EFI_On
 Wire Wire Line
 	7675 4100 7625 3975
 Wire Wire Line
 	7675 4100 7725 3975
-$Comp
-L CONN_01X12 P?
-U 1 1 58715B73
-P 1975 1475
-F 0 "P?" H 1975 2125 50  0001 C CNN
-F 1 "Engine" H 2050 2175 50  0001 C CNN
-F 2 "" H 1975 1475 50  0000 C CNN
-F 3 "" H 1975 1475 50  0000 C CNN
-	1    1975 1475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X12 P?
-U 1 1 58715B79
-P 1825 1475
-F 0 "P?" H 1825 2125 50  0001 C CNN
-F 1 "Steering Col 1" H 1900 2150 50  0000 C CNN
-F 2 "" H 1825 1475 50  0000 C CNN
-F 3 "" H 1825 1475 50  0000 C CNN
-	1    1825 1475
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1625 925  1575 925 
 Wire Wire Line
@@ -869,17 +1075,9 @@ Wire Wire Line
 	5900 2375 5900 2675
 Wire Wire Line
 	5750 2475 7950 2475
-Text Label 3375 2675 0    60   ~ 0
-Blk:GND
-Text Label 3375 2575 0    60   ~ 0
-Blk:GND
 Wire Wire Line
 	5750 2575 7950 2575
 Connection ~ 5900 2575
-Text Label 3375 2475 0    60   ~ 0
-Blk:GND
-Text Label 3375 2375 0    60   ~ 0
-Blk:GND
 Wire Wire Line
 	3325 2375 4950 2375
 Wire Wire Line
@@ -891,12 +1089,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 2375 5900 2375
 Connection ~ 5900 2475
-Text Label 7900 2475 2    60   ~ 0
-Blk_GND
-Text Label 7900 2575 2    60   ~ 0
-Blk_GND
-Text Label 7900 2675 2    60   ~ 0
-Blk_GND
 Connection ~ 5900 2675
 Wire Bus Line
 	3225 750  3225 3500
@@ -916,200 +1108,104 @@ Wire Wire Line
 	9050 4275 8150 4275
 Wire Wire Line
 	9050 4175 8150 4175
-Entry Wire Line
-	8050 4175 8150 4275
-Entry Wire Line
-	8050 4075 8150 4175
 Wire Wire Line
 	9050 4075 8150 4075
 Wire Wire Line
 	8150 3975 9050 3975
 Wire Wire Line
 	8150 3125 9050 3125
-Entry Wire Line
-	8050 3975 8150 4075
-Entry Wire Line
-	8050 3875 8150 3975
-Entry Wire Line
-	8050 3425 8150 3525
-Entry Wire Line
-	8050 3325 8150 3425
-Entry Wire Line
-	8050 3025 8150 3125
-Entry Wire Line
-	8050 2425 8150 2525
-Entry Wire Line
-	8050 2325 8150 2425
-Entry Wire Line
-	8050 2025 8150 2125
-Entry Wire Line
-	8050 1725 8150 1825
-Entry Wire Line
-	8050 1625 8150 1725
-Entry Wire Line
-	8050 1525 8150 1625
-Entry Wire Line
-	8050 1425 8150 1525
-Entry Wire Line
-	8050 1325 8150 1425
-Entry Wire Line
-	8050 1225 8150 1325
-Entry Wire Line
-	8050 1125 8150 1225
-Entry Wire Line
-	8050 1025 8150 1125
-Entry Wire Line
-	7950 3175 8050 3075
-Entry Wire Line
-	7950 2675 8050 2575
-Entry Wire Line
-	7950 2575 8050 2475
-Entry Wire Line
-	7950 2475 8050 2375
-Entry Wire Line
-	7950 1875 8050 1775
-Entry Wire Line
-	7950 1675 8050 1575
-Entry Wire Line
-	7950 1275 8050 1175
-Entry Wire Line
-	7950 1175 8050 1075
 Wire Wire Line
 	7625 3075 7950 3075
-Entry Wire Line
-	7950 3075 8050 2975
 Wire Wire Line
 	3925 3275 3325 3275
-Entry Wire Line
-	3225 3275 3325 3375
 Wire Wire Line
 	3475 3375 3325 3375
-Entry Wire Line
-	3225 3175 3325 3275
 Wire Wire Line
 	4675 3175 3325 3175
 Wire Wire Line
 	5125 3075 3325 3075
-Entry Wire Line
-	3225 3075 3325 3175
-Entry Wire Line
-	3225 2975 3325 3075
-Entry Wire Line
-	3225 2575 3325 2675
-Entry Wire Line
-	3225 2475 3325 2575
-Entry Wire Line
-	3225 2375 3325 2475
-Entry Wire Line
-	3225 2275 3325 2375
-Entry Wire Line
-	3225 1775 3325 1875
-Entry Wire Line
-	3225 1675 3325 1775
-Entry Wire Line
-	3225 1575 3325 1675
-Entry Wire Line
-	3225 1475 3325 1575
-Entry Wire Line
-	3225 1275 3325 1375
-Entry Wire Line
-	3225 1175 3325 1275
-Entry Wire Line
-	3225 1075 3325 1175
-Entry Wire Line
-	3125 2425 3225 2325
-Entry Wire Line
-	3125 2525 3225 2425
-Entry Wire Line
-	3125 2625 3225 2525
-Entry Wire Line
-	3125 2725 3225 2625
-Entry Wire Line
-	3125 2825 3225 2725
-Entry Wire Line
-	3125 2925 3225 2825
-Entry Wire Line
-	3125 3025 3225 2925
-Entry Wire Line
-	3125 3125 3225 3025
-Entry Wire Line
-	3125 3225 3225 3125
-Entry Wire Line
-	3125 3325 3225 3225
-Entry Wire Line
-	3125 3425 3225 3325
-Entry Wire Line
-	3125 3525 3225 3425
-Entry Wire Line
-	3125 2025 3225 1925
-Entry Wire Line
-	3125 1925 3225 1825
-Entry Wire Line
-	3125 1825 3225 1725
-Entry Wire Line
-	3125 1725 3225 1625
-Entry Wire Line
-	3125 1625 3225 1525
-Entry Wire Line
-	3125 1325 3225 1225
-Entry Wire Line
-	3125 1225 3225 1125
-Entry Wire Line
-	3125 1125 3225 1025
-Entry Wire Line
-	3125 1025 3225 925 
-Entry Wire Line
-	3125 925  3225 825 
-Entry Wire Line
-	7675 6575 7775 6675
-Entry Wire Line
-	7525 6575 7625 6675
-Entry Wire Line
-	7425 6575 7525 6675
-Entry Wire Line
-	6675 6575 6775 6675
-Entry Wire Line
-	6575 6575 6675 6675
-Entry Wire Line
-	6475 6575 6575 6675
-Entry Wire Line
-	6375 6575 6475 6675
-Entry Wire Line
-	6275 6575 6375 6675
-Entry Wire Line
-	6175 6575 6275 6675
-Entry Wire Line
-	4975 6575 5075 6675
-Entry Wire Line
-	4825 6575 4925 6675
-Entry Wire Line
-	3775 6575 3875 6675
-Entry Wire Line
-	3625 6575 3725 6675
-Entry Wire Line
-	3475 6575 3575 6675
 Wire Wire Line
 	9050 2925 8150 2925
-Entry Wire Line
-	8050 2825 8150 2925
-Text Label 5675 4050 1    60   ~ 0
-White:C_IO_PWR
 Wire Wire Line
 	5675 4125 5675 2975
 Wire Wire Line
 	5675 2975 3325 2975
-Entry Wire Line
-	3225 2875 3325 2975
-Text Label 5675 5625 3    60   ~ 0
-White:Comp_IO_PWR
 Wire Wire Line
 	5825 5425 5825 6575
-Entry Wire Line
-	5825 6575 5925 6675
 Wire Wire Line
 	5675 5425 5675 6575
+Wire Wire Line
+	9750 5475 9600 5475
+Wire Wire Line
+	9600 5575 9700 5575
+Wire Wire Line
+	9700 5475 9700 5675
+Connection ~ 9700 5475
+Wire Wire Line
+	9700 5675 9600 5675
+Connection ~ 9700 5575
+Wire Wire Line
+	9750 5775 9600 5775
+Wire Wire Line
+	9600 5875 9700 5875
+Wire Wire Line
+	9700 5775 9700 5975
+Connection ~ 9700 5775
+Wire Wire Line
+	9700 5975 9600 5975
+Connection ~ 9700 5875
+Text Label 8225 5475 0    60   ~ 0
+Red:Master_PWR
+Text Label 8225 5975 0    60   ~ 0
+Blk:GND
+Wire Wire Line
+	8150 5975 9050 5975
+Text Label 8225 5875 0    60   ~ 0
+Blk:GND
+Wire Wire Line
+	8150 5875 9050 5875
+Text Label 8225 5775 0    60   ~ 0
+Blk:GND
+Wire Wire Line
+	8150 5775 9050 5775
+Text Label 8225 5575 0    60   ~ 0
+Red:Master_PWR
+Text Label 8225 5675 0    60   ~ 0
+Red:Master_PWR
+Wire Wire Line
+	8150 5675 9050 5675
+Wire Wire Line
+	8150 5575 9050 5575
+Wire Wire Line
+	8150 5475 9050 5475
 Entry Wire Line
-	5675 6575 5775 6675
-Text Label 5825 6500 1    60   ~ 0
-Gray:IO_EN
+	8050 5875 8150 5975
+Entry Wire Line
+	8050 5775 8150 5875
+Entry Wire Line
+	8050 5675 8150 5775
+Entry Wire Line
+	8050 5575 8150 5675
+Entry Wire Line
+	8050 5475 8150 5575
+Entry Wire Line
+	8050 5375 8150 5475
+Text Label 7900 2175 2    60   ~ 0
+Red:Master_PWR
+Text Label 7900 2275 2    60   ~ 0
+Red:Master_PWR
+Text Label 3375 2275 0    60   ~ 0
+Red:Master_PWR
+Entry Wire Line
+	3225 2175 3325 2275
+Entry Wire Line
+	7950 2275 8050 2175
+Entry Wire Line
+	7950 2175 8050 2075
+Wire Wire Line
+	7950 2175 5750 2175
+Wire Wire Line
+	5750 2275 7950 2275
+Wire Wire Line
+	4950 2275 3325 2275
 $EndSCHEMATC

@@ -29,7 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
-LIBS:Wiring Diagram v2-cache
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:can_sensor-cache
+LIBS:pitot_tube-v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait

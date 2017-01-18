@@ -1,4 +1,4 @@
-update=Tue 03 Jan 2017 11:08:41 PM CST
+update=Tue 17 Jan 2017 09:21:30 AM EST
 version=1
 last_client=kicad
 [general]
@@ -27,9 +27,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../parts_library
+LibDir=../../parts_library;../../EllicottSamuel
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,13 +71,8 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Supermileage
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName31=EllicottDisplay
+LibName32=EllicottInterface
+LibName33=EllicottMicrocontrollers
+LibName34=EllicottMisc
+LibName35=EllicottPower

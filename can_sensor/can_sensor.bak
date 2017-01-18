@@ -502,14 +502,14 @@ Text Label 6000 1450 2    60   ~ 0
 CAN_RX
 Text Label 6000 1350 2    60   ~ 0
 CAN_TX
-Text Label 3300 4300 0    60   ~ 0
+Text Label 3450 4450 2    60   ~ 0
 io2
 $Comp
 L R R10
 U 1 1 57A40F9F
 P 8150 1700
-F 0 "R10" V 8230 1700 50  0000 C CNN
-F 1 "120R" V 8150 1700 50  0000 C CNN
+F 0 "R10" V 8250 1700 50  0000 C CNN
+F 1 "120R" V 8050 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8080 1700 50  0001 C CNN
 F 3 "" H 8150 1700 50  0000 C CNN
 F 4 "Mouser" V 8150 1700 60  0001 C CNN "Distributor"
@@ -696,7 +696,7 @@ L R R1
 U 1 1 57A40FAE
 P 1250 1400
 F 0 "R1" V 1330 1400 50  0000 C CNN
-F 1 "100K" V 1250 1400 50  0000 C CNN
+F 1 "100K" V 1150 1400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1180 1400 50  0001 C CNN
 F 3 "" H 1250 1400 50  0000 C CNN
 F 4 "Mouser" V 1250 1400 60  0001 C CNN "Distributor"
@@ -708,8 +708,8 @@ $Comp
 L R R9
 U 1 1 57A40FAF
 P 6850 5600
-F 0 "R9" V 6930 5600 50  0000 C CNN
-F 1 "100K" V 6850 5600 50  0000 C CNN
+F 0 "R9" V 6950 5600 50  0000 C CNN
+F 1 "100K" V 6750 5600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 6780 5600 50  0001 C CNN
 F 3 "" H 6850 5600 50  0000 C CNN
 F 4 "Mouser" V 6850 5600 60  0001 C CNN "Distributor"
@@ -721,8 +721,8 @@ $Comp
 L R R8
 U 1 1 57A40FB0
 P 1600 7250
-F 0 "R8" V 1680 7250 50  0000 C CNN
-F 1 "100K" V 1600 7250 50  0000 C CNN
+F 0 "R8" V 1700 7250 50  0000 C CNN
+F 1 "100K" V 1500 7250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1530 7250 50  0001 C CNN
 F 3 "" H 1600 7250 50  0000 C CNN
 F 4 "Mouser" V 1600 7250 60  0001 C CNN "Distributor"
@@ -735,7 +735,7 @@ L R R11
 U 1 1 57A40FB1
 P 9050 3500
 F 0 "R11" V 9130 3500 50  0000 C CNN
-F 1 "120R" V 9050 3500 50  0000 C CNN
+F 1 "120R" V 8950 3500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3500 50  0001 C CNN
 F 3 "" H 9050 3500 50  0000 C CNN
 F 4 "Mouser" V 9050 3500 60  0001 C CNN "Distributor"
@@ -748,7 +748,7 @@ L R R12
 U 1 1 57A40FB2
 P 9050 3800
 F 0 "R12" V 9130 3800 50  0000 C CNN
-F 1 "120R" V 9050 3800 50  0000 C CNN
+F 1 "120R" V 8950 3800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3800 50  0001 C CNN
 F 3 "" H 9050 3800 50  0000 C CNN
 F 4 "Mouser" V 9050 3800 60  0001 C CNN "Distributor"
@@ -839,7 +839,7 @@ Text Label 6250 4450 0    60   ~ 0
 CAN_RX
 Text Label 6250 4300 0    60   ~ 0
 CAN_TX
-Text Label 3300 4150 0    60   ~ 0
+Text Label 6300 5650 0    60   ~ 0
 io1
 $Comp
 L D_Schottky_Small D1
@@ -890,7 +890,7 @@ L R_Small R6
 U 1 1 57AA9E0A
 P 1550 5300
 F 0 "R6" V 1450 5300 50  0000 C TNN
-F 1 "R" V 1550 5300 50  0000 L CNN
+F 1 "R" V 1550 5100 39  0001 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1550 5300 50  0001 C CNN
 F 3 "" H 1550 5300 50  0000 C CNN
 	1    1550 5300
@@ -901,7 +901,7 @@ L R_Small R5
 U 1 1 57AAA248
 P 1550 4350
 F 0 "R5" V 1450 4350 50  0000 C TNN
-F 1 "R" V 1550 4350 50  0000 L CNN
+F 1 "R" V 1550 4350 50  0001 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1550 4350 50  0001 C CNN
 F 3 "" H 1550 4350 50  0000 C CNN
 	1    1550 4350
@@ -912,9 +912,10 @@ L R_Small R3
 U 1 1 57AAAB26
 P 1400 5150
 F 0 "R3" V 1450 5150 50  0000 C TNN
-F 1 "R" V 1400 5150 50  0000 L CNN
+F 1 "R" V 1400 5150 50  0001 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1400 5150 50  0001 C CNN
 F 3 "" H 1400 5150 50  0000 C CNN
+F 4 "Mouser" H 1400 5150 60  0001 C CNN "Distributor"
 	1    1400 5150
 	0    1    1    0   
 $EndComp
@@ -923,7 +924,7 @@ L R_Small R2
 U 1 1 57AAABEF
 P 1400 4200
 F 0 "R2" V 1450 4200 50  0000 C TNN
-F 1 "R" V 1400 4200 50  0000 L CNN
+F 1 "R" V 1400 4200 50  0001 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1400 4200 50  0001 C CNN
 F 3 "" H 1400 4200 50  0000 C CNN
 	1    1400 4200
@@ -1301,7 +1302,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4450 6250 4450
 Wire Wire Line
-	3300 4450 3500 4450
+	3450 4450 3500 4450
 Wire Wire Line
 	6250 4900 6200 4900
 Wire Wire Line
@@ -1421,9 +1422,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 5200 6250 5200
 Wire Wire Line
-	3300 4300 3500 4300
-Text Label 3300 4450 0    60   ~ 0
-io3
-Wire Wire Line
-	3300 4150 3500 4150
+	6300 5650 6200 5650
+Text Notes 650  3450 0    60   ~ 0
+R2, R5 and R3,R6 form a resistor divider for \nattenuating input signals.\nR5 and R6 could be replaced by a capacitor for input \ndebouncing/low pass filter.\n\nD1, D2, D3, and D4 hopefully provide some sort of \nvoltage spike protection. However, I would not trust it\noverly much, as it depends on the current sinking ability of \nthe 3.3v regulator.
+Text Notes 8275 725  0    60   ~ 0
+CAN_OUT is a pass through connector for CAN.
 $EndSCHEMATC

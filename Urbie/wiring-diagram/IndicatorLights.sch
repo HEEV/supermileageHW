@@ -34,11 +34,11 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "Cedarville University"
 Comment1 ""
 Comment2 ""
 Comment3 ""

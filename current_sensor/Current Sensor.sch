@@ -980,4 +980,8 @@ Text Label 3750 1150 0    60   ~ 0
 Vin
 Text Label 1450 1050 0    60   ~ 0
 Vin
+Text Notes 725  800  0    60   ~ 0
+Analog outputs directly from the current sensors
+Text Notes 3525 825  0    60   ~ 0
+PMOS as an ideal diode. \nWhen the gate goes below Vgs the transistor turns on.
 $EndSCHEMATC

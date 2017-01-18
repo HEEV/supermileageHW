@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/nebk/Documents/supermileage/can_sensor_v2/can_sensor.sch</source>
-    <date>Sat 05 Nov 2016 12:19:15 AM EDT</date>
+    <source>/home/nebk/Documents/supermileage/supermileagehw/can_sensor/can_sensor.sch</source>
+    <date>Sat 03 Dec 2016 09:25:04 AM EST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -386,6 +386,9 @@
     <comp ref="R3">
       <value>R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57AAAB26</tstamp>
@@ -726,13 +729,13 @@
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="EllicottPower">
-      <uri>/home/nebk/kicad/EllicottSamuel/EllicottPower.lib</uri>
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/EllicottSamuel/EllicottPower.lib</uri>
     </library>
     <library logical="EllicottInterface">
-      <uri>/home/nebk/kicad/EllicottSamuel/EllicottInterface.lib</uri>
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/EllicottSamuel/EllicottInterface.lib</uri>
     </library>
     <library logical="EllicottMicrocontrollers">
-      <uri>/home/nebk/kicad/EllicottSamuel/EllicottMicrocontrollers.lib</uri>
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/EllicottSamuel/EllicottMicrocontrollers.lib</uri>
     </library>
   </libraries>
   <nets>

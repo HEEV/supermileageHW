@@ -319,6 +319,8 @@ F 0 "SW2" H 8650 4960 50  0000 C CNN
 F 1 "BOOT" H 8500 4700 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" V 8500 4850 50  0001 C CNN
 F 3 "" H 8500 4850 50  0000 C CNN
+F 4 "Mouser" H 8500 4850 60  0001 C CNN "Distributor"
+F 5 "SKHHPPA010 " H 8500 4850 60  0001 C CNN "PN"
 	1    8500 4850
 	-1   0    0    -1  
 $EndComp
@@ -352,6 +354,8 @@ F 0 "SW1" H 6900 6000 50  0000 C CNN
 F 1 "RESET" H 6600 5950 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 6000 50  0001 C CNN
 F 3 "" H 6700 6000 50  0000 C CNN
+F 4 "Mouser" H 6700 6000 60  0001 C CNN "Distributor"
+F 5 "SKHHPPA010 " H 6700 6000 60  0001 C CNN "PN"
 	1    6700 6000
 	1    0    0    -1  
 $EndComp
@@ -1499,4 +1503,6 @@ Wire Wire Line
 	4900 3750 4950 3750
 Wire Wire Line
 	4950 4050 4900 4050
+Text Notes 825  5800 0    60   ~ 0
+On chip debugger.\nUse a stm32Nucleo board or stlinkv2.
 $EndSCHEMATC

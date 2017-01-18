@@ -1,5 +1,6 @@
 # Cedarville Supermileage HW
-Kicad files for PCBs on the Ceaderville Supermileage team. 
+Kicad files for PCBs on the Ceaderville Supermileage team. Also includes wiring diagrams and schematics
+drawn in Kicad.
 #Contents of Folders
 * Library Folders
     * EllicottSamuel: Files I made before supermileage which were too much work to port over.

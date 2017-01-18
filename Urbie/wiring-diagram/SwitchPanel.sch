@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 9
+Sheet 9 13
 Title "Urbie - Switch Panel"
 Date "2017-01-07"
 Rev "1.5"
@@ -886,4 +886,10 @@ Wire Wire Line
 	2000 6000 1650 6000
 Wire Wire Line
 	2550 6000 3550 6000
+Text Label 3425 5700 2    60   ~ 0
+Brake
+Wire Wire Line
+	2550 5700 3550 5700
+Entry Wire Line
+	3550 5700 3650 5800
 $EndSCHEMATC
