@@ -1,4 +1,4 @@
-update=1/17/2017 10:26:02 PM
+update=1/31/2017 10:32:51 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../parts_library;../EllicottSamuel
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=Supermileage
+LibName31=EllicottDisplay
+LibName32=EllicottInterface
+LibName33=EllicottMicrocontrollers
+LibName34=EllicottMisc
+LibName35=EllicottPower
