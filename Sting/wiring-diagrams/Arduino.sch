@@ -34,8 +34,7 @@ LIBS:EllicottInterface
 LIBS:EllicottMicrocontrollers
 LIBS:EllicottMisc
 LIBS:EllicottPower
-LIBS:can_sensor-cache
-LIBS:pitot_tube-v1-cache
+LIBS:Wiring Diagram v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
