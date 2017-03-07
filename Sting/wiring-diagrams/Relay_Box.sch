@@ -550,17 +550,6 @@ Wire Wire Line
 	3875 3800 3875 3700
 Wire Wire Line
 	3875 3700 5025 3700
-$Comp
-L SPDT_Relay_b R?
-U 1 1 5888395A
-P 4875 4450
-F 0 "R?" H 4900 4450 60  0000 C CNN
-F 1 "SPDT_Relay_b" V 5165 4470 60  0000 C CNN
-F 2 "" H 4875 4450 60  0001 C CNN
-F 3 "" H 4875 4450 60  0001 C CNN
-	1    4875 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5025 3700 5025 3800
 Wire Wire Line
@@ -598,77 +587,9 @@ Wire Wire Line
 Wire Wire Line
 	8975 2050 8575 2050
 Wire Bus Line
-	5975 6425 5975 6350
+	5975 6425 5975 2000
 Wire Bus Line
-	5975 6350 5975 6250
-Wire Bus Line
-	5975 6250 5975 6150
-Wire Bus Line
-	5975 6150 5975 5950
-Wire Bus Line
-	5975 5950 5975 5850
-Wire Bus Line
-	5975 5850 5975 5650
-Wire Bus Line
-	5975 5650 5975 4650
-Wire Bus Line
-	5975 4650 5975 4150
-Wire Bus Line
-	5975 4150 5975 3950
-Wire Bus Line
-	5975 3950 5975 3850
-Wire Bus Line
-	5975 3850 5975 3750
-Wire Bus Line
-	5975 3750 5975 3650
-Wire Bus Line
-	5975 3650 5975 3150
-Wire Bus Line
-	5975 3150 5975 2750
-Wire Bus Line
-	5975 2750 5975 2450
-Wire Bus Line
-	5975 2450 5975 2350
-Wire Bus Line
-	5975 2350 5975 2150
-Wire Bus Line
-	5975 2150 5975 2000
-Wire Bus Line
-	2150 6425 2300 6425
-Wire Bus Line
-	2300 6425 2400 6425
-Wire Bus Line
-	2400 6425 2500 6425
-Wire Bus Line
-	2500 6425 2600 6425
-Wire Bus Line
-	2600 6425 2700 6425
-Wire Bus Line
-	2700 6425 2800 6425
-Wire Bus Line
-	2800 6425 2900 6425
-Wire Bus Line
-	2900 6425 3975 6425
-Wire Bus Line
-	3975 6425 4075 6425
-Wire Bus Line
-	4075 6425 4275 6425
-Wire Bus Line
-	4275 6425 4375 6425
-Wire Bus Line
-	4375 6425 4725 6425
-Wire Bus Line
-	4725 6425 4825 6425
-Wire Bus Line
-	4825 6425 4925 6425
-Wire Bus Line
-	4925 6425 5025 6425
-Wire Bus Line
-	5025 6425 5125 6425
-Wire Bus Line
-	5125 6425 5225 6425
-Wire Bus Line
-	5225 6425 5975 6425
+	2150 6425 5975 6425
 Entry Wire Line
 	2400 6325 2500 6425
 Text Label 2400 6325 1    49   ~ 0
@@ -899,4 +820,15 @@ Text Label 7725 4550 0    49   ~ 0
 Black
 Text Notes 2175 6700 0    60   ~ 0
 Wires with a C sufix provide the same functionality as the non-C wire\nbut are connected to the computer.
+$Comp
+L SPDT_Relay R?
+U 1 1 58BF4D51
+P 4875 4450
+F 0 "R?" H 4875 4450 60  0000 C CNN
+F 1 "SPDT_Relay" V 5165 4420 60  0000 C CNN
+F 2 "" H 4875 4400 60  0001 C CNN
+F 3 "" H 4875 4400 60  0001 C CNN
+	1    4875 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

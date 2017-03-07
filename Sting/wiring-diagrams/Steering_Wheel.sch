@@ -233,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6575 3350 6575
 Wire Wire Line
-	3750 5525 4000 5525
+	3750 5525 4300 5525
 Wire Wire Line
 	4000 6075 3750 6075
 Connection ~ 4000 5525
@@ -245,34 +245,20 @@ Wire Wire Line
 Wire Wire Line
 	5850 4925 5850 5325
 Wire Wire Line
-	4000 5325 5850 5325
-Wire Wire Line
-	5850 5325 5950 5325
+	4000 5325 5950 5325
 Connection ~ 5850 5325
 Wire Wire Line
 	6350 4925 6450 4925
 Wire Wire Line
-	6450 4925 6450 5325
-Wire Wire Line
-	6450 5325 6450 7325
+	6450 4925 6450 7325
 Wire Wire Line
 	6450 5325 6350 5325
 Wire Wire Line
 	5450 5525 5000 5525
 Wire Wire Line
-	4000 5525 4000 5525
+	4000 5525 4000 6925
 Wire Wire Line
-	4000 5525 4000 6075
-Wire Wire Line
-	4000 6075 4000 6575
-Wire Wire Line
-	4000 6575 4000 6925
-Wire Wire Line
-	4000 5525 4300 5525
-Wire Wire Line
-	4300 5075 4000 5075
-Wire Wire Line
-	4000 5075 3150 5075
+	3150 5075 4300 5075
 Wire Wire Line
 	4300 4775 3150 4775
 Wire Wire Line
@@ -299,15 +285,7 @@ Connection ~ 5450 5525
 Wire Wire Line
 	5450 7125 3150 7125
 Wire Wire Line
-	5450 3975 5450 4425
-Wire Wire Line
-	5450 4425 5450 4775
-Wire Wire Line
-	5450 4775 5450 5075
-Wire Wire Line
-	5450 5075 5450 5525
-Wire Wire Line
-	5450 5525 5450 7125
+	5450 3975 5450 7125
 Wire Wire Line
 	6450 7325 3150 7325
 Text HLabel 3150 3875 0    60   Input ~ 0

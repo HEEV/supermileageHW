@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 14
+Sheet 8 14
 Title "Can Node"
 Date "2016-05-09"
 Rev "0.3"
@@ -662,6 +662,7 @@ U 1 1 5880F9D7
 P 1275 7225
 AR Path="/5880E829/5880F9D7" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9D7" Ref="P?"  Part="1" 
+AR Path="/5880F9D7" Ref="P?"  Part="1" 
 F 0 "P?" V 975 7225 50  0001 C CNN
 F 1 "USB" H 1275 7425 50  0000 C CNN
 F 2 "Connect:USB_Micro-B" H 1225 7125 50  0001 C CNN
@@ -717,40 +718,40 @@ $EndComp
 $Comp
 L SW_PUSH_SMALL SW?
 U 1 1 5880F9DB
-P 7350 5300
+P 6275 6400
 AR Path="/5880E829/5880F9DB" Ref="SW?"  Part="1" 
 AR Path="/58828DB7/5880F9DB" Ref="SW?"  Part="1" 
-F 0 "SW?" H 7500 5410 50  0001 C CNN
-F 1 "BOOT" H 7225 5225 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_FSMSM" V 7350 5300 50  0001 C CNN
-F 3 "" H 7350 5300 50  0000 C CNN
-	1    7350 5300
+F 0 "SW?" H 6425 6510 50  0001 C CNN
+F 1 "BOOT" H 6150 6325 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_FSMSM" V 6275 6400 50  0001 C CNN
+F 3 "" H 6275 6400 50  0000 C CNN
+	1    6275 6400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5880F9DC
-P 7150 5850
+P 6075 6950
 AR Path="/5880E829/5880F9DC" Ref="#PWR?"  Part="1" 
 AR Path="/58828DB7/5880F9DC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7150 5600 50  0001 C CNN
-F 1 "GND" H 7150 5700 50  0000 C CNN
-F 2 "" H 7150 5850 50  0000 C CNN
-F 3 "" H 7150 5850 50  0000 C CNN
-	1    7150 5850
+F 0 "#PWR?" H 6075 6700 50  0001 C CNN
+F 1 "GND" H 6075 6800 50  0000 C CNN
+F 2 "" H 6075 6950 50  0000 C CNN
+F 3 "" H 6075 6950 50  0000 C CNN
+	1    6075 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 5880F9DD
-P 7450 5150
+P 6375 6250
 AR Path="/5880E829/5880F9DD" Ref="#PWR?"  Part="1" 
 AR Path="/58828DB7/5880F9DD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7450 5000 50  0001 C CNN
-F 1 "+3.3V" H 7450 5290 50  0000 C CNN
-F 2 "" H 7450 5150 50  0000 C CNN
-F 3 "" H 7450 5150 50  0000 C CNN
-	1    7450 5150
+F 0 "#PWR?" H 6375 6100 50  0001 C CNN
+F 1 "+3.3V" H 6375 6390 50  0000 C CNN
+F 2 "" H 6375 6250 50  0000 C CNN
+F 3 "" H 6375 6250 50  0000 C CNN
+	1    6375 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -812,16 +813,16 @@ $EndComp
 $Comp
 L R R?
 U 1 1 5880F9E2
-P 7150 5650
+P 6075 6750
 AR Path="/5880E829/5880F9E2" Ref="R?"  Part="1" 
 AR Path="/58828DB7/5880F9E2" Ref="R?"  Part="1" 
-F 0 "R?" V 7250 5650 50  0001 C CNN
-F 1 "100K" V 7250 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7080 5650 50  0001 C CNN
-F 3 "" H 7150 5650 50  0000 C CNN
-F 4 "Mouser" V 7150 5650 60  0001 C CNN "Distributor"
-F 5 "71-CRCW0603-100K-E3" V 7150 5650 60  0001 C CNN "PN"
-	1    7150 5650
+F 0 "R?" V 6175 6750 50  0001 C CNN
+F 1 "100K" V 6175 6750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6005 6750 50  0001 C CNN
+F 3 "" H 6075 6750 50  0000 C CNN
+F 4 "Mouser" V 6075 6750 60  0001 C CNN "Distributor"
+F 5 "71-CRCW0603-100K-E3" V 6075 6750 60  0001 C CNN "PN"
+	1    6075 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1389,14 +1390,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 6850 5200 7000
 Wire Wire Line
-	6500 5400 7250 5400
+	6075 6600 6075 6500
+Connection ~ 6075 6500
 Wire Wire Line
-	7150 5500 7150 5400
-Connection ~ 7150 5400
+	6075 6950 6075 6900
 Wire Wire Line
-	7150 5850 7150 5800
-Wire Wire Line
-	7450 5150 7450 5200
+	6375 6250 6375 6300
 Connection ~ 5450 6500
 Wire Wire Line
 	2700 1150 2700 1650
@@ -1699,6 +1698,14 @@ Text Notes 8150 725  0    60   ~ 0
 CAN_OUT is a pass through connector for CAN.
 Text Notes 800  6025 0    60   ~ 0
 On Chip Debugging connector.\nUse a stm32 Discovery board, or a STLinkv2 board.
-Text Notes 7775 5300 0    60   ~ 0
+Text Notes 6700 6400 0    60   ~ 0
 To program through USB, hold down \nthe BOOT button and reset the uC.
+Wire Wire Line
+	6175 6500 5900 6500
+Wire Wire Line
+	5900 6500 5900 6275
+Wire Wire Line
+	5900 6275 5600 6275
+Wire Wire Line
+	5600 6275 5600 6150
 $EndSCHEMATC
