@@ -55,7 +55,7 @@ U 1 1 587EE100
 P 5425 3450
 F 0 "J1" H 5475 4800 50  0000 C CNN
 F 1 "DB25" H 5375 2100 50  0000 C CNN
-F 2 "Connect:DB25MC" H 5425 3450 50  0001 C CNN
+F 2 "Connect:DB25F_CI" H 5425 3450 50  0001 C CNN
 F 3 "" H 5425 3450 50  0000 C CNN
 	1    5425 3450
 	1    0    0    -1  
@@ -66,7 +66,7 @@ U 1 1 587EE101
 P 2375 2050
 F 0 "P7" V 2575 2050 50  0000 C CNN
 F 1 "O2 Sensor" V 2475 2050 50  0000 C CNN
-F 2 "" H 2375 2050 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 2375 2050 50  0001 C CNN
 F 3 "" H 2375 2050 50  0000 C CNN
 	1    2375 2050
 	0    1    -1   0   
@@ -77,7 +77,7 @@ U 1 1 587EE102
 P 3525 2050
 F 0 "P12" V 3725 2050 50  0000 C CNN
 F 1 "Injector" V 3625 2050 50  0000 C CNN
-F 2 "" H 3525 2050 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 3525 2050 50  0001 C CNN
 F 3 "" H 3525 2050 50  0000 C CNN
 	1    3525 2050
 	0    1    -1   0   
@@ -88,7 +88,7 @@ U 1 1 587EE103
 P 3975 2050
 F 0 "P15" V 4175 2050 50  0000 C CNN
 F 1 "Ignition" V 4075 2050 50  0000 C CNN
-F 2 "" H 3975 2050 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 3975 2050 50  0001 C CNN
 F 3 "" H 3975 2050 50  0000 C CNN
 	1    3975 2050
 	0    1    -1   0   
@@ -99,7 +99,7 @@ U 1 1 587EE104
 P 2975 2050
 F 0 "P9" V 3175 2050 50  0000 C CNN
 F 1 "RPM" V 3075 2050 50  0000 C CNN
-F 2 "" H 2975 2050 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 2975 2050 50  0001 C CNN
 F 3 "" H 2975 2050 50  0000 C CNN
 	1    2975 2050
 	0    1    -1   0   
@@ -110,7 +110,7 @@ U 1 1 587EE105
 P 1775 2050
 F 0 "P4" V 1975 2050 50  0000 C CNN
 F 1 "Power" V 1875 2050 50  0000 C CNN
-F 2 "Supermileage:Molex-UltraFit-4p" H 1775 2050 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 1775 2050 50  0001 C CNN
 F 3 "" H 1775 2050 50  0000 C CNN
 	1    1775 2050
 	0    1    -1   0   
@@ -121,7 +121,7 @@ U 1 1 587EE108
 P 2275 6500
 F 0 "P5" V 2475 6500 50  0000 C CNN
 F 1 "Throttle Position Sensor" V 2375 6500 50  0000 C CNN
-F 2 "" H 2275 6500 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 2275 6500 50  0001 C CNN
 F 3 "" H 2275 6500 50  0000 C CNN
 	1    2275 6500
 	0    1    1    0   
@@ -143,7 +143,7 @@ U 1 1 587EE10A
 P 3125 6500
 F 0 "P10" V 3325 6500 50  0000 C CNN
 F 1 "Intake Air Temp" V 3225 6500 50  0000 C CNN
-F 2 "" H 3125 6500 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 3125 6500 50  0001 C CNN
 F 3 "" H 3125 6500 50  0000 C CNN
 	1    3125 6500
 	0    1    1    0   
@@ -154,7 +154,7 @@ U 1 1 587EE10B
 P 3725 6500
 F 0 "P13" V 3925 6500 50  0000 C CNN
 F 1 "Coolant Temp" V 3825 6500 50  0000 C CNN
-F 2 "" H 3725 6500 50  0001 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 3725 6500 50  0001 C CNN
 F 3 "" H 3725 6500 50  0000 C CNN
 	1    3725 6500
 	0    1    1    0   
@@ -165,7 +165,7 @@ U 1 1 587EE10C
 P 1125 2050
 F 0 "P2" V 1325 2050 50  0000 C CNN
 F 1 "CAN" V 1225 2050 50  0000 C CNN
-F 2 "" H 1125 2050 50  0000 C CNN
+F 2 "User_Connectors:Molex-duraClick-4conn" H 1125 2050 50  0001 C CNN
 F 3 "" H 1125 2050 50  0000 C CNN
 	1    1125 2050
 	0    1    -1   0   
