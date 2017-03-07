@@ -46,19 +46,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X02 P4
-U 1 1 581D1F55
-P 2500 3550
-F 0 "P4" H 2500 3700 50  0000 C CNN
-F 1 "Ultra-Fit" V 2600 3550 50  0000 C CNN
-F 2 "Supermileage:Molex-UltraFit-2p" H 2500 3550 50  0001 C CNN
-F 3 "" H 2500 3550 50  0000 C CNN
-F 4 "Mouser" H 2500 3550 60  0001 C CNN "Distributor"
-F 5 "538-172310-2102 " H 2500 3550 60  0001 C CNN "PN"
-	1    2500 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L CONN_01X05 P3
 U 1 1 581D2171
 P 1150 1250
@@ -238,19 +225,6 @@ F 3 "" H 4100 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P5
-U 1 1 581DD792
-P 5450 3550
-F 0 "P5" H 5450 3700 50  0000 C CNN
-F 1 "Ultra-Fit" V 5550 3550 50  0000 C CNN
-F 2 "Supermileage:Molex-UltraFit-2p" H 5450 3550 50  0001 C CNN
-F 3 "" H 5450 3550 50  0000 C CNN
-F 4 "Mouser" H 5450 3550 60  0001 C CNN "Distributor"
-F 5 "538-172310-2102 " H 5450 3550 60  0001 C CNN "PN"
-	1    5450 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L C_Small C8
 U 1 1 581DD7BC
 P 6350 4600
@@ -328,19 +302,6 @@ F 2 "" H 7050 2800 50  0000 C CNN
 F 3 "" H 7050 2800 50  0000 C CNN
 	1    7050 2800
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P6
-U 1 1 581DDF2E
-P 8350 3550
-F 0 "P6" H 8350 3700 50  0000 C CNN
-F 1 "Ultra-Fit" V 8450 3550 50  0000 C CNN
-F 2 "Supermileage:Molex-UltraFit-2p" H 8350 3550 50  0001 C CNN
-F 3 "" H 8350 3550 50  0000 C CNN
-F 4 "Mouser" H 8350 3550 60  0001 C CNN "Distributor"
-F 5 "538-172310-2102 " H 8350 3550 60  0001 C CNN "PN"
-	1    8350 3550
-	-1   0    0    -1  
 $EndComp
 $Comp
 L C_Small C14
@@ -614,6 +575,117 @@ Text Label 1400 2700 0    60   ~ 0
 CAN_L
 Text Label 1400 2500 0    60   ~ 0
 Vin
+$Comp
+L C_Small C2
+U 1 1 581D38C6
+P 3650 4600
+F 0 "C2" H 3700 4500 50  0000 L CNN
+F 1 "4.7nf" V 3550 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3650 4600 50  0001 C CNN
+F 3 "" H 3650 4600 50  0000 C CNN
+	1    3650 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5822C9BB
+P 4300 3450
+F 0 "#PWR021" H 4300 3200 50  0001 C CNN
+F 1 "GND" H 4300 3300 50  0000 C CNN
+F 2 "" H 4300 3450 50  0000 C CNN
+F 3 "" H 4300 3450 50  0000 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5822D2B6
+P 7250 3450
+F 0 "#PWR022" H 7250 3200 50  0001 C CNN
+F 1 "GND" H 7250 3300 50  0000 C CNN
+F 2 "" H 7250 3450 50  0000 C CNN
+F 3 "" H 7250 3450 50  0000 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5822D7EE
+P 10250 3450
+F 0 "#PWR023" H 10250 3200 50  0001 C CNN
+F 1 "GND" H 10250 3300 50  0000 C CNN
+F 2 "" H 10250 3450 50  0000 C CNN
+F 3 "" H 10250 3450 50  0000 C CNN
+	1    10250 3450
+	1    0    0    -1  
+$EndComp
+Text Label 2750 3200 0    60   ~ 0
+V1
+Text Label 5700 3200 0    60   ~ 0
+V2
+Text Label 8600 3200 0    60   ~ 0
+V3
+Text Label 3900 5900 0    60   ~ 0
+V2
+Text Label 3900 5800 0    60   ~ 0
+V3
+Text Label 3900 6000 0    60   ~ 0
+V1
+$Sheet
+S 3050 5600 750  850 
+U 581EF7A1
+F0 "Can Controller" 60
+F1 "CanController.sch" 60
+F2 "OUT1" I L 3050 5800 60 
+F3 "OUT2" I L 3050 5900 60 
+F4 "OUT3" I L 3050 6000 60 
+F5 "CANH" O L 3050 6200 60 
+F6 "CANL" O L 3050 6300 60 
+F7 "V3" I R 3800 6000 60 
+F8 "V2" I R 3800 5900 60 
+F9 "V1" I R 3800 5800 60 
+$EndSheet
+Text Label 3750 1150 0    60   ~ 0
+Vin
+Text Label 1450 1050 0    60   ~ 0
+Vin
+Text Notes 725  800  0    60   ~ 0
+Analog outputs directly from the current sensors
+Text Notes 3525 825  0    60   ~ 0
+PMOS as an ideal diode. \nWhen the gate goes below Vgs the transistor turns on.
+$Comp
+L CONN_01X04 S1
+U 1 1 58BE2E84
+P 2300 3200
+F 0 "S1" V 2475 3200 50  0000 C CNN
+F 1 "Ultra-Fit" V 2400 3200 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 2300 3200 50  0001 C CNN
+F 3 "" H 2300 3200 50  0000 C CNN
+	1    2300 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_01X04 S2
+U 1 1 58BE314B
+P 5325 3200
+F 0 "S2" V 5500 3200 50  0000 C CNN
+F 1 "Ultra-Fit" V 5425 3200 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 5325 3200 50  0001 C CNN
+F 3 "" H 5325 3200 50  0000 C CNN
+	1    5325 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_01X04 S3
+U 1 1 58BE3885
+P 8125 3200
+F 0 "S3" H 8125 3450 50  0000 C CNN
+F 1 "Ultra-Fit" V 8225 3200 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 8125 3200 50  0001 C CNN
+F 3 "" H 8125 3200 50  0000 C CNN
+	1    8125 3200
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
 	3650 4500 3650 4400
 Wire Wire Line
@@ -641,18 +713,14 @@ Wire Wire Line
 	2750 3200 2750 3500
 Wire Wire Line
 	2750 3300 2850 3300
-Wire Wire Line
-	2750 3400 2850 3400
 Connection ~ 2750 3300
 Wire Wire Line
-	2700 3500 2850 3500
+	2250 3500 2850 3500
 Connection ~ 2750 3400
 Wire Wire Line
-	2700 3600 2850 3600
+	2150 3600 2850 3600
 Wire Wire Line
 	2750 3600 2750 3900
-Wire Wire Line
-	2750 3700 2850 3700
 Wire Wire Line
 	2750 3800 2850 3800
 Connection ~ 2750 3700
@@ -753,14 +821,12 @@ Wire Wire Line
 	5700 3400 5800 3400
 Connection ~ 5700 3300
 Wire Wire Line
-	5650 3500 5800 3500
+	5275 3500 5800 3500
 Connection ~ 5700 3400
 Wire Wire Line
-	5650 3600 5800 3600
+	5175 3600 5800 3600
 Wire Wire Line
 	5700 3600 5700 3900
-Wire Wire Line
-	5700 3700 5800 3700
 Wire Wire Line
 	5700 3800 5800 3800
 Connection ~ 5700 3700
@@ -806,18 +872,14 @@ Wire Wire Line
 	8600 3200 8600 3500
 Wire Wire Line
 	8600 3300 8700 3300
-Wire Wire Line
-	8600 3400 8700 3400
 Connection ~ 8600 3300
 Wire Wire Line
-	8550 3500 8700 3500
+	8075 3500 8700 3500
 Connection ~ 8600 3400
 Wire Wire Line
-	8550 3600 8700 3600
+	7975 3600 8700 3600
 Wire Wire Line
 	8600 3600 8600 3900
-Wire Wire Line
-	8600 3700 8700 3700
 Wire Wire Line
 	8600 3800 8700 3800
 Connection ~ 8600 3700
@@ -898,90 +960,52 @@ Wire Wire Line
 	3800 5800 3900 5800
 Wire Wire Line
 	3650 4800 3650 4700
-$Comp
-L C_Small C2
-U 1 1 581D38C6
-P 3650 4600
-F 0 "C2" H 3700 4500 50  0000 L CNN
-F 1 "4.7nf" V 3550 4550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3650 4600 50  0001 C CNN
-F 3 "" H 3650 4600 50  0000 C CNN
-	1    3650 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR021
-U 1 1 5822C9BB
-P 4300 3450
-F 0 "#PWR021" H 4300 3200 50  0001 C CNN
-F 1 "GND" H 4300 3300 50  0000 C CNN
-F 2 "" H 4300 3450 50  0000 C CNN
-F 3 "" H 4300 3450 50  0000 C CNN
-	1    4300 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 3450 4300 3400
-$Comp
-L GND #PWR022
-U 1 1 5822D2B6
-P 7250 3450
-F 0 "#PWR022" H 7250 3200 50  0001 C CNN
-F 1 "GND" H 7250 3300 50  0000 C CNN
-F 2 "" H 7250 3450 50  0000 C CNN
-F 3 "" H 7250 3450 50  0000 C CNN
-	1    7250 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 3450 7250 3400
-$Comp
-L GND #PWR023
-U 1 1 5822D7EE
-P 10250 3450
-F 0 "#PWR023" H 10250 3200 50  0001 C CNN
-F 1 "GND" H 10250 3300 50  0000 C CNN
-F 2 "" H 10250 3450 50  0000 C CNN
-F 3 "" H 10250 3450 50  0000 C CNN
-	1    10250 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10250 3400 10250 3450
 Wire Wire Line
 	10250 3400 9800 3400
-Text Label 2750 3200 0    60   ~ 0
-V1
-Text Label 5700 3200 0    60   ~ 0
-V2
-Text Label 8600 3200 0    60   ~ 0
-V3
-Text Label 3900 5900 0    60   ~ 0
-V2
-Text Label 3900 5800 0    60   ~ 0
-V3
-Text Label 3900 6000 0    60   ~ 0
-V1
-$Sheet
-S 3050 5600 750  850 
-U 581EF7A1
-F0 "Can Controller" 60
-F1 "CanController.sch" 60
-F2 "OUT1" I L 3050 5800 60 
-F3 "OUT2" I L 3050 5900 60 
-F4 "OUT3" I L 3050 6000 60 
-F5 "CANH" O L 3050 6200 60 
-F6 "CANL" O L 3050 6300 60 
-F7 "V3" I R 3800 6000 60 
-F8 "V2" I R 3800 5900 60 
-F9 "V1" I R 3800 5800 60 
-$EndSheet
-Text Label 3750 1150 0    60   ~ 0
-Vin
-Text Label 1450 1050 0    60   ~ 0
-Vin
-Text Notes 725  800  0    60   ~ 0
-Analog outputs directly from the current sensors
-Text Notes 3525 825  0    60   ~ 0
-PMOS as an ideal diode. \nWhen the gate goes below Vgs the transistor turns on.
+Wire Wire Line
+	5275 3500 5275 3400
+Wire Wire Line
+	5375 3600 5375 3400
+Wire Wire Line
+	5700 3700 5800 3700
+Wire Wire Line
+	5475 3400 5475 3500
+Connection ~ 5475 3500
+Wire Wire Line
+	5175 3600 5175 3400
+Connection ~ 5375 3600
+Wire Wire Line
+	2850 3400 2750 3400
+Wire Wire Line
+	2450 3500 2450 3400
+Wire Wire Line
+	2250 3500 2250 3400
+Connection ~ 2450 3500
+Wire Wire Line
+	2350 3600 2350 3400
+Wire Wire Line
+	2150 3400 2150 3600
+Connection ~ 2350 3600
+Wire Wire Line
+	2850 3700 2750 3700
+Wire Wire Line
+	8600 3400 8700 3400
+Wire Wire Line
+	8275 3500 8275 3400
+Wire Wire Line
+	8075 3400 8075 3500
+Connection ~ 8275 3500
+Wire Wire Line
+	8175 3600 8175 3400
+Wire Wire Line
+	7975 3400 7975 3600
+Connection ~ 8175 3600
+Wire Wire Line
+	8600 3700 8700 3700
 $EndSCHEMATC
