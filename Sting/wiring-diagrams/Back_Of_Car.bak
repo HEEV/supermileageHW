@@ -34,8 +34,7 @@ LIBS:EllicottInterface
 LIBS:EllicottMicrocontrollers
 LIBS:EllicottMisc
 LIBS:EllicottPower
-LIBS:can_sensor-cache
-LIBS:pitot_tube-v1-cache
+LIBS:Wiring Diagram v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -66,34 +65,25 @@ $Comp
 L Starter_Relay CR1
 U 1 1 57E6F37B
 P 3975 3925
-F 0 "CR1" V 3775 3925 60  0000 C CNN
-F 1 "Starter_Relay" V 4175 3925 60  0000 C CNN
+F 0 "CR1" H 3975 4150 60  0000 C CNN
+F 1 "Starter_Relay" H 3975 3700 60  0000 C CNN
 F 2 "" H 3975 3925 60  0001 C CNN
 F 3 "" H 3975 3925 60  0001 C CNN
 	1    3975 3925
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Text HLabel 2825 3425 0    60   Output ~ 0
 GND_MAIN
 Text HLabel 2825 3325 0    60   Output ~ 0
 12VBatt
-$Comp
-L LED D?
-U 1 1 57E7BBBA
-P 4375 4375
-F 0 "D?" H 4375 4475 50  0001 C CNN
-F 1 "Engine Start" H 4375 4475 50  0000 C CNN
-F 2 "" H 4375 4375 50  0000 C CNN
-F 3 "" H 4375 4375 50  0000 C CNN
-	1    4375 4375
-	-1   0    0    1   
-$EndComp
 Text HLabel 2825 3525 0    60   Input ~ 0
 Engine_Start
 $Comp
 L Battery BT?
 U 1 1 57E6F190
 P 6275 3425
+AR Path="/57E6F190" Ref="BT?"  Part="1" 
+AR Path="/57E2AF30/57E6F190" Ref="BT?"  Part="1" 
 F 0 "BT?" V 6075 3375 50  0001 L CNN
 F 1 "12V" H 6375 3425 50  0000 L CNN
 F 2 "" V 6275 3465 50  0000 C CNN
@@ -260,6 +250,8 @@ $Comp
 L Battery BT?
 U 1 1 5880064A
 P 6675 3425
+AR Path="/5880064A" Ref="BT?"  Part="1" 
+AR Path="/57E2AF30/5880064A" Ref="BT?"  Part="1" 
 F 0 "BT?" V 6475 3375 50  0001 L CNN
 F 1 "12V" H 6775 3425 50  0000 L CNN
 F 2 "" V 6675 3465 50  0000 C CNN
@@ -281,7 +273,9 @@ $Comp
 L POT TPS
 U 1 1 5893DA3D
 P 6000 6900
-F 0 "TPS" H 6000 6800 50  0000 C CNN
+AR Path="/5893DA3D" Ref="TPS"  Part="1" 
+AR Path="/57E2AF30/5893DA3D" Ref="TPS"  Part="1" 
+F 0 "TPS" V 6125 6775 50  0000 C CNN
 F 1 "POT" H 6000 6900 50  0001 C CNN
 F 2 "" H 6000 6900 50  0000 C CNN
 F 3 "" H 6000 6900 50  0000 C CNN
@@ -345,7 +339,19 @@ Wire Wire Line
 Wire Wire Line
 	5475 2025 5475 2125
 Wire Wire Line
-	4775 2025 5475 2025
+	4775 2025 4875 2025
+Wire Wire Line
+	4875 2025 4975 2025
+Wire Wire Line
+	4975 2025 5075 2025
+Wire Wire Line
+	5075 2025 5175 2025
+Wire Wire Line
+	5175 2025 5275 2025
+Wire Wire Line
+	5275 2025 5375 2025
+Wire Wire Line
+	5375 2025 5475 2025
 Wire Wire Line
 	5375 2025 5375 2125
 Wire Wire Line
@@ -371,9 +377,13 @@ Wire Wire Line
 	4475 2025 4475 2125
 Connection ~ 4475 2025
 Wire Wire Line
-	5475 3675 6675 3675
+	5475 3675 6275 3675
 Wire Wire Line
-	5475 2925 5475 3675
+	6275 3675 6675 3675
+Wire Wire Line
+	5475 2925 5475 3025
+Wire Wire Line
+	5475 3025 5475 3675
 Wire Wire Line
 	5375 2925 5375 3025
 Wire Wire Line
@@ -386,7 +396,11 @@ Wire Wire Line
 Wire Wire Line
 	2825 3525 3425 3525
 Wire Wire Line
-	5275 2925 5275 4375
+	5275 2925 5275 3025
+Wire Wire Line
+	5275 3025 5275 4025
+Wire Wire Line
+	5275 4025 5275 4375
 Wire Wire Line
 	5175 2925 5175 3025
 Wire Wire Line
@@ -395,7 +409,15 @@ Connection ~ 5275 3025
 Wire Wire Line
 	4675 3175 4675 2925
 Wire Wire Line
-	4175 2025 4675 2025
+	4175 2025 4275 2025
+Wire Wire Line
+	4275 2025 4375 2025
+Wire Wire Line
+	4375 2025 4475 2025
+Wire Wire Line
+	4475 2025 4575 2025
+Wire Wire Line
+	4575 2025 4675 2025
 Wire Wire Line
 	4775 2125 4775 2025
 Connection ~ 4975 2025
@@ -420,13 +442,13 @@ Wire Wire Line
 Wire Wire Line
 	5275 4025 5225 4025
 Wire Wire Line
-	4175 4375 3425 4375
+	4225 4375 3425 4375
 Wire Wire Line
 	3425 4375 3425 4025
 Wire Wire Line
 	3425 4025 3675 4025
 Wire Wire Line
-	5275 4375 4575 4375
+	5275 4375 4525 4375
 Connection ~ 5275 4025
 Wire Wire Line
 	3675 4025 3425 3925
@@ -435,18 +457,22 @@ Wire Wire Line
 Wire Wire Line
 	3575 3825 3675 3825
 Wire Wire Line
-	6125 3175 6675 3175
+	6125 3175 6275 3175
 Wire Wire Line
-	4575 3175 5625 3175
+	6275 3175 6675 3175
 Wire Wire Line
-	6275 3675 6275 3575
+	4575 3175 4675 3175
 Wire Wire Line
-	6275 3275 6275 3175
+	4675 3175 5625 3175
 Wire Wire Line
-	6675 3175 6675 3275
+	6275 3675 6275 3625
+Wire Wire Line
+	6275 3225 6275 3175
+Wire Wire Line
+	6675 3175 6675 3225
 Connection ~ 6275 3175
 Wire Wire Line
-	6675 3675 6675 3575
+	6675 3675 6675 3625
 Connection ~ 6275 3675
 Wire Wire Line
 	4625 4025 4275 4025
@@ -461,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6725 5700 6725
 Wire Wire Line
-	6000 7050 5775 7050
+	6225 7050 5775 7050
 Wire Wire Line
 	5775 7050 5775 6925
 Wire Wire Line
@@ -781,4 +807,19 @@ Wire Wire Line
 	3325 1525 4075 1525
 Wire Wire Line
 	4075 1525 4075 2125
+Wire Wire Line
+	6225 7050 6225 6900
+Wire Wire Line
+	6225 6900 6150 6900
+$Comp
+L LED_ALT D?
+U 1 1 58BFCDF3
+P 4375 4375
+F 0 "D?" H 4375 4475 50  0001 C CNN
+F 1 "Engine Start" H 4375 4500 50  0000 C CNN
+F 2 "" H 4375 4375 50  0000 C CNN
+F 3 "" H 4375 4375 50  0000 C CNN
+	1    4375 4375
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
