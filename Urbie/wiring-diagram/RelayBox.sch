@@ -208,7 +208,7 @@ Grn:R_Turn
 Text Label 3075 3225 2    60   ~ 0
 L_Blu:L_Turn
 Text Label 3075 3325 2    60   ~ 0
-Red_FlashTo
+Red:Flash
 Text Label 3075 3425 2    60   ~ 0
 Orn:Throt_Sig
 Text Label 3075 3525 2    60   ~ 0
@@ -349,8 +349,8 @@ F 3 "" H 9250 4525 50  0000 C CNN
 	1    9250 4525
 	1    0    0    -1  
 $EndComp
-Text HLabel 9650 4375 2    60   Output ~ 0
-RL_5:GND
+Text HLabel 9650 4475 2    60   Output ~ 0
+RL_6:GND
 $Comp
 L D D?
 U 1 1 586FE8DA
@@ -444,15 +444,15 @@ Grn:EStart
 Text Label 3375 1375 0    60   ~ 0
 Blue:Park_Lights
 Text Label 7900 1675 2    60   ~ 0
-Rear_L_Turn
+L_Blu:Rear_L_Turn
 Text Label 7900 1875 2    60   ~ 0
-Rear_R_Turn
+Brn:Rear_R_Turn
 Text Label 3625 6500 1    60   ~ 0
 Pur:Brake
 Text Label 3375 1575 0    60   ~ 0
-L_Blu:L_Turn
+L_Blu:L_Turn_Rear
 Text Label 3375 1775 0    60   ~ 0
-Grn:R_Turn
+Grn:R_Turn_Rear
 Text Label 3375 1875 0    60   ~ 0
 Grn:R_Brake
 Text Label 4675 4025 1    60   ~ 0
@@ -462,9 +462,9 @@ L_Blu:L_Brake
 Text Label 3475 4050 1    60   ~ 0
 Grn:R_Brake
 Text Label 3925 4050 1    60   ~ 0
-Grn:R_Blink
+Grn:R_Blink_Out
 Text Label 5125 4050 1    60   ~ 0
-L_Blu:L_Blink
+L_Blu:L_Blink_Out
 Text Label 3475 6500 1    60   ~ 0
 Blk:GND
 Text Label 3775 6500 1    60   ~ 0
@@ -481,10 +481,8 @@ Text Label 6475 6500 1    60   ~ 0
 Blue:EStop
 Text Label 6575 6500 1    60   ~ 0
 Blue:EStop_C
-Text Label 7425 5925 3    60   ~ 0
-Grn:EStart
-Text Label 7525 5925 3    60   ~ 0
-Grn:EStart_C
+Text Label 7525 5850 3    60   ~ 0
+Grn:EFI_Start
 Text Label 6175 6500 1    60   ~ 0
 O_Grn:DrvEn
 Text Label 6375 6500 1    60   ~ 0
@@ -492,17 +490,15 @@ O_Grn:ArmStatus
 Text Label 6275 6500 1    60   ~ 0
 O_Grn:DrvEn
 Text Label 8225 4175 0    60   ~ 0
-Rear_L_Turn
+L_Blu:Rear_L_Turn
 Text Label 8225 4075 0    60   ~ 0
-Rear_R_Turn
+Brn:Rear_R_Turn
 Text Label 8225 3975 0    60   ~ 0
 Grn:Start_Light
 Text Label 4825 6500 1    60   ~ 0
 Pur:Rear_Brake
 Text Label 8225 4275 0    60   ~ 0
 Pur:Rear_Brake
-Text Label 6675 6500 1    60   ~ 0
-Pink:O2_Auto
 $Comp
 L CONN_01X12 P?
 U 1 1 5870DD6B
@@ -564,11 +560,11 @@ Blk:GND
 Text Label 3375 2375 0    60   ~ 0
 Blk:GND
 Text Label 7900 2475 2    60   ~ 0
-Blk_GND
+Blk_GND_IN
 Text Label 7900 2575 2    60   ~ 0
-Blk_GND
+Blk_GND_IN
 Text Label 7900 2675 2    60   ~ 0
-Blk_GND
+Blk_GND_IN
 Entry Wire Line
 	8050 4175 8150 4275
 Entry Wire Line
@@ -628,9 +624,9 @@ Entry Wire Line
 Entry Wire Line
 	3225 3175 3325 3275
 Entry Wire Line
-	3225 3075 3325 3175
+	3225 3000 3325 3100
 Entry Wire Line
-	3225 2975 3325 3075
+	3225 2925 3325 3025
 Entry Wire Line
 	3225 2575 3325 2675
 Entry Wire Line
@@ -702,10 +698,6 @@ Entry Wire Line
 Entry Wire Line
 	7525 6575 7625 6675
 Entry Wire Line
-	7425 6575 7525 6675
-Entry Wire Line
-	6675 6575 6775 6675
-Entry Wire Line
 	6575 6575 6675 6675
 Entry Wire Line
 	6475 6575 6575 6675
@@ -730,7 +722,7 @@ Entry Wire Line
 Text Label 5675 4050 1    60   ~ 0
 White:C_IO_PWR
 Entry Wire Line
-	3225 2875 3325 2975
+	3225 2750 3325 2850
 Text Label 5675 5625 3    60   ~ 0
 White:Comp_IO_PWR
 Entry Wire Line
@@ -761,6 +753,67 @@ F 3 "" H 9250 6025 50  0000 C CNN
 	1    9250 6025
 	1    0    0    -1  
 $EndComp
+Text Label 8225 5475 0    60   ~ 0
+Red:Master_PWR
+Text Label 8225 5975 0    60   ~ 0
+Blk:GND_IN
+Text Label 8225 5875 0    60   ~ 0
+Blk:GND_IN
+Text Label 8225 5775 0    60   ~ 0
+Blk:GND_IN
+Text Label 8225 5575 0    60   ~ 0
+Red:Master_PWR
+Text Label 8225 5675 0    60   ~ 0
+Red:Master_PWR
+Entry Wire Line
+	8050 5875 8150 5975
+Entry Wire Line
+	8050 5775 8150 5875
+Entry Wire Line
+	8050 5675 8150 5775
+Entry Wire Line
+	8050 5575 8150 5675
+Entry Wire Line
+	8050 5475 8150 5575
+Entry Wire Line
+	8050 5375 8150 5475
+Text Label 7900 2175 2    60   ~ 0
+Red:Master_PWR
+Text Label 7900 2275 2    60   ~ 0
+Red:Master_PWR
+Text Label 3375 2275 0    60   ~ 0
+Red:Master_PWR
+Entry Wire Line
+	3225 2175 3325 2275
+Entry Wire Line
+	7950 2275 8050 2175
+Entry Wire Line
+	7950 2175 8050 2075
+Text Label 8225 4475 0    60   ~ 0
+Blk:GND
+Entry Wire Line
+	8050 4375 8150 4475
+$Comp
+L Flash SW?
+U 1 1 58A1BDF0
+P 4125 6075
+F 0 "SW?" H 4125 6025 60  0001 C CNN
+F 1 "Flash" V 4125 6125 60  0000 C CNN
+F 2 "" H 4125 6075 60  0001 C CNN
+F 3 "" H 4125 6075 60  0001 C CNN
+	1    4125 6075
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	4425 6575 4525 6675
+Text Label 4425 6550 1    60   ~ 0
+Red:Flash
+Text Label 3925 6075 1    60   ~ 0
+Red:Flash
+Entry Wire Line
+	3225 2850 3325 2950
+Text Label 5225 4050 1    60   ~ 0
+L_Blu:L_Turn_Rear
 Wire Wire Line
 	7375 3950 7375 4100
 Wire Wire Line
@@ -778,9 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	6175 5400 6175 5500
 Wire Wire Line
-	6175 5500 7075 5500
-Wire Wire Line
-	7075 5500 7075 5400
+	6175 5500 7225 5500
 Wire Wire Line
 	9650 1125 9600 1125
 Wire Wire Line
@@ -821,8 +872,6 @@ Wire Wire Line
 	9600 4175 9650 4175
 Wire Wire Line
 	9600 4275 9650 4275
-Wire Wire Line
-	9600 4375 9650 4375
 Wire Wire Line
 	3325 1175 4950 1175
 Wire Wire Line
@@ -906,9 +955,9 @@ Wire Wire Line
 Wire Wire Line
 	4975 5425 4975 6575
 Wire Wire Line
-	5125 3075 5125 4125
+	5125 3025 5125 4125
 Wire Wire Line
-	4675 3175 4675 4125
+	4675 3100 4675 4125
 Wire Wire Line
 	3925 3275 3925 4125
 Wire Wire Line
@@ -939,10 +988,6 @@ Wire Wire Line
 	6325 5400 6375 5575
 Wire Wire Line
 	4825 5425 4825 6575
-Wire Wire Line
-	6675 5575 6675 6575
-Wire Wire Line
-	6475 5400 6675 5575
 Wire Wire Line
 	2175 2425 3125 2425
 Wire Wire Line
@@ -1038,10 +1083,6 @@ Wire Wire Line
 Wire Wire Line
 	2175 1725 3125 1725
 Wire Wire Line
-	7425 5875 7425 6575
-Wire Wire Line
-	7425 5875 7525 5800
-Wire Wire Line
 	7525 5800 7525 6575
 Wire Wire Line
 	7675 5400 7675 6575
@@ -1099,9 +1140,9 @@ Wire Wire Line
 Wire Wire Line
 	7625 3975 7625 3075
 Wire Bus Line
-	8050 750  8050 6675
+	8050 6675 8050 750 
 Wire Bus Line
-	8050 6675 3350 6675
+	3350 6675 8050 6675
 Wire Wire Line
 	7725 3175 7950 3175
 Wire Wire Line
@@ -1121,21 +1162,21 @@ Wire Wire Line
 Wire Wire Line
 	3475 3375 3325 3375
 Wire Wire Line
-	4675 3175 3325 3175
+	4675 3100 3325 3100
 Wire Wire Line
-	5125 3075 3325 3075
+	5125 3025 3325 3025
 Wire Wire Line
 	9050 2925 8150 2925
 Wire Wire Line
-	5675 4125 5675 2975
+	5675 4125 5675 2850
 Wire Wire Line
-	5675 2975 3325 2975
+	5675 2850 3325 2850
 Wire Wire Line
 	5825 5425 5825 6575
 Wire Wire Line
 	5675 5425 5675 6575
 Wire Wire Line
-	9750 5475 9600 5475
+	9600 5475 9750 5475
 Wire Wire Line
 	9600 5575 9700 5575
 Wire Wire Line
@@ -1145,7 +1186,7 @@ Wire Wire Line
 	9700 5675 9600 5675
 Connection ~ 9700 5575
 Wire Wire Line
-	9750 5775 9600 5775
+	9600 5775 9750 5775
 Wire Wire Line
 	9600 5875 9700 5875
 Wire Wire Line
@@ -1154,58 +1195,82 @@ Connection ~ 9700 5775
 Wire Wire Line
 	9700 5975 9600 5975
 Connection ~ 9700 5875
-Text Label 8225 5475 0    60   ~ 0
-Red:Master_PWR
-Text Label 8225 5975 0    60   ~ 0
-Blk:GND
 Wire Wire Line
 	8150 5975 9050 5975
-Text Label 8225 5875 0    60   ~ 0
-Blk:GND
 Wire Wire Line
 	8150 5875 9050 5875
-Text Label 8225 5775 0    60   ~ 0
-Blk:GND
 Wire Wire Line
 	8150 5775 9050 5775
-Text Label 8225 5575 0    60   ~ 0
-Red:Master_PWR
-Text Label 8225 5675 0    60   ~ 0
-Red:Master_PWR
 Wire Wire Line
 	8150 5675 9050 5675
 Wire Wire Line
 	8150 5575 9050 5575
 Wire Wire Line
 	8150 5475 9050 5475
-Entry Wire Line
-	8050 5875 8150 5975
-Entry Wire Line
-	8050 5775 8150 5875
-Entry Wire Line
-	8050 5675 8150 5775
-Entry Wire Line
-	8050 5575 8150 5675
-Entry Wire Line
-	8050 5475 8150 5575
-Entry Wire Line
-	8050 5375 8150 5475
-Text Label 7900 2175 2    60   ~ 0
-Red:Master_PWR
-Text Label 7900 2275 2    60   ~ 0
-Red:Master_PWR
-Text Label 3375 2275 0    60   ~ 0
-Red:Master_PWR
-Entry Wire Line
-	3225 2175 3325 2275
-Entry Wire Line
-	7950 2275 8050 2175
-Entry Wire Line
-	7950 2175 8050 2075
 Wire Wire Line
 	7950 2175 5750 2175
 Wire Wire Line
 	5750 2275 7950 2275
 Wire Wire Line
 	4950 2275 3325 2275
+Wire Wire Line
+	9050 4475 8150 4475
+Wire Wire Line
+	9600 4475 9650 4475
+Wire Wire Line
+	3925 5425 3925 6075
+Wire Wire Line
+	4425 6575 4425 6075
+Wire Wire Line
+	5125 4125 5225 4075
+Wire Wire Line
+	5225 4075 5225 2950
+Wire Wire Line
+	5225 2950 3325 2950
+Wire Wire Line
+	3925 4125 4050 4075
+Wire Wire Line
+	4050 4075 4050 3200
+Wire Wire Line
+	4050 3200 3325 3200
+Text Label 4050 4050 1    60   ~ 0
+Grn:R_Turn_Rear
+Entry Wire Line
+	3225 3100 3325 3200
+Text Label 7225 1275 0    60   ~ 0
+Grn:Start_Relay
+Text Label 7225 1375 0    60   ~ 0
+Grn:EFI_Start
+Wire Wire Line
+	7150 1375 7950 1375
+Wire Wire Line
+	7150 1375 7150 1325
+Wire Wire Line
+	7150 1325 5800 1325
+Wire Wire Line
+	5800 1325 5750 1275
+Entry Wire Line
+	7950 1375 8050 1275
+Text Label 8225 3325 0    60   ~ 0
+BLK:GND
+Wire Wire Line
+	9050 3325 8150 3325
+Entry Wire Line
+	8050 3225 8150 3325
+Entry Wire Line
+	8050 3125 8150 3225
+Text Label 6800 3950 0    60   ~ 0
+Lt_Blu
+Text Label 8225 3225 0    60   ~ 0
+Pnk:O2_PWR
+Wire Wire Line
+	8150 3225 9050 3225
+Wire Wire Line
+	7225 5500 7225 5400
+Text Label 6050 5500 2    60   ~ 0
+GND
+Text Label 5350 5500 2    60   ~ 0
+GND
+Text Label 6750 5500 2    60   ~ 0
+GND
 $EndSCHEMATC

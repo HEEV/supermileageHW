@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nebk/Documents/supermileage/supermileagehw/pressure_sensor/pitot_tube-v1.sch</source>
+    <date>Fri 02 Dec 2016 08:15:39 PM EST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pressure Transducer Board</title>
+        <company>Cedarville Supermileage</company>
+        <rev>2</rev>
+        <date>2016-10-20</date>
+        <source>pitot_tube-v1.sch</source>
+        <comment number="1" value="Sam Ellicott"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>HSCDRR004MD</value>
+      <footprint>supermileage:DIP-8</footprint>
+      <libsource lib="Supermileage" part="HSCDRR004MD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58023AC1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>User_Connectors:Molex-duraClick-4conn</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58023B32</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58023C8B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58023D54</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>Mount</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58024A76</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>Mount</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58024AFF</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>Mount</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58025194</tstamp>
+    </comp>
+    <comp ref="W4">
+      <value>Mount</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5802519A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NJM2870F0</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="EllicottPower" part="NJM2870F0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097971</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097CDE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097D96</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097EE3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097FA6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580991AA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809A0C0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809A167</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809B8CB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809B9BC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809CD26</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809D17E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ASDX100A24R</value>
+      <footprint>supermileage:ASDX100A24R</footprint>
+      <libsource lib="Supermileage" part="ASDX100A24R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809EFE3</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>G4V-MINI</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <libsource lib="Supermileage" part="G4V-MINI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5814C22B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Supermileage" part="ASDX100A24R">
+      <description>Honeywell 5v absolute pressure transducer</description>
+      <docs>doc/ASDX_Series.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASDX100A24R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="Out" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Supermileage" part="G4V-MINI">
+      <description>All Sensors 1in H_2O Differential Sensor</description>
+      <docs>doc/1-Inch-G4-Mini.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">G4V-MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Out" type="power_in"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Supermileage" part="HSCDRR004MD">
+      <description>Honeywell 3.3v differential pressure transducer</description>
+      <docs>doc/HSC_and_SSC_Series.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HSCDRR004MD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="Vcc" type="power_in"/>
+        <pin num="3" name="Out" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="EllicottPower" part="NJM2870F0">
+      <description>5v LDO 14v max</description>
+      <docs>datasheets/njm2870f0.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NJM2870F0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BYPASS" type="passive"/>
+        <pin num="4" name="Vout" type="power_out"/>
+        <pin num="5" name="Vin" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Supermileage">
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/parts_library/Supermileage.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="EllicottPower">
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/EllicottSamuel/EllicottPower.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(P2-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(P2-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U3" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="8" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="9" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="10" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="13" name="+3V3">
+      <node ref="Q2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(W4-Pad1)">
+      <node ref="W4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(W1-Pad1)">
+      <node ref="W1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(W2-Pad1)">
+      <node ref="W2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(W3-Pad1)">
+      <node ref="W3" pin="1"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="23" name="/Out">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(P1-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 13
+Sheet 13 13
 Title "Urbie - Switch Panel"
 Date "2017-01-07"
 Rev "1.5"
@@ -44,29 +44,29 @@ Comment2 "Tineka Witt"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1650 5100 0    60   Output ~ 0
+Text HLabel 1650 4900 0    60   Output ~ 0
 Ov1LftBlnk
-Text HLabel 1650 5200 0    60   Output ~ 0
+Text HLabel 1650 5000 0    60   Output ~ 0
 Ov2RtBlnk
-Text HLabel 1650 5300 0    60   Output ~ 0
+Text HLabel 1650 5100 0    60   Output ~ 0
 Ov3
-Text HLabel 1650 5400 0    60   Output ~ 0
+Text HLabel 1650 5200 0    60   Output ~ 0
 Ov4
-Text HLabel 1650 5500 0    60   Output ~ 0
+Text HLabel 1650 5300 0    60   Output ~ 0
 Ov5
-Text HLabel 1650 5600 0    60   Input ~ 0
+Text HLabel 1650 5400 0    60   Input ~ 0
 Ov6Brake1
-Text HLabel 1650 5700 0    60   Input ~ 0
+Text HLabel 1650 5500 0    60   Input ~ 0
 Ov7BBrake2
-Text HLabel 1650 5800 0    60   Output ~ 0
+Text HLabel 1650 5600 0    60   Output ~ 0
 Ov8Horn
-Text HLabel 1650 5900 0    60   Output ~ 0
+Text HLabel 1650 5700 0    60   Output ~ 0
 Ov9:Wiper/Horn_PWR
-Text HLabel 1650 6000 0    60   Output ~ 0
+Text HLabel 1650 5800 0    60   Output ~ 0
 Ov10WiperPwr
-Text HLabel 1650 6100 0    60   Input ~ 0
+Text HLabel 1650 5900 0    60   Input ~ 0
 Ov11:Throt_Sig
-Text HLabel 1650 6200 0    60   Output ~ 0
+Text HLabel 1650 6000 0    60   Output ~ 0
 Ov12:ThrotPWR
 Text HLabel 1650 2925 0    60   Input ~ 0
 L1:L_Turn
@@ -243,7 +243,7 @@ Text Label 4025 2050 0    60   ~ 0
 LightPWR
 Text Label 3425 1700 2    60   ~ 0
 LightPWR
-Text Label 3425 5600 2    60   ~ 0
+Text Label 3425 5400 2    60   ~ 0
 LightPWR
 Text Label 8100 6125 0    60   ~ 0
 TurnPWR
@@ -269,7 +269,7 @@ Text HLabel 9425 4950 2    60   Input ~ 0
 BoD1.12:Gnd
 Text Label 3425 2300 2    60   ~ 0
 Honk
-Text Label 3425 5800 2    60   ~ 0
+Text Label 3425 5600 2    60   ~ 0
 Honk
 Text Label 8100 5325 0    60   ~ 0
 Honk
@@ -305,7 +305,7 @@ Text Label 3425 3225 2    60   ~ 0
 DrvEn
 Text Label 3425 2925 2    60   ~ 0
 L_Blink
-Text Label 3425 5200 2    60   ~ 0
+Text Label 3425 5000 2    60   ~ 0
 L_Blink
 Text Label 8100 5625 0    60   ~ 0
 L_Blink
@@ -313,9 +313,9 @@ Text Label 3425 1800 2    60   ~ 0
 Brights
 Text Label 3425 3025 2    60   ~ 0
 Brights
-Text Label 3425 5500 2    60   ~ 0
+Text Label 3425 5300 2    60   ~ 0
 Brights
-Text Label 3425 5100 2    60   ~ 0
+Text Label 3425 4900 2    60   ~ 0
 R_Blink
 Text Label 3425 3125 2    60   ~ 0
 R_Blink
@@ -333,7 +333,7 @@ Text Label 3425 1400 2    60   ~ 0
 R_Turn
 Text Label 3425 1500 2    60   ~ 0
 Running*
-Text Label 3425 5300 2    60   ~ 0
+Text Label 3425 5100 2    60   ~ 0
 Running*
 Text Label 8100 5425 0    60   ~ 0
 Running*
@@ -343,13 +343,13 @@ Text Label 3425 1900 2    60   ~ 0
 EngineStart
 Text Label 3425 1600 2    60   ~ 0
 Head*
-Text Label 3425 5400 2    60   ~ 0
+Text Label 3425 5200 2    60   ~ 0
 Head*
-Text Label 3425 5900 2    60   ~ 0
+Text Label 3425 5700 2    60   ~ 0
 Wiper/Horn_PWR
 Text Label 3425 1000 2    60   ~ 0
 WiperOut
-Text Label 3425 6000 2    60   ~ 0
+Text Label 3425 5800 2    60   ~ 0
 WiperOut
 Text Label 8100 4750 0    60   ~ 0
 EngineStop
@@ -421,9 +421,9 @@ Text Label 8100 6225 0    60   ~ 0
 Accel_Yellow
 Text Label 8100 6325 0    60   ~ 0
 Accel_Red
-Text Label 3425 6200 2    60   ~ 0
+Text Label 3425 6000 2    60   ~ 0
 Accel_Red
-Text Label 3425 6100 2    60   ~ 0
+Text Label 3425 5900 2    60   ~ 0
 Accel_Yellow
 Text Label 3425 2400 2    60   ~ 0
 EngineStop
@@ -647,6 +647,10 @@ Entry Wire Line
 Entry Wire Line
 	3550 3725 3650 3825
 Entry Wire Line
+	3550 4900 3650 5000
+Entry Wire Line
+	3550 5000 3650 5100
+Entry Wire Line
 	3550 5100 3650 5200
 Entry Wire Line
 	3550 5200 3650 5300
@@ -655,19 +659,15 @@ Entry Wire Line
 Entry Wire Line
 	3550 5400 3650 5500
 Entry Wire Line
-	3550 5500 3650 5600
-Entry Wire Line
 	3550 5600 3650 5700
+Entry Wire Line
+	3550 5700 3650 5800
 Entry Wire Line
 	3550 5800 3650 5900
 Entry Wire Line
 	3550 5900 3650 6000
 Entry Wire Line
 	3550 6000 3650 6100
-Entry Wire Line
-	3550 6100 3650 6200
-Entry Wire Line
-	3550 6200 3650 6300
 $Comp
 L CONN_01X09 P?
 U 1 1 58782502
@@ -818,28 +818,10 @@ Wire Wire Line
 	2000 900  1650 900 
 Wire Wire Line
 	2000 1000 1650 1000
-$Comp
-L CONN_01X12 P?
-U 1 1 58784560
-P 2350 5650
-F 0 "P?" H 2350 6300 50  0001 C CNN
-F 1 "CONN_01X12" V 2450 5650 50  0001 C CNN
-F 2 "" H 2350 5650 50  0000 C CNN
-F 3 "" H 2350 5650 50  0000 C CNN
-	1    2350 5650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X12 P?
-U 1 1 58784566
-P 2200 5650
-F 0 "P?" H 2200 6300 50  0001 C CNN
-F 1 "Front Lights" H 2275 6325 50  0000 C CNN
-F 2 "" H 2200 5650 50  0000 C CNN
-F 3 "" H 2200 5650 50  0000 C CNN
-	1    2200 5650
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	2550 4900 3550 4900
+Wire Wire Line
+	2550 5000 3550 5000
 Wire Wire Line
 	2550 5100 3550 5100
 Wire Wire Line
@@ -849,25 +831,17 @@ Wire Wire Line
 Wire Wire Line
 	2550 5400 3550 5400
 Wire Wire Line
-	2550 5500 3550 5500
-Wire Wire Line
 	2550 5600 3550 5600
 Wire Wire Line
-	2550 5800 3550 5800
+	2550 5700 3550 5700
 Wire Wire Line
 	2550 5900 3550 5900
 Wire Wire Line
-	2550 6100 3550 6100
+	2550 6000 3550 6000
 Wire Wire Line
-	2550 6200 3550 6200
-Wire Wire Line
-	2000 6200 1650 6200
-Wire Wire Line
-	1650 6100 2000 6100
+	2000 6000 1650 6000
 Wire Wire Line
 	1650 5900 2000 5900
-Wire Wire Line
-	1650 5800 2000 5800
 Wire Wire Line
 	1650 5700 2000 5700
 Wire Wire Line
@@ -883,13 +857,69 @@ Wire Wire Line
 Wire Wire Line
 	1650 5100 2000 5100
 Wire Wire Line
-	2000 6000 1650 6000
+	1650 5000 2000 5000
 Wire Wire Line
-	2550 6000 3550 6000
-Text Label 3425 5700 2    60   ~ 0
+	1650 4900 2000 4900
+Wire Wire Line
+	2000 5800 1650 5800
+Wire Wire Line
+	2550 5800 3550 5800
+Text Label 3425 5500 2    60   ~ 0
 Brake
 Wire Wire Line
-	2550 5700 3550 5700
+	2550 5500 3550 5500
 Entry Wire Line
-	3550 5700 3650 5800
+	3550 5500 3650 5600
+$Comp
+L CONN_01X15 P?
+U 1 1 5891B89E
+P 2200 5600
+F 0 "P?" H 2200 6400 50  0000 C CNN
+F 1 "CONN_01X15" V 2300 5600 50  0001 C CNN
+F 2 "" H 2200 5600 50  0000 C CNN
+F 3 "" H 2200 5600 50  0000 C CNN
+	1    2200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X15 P?
+U 1 1 5891BDDD
+P 2350 5600
+F 0 "P?" H 2350 6400 50  0000 C CNN
+F 1 "CONN_01X15" V 2450 5600 50  0001 C CNN
+F 2 "" H 2350 5600 50  0000 C CNN
+F 3 "" H 2350 5600 50  0000 C CNN
+	1    2350 5600
+	-1   0    0    -1  
+$EndComp
+Text Label 3250 6100 0    60   ~ 0
+GND
+Text Label 3250 6200 0    60   ~ 0
+GND
+Text Label 3250 6300 0    60   ~ 0
+GND
+Wire Wire Line
+	2550 6100 3550 6100
+Wire Wire Line
+	2550 6200 3550 6200
+Wire Wire Line
+	2550 6300 3550 6300
+Entry Wire Line
+	3550 6100 3650 6200
+Entry Wire Line
+	3550 6200 3650 6300
+Entry Wire Line
+	3550 6300 3650 6400
+Text HLabel 1650 6200 0    60   Output ~ 0
+Ov14:GND
+Text HLabel 1650 6300 0    60   Output ~ 0
+Ov15:GND
+Wire Wire Line
+	1650 6300 2000 6300
+Wire Wire Line
+	1650 6200 2000 6200
+Wire Wire Line
+	1650 6100 2000 6100
+Text HLabel 1650 6100 0    60   Output ~ 0
+Ov13:GND
 $EndSCHEMATC

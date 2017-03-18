@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nebk/Documents/supermileage/supermileagehw/current_sensor/Current Sensor.sch</source>
+    <date>Fri 02 Dec 2016 07:57:58 PM EST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Current Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Can Controller/" tstamps="/581EF7A1/">
+      <title_block>
+        <title>Can Node</title>
+        <company>Cedarville Univerity</company>
+        <rev>0.3</rev>
+        <date>2016-05-09</date>
+        <source>CanController.sch</source>
+        <comment number="1" value="Samuel Ellicott"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P4">
+      <value>Ultra-Fit</value>
+      <footprint>Supermileage:Molex-UltraFit-2p</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-172310-2102 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D1F55</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>DuraClik-5</value>
+      <footprint>User_Connectors:Molex-duraClick-5conn</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-502352-0501 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D2171</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D2DD5</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ACS710</value>
+      <footprint>Supermileage:DIP-16-SchmartBoard</footprint>
+      <libsource lib="Supermileage" part="ACS710"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D35C3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NJM2870F0</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">513-NJM2870F05-TE2 </field>
+      </fields>
+      <libsource lib="EllicottPower" part="NJM2870F0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D8FCD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Reverse</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">863-NTR3A30PZT1G </field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D906E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D9BD4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D9F71</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D9FED</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DA042</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DBD64</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>Ultra-Fit</value>
+      <footprint>Supermileage:Molex-UltraFit-2p</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-172310-2102 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DD792</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DD7BC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ACS710</value>
+      <footprint>Supermileage:DIP-16-SchmartBoard</footprint>
+      <libsource lib="Supermileage" part="ACS710"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DD7C3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DD7CA</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DD8AF</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Ultra-Fit</value>
+      <footprint>Supermileage:Molex-UltraFit-2p</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-172310-2102 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DDF2E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DDF58</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ACS710</value>
+      <footprint>Supermileage:DIP-16-SchmartBoard</footprint>
+      <libsource lib="Supermileage" part="ACS710"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DDF5F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4.7nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DDF66</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581DE04B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MIC5317</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">998-MIC5317-3.3YM5TR </field>
+      </fields>
+      <libsource lib="EllicottPower" part="MIC5317"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581ECED4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581ED63F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581EDDB1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581EDE69</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CAN_OUT</value>
+      <footprint>User_Connectors:Molex-duraClick-4conn</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-502352-0400 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581F69F1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CAN_IN</value>
+      <footprint>User_Connectors:Molex-duraClick-4conn</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">538-502352-0400 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581F8F7F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7nf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D38C6</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>mcp2562</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">579-MCP2562-E/SN</field>
+      </fields>
+      <libsource lib="Current Sensor-cache" part="mcp2562"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCC3</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">80-C0603C105K8P</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCCB</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCCC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCD1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>120R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">71-CRCW0603-120-E3</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCE7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED1</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCE8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED2</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCE9</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>USB</value>
+      <footprint>Connect:USB_Micro-B</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">649-10118194-0001LF</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCEC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCEF</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCF0</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCF3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCF7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCF8</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>120R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">71-CRCW0603-120-E3</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCF9</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>120R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">71-CRCW0603-120-E3</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCFA</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCFC</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">81-GRM188R61C106KALD</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFCFF</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD00</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>STM32F042C6</value>
+      <footprint>Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">511-STM32F042C6T6 </field>
+      </fields>
+      <libsource lib="Current Sensor-cache" part="STM32F042C6"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD0A</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">80-C0603C105K8P</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD0B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD0C</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">80-C0603C105K8P</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD0D</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581EFD0E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F0496</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F049D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F04B0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F04B7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F04CA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F04D1</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>581F5BC2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9AE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9B4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>8k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9C6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9CC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9DE</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>5822F9E4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A2F6F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A322E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A34E4</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A3825</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A59E6</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28B4</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28BA</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>8k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28C1</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28C7</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28D4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A28DA</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A290C</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A7899</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A789F</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>8k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A78A6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A78AC</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A78B9</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k3</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A78BF</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>583A78F1</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A32BC</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="PN">512-SS14FL </field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Can Controller/" tstamps="/581EF7A1/"/>
+      <tstamp>582A35CA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Supermileage" part="ACS710">
+      <description>Allegro Current Sensor</description>
+      <docs>doc/ACS710-Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS710</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP+" type="passive"/>
+        <pin num="4" name="IP+" type="passive"/>
+        <pin num="5" name="IP-" type="passive"/>
+        <pin num="6" name="IP-" type="passive"/>
+        <pin num="7" name="IP-" type="passive"/>
+        <pin num="8" name="IP-" type="passive"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="VZCR" type="openEm"/>
+        <pin num="11" name="FILTER" type="passive"/>
+        <pin num="12" name="VIOUT" type="output"/>
+        <pin num="13" name="~FAULT" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="VOC" type="input"/>
+        <pin num="16" name="FAULT_EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector, double row, 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EllicottPower" part="MIC5317">
+      <description>3.3v LDO 6v max</description>
+      <docs>datasheets/mic5317.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5317</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="EllicottPower" part="NJM2870F0">
+      <description>5v LDO 14v max</description>
+      <docs>datasheets/njm2870f0.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NJM2870F0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BYPASS" type="passive"/>
+        <pin num="4" name="Vout" type="power_out"/>
+        <pin num="5" name="Vin" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Current Sensor-cache" part="STM32F042C6">
+      <docs>datasheets/stm32f102x4_6.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F042C6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="power_in"/>
+        <pin num="2" name="PC13/RTC" type="passive"/>
+        <pin num="3" name="PC14/LSE_IN" type="passive"/>
+        <pin num="4" name="PC15/LSE_OUT" type="passive"/>
+        <pin num="5" name="PF0/HSE_IN" type="passive"/>
+        <pin num="6" name="PF1/HSE_OUT" type="passive"/>
+        <pin num="7" name="RST" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="PA0/WKP" type="3state"/>
+        <pin num="11" name="PA1" type="3state"/>
+        <pin num="12" name="PA2" type="3state"/>
+        <pin num="13" name="PA3" type="3state"/>
+        <pin num="14" name="PA4" type="3state"/>
+        <pin num="15" name="PA5" type="3state"/>
+        <pin num="16" name="PA6" type="3state"/>
+        <pin num="17" name="PA7" type="3state"/>
+        <pin num="18" name="PB0" type="3state"/>
+        <pin num="19" name="PB1" type="3state"/>
+        <pin num="20" name="PB2/BOOT1" type="3state"/>
+        <pin num="21" name="PB10" type="3state"/>
+        <pin num="22" name="PB11" type="3state"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="3state"/>
+        <pin num="26" name="PB13" type="3state"/>
+        <pin num="27" name="PB14" type="3state"/>
+        <pin num="28" name="PB15" type="3state"/>
+        <pin num="29" name="PA8" type="3state"/>
+        <pin num="30" name="PA9" type="3state"/>
+        <pin num="31" name="PA10" type="3state"/>
+        <pin num="32" name="PA11" type="3state"/>
+        <pin num="33" name="PA12" type="3state"/>
+        <pin num="34" name="PA13/SWDIO" type="3state"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14/SWCLK" type="3state"/>
+        <pin num="38" name="PA15" type="3state"/>
+        <pin num="39" name="PB3" type="3state"/>
+        <pin num="40" name="PB4" type="3state"/>
+        <pin num="41" name="PB5" type="3state"/>
+        <pin num="42" name="PB6" type="3state"/>
+        <pin num="43" name="PB7" type="3state"/>
+        <pin num="44" name="PF11/BOOT0" type="3state"/>
+        <pin num="45" name="PB8" type="3state"/>
+        <pin num="46" name="PB9" type="3state"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Current Sensor-cache" part="mcp2562">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">mcp2562</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="Vss" type="power_in"/>
+        <pin num="3" name="Vdd" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Current Sensor-cache">
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/current_sensor/Current Sensor-cache.lib</uri>
+    </library>
+    <library logical="Supermileage">
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/parts_library/Supermileage.lib</uri>
+    </library>
+    <library logical="EllicottPower">
+      <uri>/home/nebk/Documents/supermileage/supermileagehw/EllicottSamuel/EllicottPower.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="2" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U3" pin="14"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C14-Pad2)">
+      <node ref="U5" pin="10"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C15-Pad2)">
+      <node ref="U5" pin="11"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="6" name="/Vin">
+      <node ref="P2" pin="4"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P3" pin="5"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="7" name="/Can Controller/OUT2">
+      <node ref="U3" pin="12"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="8" name="Net-(P5-Pad2)">
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="9" name="/Can Controller/OUT1">
+      <node ref="U5" pin="12"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="10" name="/Can Controller/OUT3">
+      <node ref="P3" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="11" name="Net-(P4-Pad2)">
+      <node ref="P4" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C13" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C17" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U6" pin="23"/>
+      <node ref="P7" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="P8" pin="6"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U6" pin="35"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U6" pin="47"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U7" pin="2"/>
+      <node ref="P8" pin="5"/>
+      <node ref="U3" pin="9"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="15" name="/Can Controller/V1">
+      <node ref="R20" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="4"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="16" name="/Can Controller/V2">
+      <node ref="R18" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="17" name="/Can Controller/V3">
+      <node ref="R10" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="18" name="/Can Controller/CANL">
+      <node ref="U7" pin="6"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P9" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="19" name="/Can Controller/CANH">
+      <node ref="R15" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U7" pin="7"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="20" name="Net-(P6-Pad2)">
+      <node ref="P6" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="21" name="+3V3">
+      <node ref="C12" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C26" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U6" pin="24"/>
+      <node ref="U6" pin="36"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U6" pin="48"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="29" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="30" name="/Can Controller/LED2">
+      <node ref="U6" pin="39"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="31" name="/Can Controller/LED1">
+      <node ref="U6" pin="40"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="32" name="Net-(P10-Pad5)">
+      <node ref="P10" pin="5"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="33" name="Net-(P10-Pad3)">
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="P10" pin="3"/>
+    </net>
+    <net code="34" name="Net-(P10-Pad1)">
+      <node ref="P10" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="35" name="/Can Controller/V3a">
+      <node ref="P10" pin="4"/>
+      <node ref="P10" pin="6"/>
+      <node ref="D3" pin="2"/>
+      <node ref="P10" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="36" name="/Can Controller/V2a">
+      <node ref="D6" pin="1"/>
+      <node ref="P11" pin="4"/>
+      <node ref="U6" pin="15"/>
+      <node ref="P11" pin="2"/>
+      <node ref="P11" pin="6"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="37" name="/Can Controller/V1a">
+      <node ref="D7" pin="2"/>
+      <node ref="P12" pin="2"/>
+      <node ref="P12" pin="6"/>
+      <node ref="U6" pin="17"/>
+      <node ref="D8" pin="1"/>
+      <node ref="P12" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U6-Pad41)">
+      <node ref="U6" pin="41"/>
+    </net>
+    <net code="39" name="/Can Controller/CAN_RX">
+      <node ref="U6" pin="45"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="40" name="/Can Controller/CAN_TX">
+      <node ref="U7" pin="1"/>
+      <node ref="U6" pin="46"/>
+    </net>
+    <net code="41" name="Net-(P12-Pad5)">
+      <node ref="R28" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="P12" pin="5"/>
+    </net>
+    <net code="42" name="Net-(P12-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="P12" pin="3"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="43" name="Net-(P12-Pad1)">
+      <node ref="P12" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="44" name="Net-(P11-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="P11" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="45" name="Net-(P11-Pad3)">
+      <node ref="R22" pin="2"/>
+      <node ref="P11" pin="3"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="46" name="Net-(P11-Pad5)">
+      <node ref="R27" pin="1"/>
+      <node ref="P11" pin="5"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R14-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="48" name="/Can Controller/NRST">
+      <node ref="SW1" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="49" name="Net-(U6-Pad42)">
+      <node ref="U6" pin="42"/>
+    </net>
+    <net code="50" name="Net-(U6-Pad22)">
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="51" name="Net-(U6-Pad31)">
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="52" name="Net-(U6-Pad21)">
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="53" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="54" name="Net-(U6-Pad30)">
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="55" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="56" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="57" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="58" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="59" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="60" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="61" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="62" name="/Can Controller/SWCLK">
+      <node ref="U6" pin="37"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="63" name="/Can Controller/SWDIO">
+      <node ref="U6" pin="34"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="64" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="65" name="Net-(P8-Pad4)">
+      <node ref="P8" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="66" name="/Can Controller/USB_DP">
+      <node ref="U6" pin="33"/>
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="67" name="/Can Controller/USB_DM">
+      <node ref="P8" pin="2"/>
+      <node ref="U6" pin="32"/>
+    </net>
+    <net code="68" name="Net-(D1-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(P9-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U6-Pad27)">
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="71" name="Net-(U6-Pad29)">
+      <node ref="U6" pin="29"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad19)">
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="73" name="Net-(U6-Pad38)">
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="74" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="75" name="Net-(U6-Pad18)">
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="76" name="Net-(U6-Pad26)">
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="77" name="Net-(U6-Pad25)">
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="78" name="Net-(U6-Pad44)">
+      <node ref="U6" pin="44"/>
+    </net>
+    <net code="79" name="Net-(U6-Pad43)">
+      <node ref="U6" pin="43"/>
+    </net>
+    <net code="80" name="/Can Controller/ATEN2">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="81" name="/Can Controller/ATEN1">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="82" name="/Can Controller/ATEN3">
+      <node ref="U6" pin="12"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>

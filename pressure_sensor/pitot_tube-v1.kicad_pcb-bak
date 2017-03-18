@@ -12,7 +12,14 @@
     (nets 26)
   )
 
-  (page A4)
+  (page USLetter)
+  (title_block
+    (title "Pressure Sensor")
+    (date 2016-10-31)
+    (rev 3.0)
+    (company "Cedarville Supermileage")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
