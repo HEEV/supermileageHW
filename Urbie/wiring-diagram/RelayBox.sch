@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Version1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1140,9 +1141,9 @@ Wire Wire Line
 Wire Wire Line
 	7625 3975 7625 3075
 Wire Bus Line
-	8050 6675 8050 750 
+	8050 750  8050 6675
 Wire Bus Line
-	3350 6675 8050 6675
+	8050 6675 3350 6675
 Wire Wire Line
 	7725 3175 7950 3175
 Wire Wire Line

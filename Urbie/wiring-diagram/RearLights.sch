@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Version1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587A5960
 P 4075 6950
 F 0 "L?" H 4075 7440 60  0001 C CNN
@@ -56,7 +57,7 @@ F 3 "" H 4075 6950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587A59FA
 P 4075 6600
 F 0 "L?" H 4075 7090 60  0001 C CNN
@@ -67,7 +68,7 @@ F 3 "" H 4075 6600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587A5D31
 P 4075 6275
 F 0 "L?" H 4075 6765 60  0001 C CNN
@@ -78,7 +79,7 @@ F 3 "" H 4075 6275 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587A5D8F
 P 4075 5825
 F 0 "L?" H 4075 6315 60  0001 C CNN
@@ -89,7 +90,7 @@ F 3 "" H 4075 5825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587A5DE7
 P 4100 7425
 F 0 "L?" H 4100 7915 60  0001 C CNN

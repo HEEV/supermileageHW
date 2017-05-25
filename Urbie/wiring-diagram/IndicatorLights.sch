@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Version1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -59,7 +60,7 @@ L6:O2
 Text HLabel 3450 4100 0    60   Input ~ 0
 L7:EFI
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD4D4
 P 5000 3500
 F 0 "D?" H 5000 3600 50  0000 C CNN
@@ -70,7 +71,7 @@ F 3 "" H 5000 3500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD562
 P 5000 4450
 F 0 "D?" H 5000 4550 50  0000 C CNN
@@ -81,7 +82,7 @@ F 3 "" H 5000 4450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD57D
 P 5000 4750
 F 0 "D?" H 5000 4850 50  0000 C CNN
@@ -92,7 +93,7 @@ F 3 "" H 5000 4750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD59B
 P 5000 5050
 F 0 "D?" H 5000 5150 50  0000 C CNN
@@ -103,7 +104,7 @@ F 3 "" H 5000 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD5BC
 P 5000 5350
 F 0 "D?" H 5000 5450 50  0000 C CNN
@@ -114,7 +115,7 @@ F 3 "" H 5000 5350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57EFD6C1
 P 5000 3800
 F 0 "D?" H 5000 3900 50  0000 C CNN
@@ -165,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3800 4050 3800
 $Comp
-L LED D?
+L LED-RESCUE-Version1 D?
 U 1 1 57FA2916
 P 5000 4100
 F 0 "D?" H 5000 4200 50  0000 C CNN

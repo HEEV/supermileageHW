@@ -331,11 +331,11 @@ X ~ 8 400 -650 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Battery
+# Battery-RESCUE-Version1
 #
-DEF Battery BT 0 0 N Y 1 F N
+DEF Battery-RESCUE-Version1 BT 0 0 N Y 1 F N
 F0 "BT" 100 50 50 H V L CNN
-F1 "Battery" 100 -50 50 H V L CNN
+F1 "Battery-RESCUE-Version1" 100 -50 50 H V L CNN
 F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 DRAW
@@ -736,14 +736,16 @@ F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Diode_*
- D-Pak_TO252AA
+ D-*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 6 -50 50 -50 -50 N
-P 3 0 1 0 50 50 -50 0 50 -50 F
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -1051,11 +1053,11 @@ X Ing- 4 -300 -50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# LED
+# LED-RESCUE-Version1
 #
-DEF LED D 0 40 Y N 1 F N
+DEF LED-RESCUE-Version1 D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED" 0 -100 50 H V C CNN
+F1 "LED-RESCUE-Version1" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1072,11 +1074,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Lamp
+# Lamp-RESCUE-Version1
 #
-DEF Lamp L 0 40 Y Y 1 F N
+DEF Lamp-RESCUE-Version1 L 0 40 Y Y 1 F N
 F0 "L" 0 490 60 H V C CNN
-F1 "Lamp" 0 400 60 H V C CNN
+F1 "Lamp-RESCUE-Version1" 0 400 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1131,11 +1133,11 @@ X GND 4 -300 -250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# POT
+# POT-RESCUE-Version1
 #
-DEF POT RV 0 40 Y N 1 F N
+DEF POT-RESCUE-Version1 RV 0 40 Y N 1 F N
 F0 "RV" 0 -80 50 H V C CNN
-F1 "POT" 0 0 50 H V C CNN
+F1 "POT-RESCUE-Version1" 0 0 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1285,11 +1287,11 @@ X ~ 2 200 0 0 R 50 50 1 2 P N
 ENDDRAW
 ENDDEF
 #
-# Starter_Relay
+# Starter_Relay-RESCUE-Version1
 #
-DEF Starter_Relay CR 0 0 N Y 1 F N
+DEF Starter_Relay-RESCUE-Version1 CR 0 0 N Y 1 F N
 F0 "CR" 0 -400 60 H V C CNN
-F1 "Starter_Relay" -10 380 60 H V C CNN
+F1 "Starter_Relay-RESCUE-Version1" -10 380 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW

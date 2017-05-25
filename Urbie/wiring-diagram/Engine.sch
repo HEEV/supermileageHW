@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Version1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587B8D80
 P 3875 8300
 F 0 "L?" H 3875 8790 60  0001 C CNN
@@ -56,7 +57,7 @@ F 3 "" H 3875 8300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587B8D81
 P 3875 7950
 F 0 "L?" H 3875 8440 60  0001 C CNN
@@ -67,7 +68,7 @@ F 3 "" H 3875 7950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587B8D82
 P 3875 7625
 F 0 "L?" H 3875 8115 60  0001 C CNN
@@ -78,7 +79,7 @@ F 3 "" H 3875 7625 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587B8D83
 P 3875 7175
 F 0 "L?" H 3875 7665 60  0001 C CNN
@@ -89,7 +90,7 @@ F 3 "" H 3875 7175 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Lamp L?
+L Lamp-RESCUE-Version1 L?
 U 1 1 587B8D84
 P 3900 8775
 F 0 "L?" H 3900 9265 60  0001 C CNN
@@ -296,7 +297,7 @@ F 4 "Mouser" H 5275 3125 60  0001 C CNN "Distributor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Starter_Relay CR?
+L Starter_Relay-RESCUE-Version1 CR?
 U 1 1 587B986B
 P 4325 3025
 F 0 "CR?" V 4125 3025 60  0000 C CNN
@@ -307,7 +308,7 @@ F 3 "" H 4325 3025 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Battery BT?
+L Battery-RESCUE-Version1 BT?
 U 1 1 587B986D
 P 6625 2525
 F 0 "BT?" V 6425 2475 50  0001 L CNN
@@ -467,7 +468,7 @@ Black
 Text Label 3225 2425 0    60   ~ 0
 Drk_Red
 $Comp
-L POT TPS
+L POT-RESCUE-Version1 TPS
 U 1 1 587B9879
 P 6375 5050
 F 0 "TPS" H 6375 4950 50  0000 C CNN
