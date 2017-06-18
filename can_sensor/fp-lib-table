@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name User_Random)(type KiCad)(uri /home/nebk/kicad/user_modules_2015.pretty)(options "")(descr "Random stuff"))
+  (lib (name Supermileage)(type KiCad)(uri ${USERPATH}/parts_library/supermileage_footprints.pretty)(options "")(descr ""))
 )
