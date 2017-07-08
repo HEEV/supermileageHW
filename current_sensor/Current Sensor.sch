@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Current Sensor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors

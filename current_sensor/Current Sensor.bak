@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Current Sensor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -678,13 +679,13 @@ $EndComp
 $Comp
 L CONN_01X04 S3
 U 1 1 58BE3885
-P 8350 3550
-F 0 "S3" H 8350 3800 50  0000 C CNN
-F 1 "Ultra-Fit" V 8450 3550 50  0000 C CNN
-F 2 "supermileage_footprints:Molex-UltraFit-4p" H 8350 3550 50  0001 C CNN
-F 3 "" H 8350 3550 50  0000 C CNN
-	1    8350 3550
-	-1   0    0    -1  
+P 8125 3200
+F 0 "S3" H 8125 3450 50  0000 C CNN
+F 1 "Ultra-Fit" V 8225 3200 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 8125 3200 50  0001 C CNN
+F 3 "" H 8125 3200 50  0000 C CNN
+	1    8125 3200
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3650 4500 3650 4400
@@ -872,18 +873,14 @@ Wire Wire Line
 	8600 3200 8600 3500
 Wire Wire Line
 	8600 3300 8700 3300
-Wire Wire Line
-	8550 3400 8700 3400
 Connection ~ 8600 3300
 Wire Wire Line
-	8550 3500 8700 3500
+	8075 3500 8700 3500
 Connection ~ 8600 3400
 Wire Wire Line
-	8550 3600 8700 3600
+	7975 3600 8700 3600
 Wire Wire Line
 	8600 3600 8600 3900
-Wire Wire Line
-	8550 3700 8700 3700
 Wire Wire Line
 	8600 3800 8700 3800
 Connection ~ 8600 3700
@@ -998,4 +995,18 @@ Wire Wire Line
 Connection ~ 2350 3600
 Wire Wire Line
 	2850 3700 2750 3700
+Wire Wire Line
+	8600 3400 8700 3400
+Wire Wire Line
+	8275 3500 8275 3400
+Wire Wire Line
+	8075 3400 8075 3500
+Connection ~ 8275 3500
+Wire Wire Line
+	8175 3600 8175 3400
+Wire Wire Line
+	7975 3400 7975 3600
+Connection ~ 8175 3600
+Wire Wire Line
+	8600 3700 8700 3700
 $EndSCHEMATC

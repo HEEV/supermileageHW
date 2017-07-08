@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP NPN_PHOTO
-D Transistor NPN (general)
-K npn transistor
+D NPN Phototransitor in a LED case
+K phototransistor
 $ENDCMP
 #
 $CMP PEC11L
