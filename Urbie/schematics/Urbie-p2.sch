@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:UrbieSchematics-cache
-LIBS:EFI_Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait

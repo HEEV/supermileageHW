@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:UrbieSchematics-cache
-LIBS:EFI_Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -47,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery BT?
+L Battery-RESCUE-UrbieSchematics BT?
 U 1 1 5745DF94
 P 6550 1100
 F 0 "BT?" V 6725 1100 50  0001 L CNN
@@ -182,7 +181,7 @@ F 3 "" H 6050 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 574B6632
 P 6500 2850
 F 0 "D?" H 6500 2750 50  0001 C CNN
@@ -237,7 +236,7 @@ F 3 "" H 2600 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 574BA137
 P 5600 2100
 F 0 "D?" H 5600 2200 50  0001 C CNN
@@ -248,7 +247,7 @@ F 3 "" H 5600 2100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 574BA223
 P 5200 1900
 F 0 "D?" H 5200 2000 50  0001 C CNN
@@ -281,7 +280,7 @@ F 3 "" H 6000 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 574BCF95
 P 6200 4250
 F 0 "D?" H 6200 4350 50  0001 C CNN

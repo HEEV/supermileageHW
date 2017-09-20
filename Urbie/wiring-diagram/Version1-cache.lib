@@ -331,25 +331,6 @@ X ~ 8 400 -650 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Battery-RESCUE-Version1
-#
-DEF Battery-RESCUE-Version1 BT 0 0 N Y 1 F N
-F0 "BT" 100 50 50 H V L CNN
-F1 "Battery-RESCUE-Version1" 100 -50 50 H V L CNN
-F2 "" 0 40 50 V V C CNN
-F3 "" 0 40 50 V V C CNN
-DRAW
-S -90 -7 90 -17 0 1 0 F
-S -90 50 90 40 0 1 0 F
-S -62 -30 58 -50 0 1 0 F
-S -62 27 58 7 0 1 0 F
-P 2 0 1 10 20 95 60 95 N
-P 2 0 1 10 40 115 40 75 N
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 0 -150 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # CB
 #
 DEF CB CB 0 40 Y Y 1 F N
@@ -471,16 +452,16 @@ ENDDEF
 #
 # CONN_01X02
 #
-DEF CONN_01X02 P 0 40 Y N 1 F N
-F0 "P" 0 150 50 H V C CNN
+DEF CONN_01X02 J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
@@ -493,16 +474,16 @@ ENDDEF
 #
 # CONN_01X04
 #
-DEF CONN_01X04 P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
+DEF CONN_01X04 J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
 F1 "CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -145 10 -155 0 1 0 N
@@ -519,16 +500,16 @@ ENDDEF
 #
 # CONN_01X06
 #
-DEF CONN_01X06 P 0 40 Y N 1 F N
-F0 "P" 0 350 50 H V C CNN
+DEF CONN_01X06 J 0 40 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
 F1 "CONN_01X06" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X06
- Pin_Header_Angled_1X06
- Socket_Strip_Straight_1X06
- Socket_Strip_Angled_1X06
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -245 10 -255 0 1 0 N
@@ -549,16 +530,16 @@ ENDDEF
 #
 # CONN_01X09
 #
-DEF CONN_01X09 P 0 40 Y N 1 F N
-F0 "P" 0 500 50 H V C CNN
+DEF CONN_01X09 J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
 F1 "CONN_01X09" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X09
- Pin_Header_Angled_1X09
- Socket_Strip_Straight_1X09
- Socket_Strip_Angled_1X09
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -395 10 -405 0 1 0 N
@@ -585,16 +566,16 @@ ENDDEF
 #
 # CONN_01X12
 #
-DEF CONN_01X12 P 0 40 Y N 1 F N
-F0 "P" 0 650 50 H V C CNN
+DEF CONN_01X12 J 0 40 Y N 1 F N
+F0 "J" 0 650 50 H V C CNN
 F1 "CONN_01X12" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X12
- Pin_Header_Angled_1X12
- Socket_Strip_Straight_1X12
- Socket_Strip_Angled_1X12
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -600 50 600 0 1 0 N
@@ -627,16 +608,16 @@ ENDDEF
 #
 # CONN_01X15
 #
-DEF CONN_01X15 P 0 40 Y N 1 F N
-F0 "P" 0 800 50 H V C CNN
+DEF CONN_01X15 J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
 F1 "CONN_01X15" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X15
- Pin_Header_Angled_1X15
- Socket_Strip_Straight_1X15
- Socket_Strip_Angled_1X15
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -695 10 -705 0 1 0 N
@@ -675,16 +656,16 @@ ENDDEF
 #
 # CONN_01X18
 #
-DEF CONN_01X18 P 0 40 Y N 1 F N
-F0 "P" 0 950 50 H V C CNN
+DEF CONN_01X18 J 0 40 Y N 1 F N
+F0 "J" 0 950 50 H V C CNN
 F1 "CONN_01X18" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X18
- Pin_Header_Angled_1X18
- Socket_Strip_Straight_1X18
- Socket_Strip_Angled_1X18
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -845 10 -855 0 1 0 N
@@ -732,11 +713,10 @@ ENDDEF
 DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -981,21 +961,6 @@ X 29 29 -450 100 300 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FUSE
-#
-DEF FUSE F 0 10 Y Y 1 F N
-F0 "F" 100 50 50 H V C CNN
-F1 "FUSE" -100 -50 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
-A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
-X ~ 1 -250 0 100 R 40 40 1 1 I
-X ~ 2 250 0 100 L 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Flash
 #
 DEF Flash SW 0 40 Y Y 1 F N
@@ -1021,6 +986,24 @@ DRAW
 S -200 100 200 -100 0 1 0 f
 X Inj+ 1 -300 50 100 R 50 50 1 1 W
 X Inj- 4 -300 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Fuse
+#
+DEF Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1050,54 +1033,6 @@ DRAW
 S -200 100 200 -100 0 1 0 f
 X Ing+ 1 -300 50 100 R 50 50 1 1 W
 X Ing- 4 -300 -50 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# LED-RESCUE-Version1
-#
-DEF LED-RESCUE-Version1 D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "LED-RESCUE-Version1" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- LED-*
- LED_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -50 50 -50 -50 N
-P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
-P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
-P 3 0 1 0 50 50 -50 0 50 -50 F
-X K 1 -200 0 150 R 40 40 1 1 P
-X A 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Lamp-RESCUE-Version1
-#
-DEF Lamp-RESCUE-Version1 L 0 40 Y Y 1 F N
-F0 "L" 0 490 60 H V C CNN
-F1 "Lamp-RESCUE-Version1" 0 400 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-A -155 185 235 12 293 0 1 0 N 80 190 50 300
-A -32 158 11 -1350 805 0 1 0 N -40 150 -30 170
-A -30 153 17 900 -524 0 1 0 N -30 170 -20 140
-A -11 153 17 866 -498 0 1 0 N -10 170 0 140
-A -9 153 17 -1302 934 0 1 0 N -20 140 -10 170
-A 0 273 57 1516 284 0 1 0 N -50 300 50 300
-A 9 153 17 866 -498 0 1 0 N 10 170 20 140
-A 11 153 17 -1302 934 0 1 0 N 0 140 10 170
-A 31 153 17 -1302 934 0 1 0 N 20 140 30 170
-A 31 158 12 948 -416 0 1 0 N 30 170 40 150
-A 155 185 235 1788 1507 0 1 0 N -80 190 -50 300
-P 3 0 1 0 -50 100 -50 150 -40 150 N
-P 3 0 1 0 50 100 50 150 40 150 N
-P 4 0 1 0 -80 190 -80 100 80 100 80 190 N
-X ~ ~ -50 0 100 U 50 50 1 1 W
-X ~ ~ 50 0 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -1133,32 +1068,16 @@ X GND 4 -300 -250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# POT-RESCUE-Version1
-#
-DEF POT-RESCUE-Version1 RV 0 40 Y N 1 F N
-F0 "RV" 0 -80 50 H V C CNN
-F1 "POT-RESCUE-Version1" 0 0 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-S -100 40 100 -40 0 1 0 N
-P 3 0 1 0 0 40 -20 60 20 60 F
-X 1 1 -150 0 50 R 40 40 1 1 P
-X 2 2 0 150 100 D 40 40 1 1 P
-X 3 3 150 0 50 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # R
 #
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -1287,54 +1206,45 @@ X ~ 2 200 0 0 R 50 50 1 2 P N
 ENDDRAW
 ENDDEF
 #
-# Starter_Relay-RESCUE-Version1
+# Switch_DPST
 #
-DEF Starter_Relay-RESCUE-Version1 CR 0 0 N Y 1 F N
-F0 "CR" 0 -400 60 H V C CNN
-F1 "Starter_Relay-RESCUE-Version1" -10 380 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+DEF Switch_DPST SW 0 0 N Y 1 F N
+F0 "SW" 300 50 50 H V C CNN
+F1 "Switch_DPST" 300 -50 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
-A -40 -50 20 1 1799 0 1 0 N -20 -50 -60 -50
-A 0 -50 20 1 1799 0 1 0 N 20 -50 -20 -50
-A 40 -50 20 1 1799 0 1 0 N 60 -50 20 -50
-C -70 50 10 0 1 0 N
-C 0 0 141 0 1 0 N
-C 70 50 10 0 1 0 N
-P 2 0 1 0 -100 -100 -100 -50 N
-P 2 0 1 0 -100 -50 -60 -50 N
-P 2 0 1 0 -100 50 -80 50 N
-P 2 0 1 0 -100 100 -100 50 N
-P 2 0 1 0 -60 50 60 20 N
-P 2 0 1 0 100 -100 100 -50 N
-P 2 0 1 0 100 -50 60 -50 N
-P 2 0 1 0 100 50 80 50 N
-P 2 0 1 0 100 100 100 50 N
-X C1 1 -100 -300 200 U 50 50 1 1 I
-X C2 2 100 -300 200 U 50 50 1 1 I
-X R1 3 -100 300 200 D 50 50 1 1 I
-X R2 4 100 300 200 D 50 50 1 1 I
+C -150 -200 50 0 0 0 N
+C -150 200 50 0 0 0 N
+C 150 -200 50 0 0 0 N
+C 150 200 50 0 0 0 N
+P 2 0 0 0 -100 -200 100 -100 N
+P 2 0 0 0 -100 200 100 300 N
+P 2 0 0 0 0 250 0 -150 N
+X 1 1 -300 -200 100 R 50 50 1 1 I
+X 2 2 300 -200 100 L 50 50 1 1 I
+X 3 3 -300 200 100 R 50 50 1 1 I
+X 4 4 300 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# THERMISTOR
+# Thermistor
 #
-DEF THERMISTOR TH 0 0 N Y 1 F N
+DEF Thermistor TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
-F1 "THERMISTOR" -100 0 50 V V C BNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F1 "Thermistor" -100 0 50 V V C BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- R?
+ R_*
  SM0603
  SM0805
 $ENDFPLIST
 DRAW
-T 900 75 -150 60 0 0 1 - Normal 0 C C
-S -40 150 40 -150 0 1 8 N
-P 5 0 1 0 -75 125 -75 75 75 -75 75 -125 75 -125 N
-X ~ 1 0 250 100 D 50 50 1 1 P
-X ~ 2 0 -250 100 U 50 50 1 1 P
+S -40 100 40 -100 0 1 8 N
+P 5 0 1 10 -75 125 -75 75 75 -75 75 -125 75 -125 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

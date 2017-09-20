@@ -1,4 +1,4 @@
-update=Thu 05 Jan 2017 10:36:50 PM CST
+update=Saturday, September 16, 2017 'AMt' 10:17:12 AM
 version=1
 last_client=kicad
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../parts_library
@@ -62,13 +72,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Supermileage
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

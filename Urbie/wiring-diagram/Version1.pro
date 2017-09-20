@@ -1,4 +1,4 @@
-update=Tue 25 Apr 2017 11:33:51 PM EDT
+update=Saturday, September 16, 2017 'AMt' 10:25:24 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Supermileage
+LibName32=kicad-parts-master/relays_switches
+LibName33=kicad-parts-master/supermileage
+LibName34=kicad-parts-master/supermileage_computers
+LibName35=kicad-parts-master/switch_dpst

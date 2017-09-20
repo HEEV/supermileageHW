@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Version1-rescue
+LIBS:UrbieSchematics-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:switch_dpst
-LIBS:Version1-cache
+LIBS:UrbieSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500

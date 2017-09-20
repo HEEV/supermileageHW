@@ -31,17 +31,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:UrbieSchematics-cache
-LIBS:EFI_Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 6
-Title "Urbie - Gasoline Urban Concept"
-Date "2016-11-19"
+Sheet 5 6
+Title "Sting - Gasoline Prototype"
+Date ""
 Rev ""
 Comp "Cedarville University"
-Comment1 "Tineka Witt"
+Comment1 "Samuel Ellicott"
 Comment2 "Arduino wiring connections"
 Comment3 ""
 Comment4 ""
@@ -49,68 +48,70 @@ $EndDescr
 $Comp
 L Arduino U?
 U 1 1 57A2439F
-P 5900 4200
-F 0 "U?" H 5900 4250 60  0001 C CNN
-F 1 "Arduino" H 5900 4150 60  0000 C CNN
-F 2 "" H 5900 4500 60  0000 C CNN
-F 3 "" H 5900 4500 60  0000 C CNN
-	1    5900 4200
+P 4550 3300
+F 0 "U?" H 4550 3350 60  0000 C CNN
+F 1 "Arduino" H 4550 3250 60  0000 C CNN
+F 2 "" H 4550 3600 60  0000 C CNN
+F 3 "" H 4550 3600 60  0000 C CNN
+	1    4550 3300
 	1    0    0    -1  
 $EndComp
-Text HLabel 4100 2950 0    60   Input ~ 0
+Text HLabel 2750 2100 0    60   Input ~ 0
 12v
-Text HLabel 4100 3050 0    60   Input ~ 0
+Text HLabel 2750 2200 0    60   Input ~ 0
 GND
-Text HLabel 4150 3250 0    60   Output ~ 0
+Text HLabel 2800 2400 0    60   Output ~ 0
 Throttle_5v
-Text HLabel 4150 3350 0    60   Output ~ 0
+Text HLabel 2800 2500 0    60   Output ~ 0
 Throttle_gnd
-Text HLabel 4150 3450 0    60   Input ~ 0
+Text HLabel 2800 2600 0    60   Input ~ 0
 Throttle_sig
-Text HLabel 4150 3600 0    60   Output ~ 0
+Text HLabel 2800 2750 0    60   Output ~ 0
 Servo_5v
-Text HLabel 4150 3700 0    60   Output ~ 0
+Text HLabel 2800 2850 0    60   Output ~ 0
 Servo_gnd
-Text HLabel 4150 3800 0    60   Output ~ 0
+Text HLabel 2800 2950 0    60   Output ~ 0
 Servo_ctl
 Wire Wire Line
-	4100 3050 4300 3050
+	2750 2200 2950 2200
 Wire Wire Line
-	4300 3050 4300 5150
+	2950 2200 2950 4250
 Wire Wire Line
-	5700 2950 5700 3350
+	4350 2100 4350 2450
 Wire Wire Line
-	5700 2950 4100 2950
+	4350 2100 2750 2100
 Wire Wire Line
-	4150 3250 5800 3250
+	2800 2400 4450 2400
 Wire Wire Line
-	4350 3250 4350 3600
+	3000 2400 3000 2750
 Wire Wire Line
-	4350 3600 4150 3600
+	3000 2750 2800 2750
 Wire Wire Line
-	4300 3350 4150 3350
+	2950 2500 2800 2500
 Wire Wire Line
-	4300 3700 4150 3700
-Connection ~ 4300 3350
-Connection ~ 4300 3700
+	2950 2850 2800 2850
+Connection ~ 2950 2500
+Connection ~ 2950 2850
 Wire Wire Line
-	4150 3800 5150 3800
+	2800 2950 3650 2950
 Wire Wire Line
-	5000 3800 5000 3800
+	3650 2900 3800 2900
 Wire Wire Line
-	4150 3450 5000 3450
+	3650 2950 3650 2900
 Wire Wire Line
-	5000 3450 5000 3700
+	2800 2600 3650 2600
 Wire Wire Line
-	5000 3700 5150 3700
+	3650 2600 3650 2800
 Wire Wire Line
-	5800 3250 5800 3350
-Connection ~ 4350 3250
+	3650 2800 3800 2800
 Wire Wire Line
-	4300 5150 5900 5150
+	4450 2400 4450 2450
+Connection ~ 3000 2400
 Wire Wire Line
-	5800 5150 5800 5050
+	2950 4250 4550 4250
 Wire Wire Line
-	5900 5150 5900 5050
-Connection ~ 5800 5150
+	4450 4250 4450 4150
+Wire Wire Line
+	4550 4250 4550 4150
+Connection ~ 4450 4250
 $EndSCHEMATC

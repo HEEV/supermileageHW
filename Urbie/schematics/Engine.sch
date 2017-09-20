@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Version1-rescue
+LIBS:UrbieSchematics-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:switch_dpst
-LIBS:Version1-cache
+LIBS:UrbieSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -457,7 +453,7 @@ F 3 "" H 5075 350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse F?
+L FUSE F?
 U 1 1 587B9877
 P 6225 2275
 F 0 "F?" H 6325 2325 50  0001 C CNN
@@ -834,7 +830,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 5875 5525 5875
 $Comp
-L Thermistor TH?
+L THERMISTOR TH?
 U 1 1 587B9886
 P 2950 5325
 F 0 "TH?" V 3050 5375 50  0001 C CNN
@@ -845,7 +841,7 @@ F 3 "" H 2950 5325 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Thermistor TH?
+L THERMISTOR TH?
 U 1 1 587B9887
 P 2950 5875
 F 0 "TH?" V 3050 5925 50  0001 C CNN

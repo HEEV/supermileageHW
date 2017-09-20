@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
 LIBS:UrbieSchematics-cache
-LIBS:EFI_Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -335,7 +334,7 @@ F 3 "" H 6750 6500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED Brights_Indicator
+L LED-RESCUE-UrbieSchematics Brights_Indicator
 U 1 1 5827AE7F
 P 6100 6900
 F 0 "Brights_Indicator" H 6150 7000 50  0000 C CNN
@@ -447,7 +446,7 @@ F 3 "" H 900 8950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 582A8B64
 P 5850 3100
 F 0 "D?" H 5850 3200 50  0001 C CNN
@@ -649,7 +648,7 @@ Wire Wire Line
 	6550 3100 7400 3100
 Connection ~ 7400 3100
 $Comp
-L LED D?
+L LED-RESCUE-UrbieSchematics D?
 U 1 1 582A8E65
 P 5850 1150
 F 0 "D?" H 5850 1250 50  0001 C CNN
