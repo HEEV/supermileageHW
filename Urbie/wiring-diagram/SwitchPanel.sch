@@ -243,11 +243,11 @@ Wiper/Horn_PWR
 Text Label 3425 900  2    60   ~ 0
 Wiper/Turn_PWR
 Text Label 3425 2100 2    60   ~ 0
-Wiper/Horn_PWR
+Wiper/Horn_PWR_Yellow
 Text Label 3975 2150 0    60   ~ 0
 LightPWR
 Text Label 3425 1700 2    60   ~ 0
-LightPWR
+LightPWR_Orange
 Text Label 3425 5400 2    60   ~ 0
 LightPWR
 Text Label 8100 6125 0    60   ~ 0
@@ -273,7 +273,7 @@ Text Notes 9475 4375 0    60   ~ 0
 Text HLabel 9425 4950 2    60   Input ~ 0
 BoD1.12:Gnd
 Text Label 3425 2300 2    60   ~ 0
-Honk
+Honk_O_Green
 Text Label 3425 5600 2    60   ~ 0
 Honk
 Text Label 8100 5325 0    60   ~ 0
@@ -305,7 +305,7 @@ GND
 Text Label 8100 4850 0    60   ~ 0
 DrvEn
 Text Label 3425 2000 2    60   ~ 0
-DrvEn
+DrvEn_Brown
 Text Label 3425 3225 2    60   ~ 0
 DrvEn
 Text Label 3425 2925 2    60   ~ 0
@@ -315,7 +315,7 @@ L_Blink
 Text Label 8100 5625 0    60   ~ 0
 L_Blink
 Text Label 3425 1800 2    60   ~ 0
-Brights
+Brights_Red
 Text Label 3425 3025 2    60   ~ 0
 Brights
 Text Label 3425 5300 2    60   ~ 0
@@ -329,15 +329,15 @@ EFI
 Text Label 8100 5525 0    60   ~ 0
 EFI_On
 Text Label 8100 6025 0    60   ~ 0
-L_Turn
+L_Turn_L_Blue
 Text Label 8100 5925 0    60   ~ 0
-R_Turn
+R_Turn_Green
 Text Label 3425 1300 2    60   ~ 0
-L_Turn
+L_Turn_L_Blue
 Text Label 3425 1400 2    60   ~ 0
-R_Turn
+R_Turn_Green
 Text Label 3425 1500 2    60   ~ 0
-Running*
+Running*_O_Green
 Text Label 3425 5100 2    60   ~ 0
 Running*
 Text Label 8100 5425 0    60   ~ 0
@@ -345,9 +345,9 @@ Running*
 Text Label 8100 5225 0    60   ~ 0
 EngineStart
 Text Label 3425 1900 2    60   ~ 0
-EngineStart
+EngineStart_O_Green
 Text Label 3425 1600 2    60   ~ 0
-Head*
+Head*_DK_Blue
 Text Label 3425 5200 2    60   ~ 0
 Head*
 Text Label 3425 5700 2    60   ~ 0
@@ -431,7 +431,7 @@ Accel_Red
 Text Label 3425 5900 2    60   ~ 0
 Accel_Yellow
 Text Label 3425 2400 2    60   ~ 0
-EngineStop
+EngineStop_DK_Blue
 Text Label 3425 3325 2    60   ~ 0
 PowerOn
 Text Label 3425 3425 2    60   ~ 0
@@ -510,173 +510,17 @@ Sys_V
 Wire Wire Line
 	5925 2750 3750 2750
 Wire Bus Line
-	7850 950  7850 1450
+	7850 950  7850 6550
 Wire Bus Line
-	7850 1450 7850 1600
+	3650 6550 7850 6550
 Wire Bus Line
-	7850 1600 7850 2200
+	3650 925  3650 6550
 Wire Bus Line
-	7850 2200 7850 2550
-Wire Bus Line
-	7850 2550 7850 3950
-Wire Bus Line
-	7850 3950 7850 4050
-Wire Bus Line
-	7850 4050 7850 4150
-Wire Bus Line
-	7850 4150 7850 4250
-Wire Bus Line
-	7850 4250 7850 4350
-Wire Bus Line
-	7850 4350 7850 4650
-Wire Bus Line
-	7850 4650 7850 4850
-Wire Bus Line
-	7850 4850 7850 4950
-Wire Bus Line
-	7850 4950 7850 5050
-Wire Bus Line
-	7850 5050 7850 5325
-Wire Bus Line
-	7850 5325 7850 5425
-Wire Bus Line
-	7850 5425 7850 5525
-Wire Bus Line
-	7850 5525 7850 5625
-Wire Bus Line
-	7850 5625 7850 5725
-Wire Bus Line
-	7850 5725 7850 5825
-Wire Bus Line
-	7850 5825 7850 5925
-Wire Bus Line
-	7850 5925 7850 6025
-Wire Bus Line
-	7850 6025 7850 6125
-Wire Bus Line
-	7850 6125 7850 6225
-Wire Bus Line
-	7850 6225 7850 6325
-Wire Bus Line
-	7850 6325 7850 6425
-Wire Bus Line
-	7850 6425 7850 6550
-Wire Bus Line
-	7850 6550 3650 6550
-Wire Bus Line
-	3650 6550 3650 6400
-Wire Bus Line
-	3650 6400 3650 6300
-Wire Bus Line
-	3650 6300 3650 6200
-Wire Bus Line
-	3650 6200 3650 6100
-Wire Bus Line
-	3650 6100 3650 6000
-Wire Bus Line
-	3650 6000 3650 5900
-Wire Bus Line
-	3650 5900 3650 5800
-Wire Bus Line
-	3650 5800 3650 5700
-Wire Bus Line
-	3650 5700 3650 5600
-Wire Bus Line
-	3650 5600 3650 5500
-Wire Bus Line
-	3650 5500 3650 5400
-Wire Bus Line
-	3650 5400 3650 5300
-Wire Bus Line
-	3650 5300 3650 5200
-Wire Bus Line
-	3650 5200 3650 5100
-Wire Bus Line
-	3650 5100 3650 5000
-Wire Bus Line
-	3650 5000 3650 3825
-Wire Bus Line
-	3650 3825 3650 3625
-Wire Bus Line
-	3650 3625 3650 3525
-Wire Bus Line
-	3650 3525 3650 3425
-Wire Bus Line
-	3650 3425 3650 3325
-Wire Bus Line
-	3650 3325 3650 3225
-Wire Bus Line
-	3650 3225 3650 3125
-Wire Bus Line
-	3650 3125 3650 3025
-Wire Bus Line
-	3650 3025 3650 2850
-Wire Bus Line
-	3650 2850 3650 2550
-Wire Bus Line
-	3650 2550 3650 2500
-Wire Bus Line
-	3650 2500 3650 2400
-Wire Bus Line
-	3650 2400 3650 2350
-Wire Bus Line
-	3650 2350 3650 2250
-Wire Bus Line
-	3650 2250 3650 2200
-Wire Bus Line
-	3650 2200 3650 2100
-Wire Bus Line
-	3650 2100 3650 2025
-Wire Bus Line
-	3650 2025 3650 2000
-Wire Bus Line
-	3650 2000 3650 1900
-Wire Bus Line
-	3650 1900 3650 1800
-Wire Bus Line
-	3650 1800 3650 1700
-Wire Bus Line
-	3650 1700 3650 1625
-Wire Bus Line
-	3650 1625 3650 1600
-Wire Bus Line
-	3650 1600 3650 1500
-Wire Bus Line
-	3650 1500 3650 1400
-Wire Bus Line
-	3650 1400 3650 1350
-Wire Bus Line
-	3650 1350 3650 1100
-Wire Bus Line
-	3650 1100 3650 1000
-Wire Bus Line
-	3650 1000 3650 950 
-Wire Bus Line
-	3650 950  3650 925 
-Wire Bus Line
-	3650 950  3650 1000
+	3650 950  3650 1700
 Wire Bus Line
 	3650 1000 3650 1100
 Wire Bus Line
-	3650 1100 3650 1350
-Wire Bus Line
-	3650 1350 3650 1400
-Wire Bus Line
-	3650 1400 3650 1500
-Wire Bus Line
-	3650 1500 3650 1600
-Wire Bus Line
-	3650 1600 3650 1625
-Wire Bus Line
-	3650 1625 3650 1700
-Wire Bus Line
-	3650 1000 3650 1100
-Wire Bus Line
-	3650 1350 3650 1400
-Wire Bus Line
-	3650 1400 3650 1500
-Wire Bus Line
-	3650 1500 3650 1600
+	3650 1350 3650 1600
 Entry Wire Line
 	7750 1350 7850 1450
 Entry Wire Line

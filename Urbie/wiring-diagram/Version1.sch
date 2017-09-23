@@ -275,6 +275,7 @@ S 8900 900  950  1275
 U 5879A5D7
 F0 "Computer" 60
 F1 "Computer.sch" 60
+F2 "J1_1_POWER" I L 8900 1100 60 
 $EndSheet
 $Comp
 L CONN_01X12 P?
@@ -394,6 +395,18 @@ Text Label 8800 3950 0    60   ~ 0
 Brn
 Text Label 8800 3850 0    60   ~ 0
 Grn
+Text Label 8800 2950 0    60   ~ 0
+Grn
+Text Label 8775 2450 0    60   ~ 0
+O_Grn
+Text Label 8775 2550 0    60   ~ 0
+O_Grn
+Text Label 8800 3350 0    60   ~ 0
+Blk
+Text Label 8800 3150 0    60   ~ 0
+Pur
+Text Label 8775 3250 0    60   ~ 0
+O_Grn
 Wire Wire Line
 	1750 1950 2225 1950
 Wire Wire Line
@@ -600,16 +613,22 @@ Wire Wire Line
 	8750 3250 9075 3250
 Wire Wire Line
 	8750 3350 9075 3350
-Text Label 8800 2950 0    60   ~ 0
-Grn
-Text Label 8775 2450 0    60   ~ 0
-O_Grn
-Text Label 8775 2550 0    60   ~ 0
-O_Grn
-Text Label 8800 3350 0    60   ~ 0
-Blk
-Text Label 8800 3150 0    60   ~ 0
-Pur
-Text Label 8775 3250 0    60   ~ 0
-O_Grn
+Wire Wire Line
+	8100 1100 8200 1100
+Wire Wire Line
+	8200 1200 8100 1200
+Wire Wire Line
+	8100 1300 8200 1300
+Wire Wire Line
+	8200 1400 8100 1400
+Wire Wire Line
+	8100 1500 8200 1500
+Wire Wire Line
+	8100 1600 8200 1600
+Wire Wire Line
+	8100 1700 8200 1700
+Wire Wire Line
+	8200 1800 8100 1800
+Wire Wire Line
+	8100 2100 8200 2100
 $EndSCHEMATC
