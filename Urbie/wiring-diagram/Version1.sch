@@ -33,7 +33,7 @@ LIBS:Supermileage
 LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
-LIBS:switch_dpst
+LIBS:supermileage_sensors
 LIBS:Version1-cache
 EELAYER 25 0
 EELAYER END
@@ -270,13 +270,6 @@ F 3 "" H 8550 1550 50  0000 C CNN
 	1    8550 1550
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 8900 900  950  1275
-U 5879A5D7
-F0 "Computer" 60
-F1 "Computer.sch" 60
-F2 "J1_1_POWER" I L 8900 1100 60 
-$EndSheet
 $Comp
 L CONN_01X12 P?
 U 1 1 5879E3B1
@@ -631,4 +624,37 @@ Wire Wire Line
 	8200 1800 8100 1800
 Wire Wire Line
 	8100 2100 8200 2100
+$Sheet
+S 9050 900  1050 1250
+U 5879A5D7
+F0 "Computer" 60
+F1 "Computer.sch" 60
+F2 "J1_2_Sys_Pwr" I L 9050 1100 60 
+F3 "J1_3_Arm_Status" I L 9050 1200 60 
+F4 "J1_4_E-Stop" O L 9050 1300 60 
+F5 "J1_5_Sys_Voltage" I L 9050 1400 60 
+F6 "J1_6_Horn" O L 9050 1500 60 
+F7 "J1_7_Ouput_Pwr" I L 9050 1600 60 
+F8 "J1_8_Output_Enable" O L 9050 1700 60 
+F9 "J1_9_E-Start" O L 9050 1800 60 
+F10 "J1_12_GND" I L 9050 2100 60 
+$EndSheet
+Wire Wire Line
+	8750 1100 9050 1100
+Wire Wire Line
+	8750 1200 9050 1200
+Wire Wire Line
+	8750 1300 9050 1300
+Wire Wire Line
+	8750 1400 9050 1400
+Wire Wire Line
+	8750 1500 9050 1500
+Wire Wire Line
+	8750 1600 9050 1600
+Wire Wire Line
+	8750 1700 9050 1700
+Wire Wire Line
+	8750 1800 9050 1800
+Wire Wire Line
+	8750 2100 9050 2100
 $EndSCHEMATC
