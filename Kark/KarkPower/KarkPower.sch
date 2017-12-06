@@ -1,0 +1,856 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:supermileage_sensors
+LIBS:supermileage_computers
+LIBS:supermileage
+LIBS:relays_switches
+LIBS:KarkPower-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22B983
+P 3300 1625
+F 0 "J?" H 3300 1775 50  0000 C CNN
+F 1 "PWRsource" V 3400 1625 50  0000 C CNN
+F 2 "" H 3300 1625 50  0001 C CNN
+F 3 "" H 3300 1625 50  0001 C CNN
+	1    3300 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22B9F3
+P 3875 1625
+F 0 "J?" H 3875 1775 50  0000 C CNN
+F 1 "O2Pwr" V 3975 1625 50  0000 C CNN
+F 2 "" H 3875 1625 50  0001 C CNN
+F 3 "" H 3875 1625 50  0001 C CNN
+	1    3875 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22BA46
+P 7500 1625
+F 0 "J?" H 7500 1775 50  0000 C CNN
+F 1 "EFI(En)" V 7600 1625 50  0000 C CNN
+F 2 "" H 7500 1625 50  0001 C CNN
+F 3 "" H 7500 1625 50  0001 C CNN
+	1    7500 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X04 J?
+U 1 1 5A22BAAE
+P 4400 1625
+F 0 "J?" H 4400 1875 50  0000 C CNN
+F 1 "EFItoPower" V 4500 1625 50  0000 C CNN
+F 2 "" H 4400 1625 50  0001 C CNN
+F 3 "" H 4400 1625 50  0001 C CNN
+	1    4400 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 5v_Regulator U?
+U 1 1 5A22C75F
+P 2500 1150
+F 0 "U?" H 2500 1300 60  0000 C CNN
+F 1 "5v_Regulator" H 2500 1500 60  0000 C CNN
+F 2 "" H 2300 1750 60  0001 C CNN
+F 3 "" H 2300 1750 60  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PN2222A Q?
+U 1 1 5A22CAF1
+P 5350 3950
+F 0 "Q?" H 5550 4025 50  0000 L CNN
+F 1 "PN2222A" H 5550 3950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5550 3875 50  0001 L CIN
+F 3 "" H 5350 3950 50  0001 L CNN
+	1    5350 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L OnBoardRElay U?
+U 1 1 5A22D2DB
+P 6150 3225
+F 0 "U?" H 6150 3175 60  0000 C CNN
+F 1 "OnBoardRElay" H 6150 3425 60  0000 C CNN
+F 2 "" H 6250 3375 60  0001 C CNN
+F 3 "" H 6250 3375 60  0001 C CNN
+	1    6150 3225
+	0    1    1    0   
+$EndComp
+Text Label 3825 2050 0    60   ~ 0
+Gnd
+Text Label 3250 2225 0    60   ~ 0
+Gnd
+Text Label 3925 1950 0    60   ~ 0
+O2pwr
+Text Label 4250 2575 0    60   ~ 0
+EFIonb
+Text Label 3350 2350 0    60   ~ 0
+PWR12
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22D9EA
+P 7125 1625
+F 0 "J?" H 7125 1775 50  0000 C CNN
+F 1 "CanEFIon" V 7225 1625 50  0000 C CNN
+F 2 "" H 7125 1625 50  0001 C CNN
+F 3 "" H 7125 1625 50  0001 C CNN
+	1    7125 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A22DD28
+P 3000 2025
+F 0 "D?" H 3000 2125 50  0000 C CNN
+F 1 "LED" H 3000 1925 50  0000 C CNN
+F 2 "" H 3000 2025 50  0001 C CNN
+F 3 "" H 3000 2025 50  0001 C CNN
+	1    3000 2025
+	1    0    0    -1  
+$EndComp
+Text Label 1200 1875 0    60   ~ 0
+CanHI
+Text Label 1275 2050 0    60   ~ 0
+CanLo
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22E491
+P 5500 1625
+F 0 "J?" H 5500 1775 50  0000 C CNN
+F 1 "K3" V 5600 1625 50  0000 C CNN
+F 2 "" H 5500 1625 50  0001 C CNN
+F 3 "" H 5500 1625 50  0001 C CNN
+	1    5500 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22E519
+P 6050 1625
+F 0 "J?" H 6050 1775 50  0000 C CNN
+F 1 "CONN_01X02" V 6150 1625 50  0000 C CNN
+F 2 "" H 6050 1625 50  0001 C CNN
+F 3 "" H 6050 1625 50  0001 C CNN
+	1    6050 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 5A22E5B5
+P 6600 1625
+F 0 "J?" H 6600 1775 50  0000 C CNN
+F 1 "CONN_01X02" V 6700 1625 50  0000 C CNN
+F 2 "" H 6600 1625 50  0001 C CNN
+F 3 "" H 6600 1625 50  0001 C CNN
+	1    6600 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X04 J1
+U 1 1 5A230FBE
+P 700 2975
+F 0 "J1" H 700 3225 50  0000 C CNN
+F 1 "CONN_01X04" V 800 2975 50  0000 C CNN
+F 2 "" H 700 2975 50  0001 C CNN
+F 3 "" H 700 2975 50  0001 C CNN
+	1    700  2975
+	-1   0    0    1   
+$EndComp
+Text Label 2500 2925 0    60   ~ 0
+12
+Wire Wire Line
+	3350 2350 3350 1825
+Wire Wire Line
+	2500 2350 3350 2350
+Wire Wire Line
+	3350 2350 4900 2350
+Wire Wire Line
+	4900 2350 6650 2350
+Wire Wire Line
+	6650 2350 6650 2350
+Connection ~ 3350 2350
+Wire Wire Line
+	2500 1750 2500 2350
+Wire Wire Line
+	2500 2350 2500 2925
+Wire Wire Line
+	2500 2925 2500 3600
+Wire Wire Line
+	2500 3600 2500 4275
+Wire Wire Line
+	2500 4275 2500 4950
+Wire Wire Line
+	2500 4950 2500 5625
+Wire Wire Line
+	2500 5625 2500 6300
+Wire Wire Line
+	2500 6300 2500 6975
+Wire Wire Line
+	2500 6975 2500 7650
+Wire Wire Line
+	2500 7650 2500 8325
+Wire Wire Line
+	2350 1750 2350 2225
+Connection ~ 2350 2225
+Wire Wire Line
+	1375 2225 2350 2225
+Wire Wire Line
+	2350 2225 3250 2225
+Wire Wire Line
+	3250 2225 4350 2225
+Wire Wire Line
+	3250 1825 3250 2025
+Wire Wire Line
+	3250 2025 3250 2225
+Wire Wire Line
+	3250 2225 3250 4300
+Wire Wire Line
+	4350 2225 4350 1825
+Connection ~ 3250 2225
+Wire Wire Line
+	5500 3025 5250 3025
+Wire Wire Line
+	5250 3025 5250 3750
+Wire Wire Line
+	5500 3425 4250 3425
+Wire Wire Line
+	4250 3425 4250 1825
+Wire Wire Line
+	3825 1825 3825 2050
+Wire Wire Line
+	3825 2050 4550 2050
+Wire Wire Line
+	4550 2050 4550 1825
+Wire Wire Line
+	3925 1825 3925 1950
+Wire Wire Line
+	3925 1950 4450 1950
+Wire Wire Line
+	4450 1950 4450 1825
+Wire Wire Line
+	5250 4150 5250 4300
+Wire Wire Line
+	5250 4300 3250 4300
+Wire Wire Line
+	7175 1825 7175 3950
+Wire Wire Line
+	1075 1875 1075 2925
+Wire Wire Line
+	1075 2925 1075 3600
+Wire Wire Line
+	1075 3600 1075 4275
+Wire Wire Line
+	1075 4275 1075 4950
+Wire Wire Line
+	1075 4950 1075 5625
+Wire Wire Line
+	1075 5625 1075 6300
+Wire Wire Line
+	1075 6300 1075 6975
+Wire Wire Line
+	1075 6975 1075 7650
+Wire Wire Line
+	1075 7650 1075 8325
+Wire Wire Line
+	1225 2050 1225 3025
+Wire Wire Line
+	1225 3025 1225 3700
+Wire Wire Line
+	1225 3700 1225 4375
+Wire Wire Line
+	1225 4375 1225 5050
+Wire Wire Line
+	1225 5050 1225 5725
+Wire Wire Line
+	1225 5725 1225 6400
+Wire Wire Line
+	1225 6400 1225 7075
+Wire Wire Line
+	1225 7075 1225 7750
+Wire Wire Line
+	1225 7750 1225 8425
+Wire Wire Line
+	5550 1825 5550 1950
+Wire Wire Line
+	5550 1950 6000 1950
+Wire Wire Line
+	6000 1950 6000 1825
+Wire Wire Line
+	6100 1825 6100 1950
+Wire Wire Line
+	6100 1950 6550 1950
+Wire Wire Line
+	6550 1950 6550 1825
+Connection ~ 2500 2350
+Wire Wire Line
+	3150 2025 3250 2025
+Connection ~ 3250 2025
+Wire Wire Line
+	2200 1750 2200 2825
+Wire Wire Line
+	2200 2825 2200 3500
+Wire Wire Line
+	2200 3500 2200 4175
+Wire Wire Line
+	2200 4175 2200 4850
+Wire Wire Line
+	2200 4850 2200 5525
+Wire Wire Line
+	2200 5525 2200 6200
+Wire Wire Line
+	2200 6200 2200 6875
+Wire Wire Line
+	2200 6875 2200 7550
+Wire Wire Line
+	2200 7550 2200 8225
+Connection ~ 2200 2825
+Connection ~ 2500 2925
+Wire Wire Line
+	1375 2225 1375 3125
+Wire Wire Line
+	1375 3125 1375 3800
+Wire Wire Line
+	1375 3800 1375 4475
+Wire Wire Line
+	1375 4475 1375 5150
+Wire Wire Line
+	1375 5150 1375 5825
+Wire Wire Line
+	1375 5825 1375 6500
+Wire Wire Line
+	1375 6500 1375 7175
+Wire Wire Line
+	1375 7175 1375 7850
+Wire Wire Line
+	1375 7850 1375 8525
+Wire Wire Line
+	2800 1750 2800 2025
+Wire Wire Line
+	2800 2025 2850 2025
+Wire Wire Line
+	1225 2050 1275 2050
+Wire Wire Line
+	1075 1875 1200 1875
+Wire Wire Line
+	900  3125 1375 3125
+Connection ~ 1375 3125
+Wire Wire Line
+	900  3025 1225 3025
+Connection ~ 1225 3025
+Wire Wire Line
+	900  2925 1075 2925
+Connection ~ 1075 2925
+Text Notes 600  2675 0    60   ~ 0
+EFI to
+$Comp
+L CONN_01X04 J?
+U 1 1 5A231440
+P 700 3650
+F 0 "J?" H 700 3900 50  0000 C CNN
+F 1 "CONN_01X04" V 800 3650 50  0000 C CNN
+F 2 "" H 700 3650 50  0001 C CNN
+F 3 "" H 700 3650 50  0001 C CNN
+	1    700  3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  3500 1575 3500
+Wire Wire Line
+	1575 3500 1625 3500
+Wire Wire Line
+	1375 3800 900  3800
+Wire Wire Line
+	1225 3700 900  3700
+Wire Wire Line
+	1075 3600 900  3600
+$Comp
+L CONN_02X02 J?
+U 1 1 5A2315B0
+P 1875 3550
+F 0 "J?" H 1875 3700 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 3400 50  0000 C CNN
+F 2 "" H 1875 2350 50  0001 C CNN
+F 3 "" H 1875 2350 50  0001 C CNN
+	1    1875 3550
+	1    0    0    -1  
+$EndComp
+Text Label 2125 3500 0    60   ~ 0
+5
+Wire Wire Line
+	2200 3500 2125 3500
+Wire Wire Line
+	2500 3600 2125 3600
+Wire Wire Line
+	1575 3500 1575 3600
+Wire Wire Line
+	1575 3600 1625 3600
+Connection ~ 1575 3500
+Connection ~ 1075 3600
+Connection ~ 1225 3700
+Connection ~ 1375 3800
+Connection ~ 2200 3500
+Connection ~ 2500 3600
+Wire Wire Line
+	900  2825 1575 2825
+Wire Wire Line
+	1575 2825 1625 2825
+$Comp
+L CONN_02X02 J?
+U 1 1 5A23168D
+P 1875 2875
+F 0 "J?" H 1875 3025 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 2725 50  0000 C CNN
+F 2 "" H 1875 1675 50  0001 C CNN
+F 3 "" H 1875 1675 50  0001 C CNN
+	1    1875 2875
+	1    0    0    -1  
+$EndComp
+Text Label 2125 2825 0    60   ~ 0
+5
+Wire Wire Line
+	2200 2825 2125 2825
+Wire Wire Line
+	2500 2925 2125 2925
+Wire Wire Line
+	1575 2825 1575 2925
+Wire Wire Line
+	1575 2925 1625 2925
+Connection ~ 1575 2825
+$Comp
+L CONN_01X04 J?
+U 1 1 5A231905
+P 700 4325
+F 0 "J?" H 700 4575 50  0000 C CNN
+F 1 "CONN_01X04" V 800 4325 50  0000 C CNN
+F 2 "" H 700 4325 50  0001 C CNN
+F 3 "" H 700 4325 50  0001 C CNN
+	1    700  4325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  4175 1575 4175
+Wire Wire Line
+	1575 4175 1625 4175
+Wire Wire Line
+	1375 4475 900  4475
+Wire Wire Line
+	1225 4375 900  4375
+Wire Wire Line
+	1075 4275 900  4275
+$Comp
+L CONN_02X02 J?
+U 1 1 5A231910
+P 1875 4225
+F 0 "J?" H 1875 4375 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 4075 50  0000 C CNN
+F 2 "" H 1875 3025 50  0001 C CNN
+F 3 "" H 1875 3025 50  0001 C CNN
+	1    1875 4225
+	1    0    0    -1  
+$EndComp
+Text Label 2125 4175 0    60   ~ 0
+5
+Wire Wire Line
+	2200 4175 2125 4175
+Wire Wire Line
+	2500 4275 2125 4275
+Wire Wire Line
+	1575 4175 1575 4275
+Wire Wire Line
+	1575 4275 1625 4275
+Connection ~ 1575 4175
+Connection ~ 1075 4275
+Connection ~ 1225 4375
+Connection ~ 1375 4475
+Connection ~ 2200 4175
+Connection ~ 2500 4275
+$Comp
+L CONN_01X04 J?
+U 1 1 5A231A12
+P 700 5000
+F 0 "J?" H 700 5250 50  0000 C CNN
+F 1 "CONN_01X04" V 800 5000 50  0000 C CNN
+F 2 "" H 700 5000 50  0001 C CNN
+F 3 "" H 700 5000 50  0001 C CNN
+	1    700  5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  4850 1575 4850
+Wire Wire Line
+	1575 4850 1625 4850
+Wire Wire Line
+	1375 5150 900  5150
+Wire Wire Line
+	1225 5050 900  5050
+Wire Wire Line
+	1075 4950 900  4950
+$Comp
+L CONN_02X02 J?
+U 1 1 5A231A1D
+P 1875 4900
+F 0 "J?" H 1875 5050 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 4750 50  0000 C CNN
+F 2 "" H 1875 3700 50  0001 C CNN
+F 3 "" H 1875 3700 50  0001 C CNN
+	1    1875 4900
+	1    0    0    -1  
+$EndComp
+Text Label 2125 4850 0    60   ~ 0
+5
+Wire Wire Line
+	2200 4850 2125 4850
+Wire Wire Line
+	2500 4950 2125 4950
+Wire Wire Line
+	1575 4850 1575 4950
+Wire Wire Line
+	1575 4950 1625 4950
+Connection ~ 1575 4850
+Connection ~ 1075 4950
+Connection ~ 1225 5050
+Connection ~ 1375 5150
+Connection ~ 2200 4850
+Connection ~ 2500 4950
+$Comp
+L CONN_01X04 J?
+U 1 1 5A231A33
+P 700 5675
+F 0 "J?" H 700 5925 50  0000 C CNN
+F 1 "CONN_01X04" V 800 5675 50  0000 C CNN
+F 2 "" H 700 5675 50  0001 C CNN
+F 3 "" H 700 5675 50  0001 C CNN
+	1    700  5675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  5525 1575 5525
+Wire Wire Line
+	1575 5525 1625 5525
+Wire Wire Line
+	1375 5825 900  5825
+Wire Wire Line
+	1225 5725 900  5725
+Wire Wire Line
+	1075 5625 900  5625
+$Comp
+L CONN_02X02 J?
+U 1 1 5A231A3E
+P 1875 5575
+F 0 "J?" H 1875 5725 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 5425 50  0000 C CNN
+F 2 "" H 1875 4375 50  0001 C CNN
+F 3 "" H 1875 4375 50  0001 C CNN
+	1    1875 5575
+	1    0    0    -1  
+$EndComp
+Text Label 2125 5525 0    60   ~ 0
+5
+Wire Wire Line
+	2200 5525 2125 5525
+Wire Wire Line
+	2500 5625 2125 5625
+Wire Wire Line
+	1575 5525 1575 5625
+Wire Wire Line
+	1575 5625 1625 5625
+Connection ~ 1575 5525
+Connection ~ 1075 5625
+Connection ~ 1225 5725
+Connection ~ 1375 5825
+Connection ~ 2200 5525
+Connection ~ 2500 5625
+$Comp
+L CONN_01X04 J?
+U 1 1 5A23262E
+P 700 6350
+F 0 "J?" H 700 6600 50  0000 C CNN
+F 1 "CONN_01X04" V 800 6350 50  0000 C CNN
+F 2 "" H 700 6350 50  0001 C CNN
+F 3 "" H 700 6350 50  0001 C CNN
+	1    700  6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  6200 1575 6200
+Wire Wire Line
+	1575 6200 1625 6200
+Wire Wire Line
+	1375 6500 900  6500
+Wire Wire Line
+	1225 6400 900  6400
+Wire Wire Line
+	1075 6300 900  6300
+$Comp
+L CONN_02X02 J?
+U 1 1 5A232639
+P 1875 6250
+F 0 "J?" H 1875 6400 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 6100 50  0000 C CNN
+F 2 "" H 1875 5050 50  0001 C CNN
+F 3 "" H 1875 5050 50  0001 C CNN
+	1    1875 6250
+	1    0    0    -1  
+$EndComp
+Text Label 2125 6200 0    60   ~ 0
+5
+Wire Wire Line
+	2200 6200 2125 6200
+Wire Wire Line
+	2500 6300 2125 6300
+Wire Wire Line
+	1575 6200 1575 6300
+Wire Wire Line
+	1575 6300 1625 6300
+Connection ~ 1575 6200
+Connection ~ 1075 6300
+Connection ~ 1225 6400
+Connection ~ 1375 6500
+Connection ~ 2200 6200
+Connection ~ 2500 6300
+$Comp
+L CONN_01X04 J?
+U 1 1 5A23264F
+P 700 7025
+F 0 "J?" H 700 7275 50  0000 C CNN
+F 1 "CONN_01X04" V 800 7025 50  0000 C CNN
+F 2 "" H 700 7025 50  0001 C CNN
+F 3 "" H 700 7025 50  0001 C CNN
+	1    700  7025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  6875 1575 6875
+Wire Wire Line
+	1575 6875 1625 6875
+Wire Wire Line
+	1375 7175 900  7175
+Wire Wire Line
+	1225 7075 900  7075
+Wire Wire Line
+	1075 6975 900  6975
+$Comp
+L CONN_02X02 J?
+U 1 1 5A23265A
+P 1875 6925
+F 0 "J?" H 1875 7075 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 6775 50  0000 C CNN
+F 2 "" H 1875 5725 50  0001 C CNN
+F 3 "" H 1875 5725 50  0001 C CNN
+	1    1875 6925
+	1    0    0    -1  
+$EndComp
+Text Label 2125 6875 0    60   ~ 0
+5
+Wire Wire Line
+	2200 6875 2125 6875
+Wire Wire Line
+	2500 6975 2125 6975
+Wire Wire Line
+	1575 6875 1575 6975
+Wire Wire Line
+	1575 6975 1625 6975
+Connection ~ 1575 6875
+Connection ~ 1075 6975
+Connection ~ 1225 7075
+Connection ~ 1375 7175
+Connection ~ 2200 6875
+Connection ~ 2500 6975
+$Comp
+L CONN_01X04 J?
+U 1 1 5A232670
+P 700 7700
+F 0 "J?" H 700 7950 50  0000 C CNN
+F 1 "CONN_01X04" V 800 7700 50  0000 C CNN
+F 2 "" H 700 7700 50  0001 C CNN
+F 3 "" H 700 7700 50  0001 C CNN
+	1    700  7700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  7550 1575 7550
+Wire Wire Line
+	1575 7550 1625 7550
+Wire Wire Line
+	1375 7850 900  7850
+Wire Wire Line
+	1225 7750 900  7750
+Wire Wire Line
+	1075 7650 900  7650
+$Comp
+L CONN_02X02 J?
+U 1 1 5A23267B
+P 1875 7600
+F 0 "J?" H 1875 7750 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 7450 50  0000 C CNN
+F 2 "" H 1875 6400 50  0001 C CNN
+F 3 "" H 1875 6400 50  0001 C CNN
+	1    1875 7600
+	1    0    0    -1  
+$EndComp
+Text Label 2125 7550 0    60   ~ 0
+5
+Wire Wire Line
+	2200 7550 2125 7550
+Wire Wire Line
+	2500 7650 2125 7650
+Wire Wire Line
+	1575 7550 1575 7650
+Wire Wire Line
+	1575 7650 1625 7650
+Connection ~ 1575 7550
+Connection ~ 1075 7650
+Connection ~ 1225 7750
+Connection ~ 1375 7850
+Connection ~ 2200 7550
+Connection ~ 2500 7650
+$Comp
+L CONN_01X04 J?
+U 1 1 5A232691
+P 700 8375
+F 0 "J?" H 700 8625 50  0000 C CNN
+F 1 "CONN_01X04" V 800 8375 50  0000 C CNN
+F 2 "" H 700 8375 50  0001 C CNN
+F 3 "" H 700 8375 50  0001 C CNN
+	1    700  8375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  8225 1575 8225
+Wire Wire Line
+	1575 8225 1625 8225
+Wire Wire Line
+	1375 8525 900  8525
+Wire Wire Line
+	1225 8425 900  8425
+Wire Wire Line
+	1075 8325 900  8325
+$Comp
+L CONN_02X02 J?
+U 1 1 5A23269C
+P 1875 8275
+F 0 "J?" H 1875 8425 50  0000 C CNN
+F 1 "CONN_02X02" H 1875 8125 50  0000 C CNN
+F 2 "" H 1875 7075 50  0001 C CNN
+F 3 "" H 1875 7075 50  0001 C CNN
+	1    1875 8275
+	1    0    0    -1  
+$EndComp
+Text Label 2125 8225 0    60   ~ 0
+5
+Wire Wire Line
+	2200 8225 2125 8225
+Wire Wire Line
+	2500 8325 2125 8325
+Wire Wire Line
+	1575 8225 1575 8325
+Wire Wire Line
+	1575 8325 1625 8325
+Connection ~ 1575 8225
+Connection ~ 1075 8325
+Connection ~ 1225 8425
+Connection ~ 1375 8525
+Connection ~ 2200 8225
+Connection ~ 2500 8325
+Wire Wire Line
+	6650 2350 6650 1825
+Connection ~ 4900 2350
+Wire Wire Line
+	5500 3225 5450 3225
+Wire Wire Line
+	5450 3225 5450 1825
+Wire Wire Line
+	4900 2350 4900 2825
+Wire Wire Line
+	4900 2825 5500 2825
+$Comp
+L R R?
+U 1 1 5A234471
+P 5750 3950
+F 0 "R?" V 5830 3950 50  0000 C CNN
+F 1 "R" V 5750 3950 50  0000 C CNN
+F 2 "" V 5680 3950 50  0001 C CNN
+F 3 "" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 3950 5575 3950
+Wire Wire Line
+	5575 3950 5600 3950
+Wire Wire Line
+	7175 3950 5900 3950
+$Comp
+L R R?
+U 1 1 5A234900
+P 5750 4150
+F 0 "R?" V 5830 4150 50  0000 C CNN
+F 1 "R" V 5750 4150 50  0000 C CNN
+F 2 "" V 5680 4150 50  0001 C CNN
+F 3 "" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5575 3950 5575 4150
+Wire Wire Line
+	5575 4150 5600 4150
+Connection ~ 5575 3950
+Wire Wire Line
+	5900 4150 7550 4150
+Wire Wire Line
+	7550 4150 7550 1825
+Wire Wire Line
+	7450 1825 7450 2350
+Wire Wire Line
+	7450 2350 6650 2350
+Connection ~ 6650 2350
+$EndSCHEMATC
