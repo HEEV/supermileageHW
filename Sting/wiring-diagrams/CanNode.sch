@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -657,7 +658,7 @@ F 3 "" H 6000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P?
+L USB_OTG-RESCUE-Wiring_Diagram_v2 P?
 U 1 1 5880F9D7
 P 1275 7225
 AR Path="/5880E829/5880F9D7" Ref="P?"  Part="1" 

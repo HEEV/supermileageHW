@@ -1,4 +1,4 @@
-update=Saturday, September 16, 2017 'AMt' 10:25:24 AM
+update=Sat 30 Sep 2017 01:22:21 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../parts_library
+LibDir=../../parts_library;../../parts_library/kicad-parts
 [eeschema/libraries]
 LibName1=Version1-rescue
 LibName2=power
@@ -70,7 +70,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Supermileage
-LibName32=kicad-parts-master/relays_switches
-LibName33=kicad-parts-master/supermileage
-LibName34=kicad-parts-master/supermileage_computers
-LibName35=kicad-parts-master/switch_dpst
+LibName32=kicad-parts/relays_switches
+LibName33=kicad-parts/supermileage
+LibName34=kicad-parts/supermileage_computers
+LibName35=kicad-parts/supermileage_sensors

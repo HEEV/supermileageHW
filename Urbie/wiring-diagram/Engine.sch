@@ -33,7 +33,7 @@ LIBS:Supermileage
 LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
-LIBS:switch_dpst
+LIBS:supermileage_sensors
 LIBS:Version1-cache
 EELAYER 25 0
 EELAYER END
@@ -301,28 +301,6 @@ F 4 "Mouser" H 5275 3125 60  0001 C CNN "Distributor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Starter_Relay-RESCUE-Version1 CR?
-U 1 1 587B986B
-P 4325 3025
-F 0 "CR?" V 4125 3025 60  0000 C CNN
-F 1 "Starter_Relay" V 4525 3025 60  0000 C CNN
-F 2 "" H 4325 3025 60  0001 C CNN
-F 3 "" H 4325 3025 60  0001 C CNN
-	1    4325 3025
-	0    1    1    0   
-$EndComp
-$Comp
-L Battery-RESCUE-Version1 BT?
-U 1 1 587B986D
-P 6625 2525
-F 0 "BT?" V 6425 2475 50  0001 L CNN
-F 1 "12V" H 6725 2525 50  0000 L CNN
-F 2 "" V 6625 2565 50  0000 C CNN
-F 3 "" V 6625 2565 50  0000 C CNN
-	1    6625 2525
-	1    0    0    -1  
-$EndComp
-$Comp
 L SW_SPST SW?
 U 1 1 587B986E
 P 2575 1800
@@ -456,17 +434,6 @@ F 3 "" H 5075 350 50  0000 C CNN
 	1    5075 1625
 	0    1    1    0   
 $EndComp
-$Comp
-L Fuse F?
-U 1 1 587B9877
-P 6225 2275
-F 0 "F?" H 6325 2325 50  0001 C CNN
-F 1 "20A" H 6225 2425 50  0000 C CNN
-F 2 "" H 6225 2275 50  0000 C CNN
-F 3 "" H 6225 2275 50  0000 C CNN
-	1    6225 2275
-	1    0    0    -1  
-$EndComp
 Text Label 3225 2525 0    60   ~ 0
 Black
 Text Label 3225 2425 0    60   ~ 0
@@ -529,19 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 1125 5825 1225
 Wire Wire Line
-	5125 1125 5225 1125
-Wire Wire Line
-	5225 1125 5325 1125
-Wire Wire Line
-	5325 1125 5425 1125
-Wire Wire Line
-	5425 1125 5525 1125
-Wire Wire Line
-	5525 1125 5625 1125
-Wire Wire Line
-	5625 1125 5725 1125
-Wire Wire Line
-	5725 1125 5825 1125
+	5125 1125 5825 1125
 Wire Wire Line
 	5725 1125 5725 1225
 Wire Wire Line
@@ -569,9 +524,7 @@ Connection ~ 4825 1125
 Wire Wire Line
 	5825 2775 6625 2775
 Wire Wire Line
-	5825 2025 5825 2125
-Wire Wire Line
-	5825 2125 5825 2775
+	5825 2025 5825 2775
 Wire Wire Line
 	5725 2025 5725 2125
 Wire Wire Line
@@ -589,15 +542,7 @@ Connection ~ 5625 2125
 Wire Wire Line
 	5025 2275 5025 2025
 Wire Wire Line
-	4525 1125 4625 1125
-Wire Wire Line
-	4625 1125 4725 1125
-Wire Wire Line
-	4725 1125 4825 1125
-Wire Wire Line
-	4825 1125 4925 1125
-Wire Wire Line
-	4925 1125 5025 1125
+	4525 1125 5025 1125
 Wire Wire Line
 	5125 1225 5125 1125
 Connection ~ 5325 1125
@@ -630,9 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 2275 6625 2275
 Wire Wire Line
-	4925 2275 5025 2275
-Wire Wire Line
-	5025 2275 5975 2275
+	4925 2275 5975 2275
 Wire Wire Line
 	6625 2775 6625 2675
 Wire Wire Line
@@ -971,9 +914,7 @@ Wire Wire Line
 Wire Wire Line
 	4425 625  4425 1225
 Wire Wire Line
-	5625 2025 5625 2125
-Wire Wire Line
-	5625 2125 5625 3125
+	5625 2025 5625 3125
 $Comp
 L CONN_01X12 P?
 U 1 1 587C455A
@@ -1078,4 +1019,26 @@ Wire Wire Line
 	2125 3075 2275 3075
 Wire Wire Line
 	2275 3075 2275 3975
+$Comp
+L Starter_Relay CR?
+U 1 1 59CF13DB
+P 4325 3025
+F 0 "CR?" H 4325 3235 60  0000 C CNN
+F 1 "Starter_Relay" H 4335 2815 60  0000 C CNN
+F 2 "" H 4325 3025 60  0001 C CNN
+F 3 "" H 4325 3025 60  0001 C CNN
+	1    4325 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT?
+U 1 1 59CF1A83
+P 6625 2575
+F 0 "BT?" H 6725 2675 50  0000 L CNN
+F 1 "Battery_Cell" H 6725 2575 50  0000 L CNN
+F 2 "" V 6625 2635 50  0001 C CNN
+F 3 "" V 6625 2635 50  0001 C CNN
+	1    6625 2575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

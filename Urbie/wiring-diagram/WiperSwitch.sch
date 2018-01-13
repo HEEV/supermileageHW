@@ -33,7 +33,7 @@ LIBS:Supermileage
 LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
-LIBS:switch_dpst
+LIBS:supermileage_sensors
 LIBS:Version1-cache
 EELAYER 25 0
 EELAYER END

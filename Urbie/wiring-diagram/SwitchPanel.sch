@@ -33,7 +33,7 @@ LIBS:Supermileage
 LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
-LIBS:switch_dpst
+LIBS:supermileage_sensors
 LIBS:Version1-cache
 EELAYER 25 0
 EELAYER END
@@ -243,11 +243,11 @@ Wiper/Horn_PWR
 Text Label 3425 900  2    60   ~ 0
 Wiper/Turn_PWR
 Text Label 3425 2100 2    60   ~ 0
-Wiper/Horn_PWR
+Wiper/Horn_PWR_Yellow
 Text Label 3975 2150 0    60   ~ 0
 LightPWR
 Text Label 3425 1700 2    60   ~ 0
-LightPWR
+LightPWR_Orange
 Text Label 3425 5400 2    60   ~ 0
 LightPWR
 Text Label 8100 6125 0    60   ~ 0
@@ -273,7 +273,7 @@ Text Notes 9475 4375 0    60   ~ 0
 Text HLabel 9425 4950 2    60   Input ~ 0
 BoD1.12:Gnd
 Text Label 3425 2300 2    60   ~ 0
-Honk
+Honk_O_Green
 Text Label 3425 5600 2    60   ~ 0
 Honk
 Text Label 8100 5325 0    60   ~ 0
@@ -305,7 +305,7 @@ GND
 Text Label 8100 4850 0    60   ~ 0
 DrvEn
 Text Label 3425 2000 2    60   ~ 0
-DrvEn
+DrvEn_Brown
 Text Label 3425 3225 2    60   ~ 0
 DrvEn
 Text Label 3425 2925 2    60   ~ 0
@@ -315,7 +315,7 @@ L_Blink
 Text Label 8100 5625 0    60   ~ 0
 L_Blink
 Text Label 3425 1800 2    60   ~ 0
-Brights
+Brights_Red
 Text Label 3425 3025 2    60   ~ 0
 Brights
 Text Label 3425 5300 2    60   ~ 0
@@ -329,15 +329,15 @@ EFI
 Text Label 8100 5525 0    60   ~ 0
 EFI_On
 Text Label 8100 6025 0    60   ~ 0
-L_Turn
+L_Turn_L_Blue
 Text Label 8100 5925 0    60   ~ 0
-R_Turn
+R_Turn_Green
 Text Label 3425 1300 2    60   ~ 0
-L_Turn
+L_Turn_L_Blue
 Text Label 3425 1400 2    60   ~ 0
-R_Turn
+R_Turn_Green
 Text Label 3425 1500 2    60   ~ 0
-Running*
+Running*_O_Green
 Text Label 3425 5100 2    60   ~ 0
 Running*
 Text Label 8100 5425 0    60   ~ 0
@@ -345,9 +345,9 @@ Running*
 Text Label 8100 5225 0    60   ~ 0
 EngineStart
 Text Label 3425 1900 2    60   ~ 0
-EngineStart
+EngineStart_O_Green
 Text Label 3425 1600 2    60   ~ 0
-Head*
+Head*_DK_Blue
 Text Label 3425 5200 2    60   ~ 0
 Head*
 Text Label 3425 5700 2    60   ~ 0
@@ -431,7 +431,7 @@ Accel_Red
 Text Label 3425 5900 2    60   ~ 0
 Accel_Yellow
 Text Label 3425 2400 2    60   ~ 0
-EngineStop
+EngineStop_DK_Blue
 Text Label 3425 3325 2    60   ~ 0
 PowerOn
 Text Label 3425 3425 2    60   ~ 0
