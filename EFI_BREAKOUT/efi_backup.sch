@@ -185,8 +185,6 @@ Wire Wire Line
 Wire Wire Line
 	3925 2250 3925 2650
 Wire Wire Line
-	4025 2250 4025 3050
-Wire Wire Line
 	2325 2350 4975 2350
 Wire Wire Line
 	2225 3150 4975 3150
@@ -211,8 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	2925 4350 4975 4350
 Connection ~ 3125 3050
-Connection ~ 3575 3050
-Connection ~ 4025 3050
 Connection ~ 3025 3050
 Wire Wire Line
 	3925 2650 4975 2650
@@ -231,8 +227,6 @@ Wire Wire Line
 	4825 2250 4825 4650
 Connection ~ 3075 4850
 Connection ~ 3675 4850
-Wire Wire Line
-	4975 2950 3475 2950
 Connection ~ 3475 2950
 Wire Wire Line
 	4975 4250 4825 4250
@@ -262,8 +256,6 @@ Connection ~ 2825 2750
 Wire Wire Line
 	3475 3950 4975 3950
 Wire Wire Line
-	3575 2250 3575 3050
-Wire Wire Line
 	2325 4850 2325 6300
 Wire Wire Line
 	2425 6300 2425 4850
@@ -279,4 +271,38 @@ NoConn ~ 4975 4150
 NoConn ~ 4975 4050
 NoConn ~ 4975 3850
 NoConn ~ 4975 3250
+Text Label 4825 3275 3    60   ~ 0
+GND
+Text Label 4325 4550 0    60   ~ 0
+TPS_5V
+Text Label 4325 4350 0    60   ~ 0
+TACH
+Text Label 4350 3950 0    60   ~ 0
+INJ1
+Text Label 4325 3750 0    60   ~ 0
+CLT
+Text Label 4325 3650 0    60   ~ 0
++12V-in
+Text Label 4325 3550 0    60   ~ 0
+MAT
+Text Label 4300 3150 0    60   ~ 0
+TPS
+Text Label 4300 2950 0    60   ~ 0
+INJ2
+Text Label 4300 2850 0    60   ~ 0
+purpleCANL
+Text Label 4300 2650 0    60   ~ 0
+IGN
+Text Label 4275 2450 0    60   ~ 0
+whiteCANH
+Text Label 4300 2350 0    60   ~ 0
+02
+Wire Wire Line
+	4975 2950 3475 2950
+Wire Wire Line
+	3575 2250 3575 3650
+Connection ~ 3575 3650
+Wire Wire Line
+	4025 2250 4025 3650
+Connection ~ 4025 3650
 $EndSCHEMATC
