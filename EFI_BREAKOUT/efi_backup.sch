@@ -160,108 +160,6 @@ F 3 "" H 5150 1625 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 NoConn ~ 5000 1825
-Wire Wire Line
-	5300 2625 8850 2625
-Connection ~ 5850 2625
-Connection ~ 5950 2625
-Wire Wire Line
-	5950 2625 5950 1825
-Wire Wire Line
-	5850 2625 5850 1825
-Wire Wire Line
-	5650 2325 6850 2325
-Wire Wire Line
-	5650 2325 5650 1825
-Wire Wire Line
-	5750 1825 5750 1925
-Wire Wire Line
-	7050 2625 7050 1825
-Wire Wire Line
-	6850 1825 6850 3225
-Wire Wire Line
-	6950 1825 6950 3925
-Wire Wire Line
-	7500 1825 7500 3525
-Wire Wire Line
-	7950 1825 7950 2225
-Wire Wire Line
-	6350 1925 9000 1925
-Wire Wire Line
-	6250 2725 9000 2725
-Wire Wire Line
-	6250 2725 6250 5875
-Wire Wire Line
-	6150 4125 6150 5875
-Wire Wire Line
-	6850 3225 9000 3225
-Wire Wire Line
-	9000 4025 8950 4025
-Wire Wire Line
-	8950 4025 8950 4425
-Wire Wire Line
-	8950 4425 6350 4425
-Wire Wire Line
-	9000 3325 7800 3325
-Wire Wire Line
-	7800 3325 7800 5875
-Wire Wire Line
-	9000 3125 7200 3125
-Wire Wire Line
-	6950 3925 9000 3925
-Connection ~ 7150 2625
-Connection ~ 7050 2625
-Wire Wire Line
-	7950 2225 9000 2225
-Wire Wire Line
-	7700 4425 7700 5875
-Wire Wire Line
-	7200 3125 7200 5875
-Wire Wire Line
-	7100 4425 7100 5875
-Wire Wire Line
-	6150 4125 9000 4125
-Wire Wire Line
-	8850 4225 9000 4225
-Connection ~ 6550 2625
-Wire Wire Line
-	8850 1825 8850 4225
-Connection ~ 7100 4425
-Connection ~ 7700 4425
-Connection ~ 7500 2525
-Wire Wire Line
-	9000 3825 8850 3825
-Connection ~ 8850 3825
-Wire Wire Line
-	9000 1825 8850 1825
-Connection ~ 8850 2625
-Wire Wire Line
-	5300 1825 5300 2625
-Wire Wire Line
-	5100 2025 9000 2025
-Wire Wire Line
-	5100 2025 5100 1825
-Wire Wire Line
-	5200 2425 9000 2425
-Wire Wire Line
-	5750 1925 6250 1925
-Wire Wire Line
-	6550 1825 6550 2625
-Wire Wire Line
-	6250 1925 6250 1825
-Wire Wire Line
-	6350 1825 6350 1925
-Wire Wire Line
-	7150 1825 7150 2625
-Connection ~ 6850 2325
-Wire Wire Line
-	7500 3525 9000 3525
-Wire Wire Line
-	6350 4425 6350 5875
-Wire Wire Line
-	6450 5875 6450 4425
-Connection ~ 6450 4425
-Wire Wire Line
-	5200 1825 5200 2425
 NoConn ~ 9000 3025
 NoConn ~ 9000 2925
 NoConn ~ 9000 2625
@@ -297,14 +195,6 @@ Text Label 8300 2025 0    60   ~ 0
 whiteCANH
 Text Label 8325 1925 0    60   ~ 0
 02
-Wire Wire Line
-	9000 2525 7500 2525
-Wire Wire Line
-	7600 1825 7600 3225
-Connection ~ 7600 3225
-Wire Wire Line
-	8050 1825 8050 3225
-Connection ~ 8050 3225
 $Comp
 L TEST_1P J2
 U 1 1 5A63B26F
@@ -818,4 +708,124 @@ Text Label 3875 5350 0    60   ~ 0
 TPS_5V
 Text Label 3875 3700 0    60   ~ 0
 INJ1
+Wire Wire Line
+	5300 2625 8850 2625
+Connection ~ 5850 2625
+Connection ~ 5950 2625
+Wire Wire Line
+	5950 2625 5950 1825
+Wire Wire Line
+	5850 2625 5850 1825
+Wire Wire Line
+	5650 2325 6850 2325
+Wire Wire Line
+	5650 2325 5650 1825
+Wire Wire Line
+	5750 1825 5750 1925
+Wire Wire Line
+	7050 2625 7050 1825
+Wire Wire Line
+	6850 1825 6850 3225
+Wire Wire Line
+	6950 1825 6950 3925
+Wire Wire Line
+	7500 1825 7500 3525
+Wire Wire Line
+	7950 1825 7950 2225
+Wire Wire Line
+	6350 1925 9000 1925
+Wire Wire Line
+	6250 2725 9000 2725
+Wire Wire Line
+	6250 2725 6250 5875
+Wire Wire Line
+	6150 4125 6150 5875
+Wire Wire Line
+	6850 3225 9000 3225
+Wire Wire Line
+	9000 4025 8950 4025
+Wire Wire Line
+	8950 4025 8950 4425
+Wire Wire Line
+	8950 4425 6350 4425
+Wire Wire Line
+	9000 3325 7800 3325
+Wire Wire Line
+	7800 3325 7800 5875
+Wire Wire Line
+	9000 3125 7200 3125
+Wire Wire Line
+	6950 3925 9000 3925
+Connection ~ 7150 2625
+Connection ~ 7050 2625
+Wire Wire Line
+	7950 2225 9000 2225
+Wire Wire Line
+	7700 4425 7700 5875
+Wire Wire Line
+	7200 3125 7200 5875
+Wire Wire Line
+	7100 4425 7100 5875
+Wire Wire Line
+	6150 4125 9000 4125
+Wire Wire Line
+	8850 4225 9000 4225
+Connection ~ 6550 2625
+Wire Wire Line
+	8850 1825 8850 4225
+Connection ~ 7100 4425
+Connection ~ 7700 4425
+Connection ~ 7500 2525
+Wire Wire Line
+	9000 3825 8850 3825
+Connection ~ 8850 3825
+Wire Wire Line
+	9000 1825 8850 1825
+Connection ~ 8850 2625
+Wire Wire Line
+	5300 1825 5300 2625
+Wire Wire Line
+	5100 2025 9000 2025
+Wire Wire Line
+	5100 2025 5100 1825
+Wire Wire Line
+	5200 2425 9000 2425
+Wire Wire Line
+	5750 1925 6250 1925
+Wire Wire Line
+	6550 1825 6550 2625
+Wire Wire Line
+	6250 1925 6250 1825
+Wire Wire Line
+	6350 1825 6350 1925
+Wire Wire Line
+	7150 1825 7150 2625
+Connection ~ 6850 2325
+Wire Wire Line
+	7500 3525 9000 3525
+Wire Wire Line
+	6350 4425 6350 5875
+Wire Wire Line
+	6450 5875 6450 4425
+Connection ~ 6450 4425
+Wire Wire Line
+	5200 1825 5200 2425
+Wire Wire Line
+	9000 2525 7500 2525
+Wire Wire Line
+	7600 1825 7600 3225
+Connection ~ 7600 3225
+Wire Wire Line
+	8050 1825 8050 3225
+Connection ~ 8050 3225
+Wire Wire Line
+	1725 2925 2325 2925
+Connection ~ 2025 2925
+Wire Wire Line
+	1725 4600 2325 4600
+Connection ~ 2025 4600
+Text Label 1775 2925 0    60   ~ 0
+GND
+Text Label 1725 4600 0    60   ~ 0
++12V-in
 $EndSCHEMATC
