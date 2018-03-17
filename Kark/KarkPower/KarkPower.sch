@@ -1,6 +1,10 @@
 EESchema Schematic File Version 2
+LIBS:KarkSchematics-rescue
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -28,16 +32,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:supermileage_sensors
-LIBS:supermileage_computers
-LIBS:supermileage
 LIBS:relays_switches
-LIBS:KarkPower-cache
+LIBS:supermileage
+LIBS:supermileage_computers
+LIBS:supermileage_sensors
+LIBS:KarkSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 1
+Sheet 4 4
 Title "Karch Main Power Distribution Hub"
 Date "01/13/18"
 Rev "1.0"
