@@ -1,0 +1,889 @@
+EESchema Schematic File Version 2
+LIBS:KarkSchematics-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relays_switches
+LIBS:supermileage
+LIBS:supermileage_computers
+LIBS:supermileage_sensors
+LIBS:KarkSchematics-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 1 4
+Title "Kark - Gasoline Prototype"
+Date "2018-03-10"
+Rev "1.0"
+Comp "Cedarville University"
+Comment1 "Samuel Ellicott"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery BT?
+U 1 1 5AA44DED
+P 6550 1100
+F 0 "BT?" H 6650 1150 50  0001 L CNN
+F 1 "12v Battery" V 6700 900 50  0000 L CNN
+F 2 "" V 6550 1140 50  0000 C CNN
+F 3 "" V 6550 1140 50  0000 C CNN
+	1    6550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AA44DEE
+P 1500 900
+F 0 "#PWR?" H 1500 750 50  0001 C CNN
+F 1 "+12V" H 1500 1040 50  0000 C CNN
+F 2 "" H 1500 900 50  0000 C CNN
+F 3 "" H 1500 900 50  0000 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB?
+U 1 1 5AA44DEF
+P 1850 1100
+F 0 "CB?" H 1850 1300 60  0000 C CNN
+F 1 "15A" H 1850 1000 60  0000 C CNN
+F 2 "" H 1850 1100 60  0000 C CNN
+F 3 "" H 1850 1100 60  0000 C CNN
+F 4 "Mouser" H 1850 1100 60  0001 C CNN "Distributor"
+	1    1850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB?
+U 1 1 5AA44DF0
+P 1850 2900
+F 0 "CB?" H 1850 3100 60  0000 C CNN
+F 1 "5A" H 1850 2800 60  0000 C CNN
+F 2 "" H 1850 2900 60  0000 C CNN
+F 3 "" H 1850 2900 60  0000 C CNN
+F 4 "Mouser" H 1850 2900 60  0001 C CNN "Distributor"
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CB CB?
+U 1 1 5AA44DF1
+P 1850 6450
+F 0 "CB?" H 1850 6650 60  0000 C CNN
+F 1 "5A" H 1850 6350 60  0000 C CNN
+F 2 "" H 1850 6450 60  0000 C CNN
+F 3 "" H 1850 6450 60  0000 C CNN
+	1    1850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 5AA44DF2
+P 2550 1100
+F 0 "SW?" H 2550 1250 60  0000 C CNN
+F 1 "Master Power" H 2550 1000 60  0000 C CNN
+F 2 "" H 2550 1100 60  0000 C CNN
+F 3 "" H 2550 1100 60  0000 C CNN
+	1    2550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 5AA44DF3
+P 2550 2900
+F 0 "SW?" H 2550 3050 60  0000 C CNN
+F 1 "Key" H 2550 2800 60  0000 C CNN
+F 2 "" H 2550 2900 60  0000 C CNN
+F 3 "" H 2550 2900 60  0000 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 5AA44DF4
+P 3100 2900
+F 0 "SW?" H 3100 3050 60  0000 C CNN
+F 1 "External" H 3100 2800 60  0000 C CNN
+F 2 "" H 3100 2900 60  0000 C CNN
+F 3 "" H 3100 2900 60  0000 C CNN
+	1    3100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW?
+U 1 1 5AA44DF5
+P 3650 2900
+F 0 "SW?" H 3650 3050 60  0000 C CNN
+F 1 "Driver" H 3650 2800 60  0000 C CNN
+F 2 "" H 3650 2900 60  0000 C CNN
+F 3 "" H 3650 2900 60  0000 C CNN
+	1    3650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT_Relay CR?
+U 2 1 5AA44DF8
+P 5900 1650
+F 0 "CR?" H 5900 1475 60  0000 C CNN
+F 1 "Starter" H 5900 1800 60  0000 C CNN
+F 2 "" H 5900 1650 60  0000 C CNN
+F 3 "" H 5900 1650 60  0000 C CNN
+	2    5900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5AA44DFE
+P 2600 5100
+F 0 "SW?" H 2725 5250 60  0000 C CNN
+F 1 "Horn" H 2600 5000 60  0000 C CNN
+F 2 "" H 2600 5100 60  0000 C CNN
+F 3 "" H 2600 5100 60  0000 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW?
+U 1 1 5AA44DFF
+P 2600 5500
+F 0 "SW?" H 2725 5650 60  0000 C CNN
+F 1 "Horn" H 2600 5400 60  0000 C CNN
+F 2 "" H 2600 5500 60  0000 C CNN
+F 3 "" H 2600 5500 60  0000 C CNN
+	1    2600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1100 2350 1100
+Wire Wire Line
+	1500 1100 1700 1100
+Connection ~ 1500 1100
+Wire Wire Line
+	2000 2900 2350 2900
+Wire Wire Line
+	2750 2900 2900 2900
+Wire Wire Line
+	3300 2900 3450 2900
+Wire Wire Line
+	6750 1100 7200 1100
+Wire Wire Line
+	1500 2900 1700 2900
+Connection ~ 1500 2900
+Wire Wire Line
+	1500 6450 1700 6450
+Connection ~ 1500 6450
+Wire Wire Line
+	7200 2900 6900 2900
+Connection ~ 7200 2400
+Wire Wire Line
+	7200 3350 6900 3350
+Connection ~ 7200 3350
+Wire Wire Line
+	7200 3700 6900 3700
+Connection ~ 7200 4200
+Wire Wire Line
+	7200 4200 6900 4200
+Connection ~ 7200 3700
+Wire Wire Line
+	2150 5100 2400 5100
+Wire Wire Line
+	2150 2400 2150 5500
+Connection ~ 2150 2900
+Wire Wire Line
+	2150 5500 2400 5500
+Connection ~ 2150 5100
+Connection ~ 7200 5500
+Connection ~ 7200 2600
+Connection ~ 7200 2900
+Wire Wire Line
+	2800 5100 3100 5100
+Wire Wire Line
+	3100 5100 3100 5800
+Connection ~ 3100 5500
+$Comp
+L LED-RESCUE-StingSchematics D?
+U 1 1 5AA44E04
+P 6200 6150
+F 0 "D?" H 6200 6250 50  0001 C CNN
+F 1 "LED" H 6200 6050 50  0000 C CNN
+F 2 "" H 6200 6150 50  0000 C CNN
+F 3 "" H 6200 6150 50  0000 C CNN
+	1    6200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AA44E05
+P 6650 6150
+F 0 "R?" V 6730 6150 50  0001 C CNN
+F 1 "680R" V 6750 6150 50  0000 C CNN
+F 2 "" V 6580 6150 50  0000 C CNN
+F 3 "" H 6650 6150 50  0000 C CNN
+	1    6650 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SPDT SW?
+U 1 1 5AA44E06
+P 3550 7050
+F 0 "SW?" H 3550 6950 60  0000 C CNN
+F 1 "O2 Switch" H 3550 7300 60  0000 C CNN
+F 2 "" H 3550 7050 60  0000 C CNN
+F 3 "" H 3550 7050 60  0000 C CNN
+	1    3550 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L O2_Sensor U?
+U 1 1 5AA44E07
+P 6850 8200
+F 0 "U?" H 6850 7850 60  0001 C CNN
+F 1 "O2_Sensor" H 6850 8350 60  0000 C CNN
+F 2 "" H 6850 8200 60  0000 C CNN
+F 3 "" H 6850 8200 60  0000 C CNN
+	1    6850 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6450 2400 6450
+Wire Wire Line
+	2700 6450 4750 6450
+Wire Wire Line
+	3000 6150 3000 6950
+Wire Wire Line
+	3000 6150 6000 6150
+Wire Wire Line
+	3000 6950 3350 6950
+Connection ~ 3000 6450
+Wire Wire Line
+	3350 7150 2200 7150
+Wire Wire Line
+	2200 7150 2200 6450
+Connection ~ 2200 6450
+Wire Wire Line
+	6400 6150 6500 6150
+Wire Wire Line
+	7200 6150 6800 6150
+Connection ~ 7200 6150
+Wire Wire Line
+	6200 8150 6200 7550
+Wire Wire Line
+	6200 7550 5750 7550
+Wire Wire Line
+	5750 7650 6150 7650
+Wire Wire Line
+	6150 7650 6150 8250
+Wire Wire Line
+	6150 8250 6550 8250
+Wire Wire Line
+	6550 8350 6100 8350
+Wire Wire Line
+	6100 8350 6100 7750
+Wire Wire Line
+	6100 7750 5750 7750
+Wire Wire Line
+	6550 8450 6050 8450
+Wire Wire Line
+	6050 8450 6050 7850
+Wire Wire Line
+	6050 7850 5750 7850
+Wire Wire Line
+	3750 7050 4750 7050
+Wire Wire Line
+	6200 8150 6550 8150
+Wire Wire Line
+	7200 6450 5750 6450
+Connection ~ 7200 6450
+$Comp
+L RPM_Sensor U?
+U 1 1 5AA44E08
+P 6850 7650
+F 0 "U?" H 6850 7400 60  0001 C CNN
+F 1 "RPM_Sensor" H 6850 7800 60  0000 C CNN
+F 2 "" H 6850 7650 60  0000 C CNN
+F 3 "" H 6850 7650 60  0000 C CNN
+	1    6850 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 7200 6400 7200
+Wire Wire Line
+	5750 7300 6350 7300
+Wire Wire Line
+	5750 7400 6300 7400
+Wire Wire Line
+	6400 7200 6400 7600
+Wire Wire Line
+	6550 7700 6350 7700
+Wire Wire Line
+	6350 7700 6350 7300
+Wire Wire Line
+	6550 7800 6300 7800
+Wire Wire Line
+	6300 7800 6300 7400
+$Comp
+L Fuel_Injector L?
+U 1 1 5AA44E09
+P 6850 6750
+F 0 "L?" H 6850 6600 60  0001 C CNN
+F 1 "Fuel_Injector" H 6850 6900 60  0000 C CNN
+F 2 "" H 6850 6750 60  0000 C CNN
+F 3 "" H 6850 6750 60  0000 C CNN
+	1    6850 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6950 6550 6950
+Wire Wire Line
+	5750 7050 6500 7050
+Wire Wire Line
+	6400 7600 6550 7600
+Wire Wire Line
+	6550 6950 6550 7150
+Wire Wire Line
+	6500 7250 6550 7250
+Wire Wire Line
+	6500 7050 6500 7250
+Wire Wire Line
+	6550 6700 5750 6700
+Wire Wire Line
+	5750 6800 6550 6800
+$Comp
+L Ignition U?
+U 1 1 5AA44E0A
+P 6850 7200
+F 0 "U?" H 6850 7050 60  0001 C CNN
+F 1 "Ignition" H 6850 7350 60  0000 C CNN
+F 2 "" H 6850 7200 60  0000 C CNN
+F 3 "" H 6850 7200 60  0000 C CNN
+	1    6850 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA44E0B
+P 7200 8850
+F 0 "#PWR?" H 7200 8600 50  0001 C CNN
+F 1 "GND" H 7200 8700 50  0000 C CNN
+F 2 "" H 7200 8850 50  0000 C CNN
+F 3 "" H 7200 8850 50  0000 C CNN
+	1    7200 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Horn SP?
+U 1 1 5AA44E0C
+P 6700 5500
+F 0 "SP?" H 6700 5400 60  0001 C CNN
+F 1 "Horn" H 6700 5800 60  0000 C CNN
+F 2 "" H 6700 5500 60  0000 C CNN
+F 3 "" H 6700 5500 60  0000 C CNN
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5500 6650 5500
+Wire Wire Line
+	7200 5500 6750 5500
+Wire Wire Line
+	7200 1100 7200 6350
+Wire Wire Line
+	7200 6150 7200 8850
+Text Label 4900 5500 2    60   ~ 0
+Horn
+Text Label 5900 6150 2    60   ~ 0
+EFI_Power
+$Sheet
+S 4750 6350 1000 2500
+U 5AA44E0D
+F0 "EFI Breakout" 60
+F1 "file5AA44E0D.sch" 60
+F2 "12v" U L 4750 6450 60 
+F3 "GND" U R 5750 6450 60 
+F4 "O2" U L 4750 7050 60 
+F5 "Inj_A" U R 5750 6700 60 
+F6 "Inj_B" U R 5750 6800 60 
+F7 "Ing_A" U R 5750 6950 60 
+F8 "Ing_B" U R 5750 7050 60 
+F9 "RPM_12v" U R 5750 7200 60 
+F10 "RPM_S" U R 5750 7300 60 
+F11 "RPM_GND" U R 5750 7400 60 
+F12 "O2_12v" U R 5750 7550 60 
+F13 "O2_S" U R 5750 7650 60 
+F14 "O2_Cal" U R 5750 7750 60 
+F15 "O2_GND" U R 5750 7850 60 
+F16 "MAT_A" U R 5750 8350 60 
+F17 "MAT_B" U R 5750 8450 60 
+F18 "CLT_A" U R 5750 8600 60 
+F19 "CLT_B" U R 5750 8700 60 
+F20 "TPS" U R 5750 8100 60 
+F21 "5V_REF" U R 5750 8000 60 
+F22 "IAC1A" U L 4750 8400 60 
+F23 "TPS_GND" U R 5750 8200 60 
+F24 "IAC2A" U L 4750 8600 60 
+F25 "IAC1B" U L 4750 8500 60 
+F26 "IAC2B" U L 4750 8700 60 
+F27 "CAN_GND" U L 4750 7950 60 
+F28 "CAN_L" B L 4750 7800 60 
+F29 "CAN_H" B L 4750 7650 60 
+F30 "CAN_PWR" U L 4750 7500 60 
+$EndSheet
+$Comp
+L +12V #PWR?
+U 1 1 5AA44E0E
+P 1500 8850
+F 0 "#PWR?" H 1500 8700 50  0001 C CNN
+F 1 "+12V" H 1500 8990 50  0000 C CNN
+F 2 "" H 1500 8850 50  0000 C CNN
+F 3 "" H 1500 8850 50  0000 C CNN
+	1    1500 8850
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4P_Relay CR?
+U 2 1 5AA44E10
+P 2550 6450
+F 0 "CR?" H 2550 6275 60  0000 C CNN
+F 1 "4P_Relay" H 2550 6200 60  0000 C CNN
+F 2 "" H 2550 6450 60  0000 C CNN
+F 3 "" H 2550 6450 60  0000 C CNN
+	2    2550 6450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1650 5500 1650
+Wire Wire Line
+	5500 1650 5500 1100
+Connection ~ 5500 1100
+$Comp
+L Motor M?
+U 1 1 5AA44E12
+P 6550 1650
+F 0 "M?" H 6550 1650 60  0000 C CNN
+F 1 "Starter Motor" H 6550 1450 60  0000 C CNN
+F 2 "" H 6550 1650 60  0000 C CNN
+F 3 "" H 6550 1650 60  0000 C CNN
+F 4 "Mouser" H 6550 1650 60  0001 C CNN "Distributor"
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1650 6050 1650
+Wire Wire Line
+	7200 1650 6850 1650
+Connection ~ 7200 1650
+$Sheet
+S 1032 9218 2418 1082
+U 5AA44E13
+F0 "Page 2" 60
+F1 "file5AA44E13.sch" 60
+$EndSheet
+Text GLabel 3000 5800 0    60   Input ~ 0
+Computer_Horn
+Wire Wire Line
+	1500 900  1500 8850
+Wire Wire Line
+	3100 5800 3000 5800
+Text GLabel 4650 7650 0    60   BiDi ~ 0
+CANH
+Text GLabel 4650 7800 0    60   BiDi ~ 0
+CANL
+Wire Wire Line
+	4650 7650 4750 7650
+Wire Wire Line
+	4650 7800 4750 7800
+Text GLabel 4650 7950 0    60   UnSpc ~ 0
+CAN_GND
+Wire Wire Line
+	4650 7950 4750 7950
+Text GLabel 4650 7500 0    60   UnSpc ~ 0
+CAN_PWR
+Wire Wire Line
+	4650 7500 4750 7500
+Text GLabel 1600 1450 2    60   Output ~ 0
+System_V
+$Comp
+L Fuse F?
+U 1 1 5AA44E14
+P 5975 1100
+F 0 "F?" H 6075 1150 50  0001 C CNN
+F 1 "30A" V 5825 1100 50  0000 C CNN
+F 2 "" H 5975 1100 50  0000 C CNN
+F 3 "" H 5975 1100 50  0000 C CNN
+	1    5975 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 1100 5825 1100
+Wire Wire Line
+	6125 1100 6350 1100
+Wire Wire Line
+	1600 1450 1500 1450
+Connection ~ 1500 1450
+Wire Wire Line
+	6900 4700 7200 4700
+Connection ~ 7200 4700
+Connection ~ 2150 4700
+$Sheet
+S 2275 3525 950  525 
+U 5AA4621D
+F0 "KarkPower" 60
+F1 "../KarkPower/KarkPower.sch" 60
+$EndSheet
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82B5
+P 10100 2675
+F 0 "J?" H 10100 2800 50  0000 C CNN
+F 1 "O2_PWR" H 10325 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 10100 2675 50  0001 C CNN
+F 3 "" H 10100 2675 50  0001 C CNN
+	1    10100 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82BC
+P 12300 2675
+F 0 "J?" H 12300 2800 50  0000 C CNN
+F 1 "EFI_EN_SW" H 12550 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 12300 2675 50  0001 C CNN
+F 3 "" H 12300 2675 50  0001 C CNN
+	1    12300 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5AAD82C3
+P 9600 2675
+F 0 "J?" H 9600 2900 50  0000 C CNN
+F 1 "EFI_PWR" H 9825 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-4p" H 9600 2675 50  0001 C CNN
+F 3 "" H 9600 2675 50  0001 C CNN
+	1    9600 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PN2222A Q?
+U 1 1 5AAD82CA
+P 10750 4725
+F 0 "Q?" H 10950 4800 50  0000 L CNN
+F 1 "PN2222A" H 10950 4725 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 10950 4650 50  0001 L CIN
+F 3 "" H 10750 4725 50  0001 L CNN
+	1    10750 4725
+	-1   0    0    -1  
+$EndComp
+Text Label 9800 3200 0    60   ~ 0
+O2pwr
+Text Label 10200 3675 1    60   ~ 0
+EFIonb
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82D3
+P 11775 2675
+F 0 "J?" H 11775 2825 50  0000 C CNN
+F 1 "EFI_On_CAN" H 12050 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 11775 2675 50  0001 C CNN
+F 3 "" H 11775 2675 50  0001 C CNN
+	1    11775 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82DA
+P 10500 2675
+F 0 "J?" H 10500 2800 50  0000 C CNN
+F 1 "Kill1" H 10650 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 10500 2675 50  0001 C CNN
+F 3 "" H 10500 2675 50  0001 C CNN
+	1    10500 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82E1
+P 10825 2675
+F 0 "J?" H 10825 2775 50  0000 C CNN
+F 1 "Kill2" H 10975 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 10825 2675 50  0001 C CNN
+F 3 "" H 10825 2675 50  0001 C CNN
+	1    10825 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5AAD82E8
+P 11150 2675
+F 0 "J?" H 11125 2775 50  0000 C CNN
+F 1 "Kill3" H 11300 2675 50  0000 C CNN
+F 2 "supermileage_footprints:Molex-UltraFit-2p" H 11150 2675 50  0001 C CNN
+F 3 "" H 11150 2675 50  0001 C CNN
+	1    11150 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AAD82EF
+P 11150 4725
+F 0 "R?" V 11230 4725 50  0000 C CNN
+F 1 "18K" V 11150 4725 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11080 4725 50  0001 C CNN
+F 3 "" H 11150 4725 50  0001 C CNN
+	1    11150 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AAD82F6
+P 11150 4925
+F 0 "R?" V 11230 4925 50  0000 C CNN
+F 1 "75K" V 11150 4925 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11080 4925 50  0001 C CNN
+F 3 "" H 11150 4925 50  0001 C CNN
+	1    11150 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AAD82FD
+P 10650 5100
+F 0 "#PWR?" H 10650 4850 50  0001 C CNN
+F 1 "GND" H 10650 4950 50  0000 C CNN
+F 2 "" H 10650 5100 50  0001 C CNN
+F 3 "" H 10650 5100 50  0001 C CNN
+	1    10650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT_PCB_Relay CR?
+U 1 1 5AAD8303
+P 10500 4025
+F 0 "CR?" V 10925 4025 60  0000 C CNN
+F 1 "DPDT_PCB_Relay" V 10175 4025 60  0000 C CNN
+F 2 "supermileage_footprints:2_FORM_C-RELAY" V 10200 4025 60  0001 C CNN
+F 3 "" V 10200 4025 60  0000 C CNN
+	1    10500 4025
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AAD830A
+P 10650 3250
+F 0 "#PWR?" H 10650 3100 50  0001 C CNN
+F 1 "+12V" H 10650 3390 50  0000 C CNN
+F 2 "" H 10650 3250 50  0001 C CNN
+F 3 "" H 10650 3250 50  0001 C CNN
+	1    10650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AAD8316
+P 11350 2925
+F 0 "#PWR?" H 11350 2775 50  0001 C CNN
+F 1 "+12V" H 11350 3065 50  0000 C CNN
+F 2 "" H 11350 2925 50  0001 C CNN
+F 3 "" H 11350 2925 50  0001 C CNN
+	1    11350 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AAD831C
+P 12100 2950
+F 0 "#PWR?" H 12100 2800 50  0001 C CNN
+F 1 "+12V" H 12100 3090 50  0000 C CNN
+F 2 "" H 12100 2950 50  0001 C CNN
+F 3 "" H 12100 2950 50  0001 C CNN
+	1    12100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AAD8322
+P 11775 2950
+F 0 "#PWR?" H 11775 2700 50  0001 C CNN
+F 1 "GND" H 11775 2800 50  0000 C CNN
+F 2 "" H 11775 2950 50  0001 C CNN
+F 3 "" H 11775 2950 50  0001 C CNN
+	1    11775 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AAD8328
+P 9600 2925
+F 0 "#PWR?" H 9600 2675 50  0001 C CNN
+F 1 "GND" H 9600 2775 50  0000 C CNN
+F 2 "" H 9600 2925 50  0001 C CNN
+F 3 "" H 9600 2925 50  0001 C CNN
+	1    9600 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AAD8334
+P 10100 2925
+F 0 "#PWR?" H 10100 2675 50  0001 C CNN
+F 1 "GND" H 10100 2775 50  0000 C CNN
+F 2 "" H 10100 2925 50  0001 C CNN
+F 3 "" H 10100 2925 50  0001 C CNN
+	1    10100 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AAD833A
+P 9800 2925
+F 0 "#PWR?" H 9800 2675 50  0001 C CNN
+F 1 "GND" H 9800 2775 50  0000 C CNN
+F 2 "" H 9800 2925 50  0001 C CNN
+F 3 "" H 9800 2925 50  0001 C CNN
+	1    9800 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AAD8340
+P 10650 3400
+F 0 "R?" V 10730 3400 50  0000 C CNN
+F 1 "330" V 10650 3400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10580 3400 50  0001 C CNN
+F 3 "" H 10650 3400 50  0001 C CNN
+	1    10650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5AAD8347
+P 10975 4100
+F 0 "D?" H 10975 4200 50  0000 C CNN
+F 1 "D" H 10975 4000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 10975 4100 50  0001 C CNN
+F 3 "" H 10975 4100 50  0001 C CNN
+	1    10975 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AAD834E
+P 10975 3800
+F 0 "#PWR?" H 10975 3650 50  0001 C CNN
+F 1 "+12V" H 10975 3940 50  0000 C CNN
+F 2 "" H 10975 3800 50  0001 C CNN
+F 3 "" H 10975 3800 50  0001 C CNN
+	1    10975 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 2875 10600 3000
+Wire Wire Line
+	10600 3000 10825 3000
+Wire Wire Line
+	10825 3000 10825 2875
+Wire Wire Line
+	10925 2875 10925 3000
+Wire Wire Line
+	10925 3000 11150 3000
+Wire Wire Line
+	11150 3000 11150 2875
+Wire Wire Line
+	10950 4725 11000 4725
+Wire Wire Line
+	10975 4725 10975 4925
+Wire Wire Line
+	10975 4925 11000 4925
+Connection ~ 10975 4725
+Wire Wire Line
+	10650 4375 10650 4525
+Wire Wire Line
+	9500 2875 9500 3300
+Wire Wire Line
+	11250 2875 11250 3000
+Wire Wire Line
+	11250 3000 11350 3000
+Wire Wire Line
+	11350 3000 11350 2925
+Wire Wire Line
+	12100 2950 12100 3050
+Wire Wire Line
+	12100 3050 12300 3050
+Wire Wire Line
+	12300 3050 12300 2875
+Wire Wire Line
+	11775 2950 11775 2875
+Wire Wire Line
+	9600 2925 9600 2875
+Wire Wire Line
+	10100 2925 10100 2875
+Wire Wire Line
+	9800 2925 9800 2875
+Wire Wire Line
+	10200 3200 10200 2875
+Wire Wire Line
+	9700 3200 10200 3200
+Wire Wire Line
+	9700 3200 9700 2875
+Wire Wire Line
+	9500 3300 10200 3300
+Wire Wire Line
+	11875 4725 11875 2875
+Wire Wire Line
+	12400 4925 12400 2875
+Wire Wire Line
+	10200 3300 10200 3675
+Wire Wire Line
+	11300 4725 11875 4725
+Wire Wire Line
+	11300 4925 12400 4925
+Wire Wire Line
+	10650 4925 10650 5100
+Wire Wire Line
+	10650 3550 10650 3675
+Wire Wire Line
+	10650 4450 10975 4450
+Wire Wire Line
+	10975 4450 10975 4250
+Connection ~ 10650 4450
+Wire Wire Line
+	10975 3950 10975 3800
+Wire Wire Line
+	10350 3675 10350 3000
+Wire Wire Line
+	10350 3000 10500 3000
+Wire Wire Line
+	10500 3000 10500 2875
+$EndSCHEMATC
