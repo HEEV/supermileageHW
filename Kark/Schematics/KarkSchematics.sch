@@ -98,17 +98,6 @@ F 4 "Mouser" H 1850 3375 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB?
-U 1 1 5AA44DF1
-P -725 3975
-F 0 "CB?" H -725 4175 60  0000 C CNN
-F 1 "5A" H -725 3875 60  0000 C CNN
-F 2 "" H -725 3975 60  0000 C CNN
-F 3 "" H -725 3975 60  0000 C CNN
-	1    -725 3975
-	1    0    0    -1  
-$EndComp
-$Comp
 L SW_SPST-RESCUE-KarkSchematics SW?
 U 1 1 5AA44DF2
 P 2550 1100
@@ -166,23 +155,23 @@ $EndComp
 $Comp
 L SW_Push SW?
 U 1 1 5AA44DFE
-P 2550 6225
-F 0 "SW?" H 2675 6375 60  0000 C CNN
-F 1 "Horn" H 2550 6125 60  0000 C CNN
-F 2 "" H 2550 6225 60  0000 C CNN
-F 3 "" H 2550 6225 60  0000 C CNN
-	1    2550 6225
+P 2550 7900
+F 0 "SW?" H 2675 8050 60  0000 C CNN
+F 1 "Horn" H 2550 7800 60  0000 C CNN
+F 2 "" H 2550 7900 60  0000 C CNN
+F 3 "" H 2550 7900 60  0000 C CNN
+	1    2550 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_Push SW?
 U 1 1 5AA44DFF
-P 2550 6625
-F 0 "SW?" H 2675 6775 60  0000 C CNN
-F 1 "Horn" H 2550 6525 60  0000 C CNN
-F 2 "" H 2550 6625 60  0000 C CNN
-F 3 "" H 2550 6625 60  0000 C CNN
-	1    2550 6625
+P 2550 8300
+F 0 "SW?" H 2675 8450 60  0000 C CNN
+F 1 "Horn" H 2550 8200 60  0000 C CNN
+F 2 "" H 2550 8300 60  0000 C CNN
+F 3 "" H 2550 8300 60  0000 C CNN
+	1    2550 8300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -243,15 +232,15 @@ $EndComp
 $Comp
 L Horn SP?
 U 1 1 5AA44E0C
-P 6650 6625
-F 0 "SP?" H 6650 6525 60  0001 C CNN
-F 1 "Horn" H 6650 6925 60  0000 C CNN
-F 2 "" H 6650 6625 60  0000 C CNN
-F 3 "" H 6650 6625 60  0000 C CNN
-	1    6650 6625
+P 6650 8300
+F 0 "SP?" H 6650 8200 60  0001 C CNN
+F 1 "Horn" H 6650 8600 60  0000 C CNN
+F 2 "" H 6650 8300 60  0000 C CNN
+F 3 "" H 6650 8300 60  0000 C CNN
+	1    6650 8300
 	1    0    0    -1  
 $EndComp
-Text Label 3025 6225 2    60   ~ 0
+Text Label 3025 7900 2    60   ~ 0
 Horn
 Text Label 5100 775  2    60   ~ 0
 EFI_Power
@@ -319,7 +308,7 @@ U 5AA44E13
 F0 "Page 2" 60
 F1 "file5AA44E13.sch" 60
 $EndSheet
-Text GLabel 2950 6925 0    60   Input ~ 0
+Text GLabel 2950 8600 0    60   Input ~ 0
 Computer_Horn
 Text GLabel 4650 4725 0    60   BiDi ~ 0
 CANH
@@ -452,13 +441,13 @@ $EndComp
 $Comp
 L CB CB?
 U 1 1 5AB0AF3E
-P 1850 6225
-F 0 "CB?" H 1850 6425 60  0000 C CNN
-F 1 "5A" H 1850 6125 60  0000 C CNN
-F 2 "" H 1850 6225 60  0000 C CNN
-F 3 "" H 1850 6225 60  0000 C CNN
-F 4 "Mouser" H 1850 6225 60  0001 C CNN "Distributor"
-	1    1850 6225
+P 1850 7900
+F 0 "CB?" H 1850 8100 60  0000 C CNN
+F 1 "5A" H 1850 7800 60  0000 C CNN
+F 2 "" H 1850 7900 60  0000 C CNN
+F 3 "" H 1850 7900 60  0000 C CNN
+F 4 "Mouser" H 1850 7900 60  0001 C CNN "Distributor"
+	1    1850 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -503,10 +492,10 @@ Wire Wire Line
 	2150 2400 2150 4125
 Connection ~ 2150 3375
 Wire Wire Line
-	2750 6225 3050 6225
+	2750 7900 3050 7900
 Wire Wire Line
-	3050 6225 3050 6925
-Connection ~ 3050 6625
+	3050 7900 3050 8600
+Connection ~ 3050 8300
 Wire Wire Line
 	6200 5225 6200 4625
 Wire Wire Line
@@ -569,9 +558,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 3875 6550 3875
 Wire Wire Line
-	2750 6625 6600 6625
+	2750 8300 6600 8300
 Wire Wire Line
-	6700 6625 7200 6625
+	6700 8300 7200 8300
 Wire Wire Line
 	7200 1100 7200 8800
 Wire Wire Line
@@ -584,7 +573,7 @@ Connection ~ 7200 1975
 Wire Wire Line
 	1500 900  1500 8850
 Wire Wire Line
-	3050 6925 2950 6925
+	3050 8600 2950 8600
 Wire Wire Line
 	4650 4725 4750 4725
 Wire Wire Line
@@ -641,15 +630,15 @@ Wire Wire Line
 Wire Wire Line
 	2150 4125 2325 4125
 Wire Wire Line
-	2000 6225 2350 6225
+	2000 7900 2350 7900
 Wire Wire Line
-	1700 6225 1500 6225
-Connection ~ 1500 6225
+	1700 7900 1500 7900
+Connection ~ 1500 7900
 Wire Wire Line
-	2350 6625 2150 6625
+	2350 8300 2150 8300
 Wire Wire Line
-	2150 6625 2150 6225
-Connection ~ 2150 6225
+	2150 8300 2150 7900
+Connection ~ 2150 7900
 Wire Wire Line
 	6150 1425 6375 1425
 Wire Wire Line
@@ -657,7 +646,7 @@ Wire Wire Line
 Connection ~ 7200 1425
 Wire Wire Line
 	5500 1425 5850 1425
-Connection ~ 7200 6625
+Connection ~ 7200 8300
 Wire Wire Line
 	5500 1425 5500 1975
 $EndSCHEMATC
