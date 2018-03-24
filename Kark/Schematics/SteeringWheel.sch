@@ -37,11 +37,12 @@ LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
 LIBS:KarkSchematics-cache
+LIBS:can_sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -54,23 +55,23 @@ $EndDescr
 $Comp
 L SW_Push SW?
 U 1 1 5AB71A2D
-P 2200 1450
-F 0 "SW?" H 2250 1550 50  0000 L CNN
-F 1 "E-Start" H 2200 1390 50  0000 C CNN
-F 2 "" H 2200 1650 50  0001 C CNN
-F 3 "" H 2200 1650 50  0001 C CNN
-	1    2200 1450
+P 2875 1200
+F 0 "SW?" H 2925 1300 50  0000 L CNN
+F 1 "E-Start" H 2875 1140 50  0000 C CNN
+F 2 "" H 2875 1400 50  0001 C CNN
+F 3 "" H 2875 1400 50  0001 C CNN
+	1    2875 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_Push SW?
 U 1 1 5AB71A80
-P 2175 1875
-F 0 "SW?" H 2225 1975 50  0000 L CNN
-F 1 "E-Stop" H 2175 1815 50  0000 C CNN
-F 2 "" H 2175 2075 50  0001 C CNN
-F 3 "" H 2175 2075 50  0001 C CNN
-	1    2175 1875
+P 2850 1525
+F 0 "SW?" H 2900 1625 50  0000 L CNN
+F 1 "E-Stop" H 2850 1465 50  0000 C CNN
+F 2 "" H 2850 1725 50  0001 C CNN
+F 3 "" H 2850 1725 50  0001 C CNN
+	1    2850 1525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -151,15 +152,7 @@ F 3 "" H 1700 3775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1525 1100 1525 1450
-Wire Wire Line
-	1525 1450 1525 1875
-Wire Wire Line
-	1525 1875 1525 2325
-Wire Wire Line
-	1525 2325 1525 2775
-Wire Wire Line
-	1525 2775 1525 3425
+	1525 1100 1525 3425
 Wire Wire Line
 	1525 1450 2000 1450
 Wire Wire Line
@@ -189,19 +182,11 @@ Wire Wire Line
 Wire Wire Line
 	1925 3850 3000 3850
 Wire Wire Line
-	2400 1450 2975 1450
-Wire Wire Line
-	2375 1875 2975 1875
-Wire Wire Line
 	2375 2325 2975 2325
 Wire Wire Line
 	2375 2775 2975 2775
 Wire Wire Line
 	2400 3425 3000 3425
-Text GLabel 2975 1450 2    60   Input ~ 0
-MC_Pin1
-Text GLabel 2975 1875 2    60   Input ~ 0
-MC_Pin2
 Text GLabel 2975 2325 2    60   Input ~ 0
 MC_Pin3
 Text GLabel 2975 2775 2    60   Input ~ 0
@@ -210,4 +195,28 @@ Text GLabel 3000 3425 2    60   Input ~ 0
 MC_Pin5
 Text GLabel 3000 3850 2    60   Input ~ 0
 MC_Pin6
+$Sheet
+S 3900 1350 1375 1250
+U 5AB69D55
+F0 "Left Handle" 60
+F1 "CanSteeringWheel.sch" 60
+F2 "CAN_GND" I R 5275 1750 60 
+F3 "CAN_PWR" I R 5275 1450 60 
+F4 "CANL" B R 5275 1650 60 
+F5 "CANH" B R 5275 1550 60 
+F6 "T_GND" O L 3900 2500 60 
+F7 "T_5v" O L 3900 2200 60 
+F8 "T_3.3v" O L 3900 2300 60 
+F9 "T_In" I L 3900 2400 60 
+F10 "B3_GND" O L 3900 2050 60 
+F11 "B2_GND" O L 3900 1800 60 
+F12 "B1_GND" O L 3900 1550 60 
+F13 "B3_In" I L 3900 1950 60 
+F14 "B2_In" I L 3900 1700 60 
+F15 "B1_In" I L 3900 1450 60 
+$EndSheet
+Text Label 3450 1200 2    60   ~ 0
+E-Start
+Wire Wire Line
+	3450 1200 3075 1200
 $EndSCHEMATC
