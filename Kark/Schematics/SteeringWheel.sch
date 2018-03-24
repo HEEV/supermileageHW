@@ -117,26 +117,6 @@ F 3 "" H 2325 4325 60  0000 C CNN
 	1    2325 4225
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1525 1100 1525 3425
-Wire Wire Line
-	1525 1450 2000 1450
-Wire Wire Line
-	1525 3425 2000 3425
-Connection ~ 1525 1450
-Wire Wire Line
-	1975 2775 1525 2775
-Connection ~ 1525 2775
-Wire Wire Line
-	1975 2325 1525 2325
-Connection ~ 1525 2325
-Wire Wire Line
-	1975 1875 1525 1875
-Connection ~ 1525 1875
-Wire Wire Line
-	1525 4375 2125 4375
-Wire Wire Line
-	1525 4375 1525 3750
 $Comp
 L +3.3V #PWR?
 U 1 1 5AB71DAC
@@ -159,10 +139,6 @@ F 3 "" H 1525 3750 50  0001 C CNN
 	1    1525 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2125 4275 1700 4275
-Wire Wire Line
-	1700 4275 1700 3775
 $Comp
 L GND #PWR?
 U 1 1 5AB71E81
@@ -175,9 +151,63 @@ F 3 "" H 1700 3775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
+	1525 1100 1525 1450
+Wire Wire Line
+	1525 1450 1525 1875
+Wire Wire Line
+	1525 1875 1525 2325
+Wire Wire Line
+	1525 2325 1525 2775
+Wire Wire Line
+	1525 2775 1525 3425
+Wire Wire Line
+	1525 1450 2000 1450
+Wire Wire Line
+	1525 3425 2000 3425
+Connection ~ 1525 1450
+Wire Wire Line
+	1975 2775 1525 2775
+Connection ~ 1525 2775
+Wire Wire Line
+	1975 2325 1525 2325
+Connection ~ 1525 2325
+Wire Wire Line
+	1975 1875 1525 1875
+Connection ~ 1525 1875
+Wire Wire Line
+	1525 4375 2125 4375
+Wire Wire Line
+	1525 4375 1525 3750
+Wire Wire Line
+	2125 4275 1700 4275
+Wire Wire Line
+	1700 4275 1700 3775
+Wire Wire Line
 	2125 4175 1925 4175
 Wire Wire Line
 	1925 4175 1925 3850
 Wire Wire Line
-	1925 3850 3050 3850
+	1925 3850 3000 3850
+Wire Wire Line
+	2400 1450 2975 1450
+Wire Wire Line
+	2375 1875 2975 1875
+Wire Wire Line
+	2375 2325 2975 2325
+Wire Wire Line
+	2375 2775 2975 2775
+Wire Wire Line
+	2400 3425 3000 3425
+Text GLabel 2975 1450 2    60   Input ~ 0
+MC_Pin1
+Text GLabel 2975 1875 2    60   Input ~ 0
+MC_Pin2
+Text GLabel 2975 2325 2    60   Input ~ 0
+MC_Pin3
+Text GLabel 2975 2775 2    60   Input ~ 0
+MC_Pin4
+Text GLabel 3000 3425 2    60   Input ~ 0
+MC_Pin5
+Text GLabel 3000 3850 2    60   Input ~ 0
+MC_Pin6
 $EndSCHEMATC
