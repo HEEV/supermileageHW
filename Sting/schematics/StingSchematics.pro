@@ -1,4 +1,4 @@
-update=Sun 01 Oct 2017 11:21:02 AM EDT
+update=Fri 23 Mar 2018 08:14:59 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../parts_library
+LibDir=../../parts_library;../../Kark/KarkPower/kicad-parts
 [eeschema/libraries]
 LibName1=StingSchematics-rescue
 LibName2=power
@@ -70,3 +70,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Supermileage
+LibName32=relays_switches

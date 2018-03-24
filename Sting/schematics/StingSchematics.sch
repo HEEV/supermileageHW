@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
+LIBS:relays_switches
 LIBS:StingSchematics-cache
 EELAYER 25 0
 EELAYER END

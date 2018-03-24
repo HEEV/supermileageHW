@@ -35,6 +35,7 @@ LIBS:EllicottInterface
 LIBS:EllicottMicrocontrollers
 LIBS:EllicottMisc
 LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
 EELAYER 25 0
 EELAYER END
@@ -84,6 +85,9 @@ F10 "CANH" B R 7250 1200 60
 F11 "CANL" B R 7250 1300 60 
 F12 "CAN_GND" I R 7250 1400 60 
 F13 "CAN_PWR" I R 7250 1100 60 
+F14 "Canopy_PWR" I L 6200 1500 60 
+F15 "Canopy_SW" I L 6200 1600 60 
+F16 "Canopy_GND" I L 6200 1900 60 
 $EndSheet
 $Sheet
 S 2000 4875 1150 3925
@@ -296,6 +300,9 @@ F29 "C_1_5v" I L 3250 2700 60
 F30 "C_2_THROTTLE" I L 3250 2800 60 
 F31 "C_4_Arm_Status" I L 3250 3000 60 
 F32 "C_10_CAN_Power" I L 3250 3600 60 
+F33 "E_6_CANOPY_SW" O R 4975 1600 60 
+F34 "E_5_CANOPY_PWR" O R 4975 1500 60 
+F35 "E_9_CANOPY_GND" O R 4975 1900 60 
 $EndSheet
 Entry Wire Line
 	800  2600 900  2700
@@ -1142,4 +1149,16 @@ F 3 "" H 5800 3750 60  0000 C CNN
 	1    5800 3750
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4975 1500 5075 1500
+Wire Wire Line
+	4975 1600 5075 1600
+Wire Wire Line
+	4975 1900 5075 1900
+Wire Wire Line
+	6200 1900 5625 1900
+Wire Wire Line
+	5625 1500 6200 1500
+Wire Wire Line
+	5600 1600 6200 1600
 $EndSCHEMATC

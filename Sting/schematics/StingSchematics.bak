@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Supermileage
+LIBS:relays_switches
 LIBS:StingSchematics-cache
 EELAYER 25 0
 EELAYER END
@@ -755,7 +756,7 @@ F1 "Sting-p2.sch" 60
 $EndSheet
 Text GLabel 4100 3700 0    60   Output ~ 0
 Arm_Status
-Text GLabel 5050 4450 0    60   Input ~ 0
+Text GLabel 4150 4450 0    60   Input ~ 0
 Computer_Stop
 Text GLabel 5050 3150 0    60   Input ~ 0
 Computer_Start
@@ -783,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4200 6500 4200
 Wire Wire Line
-	5050 4450 5200 4450
+	4150 4450 5200 4450
 Wire Wire Line
 	5200 4450 5200 4200
 Connection ~ 5200 4200
@@ -828,12 +829,12 @@ Connection ~ 1500 1450
 $Comp
 L CR CR1
 U 2 1 59D15580
-P 5450 4700
-F 0 "CR1" H 5450 4525 60  0000 C CNN
-F 1 "CR" H 5450 4450 60  0001 C CNN
-F 2 "" H 5450 4700 60  0000 C CNN
-F 3 "" H 5450 4700 60  0000 C CNN
-	2    5450 4700
+P 5400 4700
+F 0 "CR1" H 5400 4525 60  0000 C CNN
+F 1 "CR" H 5400 4450 60  0001 C CNN
+F 2 "" H 5400 4700 60  0000 C CNN
+F 3 "" H 5400 4700 60  0000 C CNN
+	2    5400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -851,9 +852,9 @@ Wire Wire Line
 	6900 4700 7200 4700
 Connection ~ 7200 4700
 Wire Wire Line
-	5600 4700 6500 4700
+	5550 4700 6500 4700
 Wire Wire Line
-	5300 4700 2150 4700
+	5250 4700 2150 4700
 Connection ~ 2150 4700
 Text Label 6000 4700 2    60   ~ 0
 Starter

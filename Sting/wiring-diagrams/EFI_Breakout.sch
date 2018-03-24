@@ -35,6 +35,7 @@ LIBS:EllicottInterface
 LIBS:EllicottMicrocontrollers
 LIBS:EllicottMisc
 LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
 EELAYER 25 0
 EELAYER END

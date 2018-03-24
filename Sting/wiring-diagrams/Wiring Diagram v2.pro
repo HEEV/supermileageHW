@@ -1,4 +1,4 @@
-update=Sun 01 Oct 2017 11:33:39 AM EDT
+update=Fri 23 Mar 2018 08:30:09 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -39,7 +39,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../parts_library;../../EllicottSamuel
+LibDir=../../parts_library;../../EllicottSamuel;../../Kark/KarkPower/kicad-parts
 [eeschema/libraries]
 LibName1=Wiring Diagram v2-rescue
 LibName2=power
@@ -77,3 +77,4 @@ LibName33=EllicottInterface
 LibName34=EllicottMicrocontrollers
 LibName35=EllicottMisc
 LibName36=EllicottPower
+LibName37=relays_switches
