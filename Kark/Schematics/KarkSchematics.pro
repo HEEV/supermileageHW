@@ -1,4 +1,4 @@
-update=Sat 17 Mar 2018 12:27:12 PM EDT
+update=Saturday, March 24, 2018 'AMt' 10:51:19 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../KarkPower/kicad-parts
+LibDir=../KarkPower/kicad-parts;../../EllicottSamuel
 [eeschema/libraries]
 LibName1=KarkSchematics-rescue
 LibName2=power
@@ -66,3 +66,8 @@ LibName34=relays_switches
 LibName35=supermileage
 LibName36=supermileage_computers
 LibName37=supermileage_sensors
+LibName38=EllicottDisplay
+LibName39=EllicottInterface
+LibName40=EllicottMicrocontrollers
+LibName41=EllicottMisc
+LibName42=EllicottPower

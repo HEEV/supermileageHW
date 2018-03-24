@@ -36,12 +36,17 @@ LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
 LIBS:KarkSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title "Kark - Gasoline Prototype"
 Date "2018-03-10"
 Rev "1.0"
@@ -231,7 +236,7 @@ F 3 "" H 6650 7750 60  0000 C CNN
 $EndComp
 Text Label 3025 7350 2    60   ~ 0
 Horn
-Text Label 5100 775  2    60   ~ 0
+Text Label 3425 4225 2    60   ~ 0
 EFI_Power
 $Sheet
 S 5250 4650 1000 2500
@@ -300,7 +305,7 @@ CANL
 Text GLabel 4650 6250 0    60   UnSpc ~ 0
 CAN_GND
 Text GLabel 4650 5800 0    60   UnSpc ~ 0
-CAN_PWR
+CanPower12v
 Text GLabel 1600 1450 2    60   Output ~ 0
 System_V
 $Comp
@@ -470,17 +475,11 @@ Wire Wire Line
 	1500 2525 1700 2525
 Connection ~ 1500 2525
 Wire Wire Line
-	2150 2525 2150 2850
-Wire Wire Line
-	2150 2850 2150 3100
-Wire Wire Line
-	2150 3100 2150 3700
+	2150 2525 2150 3700
 Wire Wire Line
 	2750 7350 3050 7350
 Wire Wire Line
-	3050 7350 3050 7750
-Wire Wire Line
-	3050 7750 3050 8050
+	3050 7350 3050 8050
 Connection ~ 3050 7750
 Wire Wire Line
 	6575 6025 6575 5850
@@ -530,27 +529,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 5350 6600 5350
 Wire Wire Line
-	2750 7750 3050 7750
-Wire Wire Line
-	3050 7750 6600 7750
+	2750 7750 6600 7750
 Wire Wire Line
 	7200 7750 6700 7750
 Wire Wire Line
-	7200 1100 7200 1425
-Wire Wire Line
-	7200 1425 7200 1800
-Wire Wire Line
-	7200 1800 7200 3100
-Wire Wire Line
-	7200 3100 7200 3975
-Wire Wire Line
-	7200 3975 7200 4325
-Wire Wire Line
-	7200 4325 7200 4750
-Wire Wire Line
-	7200 4750 7200 7750
-Wire Wire Line
-	7200 7750 7200 8800
+	7200 1100 7200 8800
 Wire Wire Line
 	5500 1800 5750 1800
 Wire Wire Line
@@ -559,17 +542,7 @@ Wire Wire Line
 	7200 1800 6850 1800
 Connection ~ 7200 1800
 Wire Wire Line
-	1500 900  1500 1100
-Wire Wire Line
-	1500 1100 1500 1450
-Wire Wire Line
-	1500 1450 1500 2525
-Wire Wire Line
-	1500 2525 1500 5350
-Wire Wire Line
-	1500 5350 1500 7350
-Wire Wire Line
-	1500 7350 1500 8850
+	1500 900  1500 8850
 Wire Wire Line
 	3050 8050 2950 8050
 Wire Wire Line
@@ -588,9 +561,7 @@ Wire Wire Line
 	1600 1450 1500 1450
 Connection ~ 1500 1450
 Wire Wire Line
-	3775 3700 3900 3700
-Wire Wire Line
-	3900 3700 4150 3700
+	3775 3700 4150 3700
 Wire Wire Line
 	3900 4750 4150 4750
 Wire Wire Line
@@ -598,9 +569,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 3100 2150 3100
 Wire Wire Line
-	4500 3100 4775 3100
-Wire Wire Line
-	4775 3100 5100 3100
+	4500 3100 5100 3100
 Wire Wire Line
 	7200 3100 5500 3100
 Connection ~ 7200 3100
@@ -612,17 +581,13 @@ Wire Wire Line
 	4775 2850 4775 3100
 Connection ~ 4775 3100
 Wire Wire Line
-	2000 2525 2150 2525
-Wire Wire Line
-	2150 2525 2900 2525
+	2000 2525 2900 2525
 Wire Wire Line
 	3425 2525 3300 2525
 Wire Wire Line
 	3725 2525 5300 2525
 Wire Wire Line
-	5300 2275 5300 2525
-Wire Wire Line
-	5300 2525 5300 2800
+	5300 2275 5300 2800
 Connection ~ 5300 2525
 Wire Wire Line
 	3425 2275 3275 2275
@@ -633,9 +598,7 @@ Connection ~ 2150 2850
 Wire Wire Line
 	2000 5350 2325 5350
 Wire Wire Line
-	2000 7350 2150 7350
-Wire Wire Line
-	2150 7350 2350 7350
+	2000 7350 2350 7350
 Wire Wire Line
 	1700 7350 1500 7350
 Connection ~ 1500 7350
@@ -698,9 +661,7 @@ F 3 "" H 4300 3975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3975 4775 3975
-Wire Wire Line
-	4775 3975 5100 3975
+	4500 3975 5100 3975
 Text GLabel 3275 3400 0    60   Input ~ 0
 CAN_STARTER
 Wire Wire Line
@@ -735,9 +696,7 @@ Connection ~ 4775 3975
 Wire Wire Line
 	4100 3975 3900 3975
 Wire Wire Line
-	3900 3700 3900 3975
-Wire Wire Line
-	3900 3975 3900 4750
+	3900 3700 3900 4750
 Connection ~ 3900 3975
 Connection ~ 3900 3700
 Text Label 1525 1100 0    60   ~ 0
@@ -795,9 +754,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5250 6250 5250
 Wire Wire Line
-	4450 4750 4800 4750
-Wire Wire Line
-	4800 4750 5250 4750
+	4450 4750 5250 4750
 Wire Wire Line
 	4800 4750 4800 4325
 Wire Wire Line

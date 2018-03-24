@@ -36,13 +36,18 @@ LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
 LIBS:KarkSchematics-cache
 LIBS:can_sensor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 6 7
+Sheet 5 9
 Title ""
 Date ""
 Rev ""

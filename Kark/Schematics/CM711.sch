@@ -36,12 +36,17 @@ LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
 LIBS:KarkSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -74,4 +79,28 @@ Wire Wire Line
 	1300 1450 1525 1450
 Wire Wire Line
 	1525 1325 1300 1325
+Text HLabel 7225 2750 2    60   Output ~ 0
+Horn
+Wire Wire Line
+	6925 2750 7225 2750
+Text HLabel 7025 4300 2    60   Output ~ 0
+CAN2_H
+Text HLabel 7025 4400 2    60   Output ~ 0
+CAN2_L
+Wire Wire Line
+	7025 4400 6925 4400
+Wire Wire Line
+	7025 4300 6925 4300
+Text Label 5850 5225 2    60   ~ 0
+GND
+Wire Wire Line
+	5850 5225 5975 5225
+Wire Wire Line
+	5975 5225 5975 4850
+Text Label 5725 2175 2    60   ~ 0
+12V
+Wire Wire Line
+	5775 2300 5775 2175
+Wire Wire Line
+	5775 2175 5725 2175
 $EndSCHEMATC
