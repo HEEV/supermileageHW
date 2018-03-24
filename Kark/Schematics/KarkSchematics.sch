@@ -98,17 +98,6 @@ F 4 "Mouser" H 1850 3525 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB?
-U 1 1 5AA44DF1
-P -725 3975
-F 0 "CB?" H -725 4175 60  0000 C CNN
-F 1 "5A" H -725 3875 60  0000 C CNN
-F 2 "" H -725 3975 60  0000 C CNN
-F 3 "" H -725 3975 60  0000 C CNN
-	1    -725 3975
-	1    0    0    -1  
-$EndComp
-$Comp
 L SW_SPST-RESCUE-KarkSchematics SW?
 U 1 1 5AA44DF2
 P 2550 1100
