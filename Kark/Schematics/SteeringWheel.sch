@@ -36,12 +36,17 @@ LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
 LIBS:KarkSchematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 6
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -151,15 +156,7 @@ F 3 "" H 1700 3775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1525 1100 1525 1450
-Wire Wire Line
-	1525 1450 1525 1875
-Wire Wire Line
-	1525 1875 1525 2325
-Wire Wire Line
-	1525 2325 1525 2775
-Wire Wire Line
-	1525 2775 1525 3425
+	1525 1100 1525 3425
 Wire Wire Line
 	1525 1450 2000 1450
 Wire Wire Line
