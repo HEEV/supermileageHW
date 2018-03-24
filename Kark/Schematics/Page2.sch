@@ -181,9 +181,9 @@ $EndComp
 Text Notes 5000 1525 0    60   ~ 0
 The can power is selected individually \non the main power control board in \nside the main electrical control box. \nAll units will be powered but voltage \nmay be connected to either 5 or 12 volts.
 Wire Wire Line
-	7200 875  7200 2075
+	7200 875  7200 2050
 Wire Wire Line
-	7200 2075 7200 2600
+	7200 2050 7200 2600
 Wire Wire Line
 	7200 2600 7200 6650
 Wire Wire Line
@@ -212,7 +212,9 @@ Wire Wire Line
 Wire Wire Line
 	2325 1700 2325 1900
 Wire Wire Line
-	2050 1900 2050 8725
+	2050 1900 2050 2475
+Wire Wire Line
+	2050 2475 2050 8725
 Wire Wire Line
 	2050 8725 2775 8725
 Connection ~ 2050 1900
@@ -245,23 +247,41 @@ Connection ~ 7200 7975
 Wire Wire Line
 	3675 1250 3550 1250
 Wire Wire Line
-	3550 1250 3550 2075
+	3550 1250 3550 2050
 Wire Wire Line
-	3550 2075 7200 2075
-Connection ~ 7200 2075
+	3550 2050 7200 2050
+Connection ~ 7200 2050
 Wire Wire Line
 	2050 2475 3225 2475
 Connection ~ 7200 2600
 Wire Wire Line
 	2675 2225 2675 2700
 Wire Wire Line
-	2675 2700 2675 6725
+	2675 2700 2675 3250
+Wire Wire Line
+	2675 3250 2675 4525
+Wire Wire Line
+	2675 4525 2675 5850
+Wire Wire Line
+	2675 5850 2675 6725
 Wire Wire Line
 	2675 6725 2675 8100
 Wire Wire Line
 	2900 2075 2900 2800
 Wire Wire Line
-	2900 2800 2900 6625
+	2900 2800 2900 3150
+Wire Wire Line
+	2900 3150 2900 3325
+Wire Wire Line
+	2900 3325 2900 4425
+Wire Wire Line
+	2900 4425 2900 4600
+Wire Wire Line
+	2900 4600 2900 5750
+Wire Wire Line
+	2900 5750 2900 5925
+Wire Wire Line
+	2900 5925 2900 6625
 Wire Wire Line
 	2900 6625 2900 6800
 Wire Wire Line
