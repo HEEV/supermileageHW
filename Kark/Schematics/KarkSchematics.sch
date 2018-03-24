@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Kark - Gasoline Prototype"
 Date "2018-03-10"
 Rev "1.0"
@@ -291,12 +291,6 @@ F 4 "Mouser" H 6550 1800 60  0001 C CNN "Distributor"
 	1    6550 1800
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 807  9218 2418 1082
-U 5AA44E13
-F0 "Page 2" 60
-F1 "CM711.sch" 60
-$EndSheet
 Text GLabel 2950 8050 0    60   Input ~ 0
 Computer_Horn
 Text GLabel 4650 5950 0    60   BiDi ~ 0
@@ -813,9 +807,9 @@ Wire Wire Line
 Connection ~ 7200 4325
 Connection ~ 4800 4750
 $Sheet
-S 3625 8475 925  275 
-U 5AB711C0
-F0 "Page 3" 60
-F1 "SteeringWheel.sch" 60
+S 650  9125 2800 1200
+U 5AB66DFC
+F0 "Page 2" 60
+F1 "Page2.sch" 60
 $EndSheet
 $EndSCHEMATC

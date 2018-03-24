@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title "Kark - Gasoline Prototype"
 Date "2018-03-10"
 Rev "1.0"
@@ -103,4 +103,16 @@ Wire Wire Line
 	7200 875  7400 875 
 Wire Wire Line
 	7400 875  7400 925 
+$Sheet
+S 3282 1468 1143 457 
+U 5AB68372
+F0 "Computer" 60
+F1 "CM711.sch" 60
+$EndSheet
+$Sheet
+S 3250 2200 1175 425 
+U 5AB68374
+F0 "Steering Wheel" 60
+F1 "SteeringWheel.sch" 60
+$EndSheet
 $EndSCHEMATC
