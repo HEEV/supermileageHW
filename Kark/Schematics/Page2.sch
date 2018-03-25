@@ -192,7 +192,7 @@ CAN_STARTER
 $Sheet
 S 4475 4350 1225 1100
 U 5AB8FF66
-F0 "SENSORS" 60
+F0 "Sensors" 60
 F1 "CanNode.sch" 60
 F2 "CAN_Power" I L 4475 4425 60 
 F3 "CANH" B L 4475 4525 60 
@@ -219,21 +219,7 @@ F 3 "" H 5800 5875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 875  7200 2050
-Wire Wire Line
-	7200 2050 7200 2375
-Wire Wire Line
-	7200 2375 7200 3700
-Wire Wire Line
-	7200 3700 7200 4425
-Wire Wire Line
-	7200 4425 7200 5775
-Wire Wire Line
-	7200 5775 7200 7125
-Wire Wire Line
-	7200 7125 7200 8550
-Wire Wire Line
-	7200 8550 7200 8800
+	7200 875  7200 8800
 Wire Wire Line
 	7200 875  7400 875 
 Wire Wire Line
@@ -250,17 +236,11 @@ Connection ~ 1500 1100
 Wire Wire Line
 	2050 8725 2775 8725
 Wire Wire Line
-	2200 1100 2200 7100
-Wire Wire Line
-	2200 7100 2200 8475
+	2200 1100 2200 8475
 Wire Wire Line
 	2200 8475 2775 8475
 Wire Wire Line
-	1500 900  1500 1100
-Wire Wire Line
-	1500 1100 1500 3050
-Wire Wire Line
-	1500 3050 1500 8850
+	1500 900  1500 8850
 Wire Wire Line
 	3675 1100 2200 1100
 Wire Wire Line
@@ -284,29 +264,11 @@ Wire Wire Line
 	2050 2375 4475 2375
 Connection ~ 7200 2375
 Wire Wire Line
-	2675 2100 2675 2475
+	2675 2100 2675 7200
 Wire Wire Line
-	2675 2475 2675 3800
+	2675 3800 2675 5850
 Wire Wire Line
-	2675 3800 2675 4525
-Wire Wire Line
-	2675 4525 2675 5850
-Wire Wire Line
-	2675 5850 2675 7200
-Wire Wire Line
-	2675 3800 2675 4525
-Wire Wire Line
-	2675 4525 2675 5850
-Wire Wire Line
-	2900 2250 2900 2575
-Wire Wire Line
-	2900 2575 2900 3900
-Wire Wire Line
-	2900 3900 2900 4625
-Wire Wire Line
-	2900 4625 2900 5950
-Wire Wire Line
-	2900 5950 2900 7300
+	2900 2250 2900 7300
 Wire Wire Line
 	5700 2375 7200 2375
 Wire Wire Line
@@ -469,19 +431,7 @@ Text Label 1525 1100 0    60   ~ 0
 5
 Connection ~ 2050 1400
 Wire Wire Line
-	2050 1100 2050 1400
-Wire Wire Line
-	2050 1400 2050 1700
-Wire Wire Line
-	2050 1700 2050 2375
-Wire Wire Line
-	2050 2375 2050 3700
-Wire Wire Line
-	2050 3700 2050 4425
-Wire Wire Line
-	2050 4425 2050 5750
-Wire Wire Line
-	2050 5750 2050 8725
+	2050 1100 2050 8725
 Text Label 1525 3050 0    60   ~ 0
 6
 $Comp

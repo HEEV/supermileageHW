@@ -200,13 +200,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 4750 3900 4750
 Wire Wire Line
-	5275 1450 5550 1450
+	5275 1450 5975 1450
 Wire Wire Line
-	5550 1450 5975 1450
-Wire Wire Line
-	5275 1750 5650 1750
-Wire Wire Line
-	5650 1750 5975 1750
+	5275 1750 5975 1750
 Wire Wire Line
 	5275 4000 5550 4000
 Wire Wire Line
@@ -220,9 +216,7 @@ Connection ~ 5650 1750
 Wire Wire Line
 	5275 4075 5275 4100
 Wire Wire Line
-	5275 1550 5350 1550
-Wire Wire Line
-	5350 1550 5975 1550
+	5275 1550 5975 1550
 Wire Wire Line
 	5350 1550 5350 4075
 Wire Wire Line
@@ -232,9 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4200 5450 1650
 Wire Wire Line
-	5275 1650 5450 1650
-Wire Wire Line
-	5450 1650 5975 1650
+	5275 1650 5975 1650
 Connection ~ 5350 1550
 Connection ~ 5450 1650
 $Comp

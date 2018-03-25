@@ -113,4 +113,9 @@ Text HLabel 7225 2850 2    60   Output ~ 0
 Brake
 Wire Wire Line
 	7225 2850 6925 2850
+Wire Wire Line
+	5775 4850 5775 4975
+Wire Wire Line
+	5775 4975 5975 4975
+Connection ~ 5975 4975
 $EndSCHEMATC
