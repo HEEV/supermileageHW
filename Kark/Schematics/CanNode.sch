@@ -46,10 +46,10 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 10
+Sheet 10 10
 Title "Can Node"
 Date "2016-05-09"
-Rev "0.3"
+Rev "1.0"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"

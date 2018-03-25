@@ -49,7 +49,7 @@ encoding utf-8
 Sheet 2 10
 Title "EFI Breakout"
 Date "2017-01-04"
-Rev "1.7"
+Rev "1.0"
 Comp "Cedarville University"
 Comment1 "Edited by Samuel Ellicott"
 Comment2 "Andy Raines"

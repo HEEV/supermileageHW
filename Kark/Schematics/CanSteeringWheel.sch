@@ -49,7 +49,7 @@ encoding utf-8
 Sheet 6 10
 Title "Can Node"
 Date "2017-06-12"
-Rev "2.0"
+Rev "1.0"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"

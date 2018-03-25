@@ -44,12 +44,12 @@ LIBS:EllicottPower
 LIBS:KarkSchematics-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 8 10
 Title "CM711 Computer"
 Date "2018-03-24"
-Rev ""
+Rev "1.0"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"
