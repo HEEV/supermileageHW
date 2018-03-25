@@ -1,4 +1,4 @@
-update=Saturday, March 24, 2018 'AMt' 10:51:19 AM
+update=Sat 24 Mar 2018 12:37:05 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,8 +66,8 @@ LibName34=relays_switches
 LibName35=supermileage
 LibName36=supermileage_computers
 LibName37=supermileage_sensors
-LibName38=EllicottDisplay
+LibName38=EllicottMicrocontrollers
 LibName39=EllicottInterface
-LibName40=EllicottMicrocontrollers
+LibName40=EllicottDisplay
 LibName41=EllicottMisc
 LibName42=EllicottPower

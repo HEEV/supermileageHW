@@ -36,9 +36,9 @@ LIBS:relays_switches
 LIBS:supermileage
 LIBS:supermileage_computers
 LIBS:supermileage_sensors
-LIBS:EllicottDisplay
-LIBS:EllicottInterface
 LIBS:EllicottMicrocontrollers
+LIBS:EllicottInterface
+LIBS:EllicottDisplay
 LIBS:EllicottMisc
 LIBS:EllicottPower
 LIBS:KarkSchematics-cache
@@ -46,13 +46,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Cedarville Supermileage"
+Comment1 "Tineka Witt"
+Comment2 "Samuel Ellicott"
 Comment3 ""
 Comment4 ""
 $EndDescr
