@@ -1,5 +1,6 @@
 version=1
 last_client=kicad
+update=Sat 24 Mar 2018 10:24:35 PM EDT
 [pcbnew]
 version=1
 LastNetListRead=
@@ -70,3 +71,13 @@ LibName39=EllicottInterface
 LibName40=EllicottDisplay
 LibName41=EllicottMisc
 LibName42=EllicottPower
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

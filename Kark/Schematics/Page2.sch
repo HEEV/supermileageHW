@@ -113,7 +113,7 @@ $EndSheet
 $Sheet
 S 4475 5675 1225 1100
 U 5AB72FFD
-F0 "CONTROL" 60
+F0 "Control" 60
 F1 "CanNode.sch" 60
 F2 "CAN_Power" I L 4475 5750 60 
 F3 "CANH" B L 4475 5850 60 
@@ -128,9 +128,9 @@ F11 "IO1_GND" O R 5700 6225 60
 F12 "IO2_In" I R 5700 6600 60 
 F13 "IO2_GND" O R 5700 6700 60 
 $EndSheet
-Text GLabel 3050 2225 2    60   BiDi ~ 0
+Text GLabel 3075 2100 2    60   BiDi ~ 0
 CAN_H
-Text GLabel 3050 2075 2    60   BiDi ~ 0
+Text GLabel 3075 2250 2    60   BiDi ~ 0
 CAN_L
 $Comp
 L 5v_Regulator U401
@@ -221,11 +221,7 @@ $EndComp
 Wire Wire Line
 	7200 875  7200 2050
 Wire Wire Line
-<<<<<<< HEAD
-	7200 2075 7200 2375
-=======
-	7200 2050 7200 2600
->>>>>>> b5180777d66845d15c366c5eacf4ccf0e3f039e1
+	7200 2050 7200 2375
 Wire Wire Line
 	7200 2375 7200 3700
 Wire Wire Line
@@ -251,14 +247,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 1100 1650 1100
 Connection ~ 1500 1100
-Wire Wire Line
-<<<<<<< HEAD
-	2050 1100 1950 1100
-=======
-	2050 1900 2050 2475
-Wire Wire Line
-	2050 2475 2050 8725
->>>>>>> b5180777d66845d15c366c5eacf4ccf0e3f039e1
 Wire Wire Line
 	2050 8725 2775 8725
 Wire Wire Line
@@ -296,45 +284,29 @@ Wire Wire Line
 	2050 2375 4475 2375
 Connection ~ 7200 2375
 Wire Wire Line
-	2675 2225 2675 2475
+	2675 2100 2675 2475
 Wire Wire Line
-<<<<<<< HEAD
 	2675 2475 2675 3800
-=======
-	2675 2700 2675 3250
-Wire Wire Line
-	2675 3250 2675 4525
-Wire Wire Line
-	2675 4525 2675 5850
-Wire Wire Line
-	2675 5850 2675 6725
->>>>>>> b5180777d66845d15c366c5eacf4ccf0e3f039e1
 Wire Wire Line
 	2675 3800 2675 4525
 Wire Wire Line
 	2675 4525 2675 5850
 Wire Wire Line
-<<<<<<< HEAD
 	2675 5850 2675 7200
-Connection ~ 2675 2475
-Connection ~ 2900 2575
-=======
-	2900 2800 2900 3150
 Wire Wire Line
-	2900 3150 2900 3325
+	2675 3800 2675 4525
 Wire Wire Line
-	2900 3325 2900 4425
+	2675 4525 2675 5850
 Wire Wire Line
-	2900 4425 2900 4600
+	2900 2250 2900 2575
 Wire Wire Line
-	2900 4600 2900 5750
+	2900 2575 2900 3900
 Wire Wire Line
-	2900 5750 2900 5925
+	2900 3900 2900 4625
 Wire Wire Line
-	2900 5925 2900 6625
->>>>>>> b5180777d66845d15c366c5eacf4ccf0e3f039e1
+	2900 4625 2900 5950
 Wire Wire Line
-	2675 2475 4475 2475
+	2900 5950 2900 7300
 Wire Wire Line
 	5700 2375 7200 2375
 Wire Wire Line
@@ -344,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 6600 5700 6600
 Wire Wire Line
-	3050 2075 2900 2075
+	3075 2250 2900 2250
 Wire Wire Line
 	2675 4525 4475 4525
 Wire Wire Line
@@ -365,18 +337,6 @@ Connection ~ 2900 4625
 Connection ~ 2675 4525
 Connection ~ 2675 5850
 Connection ~ 2900 5950
-Wire Wire Line
-	2900 2075 2900 2575
-Wire Wire Line
-	2900 2575 2900 3900
-Wire Wire Line
-	2900 3900 2900 4625
-Wire Wire Line
-	2900 4625 2900 5950
-Wire Wire Line
-	2900 5950 2900 7300
-Wire Wire Line
-	2900 7300 2900 7300
 Wire Wire Line
 	2050 3700 4475 3700
 Connection ~ 2050 3700
@@ -536,5 +496,11 @@ F 3 "" H 2750 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3050 2225 2675 2225
+	3075 2100 2675 2100
+Connection ~ 2900 2575
+Wire Wire Line
+	4475 2475 2675 2475
+Connection ~ 2675 2475
+Wire Wire Line
+	2050 1100 1950 1100
 $EndSCHEMATC
