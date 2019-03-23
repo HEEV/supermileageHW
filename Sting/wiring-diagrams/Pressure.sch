@@ -1,47 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:Wiring Diagram v2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:EllicottDisplay
-LIBS:EllicottInterface
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottMisc
-LIBS:EllicottPower
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:Wiring Diagram v2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 14
+Sheet 10 14
 Title "Pressure Transducer Board"
 Date "2016-10-20"
 Rev "2"
@@ -52,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HSCDRR004MD U?
+L Supermileage:HSCDRR004MD U?
 U 1 1 58275680
 P 7600 5650
 AR Path="/582DB1D2/58275680" Ref="U?"  Part="1" 
@@ -67,7 +30,7 @@ F 3 "" H 6850 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 58275681
 P 2750 4500
 AR Path="/582DB1D2/58275681" Ref="P?"  Part="1" 
@@ -82,7 +45,7 @@ F 3 "" H 2750 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275682
 P 8350 5650
 AR Path="/582DB1D2/58275682" Ref="C?"  Part="1" 
@@ -98,7 +61,7 @@ F 4 "Mouser" H 8350 5650 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275683
 P 8650 5650
 AR Path="/582DB1D2/58275683" Ref="C?"  Part="1" 
@@ -113,7 +76,7 @@ F 3 "" H 8650 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 58275684
 P 8500 5900
 AR Path="/582DB1D2/58275684" Ref="#PWR?"  Part="1" 
@@ -128,7 +91,7 @@ F 3 "" H 8500 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 58275685
 P 8500 5400
 AR Path="/582DB1D2/58275685" Ref="#PWR?"  Part="1" 
@@ -143,7 +106,7 @@ F 3 "" H 8500 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 58275686
 P 7050 5450
 AR Path="/582DB1D2/58275686" Ref="#PWR?"  Part="1" 
@@ -158,7 +121,7 @@ F 3 "" H 7050 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 58275687
 P 3100 4800
 AR Path="/582DB1D2/58275687" Ref="#PWR?"  Part="1" 
@@ -173,7 +136,7 @@ F 3 "" H 3100 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 58275688
 P 3750 5300
 AR Path="/582DB1D2/58275688" Ref="#PWR?"  Part="1" 
@@ -188,7 +151,7 @@ F 3 "" H 3750 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 58275689
 P 7150 5950
 AR Path="/582DB1D2/58275689" Ref="#PWR?"  Part="1" 
@@ -207,7 +170,7 @@ Out
 Text Label 7050 5700 0    60   ~ 0
 Out
 $Comp
-L TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P W?
 U 1 1 5827568A
 P 4075 3200
 AR Path="/582DB1D2/5827568A" Ref="W?"  Part="1" 
@@ -222,7 +185,7 @@ F 3 "" H 4275 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P W?
 U 1 1 5827568B
 P 4425 3200
 AR Path="/582DB1D2/5827568B" Ref="W?"  Part="1" 
@@ -237,7 +200,7 @@ F 3 "" H 4625 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P W?
 U 1 1 5827568C
 P 4725 3200
 AR Path="/582DB1D2/5827568C" Ref="W?"  Part="1" 
@@ -252,7 +215,7 @@ F 3 "" H 4925 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P W?
 U 1 1 5827568D
 P 5075 3200
 AR Path="/582DB1D2/5827568D" Ref="W?"  Part="1" 
@@ -267,7 +230,7 @@ F 3 "" H 5275 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5827568E
 P 4600 4400
 AR Path="/582DB1D2/5827568E" Ref="#PWR?"  Part="1" 
@@ -282,7 +245,7 @@ F 3 "" H 4600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NJM2870F0 U?
+L EllicottPower:NJM2870F0 U?
 U 1 1 5827568F
 P 4600 3650
 AR Path="/582DB1D2/5827568F" Ref="U?"  Part="1" 
@@ -297,7 +260,7 @@ F 3 "" H 4600 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275690
 P 4050 4050
 AR Path="/582DB1D2/58275690" Ref="C?"  Part="1" 
@@ -313,7 +276,7 @@ F 4 "Mouser" H 4050 4050 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275691
 P 5200 4150
 AR Path="/582DB1D2/58275691" Ref="C?"  Part="1" 
@@ -329,7 +292,7 @@ F 4 "Mouser" H 5200 4150 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275692
 P 5800 4150
 AR Path="/582DB1D2/58275692" Ref="C?"  Part="1" 
@@ -344,7 +307,7 @@ F 3 "" H 5800 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 58275693
 P 5500 4150
 AR Path="/582DB1D2/58275693" Ref="C?"  Part="1" 
@@ -364,7 +327,7 @@ Mounting Holes
 Text Notes 2250 4200 0    60   ~ 0
 Molex DuraClik
 $Comp
-L CONN_01X03 P?
+L Wiring-Diagram-v2-rescue:CONN_01X03 P?
 U 1 1 58275694
 P 6650 2950
 AR Path="/582DB1D2/58275694" Ref="P?"  Part="1" 
@@ -381,7 +344,7 @@ $EndComp
 Text Notes 6125 2700 0    60   ~ 0
 5v->3.3v Attenuator Select
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 58275695
 P 5800 3600
 AR Path="/582DB1D2/58275695" Ref="#PWR?"  Part="1" 
@@ -396,7 +359,7 @@ F 3 "" H 5800 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 58275696
 P 7050 3100
 AR Path="/582DB1D2/58275696" Ref="#PWR?"  Part="1" 
@@ -411,7 +374,7 @@ F 3 "" H 7050 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 58275697
 P 7050 4000
 AR Path="/582DB1D2/58275697" Ref="#PWR?"  Part="1" 
@@ -428,7 +391,7 @@ $EndComp
 Text Label 6950 3250 2    60   ~ 0
 Out
 $Comp
-L R R?
+L Device:R R?
 U 1 1 58275698
 P 6550 3350
 AR Path="/582DB1D2/58275698" Ref="R?"  Part="1" 
@@ -443,7 +406,7 @@ F 3 "" H 6550 3350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L Device:R R?
 U 1 1 58275699
 P 6550 3750
 AR Path="/582DB1D2/58275699" Ref="R?"  Part="1" 
@@ -462,7 +425,7 @@ Out
 Wire Wire Line
 	8350 5800 8350 5850
 Wire Wire Line
-	8350 5850 8650 5850
+	8350 5850 8500 5850
 Wire Wire Line
 	8650 5850 8650 5800
 Wire Wire Line
@@ -471,7 +434,7 @@ Connection ~ 8500 5850
 Wire Wire Line
 	8350 5500 8350 5450
 Wire Wire Line
-	8350 5450 8650 5450
+	8350 5450 8500 5450
 Wire Wire Line
 	8650 5450 8650 5500
 Wire Wire Line
@@ -504,15 +467,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 3850 3550 3850
 Wire Wire Line
-	4600 4300 4600 4400
+	4600 4300 4600 4350
 Wire Wire Line
-	3750 4350 5800 4350
+	3750 4350 4050 4350
 Wire Wire Line
-	3950 3850 4100 3850
+	3950 3850 4050 3850
 Wire Wire Line
 	4100 3650 4050 3650
 Wire Wire Line
-	4050 3650 4050 3900
+	4050 3650 4050 3850
 Connection ~ 4050 3850
 Wire Wire Line
 	4050 4200 4050 4350
@@ -525,7 +488,7 @@ Wire Wire Line
 	5200 4350 5200 4300
 Connection ~ 4600 4350
 Wire Wire Line
-	5100 3650 5800 3650
+	5100 3650 5500 3650
 Wire Wire Line
 	5500 3650 5500 4000
 Wire Wire Line
@@ -535,7 +498,7 @@ Wire Wire Line
 	5800 4350 5800 4300
 Connection ~ 5500 4350
 Wire Wire Line
-	5800 3600 5800 4000
+	5800 3600 5800 3650
 Connection ~ 5500 3650
 Connection ~ 5800 3650
 Wire Wire Line
@@ -545,17 +508,17 @@ Wire Wire Line
 Wire Wire Line
 	7200 3550 7050 3550
 Wire Wire Line
-	7050 3550 7050 4000
+	7050 3550 7050 3950
 Wire Wire Line
 	7200 3450 6650 3450
 Wire Wire Line
-	6650 3150 6650 4650
+	6650 3150 6650 3450
 Wire Wire Line
 	6750 3250 6950 3250
 Wire Wire Line
 	6550 3150 6550 3200
 Wire Wire Line
-	6550 3500 6550 3600
+	6550 3500 6550 3550
 Wire Wire Line
 	7050 3950 6550 3950
 Wire Wire Line
@@ -565,7 +528,7 @@ Wire Wire Line
 	6350 3550 6550 3550
 Connection ~ 6550 3550
 $Comp
-L C C?
+L Device:C C?
 U 1 1 5827569A
 P 8300 3500
 AR Path="/582DB1D2/5827569A" Ref="C?"  Part="1" 
@@ -581,7 +544,7 @@ F 4 "Mouser" H 8300 3500 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L Device:C C?
 U 1 1 5827569B
 P 8650 3500
 AR Path="/582DB1D2/5827569B" Ref="C?"  Part="1" 
@@ -596,7 +559,7 @@ F 3 "" H 8650 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5827569C
 P 8500 3250
 AR Path="/582DB1D2/5827569C" Ref="#PWR?"  Part="1" 
@@ -611,7 +574,7 @@ F 3 "" H 8500 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5827569D
 P 8500 3750
 AR Path="/582DB1D2/5827569D" Ref="#PWR?"  Part="1" 
@@ -628,7 +591,7 @@ $EndComp
 Wire Wire Line
 	8300 3650 8300 3700
 Wire Wire Line
-	8300 3700 8650 3700
+	8300 3700 8500 3700
 Wire Wire Line
 	8650 3700 8650 3650
 Wire Wire Line
@@ -637,14 +600,14 @@ Connection ~ 8500 3700
 Wire Wire Line
 	8300 3350 8300 3300
 Wire Wire Line
-	8300 3300 8650 3300
+	8300 3300 8500 3300
 Wire Wire Line
 	8650 3300 8650 3350
 Wire Wire Line
 	8500 3250 8500 3300
 Connection ~ 8500 3300
 $Comp
-L Q_PMOS_GSD Q?
+L Device:Q_PMOS_GSD Q?
 U 1 1 5827569E
 P 3750 3950
 AR Path="/582DB1D2/5827569E" Ref="Q?"  Part="1" 
@@ -661,7 +624,7 @@ $EndComp
 Wire Wire Line
 	3400 4350 3400 3850
 $Comp
-L Q_PMOS_GSD Q?
+L Device:Q_PMOS_GSD Q?
 U 1 1 5827569F
 P 3750 5050
 AR Path="/582DB1D2/5827569F" Ref="Q?"  Part="1" 
@@ -680,7 +643,7 @@ Text Notes 7075 5150 0    60   ~ 0
 Text Notes 7250 2950 0    60   ~ 0
 5V absolute pressure transducer
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 582756A0
 P 4100 4950
 AR Path="/582DB1D2/582756A0" Ref="#PWR?"  Part="1" 
@@ -703,7 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3150 6750 3250
 $Comp
-L ASDX100A24R U?
+L Supermileage:ASDX100A24R U?
 U 1 1 582756A1
 P 7600 3500
 AR Path="/582DB1D2/582756A1" Ref="U?"  Part="1" 
@@ -718,7 +681,7 @@ F 3 "" H 6850 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L G4V-MINI U?
+L Supermileage:G4V-MINI U?
 U 1 1 582756A2
 P 7700 4600
 AR Path="/582DB1D2/582756A2" Ref="U?"  Part="1" 
@@ -733,7 +696,7 @@ F 3 "" H 6950 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 582756A3
 P 7050 4400
 AR Path="/582DB1D2/582756A3" Ref="#PWR?"  Part="1" 
@@ -755,7 +718,7 @@ Wire Wire Line
 	6650 4650 7400 4650
 Connection ~ 6650 3450
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 582756A4
 P 7050 4800
 AR Path="/582DB1D2/582756A4" Ref="#PWR?"  Part="1" 
@@ -776,7 +739,7 @@ Wire Wire Line
 Text Notes 7300 4150 0    60   ~ 0
 5V differential pressure transducer
 $Comp
-L CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 58276BE6
 P 2400 4500
 AR Path="/582DB1D2/58276BE6" Ref="P?"  Part="1" 
@@ -810,4 +773,36 @@ Text Notes 725  7800 0    60   ~ 0
 Full schematics with reference numbers are in the \npressure_sensor folder in the supermileagehw git repo at \nhttps://github.com/HEEV/supermileageHW
 Text Notes 625  2900 0    60   ~ 0
 Comments:\n\nQ1 and Q2 are reverse polarity protection transistors. They are P-Channel\nMosfets, so they have a very small resistance when on. \nCare should be taken in their selection so that their V-GS threshold is\nunder 1v\n\nU2 is a 5v regulator for the 5v pressure transducer. The output of U3 \ngoes through a selectable attenuator for a full 5v output or a 3.3v output.\n\nThere are positions for three pressure transducers on this board; \nhowever only one of them can be populated at a time. The top two\ntransducers are 5v and have a selectable attenuator for using with a\n3.3v microcontroller. The bottom transducer is 3.3v.\n\nThe connector is a Molex DuraClik Part numbers are as follows\nFemale Socket:\nDigiKey:  WM12262-ND\nMouser: 538-505151-0400\nPCB Header:\nDigiKey: WM7171CT-ND\nMouser: 538-502352-0400\nPins:\nDigiKey: WM12344CT-ND\nMouser: 538-505153-8000-CT
+Wire Wire Line
+	8500 5850 8650 5850
+Wire Wire Line
+	8500 5450 8650 5450
+Wire Wire Line
+	4050 3850 4100 3850
+Wire Wire Line
+	4050 3850 4050 3900
+Wire Wire Line
+	4050 4350 4600 4350
+Wire Wire Line
+	4600 4350 4600 4400
+Wire Wire Line
+	4600 4350 5200 4350
+Wire Wire Line
+	5200 4350 5500 4350
+Wire Wire Line
+	5500 4350 5800 4350
+Wire Wire Line
+	5500 3650 5800 3650
+Wire Wire Line
+	5800 3650 5800 4000
+Wire Wire Line
+	7050 3950 7050 4000
+Wire Wire Line
+	6550 3550 6550 3600
+Wire Wire Line
+	8500 3700 8650 3700
+Wire Wire Line
+	8500 3300 8650 3300
+Wire Wire Line
+	6650 3450 6650 4650
 $EndSCHEMATC

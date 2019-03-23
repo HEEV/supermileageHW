@@ -1,10 +1,47 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 14
+Sheet 13 14
 Title "Current Sensor"
 Date "2017-01-05"
 Rev "2.0"
@@ -15,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X05 P?
+L CONN_01X05 P?
 U 1 1 589001AD
 P 1900 4875
 F 0 "P?" H 1900 5175 50  0001 C CNN
@@ -28,7 +65,7 @@ F 5 "538-502352-0501 " H 1900 4875 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001AE
 P 3400 4600
 F 0 "C?" H 3450 4500 50  0001 L CNN
@@ -39,7 +76,7 @@ F 3 "" H 3400 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:ACS710 U?
+L ACS710 U?
 U 1 1 589001AF
 P 3400 3550
 F 0 "U?" H 3400 3350 60  0001 C CNN
@@ -50,7 +87,7 @@ F 3 "" H 3300 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001B0
 P 3400 4850
 F 0 "#PWR?" H 3400 4600 50  0001 C CNN
@@ -69,7 +106,7 @@ OUT2
 Text Label 2200 4975 0    60   ~ 0
 OUT3
 $Comp
-L EllicottPower:NJM2870F0 U?
+L NJM2870F0 U?
 U 1 1 589001B1
 P 5100 1150
 F 0 "U?" H 5100 1100 60  0001 C CNN
@@ -82,7 +119,7 @@ F 5 "513-NJM2870F05-TE2 " H 5100 1150 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GSD Q?
+L Q_PMOS_GSD Q?
 U 1 1 589001B2
 P 4150 1250
 F 0 "Q?" V 4350 1150 50  0001 R CNN
@@ -95,7 +132,7 @@ F 5 "863-NTR3A30PZT1G " H 4150 1250 60  0001 C CNN "PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001B3
 P 5100 1950
 F 0 "#PWR?" H 5100 1700 50  0001 C CNN
@@ -106,7 +143,7 @@ F 3 "" H 5100 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001B4
 P 4450 1650
 F 0 "C?" H 4475 1750 50  0001 L CNN
@@ -117,7 +154,7 @@ F 3 "" H 4450 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001B5
 P 5700 1650
 F 0 "C?" H 5725 1750 50  0001 L CNN
@@ -128,7 +165,7 @@ F 3 "" H 5700 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001B6
 P 6000 1650
 F 0 "C?" H 6025 1750 50  0001 L CNN
@@ -139,7 +176,7 @@ F 3 "" H 6000 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001B7
 P 6300 1650
 F 0 "C?" H 6325 1750 50  0001 L CNN
@@ -150,7 +187,7 @@ F 3 "" H 6300 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001B8
 P 2200 5125
 F 0 "#PWR?" H 2200 4875 50  0001 C CNN
@@ -161,7 +198,7 @@ F 3 "" H 2200 5125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001B9
 P 4100 2600
 F 0 "C?" H 4125 2700 50  0001 L CNN
@@ -172,7 +209,7 @@ F 3 "" H 4100 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001BA
 P 4100 2400
 F 0 "#PWR?" H 4100 2250 50  0001 C CNN
@@ -183,7 +220,7 @@ F 3 "" H 4100 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001BB
 P 4100 2800
 F 0 "#PWR?" H 4100 2550 50  0001 C CNN
@@ -194,7 +231,7 @@ F 3 "" H 4100 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001BD
 P 6350 4600
 F 0 "C?" H 6400 4500 50  0001 L CNN
@@ -205,7 +242,7 @@ F 3 "" H 6350 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:ACS710 U?
+L ACS710 U?
 U 1 1 589001BE
 P 6350 3550
 F 0 "U?" H 6350 3350 60  0001 C CNN
@@ -216,7 +253,7 @@ F 3 "" H 6250 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001BF
 P 6600 4600
 F 0 "C?" H 6600 4500 50  0001 L CNN
@@ -227,7 +264,7 @@ F 3 "" H 6600 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001C0
 P 6350 4850
 F 0 "#PWR?" H 6350 4600 50  0001 C CNN
@@ -240,7 +277,7 @@ $EndComp
 Text Label 7100 3300 2    60   ~ 0
 OUT2
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001C1
 P 7050 2600
 F 0 "C?" H 7075 2700 50  0001 L CNN
@@ -251,7 +288,7 @@ F 3 "" H 7050 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001C2
 P 7050 2400
 F 0 "#PWR?" H 7050 2250 50  0001 C CNN
@@ -262,7 +299,7 @@ F 3 "" H 7050 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001C3
 P 7050 2800
 F 0 "#PWR?" H 7050 2550 50  0001 C CNN
@@ -273,7 +310,7 @@ F 3 "" H 7050 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001C5
 P 9250 4600
 F 0 "C?" H 9300 4500 50  0001 L CNN
@@ -284,7 +321,7 @@ F 3 "" H 9250 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:ACS710 U?
+L ACS710 U?
 U 1 1 589001C6
 P 9250 3550
 F 0 "U?" H 9250 3350 60  0001 C CNN
@@ -295,7 +332,7 @@ F 3 "" H 9150 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001C7
 P 9500 4600
 F 0 "C?" H 9550 4500 50  0001 L CNN
@@ -306,7 +343,7 @@ F 3 "" H 9500 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001C8
 P 9250 4850
 F 0 "#PWR?" H 9250 4600 50  0001 C CNN
@@ -319,7 +356,7 @@ $EndComp
 Text Label 10000 3300 2    60   ~ 0
 OUT3
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001C9
 P 9950 2600
 F 0 "C?" H 9975 2700 50  0001 L CNN
@@ -330,7 +367,7 @@ F 3 "" H 9950 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001CA
 P 9950 2400
 F 0 "#PWR?" H 9950 2250 50  0001 C CNN
@@ -341,7 +378,7 @@ F 3 "" H 9950 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001CB
 P 9950 2800
 F 0 "#PWR?" H 9950 2550 50  0001 C CNN
@@ -352,7 +389,7 @@ F 3 "" H 9950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001CC
 P 6300 1100
 F 0 "#PWR?" H 6300 950 50  0001 C CNN
@@ -363,7 +400,7 @@ F 3 "" H 6300 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001CD
 P 3400 2750
 F 0 "#PWR?" H 3400 2600 50  0001 C CNN
@@ -374,7 +411,7 @@ F 3 "" H 3400 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001CE
 P 6350 2750
 F 0 "#PWR?" H 6350 2600 50  0001 C CNN
@@ -385,7 +422,7 @@ F 3 "" H 6350 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001CF
 P 9250 2750
 F 0 "#PWR?" H 9250 2600 50  0001 C CNN
@@ -396,7 +433,7 @@ F 3 "" H 9250 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:MIC5317 U?
+L MIC5317 U?
 U 1 1 589001D0
 P 7450 1250
 F 0 "U?" H 7450 1250 60  0001 C CNN
@@ -409,7 +446,7 @@ F 5 "998-MIC5317-3.3YM5TR " H 7450 1250 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001D1
 P 6850 1650
 F 0 "C?" H 6875 1750 50  0001 L CNN
@@ -420,7 +457,7 @@ F 3 "" H 6850 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 589001D2
 P 6850 1100
 F 0 "#PWR?" H 6850 950 50  0001 C CNN
@@ -431,7 +468,7 @@ F 3 "" H 6850 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001D3
 P 7450 1950
 F 0 "#PWR?" H 7450 1700 50  0001 C CNN
@@ -442,7 +479,7 @@ F 3 "" H 7450 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001D4
 P 8250 1700
 F 0 "C?" H 8275 1800 50  0001 L CNN
@@ -453,7 +490,7 @@ F 3 "" H 8250 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 589001D5
 P 8600 1700
 F 0 "C?" H 8625 1800 50  0001 L CNN
@@ -464,7 +501,7 @@ F 3 "" H 8600 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 589001D6
 P 8600 1100
 F 0 "#PWR?" H 8600 950 50  0001 C CNN
@@ -475,7 +512,7 @@ F 3 "" H 8600 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 589001D7
 P 1900 6450
 F 0 "P?" H 1900 6700 50  0001 C CNN
@@ -488,7 +525,7 @@ F 5 "538-502352-0400 " H 1900 6450 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001D8
 P 2200 6600
 F 0 "#PWR?" H 2200 6350 50  0001 C CNN
@@ -515,7 +552,7 @@ OUT2
 Text Label 4200 5650 0    60   ~ 0
 OUT3
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 589001D9
 P 1900 5800
 F 0 "P?" H 1900 6050 50  0001 C CNN
@@ -528,7 +565,7 @@ F 5 "538-502352-0400 " H 1900 5800 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001DA
 P 2200 5950
 F 0 "#PWR?" H 2200 5700 50  0001 C CNN
@@ -545,7 +582,7 @@ CAN_L
 Text Label 2200 5650 0    60   ~ 0
 Vin
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 589001DB
 P 3650 4600
 F 0 "C?" H 3700 4500 50  0001 L CNN
@@ -556,7 +593,7 @@ F 3 "" H 3650 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001DC
 P 4300 3450
 F 0 "#PWR?" H 4300 3200 50  0001 C CNN
@@ -567,7 +604,7 @@ F 3 "" H 4300 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001DD
 P 7250 3450
 F 0 "#PWR?" H 7250 3200 50  0001 C CNN
@@ -578,7 +615,7 @@ F 3 "" H 7250 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 589001DE
 P 10250 3450
 F 0 "#PWR?" H 10250 3200 50  0001 C CNN
@@ -629,7 +666,7 @@ Text Notes 7125 825  0    60   ~ 0
 Text Notes 675  7625 0    60   ~ 0
 Full schematics with reference numbers are in the \ncurrent_sensor folder in the supermileagehw git repo at \nhttps://github.com/HEEV/supermileageHW
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 589106A8
 P 1750 5800
 F 0 "P?" H 1750 6050 50  0001 C CNN
@@ -642,7 +679,7 @@ F 5 "538-502352-0400 " H 1750 5800 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X05 P?
+L CONN_01X05 P?
 U 1 1 58910747
 P 1750 4875
 F 0 "P?" H 1750 5175 50  0001 C CNN
@@ -677,7 +714,7 @@ In1_+
 Text HLabel 2375 2575 1    60   UnSpc ~ 0
 In1_-
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58BFF11F
 P 2325 3200
 F 0 "P?" H 2325 3450 50  0001 C CNN
@@ -688,7 +725,7 @@ F 3 "" H 2325 3200 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58BFF80E
 P 2325 2975
 F 0 "P?" H 2325 3225 50  0001 C CNN
@@ -926,8 +963,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 3800 5700 3900
 Wire Wire Line
+	5650 3600 5700 3600
+Wire Wire Line
 	5700 3600 5800 3600
 Connection ~ 5700 3400
+Wire Wire Line
+	5650 3500 5700 3500
 Wire Wire Line
 	5700 3500 5800 3500
 Connection ~ 5700 3300
@@ -1119,7 +1160,7 @@ In2_+
 Text HLabel 5275 2575 1    60   UnSpc ~ 0
 In2_-
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58C004D2
 P 5225 3200
 F 0 "P?" H 5225 3450 50  0001 C CNN
@@ -1130,7 +1171,7 @@ F 3 "" H 5225 3200 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58C004D8
 P 5225 2975
 F 0 "P?" H 5225 3225 50  0001 C CNN
@@ -1171,13 +1212,17 @@ Wire Wire Line
 Wire Wire Line
 	5075 3600 5275 3600
 Wire Wire Line
+	5275 3600 5650 3600
+Wire Wire Line
 	5175 3500 5375 3500
+Wire Wire Line
+	5375 3500 5650 3500
 Text HLabel 8325 2575 1    60   UnSpc ~ 0
 In3_+
 Text HLabel 8225 2575 1    60   UnSpc ~ 0
 In3_-
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58C00D58
 P 8175 3200
 F 0 "P?" H 8175 3450 50  0001 C CNN
@@ -1188,7 +1233,7 @@ F 3 "" H 8175 3200 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58C00D5E
 P 8175 2975
 F 0 "P?" H 8175 3225 50  0001 C CNN
@@ -1234,8 +1279,4 @@ Wire Wire Line
 	8125 3500 8325 3500
 Wire Wire Line
 	8325 3500 8600 3500
-Wire Wire Line
-	5275 3600 5700 3600
-Wire Wire Line
-	5375 3500 5700 3500
 $EndSCHEMATC

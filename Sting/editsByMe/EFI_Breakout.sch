@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 14
+Sheet 14 12
 Title "EFI Breakout"
 Date "2017-01-04"
 Rev "1.7"
@@ -186,6 +186,12 @@ Text Notes 5175 5000 0    60   ~ 0
                              Output Pin1\nConnected to Input Pin19 GND for Urbie\nConnected to Input Pin11 GND for Sting
 Text Label 6475 4450 0    60   ~ 0
 SEN_GND
+Text Notes 6925 4450 0    60   ~ 0
+ONLY ON STING!!!
+Text Notes 6925 2750 0    60   ~ 0
+ONLY ON STING
+Text Notes 6925 4250 0    60   ~ 0
+ONLY ON STING
 Text Label 6525 2450 0    60   ~ 0
 white
 Text Label 6475 2850 0    60   ~ 0
@@ -581,8 +587,6 @@ Wire Wire Line
 Wire Wire Line
 	6375 2450 7725 2450
 Wire Wire Line
-	2225 3150 4975 3150
-Wire Wire Line
 	2225 3150 2225 6300
 Wire Wire Line
 	2125 4550 2125 6300
@@ -600,8 +604,6 @@ Wire Wire Line
 	4975 4050 4475 4050
 Wire Wire Line
 	4975 3850 4375 3850
-Wire Wire Line
-	4975 3250 4275 3250
 Wire Wire Line
 	2825 3650 4975 3650
 Wire Wire Line
@@ -919,16 +921,14 @@ Wire Wire Line
 	2825 2750 2825 3650
 Wire Wire Line
 	2425 4850 2325 4850
+Entry Bus Bus
+	4650 3150 4750 3250
+Wire Wire Line
+	2225 3150 4975 3150
+Wire Wire Line
+	4275 3250 4975 3250
 Wire Bus Line
 	8975 1550 8975 5300
 Wire Bus Line
 	7825 2250 7825 5300
-Text Notes 6925 4450 0    60   ~ 0
-ONLY ON STING
-Text Notes 6925 4250 0    60   ~ 0
-ONLY ON STING
-Text Notes 6925 2750 0    60   ~ 0
-ONLY ON STING
-Text Notes 6350 6900 0    60   ~ 0
-Edited by Madeline Chairvolotti Date: 02-23-2019
 $EndSCHEMATC

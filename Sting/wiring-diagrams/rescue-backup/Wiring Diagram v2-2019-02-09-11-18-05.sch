@@ -1,6 +1,43 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -32,6 +69,27 @@ F11 "5V" I R 2100 2000 60
 F12 "SIGNAL" I R 2100 2100 60 
 $EndSheet
 $Sheet
+S 6200 1000 1050 1300
+U 57E2AF30
+F0 "Back Of Car" 60
+F1 "Back_Of_Car.sch" 60
+F2 "Engine_Start" I L 6200 1800 60 
+F3 "Kill_In" I L 6200 1100 60 
+F4 "Kill_Out" O L 6200 1200 60 
+F5 "12VBatt" I L 6200 2100 60 
+F6 "GND_MAIN" I L 6200 2200 60 
+F7 "O2_Power" I L 6200 1300 60 
+F8 "EFI_Power" I L 6200 1400 60 
+F9 "EFI_GND" I L 6200 1700 60 
+F10 "CANH" B R 7250 1200 60 
+F11 "CANL" B R 7250 1300 60 
+F12 "CAN_GND" I R 7250 1400 60 
+F13 "CAN_PWR" I R 7250 1100 60 
+F14 "Canopy_PWR" I L 6200 1500 60 
+F15 "Canopy_SW" I L 6200 1600 60 
+F16 "Canopy_GND" I L 6200 1900 60 
+$EndSheet
+$Sheet
 S 2000 4875 1150 3925
 U 58202F4F
 F0 "CM0711" 60
@@ -59,7 +117,7 @@ F21 "J1_3_CAN_H" B L 2000 5150 60
 F22 "J1_9_CAN_L" B L 2000 5750 60 
 $EndSheet
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L CONN_01X18 P?
 U 1 1 586B46AB
 P 1700 5800
 F 0 "P?" H 1700 6750 50  0001 C CNN
@@ -70,7 +128,7 @@ F 3 "" H 1700 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L CONN_01X18 P?
 U 1 1 586BFED3
 P 1700 7850
 F 0 "P?" H 1700 8800 50  0001 C CNN
@@ -81,7 +139,7 @@ F 3 "" H 1700 7850 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L CONN_01X18 P?
 U 1 1 58707A2D
 P 1550 5800
 F 0 "P?" H 1550 6750 50  0001 C CNN
@@ -92,7 +150,7 @@ F 3 "" H 1550 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L CONN_01X18 P?
 U 1 1 58707FEE
 P 1550 7850
 F 0 "P?" H 1550 8800 50  0001 C CNN
@@ -103,7 +161,7 @@ F 3 "" H 1550 7850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 58718B57
 P 3000 3250
 F 0 "P?" H 3000 3900 50  0001 C CNN
@@ -114,7 +172,7 @@ F 3 "" H 3000 3250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 58721B64
 P 3000 1650
 F 0 "P?" H 3000 2300 50  0001 C CNN
@@ -125,7 +183,7 @@ F 3 "" H 3000 1650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 58723F53
 P 2850 1650
 F 0 "P?" H 2850 2300 50  0001 C CNN
@@ -136,7 +194,7 @@ F 3 "" H 2850 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 58739874
 P 5275 1650
 F 0 "P?" H 5275 2300 50  0001 C CNN
@@ -147,7 +205,7 @@ F 3 "" H 5275 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 5873A376
 P 5425 1650
 F 0 "P?" H 5425 2300 50  0001 C CNN
@@ -158,7 +216,7 @@ F 3 "" H 5425 1650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 587447E1
 P 5275 3650
 F 0 "P?" H 5275 3900 50  0001 C CNN
@@ -169,7 +227,7 @@ F 3 "" H 5275 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58745FFC
 P 5425 3650
 F 0 "P?" H 5425 3900 50  0001 C CNN
@@ -180,7 +238,7 @@ F 3 "" H 5425 3650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L CONN_01X12 P?
 U 1 1 58752B64
 P 2850 3250
 F 0 "P?" H 2850 3900 50  0001 C CNN
@@ -251,6 +309,8 @@ Entry Wire Line
 Entry Wire Line
 	800  2700 900  2800
 Entry Wire Line
+	800  2900 900  3000
+Entry Wire Line
 	800  3000 900  3100
 Entry Wire Line
 	800  3100 900  3200
@@ -266,12 +326,20 @@ Entry Wire Line
 	800  3700 900  3800
 Text Label 950  3700 0    60   ~ 0
 Grey
+Text Label 950  2700 0    60   ~ 0
+Pink
+Text Label 950  3000 0    60   ~ 0
+Lt_Blue
 Text Label 950  3100 0    60   ~ 0
 Brown
+Text Label 950  3800 0    60   ~ 0
+Black
 Text Label 950  3600 0    60   ~ 0
 White
 Text Label 950  3500 0    60   ~ 0
 White
+Text Label 950  3200 0    60   ~ 0
+Green
 Text Label 950  3300 0    60   ~ 0
 Blue
 Text Label 950  2800 0    60   ~ 0
@@ -443,6 +511,8 @@ Wire Wire Line
 	5625 3800 5800 3800
 Wire Wire Line
 	5625 3700 5800 3700
+Wire Bus Line
+	800  2550 800  9450
 Wire Wire Line
 	1350 4950 900  4950
 Wire Wire Line
@@ -461,6 +531,10 @@ Wire Wire Line
 	2650 2700 900  2700
 Wire Wire Line
 	900  2800 2650 2800
+Wire Wire Line
+	900  3000 2650 3000
+Wire Wire Line
+	900  3100 2650 3100
 Wire Wire Line
 	900  3200 2650 3200
 Wire Wire Line
@@ -484,7 +558,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 9450 2000 9450
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 587A95C2
 P 1700 9300
 F 0 "P?" H 1700 9550 50  0001 C CNN
@@ -495,7 +569,7 @@ F 3 "" H 1700 9300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 587A9C8F
 P 1550 9300
 F 0 "P?" H 1550 9550 50  0001 C CNN
@@ -551,6 +625,10 @@ Text Label 950  5950 0    60   ~ 0
 22g_gry
 Entry Bus Bus
 	800  4500 900  4400
+Wire Bus Line
+	7800 4400 900  4400
+Wire Bus Line
+	7800 1050 7800 4400
 Wire Wire Line
 	5625 1300 6200 1300
 Wire Wire Line
@@ -653,6 +731,8 @@ Text Notes 4200 9200 0    60   ~ 0
 This is Sting! It glows blue when orks are near.\nAnd it is at those times, Frodo my lad, that one should be extra carefull.
 Entry Bus Bus
 	7700 4400 7800 4500
+Wire Bus Line
+	7800 4500 7800 8050
 Wire Wire Line
 	7700 4950 7200 4950
 Wire Wire Line
@@ -686,7 +766,7 @@ Entry Wire Line
 Entry Wire Line
 	7700 4950 7800 4850
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58841380
 P 4950 5100
 F 0 "P?" H 4950 5350 50  0001 C CNN
@@ -697,7 +777,7 @@ F 3 "" H 4950 5100 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884291A
 P 5100 5100
 F 0 "P?" H 5100 5350 50  0001 C CNN
@@ -724,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5250 5350 5250
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58849FE2
 P 4950 6450
 F 0 "P?" H 4950 6700 50  0001 C CNN
@@ -735,7 +815,7 @@ F 3 "" H 4950 6450 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58849FE8
 P 5100 6450
 F 0 "P?" H 5100 6700 50  0001 C CNN
@@ -762,7 +842,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 6600 5350 6600
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884A358
 P 4950 7050
 F 0 "P?" H 4950 7300 50  0001 C CNN
@@ -773,7 +853,7 @@ F 3 "" H 4950 7050 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884A35E
 P 5100 7050
 F 0 "P?" H 5100 7300 50  0001 C CNN
@@ -800,7 +880,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 7200 5350 7200
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884C276
 P 6850 5100
 F 0 "P?" H 6850 5350 50  0001 C CNN
@@ -811,7 +891,7 @@ F 3 "" H 6850 5100 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884C27C
 P 7000 5100
 F 0 "P?" H 7000 5350 50  0001 C CNN
@@ -830,7 +910,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5250 6650 5250
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884EDF8
 P 6850 6450
 F 0 "P?" H 6850 6700 50  0001 C CNN
@@ -841,7 +921,7 @@ F 3 "" H 6850 6450 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5884EDFE
 P 7000 6450
 F 0 "P?" H 7000 6700 50  0001 C CNN
@@ -891,14 +971,20 @@ Text Label 2175 1700 0    60   ~ 0
 Yellow
 Text Label 2175 1800 0    60   ~ 0
 Orange
+Text Label 2175 2200 0    60   ~ 0
+Black
 Text Label 5800 2200 0    60   ~ 0
 Black
+Text Label 5800 2100 0    60   ~ 0
+Drk_Red
 Text Label 5800 1800 0    60   ~ 0
 Blue
 Text Label 5800 1700 0    60   ~ 0
 Black
 Text Label 5800 1400 0    60   ~ 0
 Purple
+Text Label 5800 1300 0    60   ~ 0
+P_Green
 Text Label 5800 1200 0    60   ~ 0
 Lt_Blue
 Text Label 5800 1100 0    60   ~ 0
@@ -925,7 +1011,7 @@ F15 "CAN_Power" I R 6600 7725 60
 F16 "CAN_GND" I R 6600 8025 60 
 $EndSheet
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5891E242
 P 6850 7875
 F 0 "P?" H 6850 8125 50  0001 C CNN
@@ -936,7 +1022,7 @@ F 3 "" H 6850 7875 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 58921421
 P 5100 7825
 F 0 "P?" H 5100 7975 50  0001 C CNN
@@ -947,7 +1033,7 @@ F 3 "" H 5100 7825 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 58922A85
 P 5100 8175
 F 0 "P?" H 5100 8325 50  0001 C CNN
@@ -958,7 +1044,7 @@ F 3 "" H 5100 8175 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 58923A6F
 P 5100 8525
 F 0 "P?" H 5100 8675 50  0001 C CNN
@@ -1005,7 +1091,7 @@ Entry Wire Line
 Entry Wire Line
 	7700 8025 7800 7925
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5892B628
 P 7000 7875
 F 0 "P?" H 7000 8125 50  0001 C CNN
@@ -1024,7 +1110,7 @@ CANH
 Text Label 7200 7725 0    60   ~ 0
 White
 $Comp
-L Supermileage:Servo M?
+L Servo M?
 U 1 1 58993384
 P 2800 9950
 F 0 "M?" H 2800 10050 60  0001 C CNN
@@ -1053,7 +1139,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 10050 3400 9350
 $Comp
-L Supermileage:Horn SP1
+L Horn SP1
 U 1 1 587EEE96
 P 5800 3750
 F 0 "SP1" H 5800 4150 60  0001 C CNN
@@ -1081,55 +1167,4 @@ Text Label 5800 1600 0    60   ~ 0
 Brown
 Text Label 5800 1900 0    60   ~ 0
 Black
-$Sheet
-S 6200 1000 1050 1300
-U 57E2AF30
-F0 "Back Of Car" 60
-F1 "Back_Of_Car.sch" 60
-F2 "Engine_Start" I L 6200 1800 60 
-F3 "Kill_In" I L 6200 1100 60 
-F4 "Kill_Out" O L 6200 1200 60 
-F5 "12VBatt" I L 6200 2100 60 
-F6 "GND_MAIN" I L 6200 2200 60 
-F7 "O2_Power" I L 6200 1300 60 
-F8 "EFI_Power" I L 6200 1400 60 
-F9 "EFI_GND" I L 6200 1700 60 
-F10 "CANH" B R 7250 1200 60 
-F11 "CANL" B R 7250 1300 60 
-F12 "CAN_GND" I R 7250 1400 60 
-F13 "CAN_PWR" I R 7250 1100 60 
-F14 "Canopy_PWR" I L 6200 1500 60 
-F15 "Canopy_SW" I L 6200 1600 60 
-F16 "Canopy_GND" I L 6200 1900 60 
-$EndSheet
-Text Label 2200 2000 0    60   ~ 0
-Pink
-Text Label 2200 2100 0    60   ~ 0
-Brown
-Wire Wire Line
-	900  3100 2650 3100
-Text Label 950  3200 0    60   ~ 0
-Lt_Blue
-Text Notes 4250 2600 0    60   ~ 0
-Canopy Stuff - keep except Canopy_GND, change to Relay_Start_GND
-Text Label 2100 2200 0    60   ~ 0
-Black_Orange
-Text Label 950  2700 0    60   ~ 0
-Pink_Pink
-Text Label 950  3800 0    60   ~ 0
-Black_Black
-Text Label 5800 1300 0    60   ~ 0
-Lt_Green
-Text Label 5800 2100 0    60   ~ 0
-Red
-Wire Bus Line
-	900  4400 7800 4400
-Wire Bus Line
-	7800 1050 7800 4400
-Wire Bus Line
-	7800 4500 7800 8050
-Wire Bus Line
-	800  2550 800  9450
-Text Notes 7500 2300 1    60   ~ 0
-22 guage grey ->
 $EndSCHEMATC

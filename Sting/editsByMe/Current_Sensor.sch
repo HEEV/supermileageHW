@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 14
+Sheet 13 14
 Title "Current Sensor"
 Date "2017-01-05"
 Rev "2.0"
@@ -926,8 +926,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 3800 5700 3900
 Wire Wire Line
+	5650 3600 5700 3600
+Wire Wire Line
 	5700 3600 5800 3600
 Connection ~ 5700 3400
+Wire Wire Line
+	5650 3500 5700 3500
 Wire Wire Line
 	5700 3500 5800 3500
 Connection ~ 5700 3300
@@ -1171,7 +1175,11 @@ Wire Wire Line
 Wire Wire Line
 	5075 3600 5275 3600
 Wire Wire Line
+	5275 3600 5650 3600
+Wire Wire Line
 	5175 3500 5375 3500
+Wire Wire Line
+	5375 3500 5650 3500
 Text HLabel 8325 2575 1    60   UnSpc ~ 0
 In3_+
 Text HLabel 8225 2575 1    60   UnSpc ~ 0
@@ -1234,8 +1242,4 @@ Wire Wire Line
 	8125 3500 8325 3500
 Wire Wire Line
 	8325 3500 8600 3500
-Wire Wire Line
-	5275 3600 5700 3600
-Wire Wire Line
-	5375 3500 5700 3500
 $EndSCHEMATC

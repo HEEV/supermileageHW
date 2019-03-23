@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 14
+Sheet 5 12
 Title "Arduino Breakout"
 Date "2017-01-04"
 Rev "1.0"
@@ -34,9 +34,9 @@ Servo_out
 Text HLabel 3400 3250 0    60   Output ~ 0
 Servo_GND
 Text HLabel 3400 2825 0    60   Input ~ 0
-Throttle_in
+CANL
 Text HLabel 3400 2725 0    60   Output ~ 0
-Throttle_5v
+CANH
 Text HLabel 3400 2925 0    60   Input ~ 0
 GND
 $Comp
@@ -99,7 +99,7 @@ L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 58986906
 P 3650 2775
 F 0 "P?" H 3650 3025 50  0001 C CNN
-F 1 "Arduino" H 3725 3050 50  0000 C CNN
+F 1 "Can" H 3725 3050 50  0000 C CNN
 F 2 "" H 3650 2775 50  0000 C CNN
 F 3 "" H 3650 2775 50  0000 C CNN
 	1    3650 2775
@@ -182,10 +182,4 @@ Wire Wire Line
 	4125 2250 4125 2925
 Wire Wire Line
 	4125 3250 4125 4700
-Text Notes 7000 3250 0    60   ~ 12
-NEED TO CHANGE ALL OF THIS!\nNOT USING ARDUINOS!
-Text Notes 2600 6000 0    60   ~ 12
-PUT CAN THING HERE ---- NEED TO FIGURE OUT HOW TO DO IT!
-Text Notes 4450 1650 0    60   ~ 0
-DELETE THIS!
 $EndSCHEMATC

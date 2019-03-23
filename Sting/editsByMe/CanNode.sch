@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 14
+Sheet 8 12
 Title "Can Node"
 Date "2016-05-09"
 Rev "0.3"

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 14
+Sheet 14 14
 Title "Current Sensor"
 Date "2016-05-09"
 Rev "2.0"

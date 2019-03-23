@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 1 14
+Sheet 1 12
 Title "Sting - Gasoline Prototype"
 Date "2016-05-25"
 Rev "1.6"
@@ -48,15 +48,14 @@ F10 "J2_17_HORN" O L 2000 8600 60
 F11 "J2_8_PITOT_TEMP" I L 2000 7700 60 
 F12 "J2_10_PITOT" I L 2000 7900 60 
 F13 "J2_11_SYSTEM_V" I L 2000 8000 60 
-F14 "J2_3_ARM_STATUS" I L 2000 7200 60 
-F15 "J2_4_HIGH_P_EFI" I L 2000 7300 60 
-F16 "J2_12_LOW_P_EFI" I L 2000 8100 60 
-F17 "J2_6_ENGINE_START" O L 2000 7500 60 
-F18 "J2_5_ENGINE_STOP" O L 2000 7400 60 
-F19 "J1_6_SEN_5V" O L 2000 5450 60 
-F20 "J1_11_SEN_GND" O L 2000 5950 60 
-F21 "J1_3_CAN_H" B L 2000 5150 60 
-F22 "J1_9_CAN_L" B L 2000 5750 60 
+F14 "J2_4_HIGH_P_EFI" I L 2000 7300 60 
+F15 "J2_12_LOW_P_EFI" I L 2000 8100 60 
+F16 "J2_6_ENGINE_START" O L 2000 7500 60 
+F17 "J2_5_ENGINE_STOP" O L 2000 7400 60 
+F18 "J1_6_SEN_5V" O L 2000 5450 60 
+F19 "J1_11_SEN_GND" O L 2000 5950 60 
+F20 "J1_3_CAN_H" B L 2000 5150 60 
+F21 "J1_9_CAN_L" B L 2000 5750 60 
 $EndSheet
 $Comp
 L Wiring-Diagram-v2-rescue:CONN_01X18 P?
@@ -199,8 +198,6 @@ Entry Wire Line
 Entry Wire Line
 	800  6250 900  6350
 Entry Wire Line
-	800  7100 900  7200
-Entry Wire Line
 	800  7300 900  7400
 Entry Wire Line
 	800  7400 900  7500
@@ -240,11 +237,10 @@ F27 "C_6_E_Stop" I L 3250 3200 60
 F28 "C_5_Horn" I L 3250 3100 60 
 F29 "C_1_5v" I L 3250 2700 60 
 F30 "C_2_THROTTLE" I L 3250 2800 60 
-F31 "C_4_Arm_Status" I L 3250 3000 60 
-F32 "C_10_CAN_Power" I L 3250 3600 60 
-F33 "E_6_CANOPY_SW" O R 4975 1600 60 
-F34 "E_5_CANOPY_PWR" O R 4975 1500 60 
-F35 "E_9_CANOPY_GND" O R 4975 1900 60 
+F31 "C_10_CAN_Power" I L 3250 3600 60 
+F32 "E_6_CANOPY_SW" O R 4975 1600 60 
+F33 "E_5_CANOPY_PWR" O R 4975 1500 60 
+F34 "E_9_CANOPY_GND" O R 4975 1900 60 
 $EndSheet
 Entry Wire Line
 	800  2600 900  2700
@@ -280,8 +276,6 @@ Text Label 950  4950 0    60   ~ 0
 Grey
 Text Label 950  6050 0    60   ~ 0
 White
-Text Label 950  7200 0    60   ~ 0
-Lt_Blue
 Text Label 950  7400 0    60   ~ 0
 Green
 Text Label 950  7500 0    60   ~ 0
@@ -323,8 +317,6 @@ Wire Wire Line
 	1900 6550 2000 6550
 Wire Wire Line
 	1900 6650 2000 6650
-Wire Wire Line
-	1900 7200 2000 7200
 Wire Wire Line
 	1900 7300 2000 7300
 Wire Wire Line
@@ -394,8 +386,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 2800 3250 2800
 Wire Wire Line
-	3200 3000 3250 3000
-Wire Wire Line
 	3200 3100 3250 3100
 Wire Wire Line
 	3200 3200 3250 3200
@@ -450,8 +440,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 6350 900  6350
 Wire Wire Line
-	1350 7200 900  7200
-Wire Wire Line
 	1350 7400 900  7400
 Wire Wire Line
 	1350 7500 900  7500
@@ -499,7 +487,7 @@ L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 587A9C8F
 P 1550 9300
 F 0 "P?" H 1550 9550 50  0001 C CNN
-F 1 "Arduino" H 1625 9025 50  0000 C CNN
+F 1 "Can" H 1625 9025 50  0000 C CNN
 F 2 "" H 1550 9300 50  0000 C CNN
 F 3 "" H 1550 9300 50  0000 C CNN
 	1    1550 9300
@@ -540,11 +528,11 @@ Wire Wire Line
 Entry Wire Line
 	800  5850 900  5950
 Text Label 950  9250 0    60   ~ 0
-Pink
+White
 Text Label 950  9350 0    60   ~ 0
-Yellow
+Blue
 Text Label 950  9450 0    60   ~ 0
-Black
+Orange
 Text Label 950  9150 0    60   ~ 0
 White
 Text Label 950  5950 0    60   ~ 0
@@ -903,126 +891,6 @@ Text Label 5800 1200 0    60   ~ 0
 Lt_Blue
 Text Label 5800 1100 0    60   ~ 0
 Lt_Blue
-$Sheet
-S 5350 7650 1250 1050
-U 588FE424
-F0 "Current Sensor" 60
-F1 "Current_Sensor.sch" 60
-F2 "Current1" O R 6600 8300 60 
-F3 "Current2" O R 6600 8400 60 
-F4 "Current3" O R 6600 8500 60 
-F5 "CANH" B R 6600 7825 60 
-F6 "CANL" B R 6600 7925 60 
-F7 "In1_+" U L 5350 7775 60 
-F8 "In1_-" U L 5350 7875 60 
-F9 "In2_+" U L 5350 8125 60 
-F10 "In2_-" U L 5350 8225 60 
-F11 "In3_+" U L 5350 8475 60 
-F12 "In3_-" U L 5350 8575 60 
-F13 "A_Power" I R 6600 8200 60 
-F14 "A_GND" I R 6600 8600 60 
-F15 "CAN_Power" I R 6600 7725 60 
-F16 "CAN_GND" I R 6600 8025 60 
-$EndSheet
-$Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
-U 1 1 5891E242
-P 6850 7875
-F 0 "P?" H 6850 8125 50  0001 C CNN
-F 1 "CAN" V 6950 7875 50  0001 C CNN
-F 2 "" H 6850 7875 50  0000 C CNN
-F 3 "" H 6850 7875 50  0000 C CNN
-	1    6850 7875
-	1    0    0    1   
-$EndComp
-$Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
-U 1 1 58921421
-P 5100 7825
-F 0 "P?" H 5100 7975 50  0001 C CNN
-F 1 "CONN_01X02" V 5200 7825 50  0001 C CNN
-F 2 "" H 5100 7825 50  0000 C CNN
-F 3 "" H 5100 7825 50  0000 C CNN
-	1    5100 7825
-	-1   0    0    1   
-$EndComp
-$Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
-U 1 1 58922A85
-P 5100 8175
-F 0 "P?" H 5100 8325 50  0001 C CNN
-F 1 "CONN_01X02" V 5200 8175 50  0001 C CNN
-F 2 "" H 5100 8175 50  0000 C CNN
-F 3 "" H 5100 8175 50  0000 C CNN
-	1    5100 8175
-	-1   0    0    1   
-$EndComp
-$Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
-U 1 1 58923A6F
-P 5100 8525
-F 0 "P?" H 5100 8675 50  0001 C CNN
-F 1 "CONN_01X02" V 5200 8525 50  0001 C CNN
-F 2 "" H 5100 8525 50  0000 C CNN
-F 3 "" H 5100 8525 50  0000 C CNN
-	1    5100 8525
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5300 7775 5350 7775
-Wire Wire Line
-	5300 7875 5350 7875
-Wire Wire Line
-	5300 8125 5350 8125
-Wire Wire Line
-	5300 8225 5350 8225
-Wire Wire Line
-	5300 8475 5350 8475
-Wire Wire Line
-	5300 8575 5350 8575
-Wire Wire Line
-	6650 7725 6600 7725
-Wire Wire Line
-	6650 7825 6600 7825
-Wire Wire Line
-	6650 7925 6600 7925
-Wire Wire Line
-	6650 8025 6600 8025
-Wire Wire Line
-	7700 7725 7200 7725
-Wire Wire Line
-	7700 7825 7200 7825
-Wire Wire Line
-	7700 7925 7200 7925
-Wire Wire Line
-	7700 8025 7200 8025
-Entry Wire Line
-	7700 7725 7800 7625
-Entry Wire Line
-	7700 7825 7800 7725
-Entry Wire Line
-	7700 7925 7800 7825
-Entry Wire Line
-	7700 8025 7800 7925
-$Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
-U 1 1 5892B628
-P 7000 7875
-F 0 "P?" H 7000 8125 50  0001 C CNN
-F 1 "CAN" H 7075 7600 50  0000 C CNN
-F 2 "" H 7000 7875 50  0000 C CNN
-F 3 "" H 7000 7875 50  0000 C CNN
-	1    7000 7875
-	-1   0    0    1   
-$EndComp
-Text Label 7200 8025 0    60   ~ 0
-22g_gry
-Text Label 7200 7925 0    60   ~ 0
-CANL
-Text Label 7200 7825 0    60   ~ 0
-CANH
-Text Label 7200 7725 0    60   ~ 0
-White
 $Comp
 L Supermileage:Servo M?
 U 1 1 58993384
@@ -1037,19 +905,15 @@ $EndComp
 Wire Wire Line
 	3200 9850 3300 9850
 Wire Wire Line
-	3300 9850 3300 9150
-Wire Wire Line
 	3300 9150 3200 9150
 Wire Wire Line
-	3200 9250 3350 9250
+	3200 9250 3300 9250
 Wire Wire Line
 	3350 9950 3200 9950
 Wire Wire Line
 	3200 10050 3400 10050
 Wire Wire Line
-	3350 9250 3350 9950
-Wire Wire Line
-	3400 9350 3200 9350
+	3400 9350 3350 9350
 Wire Wire Line
 	3400 10050 3400 9350
 $Comp
@@ -1100,7 +964,6 @@ F12 "CAN_GND" I R 7250 1400 60
 F13 "CAN_PWR" I R 7250 1100 60 
 F14 "Canopy_PWR" I L 6200 1500 60 
 F15 "Canopy_SW" I L 6200 1600 60 
-F16 "Canopy_GND" I L 6200 1900 60 
 $EndSheet
 Text Label 2200 2000 0    60   ~ 0
 Pink
@@ -1110,8 +973,6 @@ Wire Wire Line
 	900  3100 2650 3100
 Text Label 950  3200 0    60   ~ 0
 Lt_Blue
-Text Notes 4250 2600 0    60   ~ 0
-Canopy Stuff - keep except Canopy_GND, change to Relay_Start_GND
 Text Label 2100 2200 0    60   ~ 0
 Black_Orange
 Text Label 950  2700 0    60   ~ 0
@@ -1122,6 +983,34 @@ Text Label 5800 1300 0    60   ~ 0
 Lt_Green
 Text Label 5800 2100 0    60   ~ 0
 Red
+Text Notes 7500 2300 1    60   ~ 0
+22 guage grey ->
+Text Notes 3800 9500 0    60   ~ 0
+Edited by: Madeline Chairvolotti
+Text Notes 5300 9500 0    60   ~ 0
+Date: 03-23-2019
+Entry Wire Line
+	800  3300 900  3400
+Text Label 950  3400 0    60   ~ 0
+Grey
+Wire Wire Line
+	900  3400 2650 3400
+Text Label 3250 9150 0    60   ~ 0
+Red
+Text Label 3300 9250 0    60   ~ 0
+Black
+Wire Wire Line
+	3300 9250 3350 9250
+Text Label 3350 9350 0    60   ~ 0
+Yellow
+Wire Wire Line
+	3350 9350 3200 9350
+Wire Wire Line
+	3300 9150 3300 9850
+Wire Wire Line
+	3350 9250 3350 9950
+Text HLabel 6200 1900 2    60   Output ~ 0
+Relay_GND
 Wire Bus Line
 	900  4400 7800 4400
 Wire Bus Line
@@ -1130,6 +1019,4 @@ Wire Bus Line
 	7800 4500 7800 8050
 Wire Bus Line
 	800  2550 800  9450
-Text Notes 7500 2300 1    60   ~ 0
-22 guage grey ->
 $EndSCHEMATC

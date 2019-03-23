@@ -1,6 +1,43 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EllicottInterface:mcp2562 U?
+L mcp2562 U?
 U 1 1 5880F9AE
 P 6700 1500
 AR Path="/5880E829/5880F9AE" Ref="U?"  Part="1" 
@@ -30,7 +67,7 @@ F 5 "579-MCP2562-E/SN" H 6700 1500 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:MIC5317 U?
+L MIC5317 U?
 U 1 1 5880F9AF
 P 3800 1350
 AR Path="/5880E829/5880F9AF" Ref="U?"  Part="1" 
@@ -45,7 +82,7 @@ F 5 "998-MIC5317-3.3YM5TR" H 3800 1350 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9B0
 P 4600 1750
 AR Path="/5880E829/5880F9B0" Ref="C?"  Part="1" 
@@ -60,7 +97,7 @@ F 5 "80-C0603C105K8P" H 4600 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9B1
 P 3250 1750
 AR Path="/5880E829/5880F9B1" Ref="C?"  Part="1" 
@@ -73,7 +110,7 @@ F 3 "" H 3250 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9B2
 P 3800 2050
 AR Path="/5880E829/5880F9B2" Ref="#PWR?"  Part="1" 
@@ -86,7 +123,7 @@ F 3 "" H 3800 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5880F9B3
 P 3000 1150
 AR Path="/5880E829/5880F9B3" Ref="#PWR?"  Part="1" 
@@ -99,7 +136,7 @@ F 3 "" H 3000 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9B4
 P 4900 1150
 AR Path="/5880E829/5880F9B4" Ref="#PWR?"  Part="1" 
@@ -112,7 +149,7 @@ F 3 "" H 4900 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9B5
 P 5300 2800
 AR Path="/5880E829/5880F9B5" Ref="#PWR?"  Part="1" 
@@ -125,7 +162,7 @@ F 3 "" H 5300 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9B6
 P 7450 2850
 AR Path="/5880E829/5880F9B6" Ref="C?"  Part="1" 
@@ -140,7 +177,7 @@ F 5 "80-C0603C105K8P" H 7450 2850 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9B7
 P 7650 2850
 AR Path="/5880E829/5880F9B7" Ref="C?"  Part="1" 
@@ -153,7 +190,7 @@ F 3 "" H 7650 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9B8
 P 4900 1750
 AR Path="/5880E829/5880F9B8" Ref="C?"  Part="1" 
@@ -166,7 +203,7 @@ F 3 "" H 4900 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9B9
 P 6700 2050
 AR Path="/5880E829/5880F9B9" Ref="#PWR?"  Part="1" 
@@ -179,7 +216,7 @@ F 3 "" H 6700 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9BA
 P 6550 950
 AR Path="/5880E829/5880F9BA" Ref="#PWR?"  Part="1" 
@@ -192,7 +229,7 @@ F 3 "" H 6550 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5880F9BB
 P 6850 950
 AR Path="/5880E829/5880F9BB" Ref="#PWR?"  Part="1" 
@@ -205,7 +242,7 @@ F 3 "" H 6850 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9BC
 P 5800 900
 AR Path="/5880E829/5880F9BC" Ref="C?"  Part="1" 
@@ -218,7 +255,7 @@ F 3 "" H 5800 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9BD
 P 5800 1050
 AR Path="/5880E829/5880F9BD" Ref="#PWR?"  Part="1" 
@@ -231,7 +268,7 @@ F 3 "" H 5800 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5880F9BE
 P 5800 750
 AR Path="/5880E829/5880F9BE" Ref="#PWR?"  Part="1" 
@@ -244,7 +281,7 @@ F 3 "" H 5800 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5880F9BF
 P 1000 800
 AR Path="/5880E829/5880F9BF" Ref="D?"  Part="1" 
@@ -259,7 +296,7 @@ F 5 "581-SD1206S040S0R5" H 1000 800 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880F9C0
 P 700 1150
 AR Path="/5880E829/5880F9C0" Ref="#PWR?"  Part="1" 
@@ -272,7 +309,7 @@ F 3 "" H 700 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5880F9C1
 P 9150 1150
 AR Path="/5880E829/5880F9C1" Ref="P?"  Part="1" 
@@ -287,7 +324,7 @@ F 5 "538-53261-0471" H 9150 1150 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5880F9C2
 P 9150 1950
 AR Path="/5880E829/5880F9C2" Ref="P?"  Part="1" 
@@ -302,7 +339,7 @@ F 5 "538-53261-0471" H 9150 1950 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9C3
 P 8850 1300
 AR Path="/5880E829/5880F9C3" Ref="#PWR?"  Part="1" 
@@ -315,7 +352,7 @@ F 3 "" H 8850 1300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9C4
 P 8850 2100
 AR Path="/5880E829/5880F9C4" Ref="#PWR?"  Part="1" 
@@ -340,7 +377,7 @@ CAN_H
 Text Label 7450 1600 0    60   ~ 0
 CAN_L
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9C5
 P 2400 1750
 AR Path="/5880E829/5880F9C5" Ref="C?"  Part="1" 
@@ -355,7 +392,7 @@ F 5 "81-GRM188R61C106KALD" H 2400 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9C6
 P 700 1750
 AR Path="/5880E829/5880F9C6" Ref="C?"  Part="1" 
@@ -370,7 +407,7 @@ F 5 "81-GRM188R61C106KALD" H 700 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9C7
 P 1900 2050
 AR Path="/5880E829/5880F9C7" Ref="#PWR?"  Part="1" 
@@ -383,7 +420,7 @@ F 3 "" H 1900 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5880F9C8
 P 2700 1150
 AR Path="/5880E829/5880F9C8" Ref="#PWR?"  Part="1" 
@@ -396,7 +433,7 @@ F 3 "" H 2700 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9C9
 P 1000 1750
 AR Path="/5880E829/5880F9C9" Ref="C?"  Part="1" 
@@ -409,7 +446,7 @@ F 3 "" H 1000 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9CA
 P 3000 1750
 AR Path="/5880E829/5880F9CA" Ref="C?"  Part="1" 
@@ -424,7 +461,7 @@ F 5 "80-C0603C105K8P" H 3000 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5880F9CB
 P 1800 4200
 AR Path="/5880E829/5880F9CB" Ref="P?"  Part="1" 
@@ -439,7 +476,7 @@ F 5 "538-53261-0471" H 1800 4200 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9CC
 P 2100 4500
 AR Path="/5880E829/5880F9CC" Ref="#PWR?"  Part="1" 
@@ -454,7 +491,7 @@ $EndComp
 Text Label 2550 4250 0    60   ~ 0
 io1
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9CD
 P 2300 3950
 AR Path="/5880E829/5880F9CD" Ref="#PWR?"  Part="1" 
@@ -467,7 +504,7 @@ F 3 "" H 2300 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 5880F9CE
 P 1800 5250
 AR Path="/5880E829/5880F9CE" Ref="P?"  Part="1" 
@@ -482,7 +519,7 @@ F 5 "538-53261-0471" H 1800 5250 60  0001 C CNN "PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9CF
 P 2100 5550
 AR Path="/5880E829/5880F9CF" Ref="#PWR?"  Part="1" 
@@ -497,7 +534,7 @@ $EndComp
 Text Label 2550 5300 0    60   ~ 0
 io2
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9D0
 P 2300 5000
 AR Path="/5880E829/5880F9D0" Ref="#PWR?"  Part="1" 
@@ -514,7 +551,7 @@ SWDIO
 Text Label 1525 6325 0    60   ~ 0
 SWCLK
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9D1
 P 1475 6475
 AR Path="/5880E829/5880F9D1" Ref="#PWR?"  Part="1" 
@@ -543,7 +580,7 @@ CAN_TX
 Text Label 3750 4500 2    60   ~ 0
 io2
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9D2
 P 8100 1750
 AR Path="/5880E829/5880F9D2" Ref="R?"  Part="1" 
@@ -562,7 +599,7 @@ CAN_H
 Text Label 8100 2000 2    60   ~ 0
 CAN_L
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 5880F9D3
 P 9350 3550
 AR Path="/5880E829/5880F9D3" Ref="D?"  Part="1" 
@@ -575,7 +612,7 @@ F 3 "" V 9350 3550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 5880F9D4
 P 9350 3850
 AR Path="/5880E829/5880F9D4" Ref="D?"  Part="1" 
@@ -588,7 +625,7 @@ F 3 "" V 9350 3850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9D5
 P 9550 3950
 AR Path="/5880E829/5880F9D5" Ref="#PWR?"  Part="1" 
@@ -609,7 +646,7 @@ LED2
 Text Label 6550 5100 0    60   ~ 0
 LED1
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9D6
 P 6000 1700
 AR Path="/5880E829/5880F9D6" Ref="#PWR?"  Part="1" 
@@ -622,7 +659,7 @@ F 3 "" H 6000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:USB_OTG-RESCUE-Wiring_Diagram_v2 P?
+L USB_OTG-RESCUE-Wiring_Diagram_v2 P?
 U 1 1 5880F9D7
 P 1275 7225
 AR Path="/5880E829/5880F9D7" Ref="P?"  Part="1" 
@@ -642,7 +679,7 @@ USB_DM
 Text Label 1675 7225 0    60   ~ 0
 USB_DP
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5880F9D8
 P 1625 6975
 AR Path="/5880E829/5880F9D8" Ref="#PWR?"  Part="1" 
@@ -655,7 +692,7 @@ F 3 "" H 1625 6975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9D9
 P 1575 7725
 AR Path="/5880E829/5880F9D9" Ref="#PWR?"  Part="1" 
@@ -668,7 +705,7 @@ F 3 "" H 1575 7725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9DA
 P 5200 6750
 AR Path="/5880E829/5880F9DA" Ref="C?"  Part="1" 
@@ -681,7 +718,7 @@ F 3 "" H 5200 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L SW_PUSH_SMALL SW?
 U 1 1 5880F9DB
 P 6275 6400
 AR Path="/5880E829/5880F9DB" Ref="SW?"  Part="1" 
@@ -694,7 +731,7 @@ F 3 "" H 6275 6400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9DC
 P 6075 6950
 AR Path="/5880E829/5880F9DC" Ref="#PWR?"  Part="1" 
@@ -707,7 +744,7 @@ F 3 "" H 6075 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9DD
 P 6375 6250
 AR Path="/5880E829/5880F9DD" Ref="#PWR?"  Part="1" 
@@ -720,7 +757,7 @@ F 3 "" H 6375 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L SW_PUSH_SMALL SW?
 U 1 1 5880F9DE
 P 5550 6600
 AR Path="/5880E829/5880F9DE" Ref="SW?"  Part="1" 
@@ -733,7 +770,7 @@ F 3 "" H 5550 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:NJM2870F0 U?
+L NJM2870F0 U?
 U 1 1 5880F9DF
 P 1900 1250
 AR Path="/5880E829/5880F9DF" Ref="U?"  Part="1" 
@@ -748,7 +785,7 @@ F 5 "513-NJM2870F05-TE2" H 1900 1250 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9E0
 P 2700 1750
 AR Path="/5880E829/5880F9E0" Ref="C?"  Part="1" 
@@ -761,7 +798,7 @@ F 3 "" H 2700 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9E1
 P 1200 1450
 AR Path="/5880E829/5880F9E1" Ref="R?"  Part="1" 
@@ -776,7 +813,7 @@ F 5 "71-CRCW0603-100K-E3" V 1200 1450 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9E2
 P 6075 6750
 AR Path="/5880E829/5880F9E2" Ref="R?"  Part="1" 
@@ -791,7 +828,7 @@ F 5 "71-CRCW0603-100K-E3" V 6075 6750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9E3
 P 1775 7475
 AR Path="/5880E829/5880F9E3" Ref="R?"  Part="1" 
@@ -806,7 +843,7 @@ F 5 "71-CRCW0603-100K-E3" V 1775 7475 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9E4
 P 9000 3550
 AR Path="/5880E829/5880F9E4" Ref="R?"  Part="1" 
@@ -821,7 +858,7 @@ F 5 "71-CRCW0603-120-E3" V 9000 3550 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5880F9E5
 P 9000 3850
 AR Path="/5880E829/5880F9E5" Ref="R?"  Part="1" 
@@ -836,7 +873,7 @@ F 5 "71-CRCW0603-120-E3" V 9000 3850 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9E6
 P 5450 7000
 AR Path="/5880E829/5880F9E6" Ref="#PWR?"  Part="1" 
@@ -849,7 +886,7 @@ F 3 "" H 5450 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9E7
 P 8150 2850
 AR Path="/5880E829/5880F9E7" Ref="C?"  Part="1" 
@@ -862,7 +899,7 @@ F 3 "" H 8150 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5880F9E8
 P 7300 2650
 AR Path="/5880E829/5880F9E8" Ref="#PWR?"  Part="1" 
@@ -875,7 +912,7 @@ F 3 "" H 7300 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9E9
 P 7300 3050
 AR Path="/5880E829/5880F9E9" Ref="#PWR?"  Part="1" 
@@ -888,7 +925,7 @@ F 3 "" H 7300 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9EA
 P 7950 2850
 AR Path="/5880E829/5880F9EA" Ref="C?"  Part="1" 
@@ -903,7 +940,7 @@ F 5 "81-GRM188R61C106KALD" H 7950 2850 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L CONN_01X03 P?
 U 1 1 5880F9EB
 P 1175 6325
 AR Path="/5880E829/5880F9EB" Ref="P?"  Part="1" 
@@ -916,7 +953,7 @@ F 3 "" H 1175 6325 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5880F9EC
 P 4300 3000
 AR Path="/5880E829/5880F9EC" Ref="#PWR?"  Part="1" 
@@ -935,7 +972,7 @@ CAN_TX
 Text Label 6600 5700 0    60   ~ 0
 io1
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5880F9ED
 P 2500 4100
 AR Path="/5880E829/5880F9ED" Ref="D?"  Part="1" 
@@ -948,7 +985,7 @@ F 3 "" V 2500 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5880F9EE
 P 2500 4400
 AR Path="/5880E829/5880F9EE" Ref="D?"  Part="1" 
@@ -961,7 +998,7 @@ F 3 "" V 2500 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5880F9EF
 P 2500 5150
 AR Path="/5880E829/5880F9EF" Ref="D?"  Part="1" 
@@ -974,7 +1011,7 @@ F 3 "" V 2500 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5880F9F0
 P 2500 5450
 AR Path="/5880E829/5880F9F0" Ref="D?"  Part="1" 
@@ -987,7 +1024,7 @@ F 3 "" V 2500 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R
+L R_Small R
 U 1 1 5880F9F1
 P 2350 5450
 AR Path="/5880E829/5880F9F1" Ref="R"  Part="1" 
@@ -1000,7 +1037,7 @@ F 3 "" H 2350 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R
+L R_Small R
 U 1 1 5880F9F2
 P 2350 4400
 AR Path="/5880E829/5880F9F2" Ref="R"  Part="1" 
@@ -1013,7 +1050,7 @@ F 3 "" H 2350 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R
+L R_Small R
 U 1 1 5880F9F3
 P 2200 5300
 AR Path="/5880E829/5880F9F3" Ref="R"  Part="1" 
@@ -1027,7 +1064,7 @@ F 4 "Mouser" H 2200 5300 60  0001 C CNN "Distributor"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R
+L R_Small R
 U 1 1 5880F9F4
 P 2200 4250
 AR Path="/5880E829/5880F9F4" Ref="R"  Part="1" 
@@ -1040,7 +1077,7 @@ F 3 "" H 2200 4250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EllicottMicrocontrollers:STM32F042C6 U?
+L STM32F042C6 U?
 U 1 1 5880F9F5
 P 5150 4550
 AR Path="/5880E829/5880F9F5" Ref="U?"  Part="1" 
@@ -1053,7 +1090,7 @@ F 3 "" H 5150 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9F6
 P 6950 2850
 AR Path="/5880E829/5880F9F6" Ref="C?"  Part="1" 
@@ -1068,7 +1105,7 @@ F 5 "80-C0603C105K8P" H 6950 2850 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9F7
 P 7150 2850
 AR Path="/5880E829/5880F9F7" Ref="C?"  Part="1" 
@@ -1081,7 +1118,7 @@ F 3 "" H 7150 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9F8
 P 6450 2850
 AR Path="/5880E829/5880F9F8" Ref="C?"  Part="1" 
@@ -1096,7 +1133,7 @@ F 5 "80-C0603C105K8P" H 6450 2850 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9F9
 P 6650 2850
 AR Path="/5880E829/5880F9F9" Ref="C?"  Part="1" 
@@ -1109,7 +1146,7 @@ F 3 "" H 6650 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880F9FA
 P 2100 3950
 AR Path="/5880E829/5880F9FA" Ref="#PWR?"  Part="1" 
@@ -1122,7 +1159,7 @@ F 3 "" H 2100 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880F9FB
 P 2100 5000
 AR Path="/5880E829/5880F9FB" Ref="#PWR?"  Part="1" 
@@ -1141,7 +1178,7 @@ Vin
 Text Label 8850 1800 2    60   ~ 0
 Vin
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880F9FC
 P 1250 800
 AR Path="/5880E829/5880F9FC" Ref="#PWR?"  Part="1" 
@@ -1154,7 +1191,7 @@ F 3 "" H 1250 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9FD
 P 2850 4250
 AR Path="/5880E829/5880F9FD" Ref="C?"  Part="1" 
@@ -1169,7 +1206,7 @@ F 5 "81-GRM188R61C106KALD" H 2850 4250 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5880F9FE
 P 2850 5300
 AR Path="/5880E829/5880F9FE" Ref="C?"  Part="1" 
@@ -1184,7 +1221,7 @@ F 5 "81-GRM188R61C106KALD" H 2850 5300 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880F9FF
 P 2850 3950
 AR Path="/5880E829/5880F9FF" Ref="#PWR?"  Part="1" 
@@ -1197,7 +1234,7 @@ F 3 "" H 2850 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L VDD #PWR?
 U 1 1 5880FA00
 P 2850 5000
 AR Path="/5880E829/5880FA00" Ref="#PWR?"  Part="1" 
@@ -1555,7 +1592,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5700 6500 5700
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58810BE7
 P 1650 4200
 AR Path="/5880E829/58810BE7" Ref="P?"  Part="1" 
@@ -1570,7 +1607,7 @@ F 5 "538-53261-0471" H 1650 4200 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58810D3D
 P 1650 5250
 AR Path="/5880E829/58810D3D" Ref="P?"  Part="1" 
@@ -1585,7 +1622,7 @@ F 5 "538-53261-0471" H 1650 5250 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 58811550
 P 9300 1150
 AR Path="/5880E829/58811550" Ref="P?"  Part="1" 

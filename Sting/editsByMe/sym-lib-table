@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name Wiring-Diagram-v2-rescue)(type Legacy)(uri "${KIPRJMOD}/Wiring Diagram v2-rescue.lib")(options "")(descr ""))
+  (lib (name Supermileage)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/parts_library/Supermileage.lib")(options "")(descr ""))
+  (lib (name EllicottDisplay)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/EllicottSamuel/EllicottDisplay.lib")(options "")(descr ""))
+  (lib (name EllicottInterface)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/EllicottSamuel/EllicottInterface.lib")(options "")(descr ""))
+  (lib (name EllicottMicrocontrollers)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/EllicottSamuel/EllicottMicrocontrollers.lib")(options "")(descr ""))
+  (lib (name EllicottMisc)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/EllicottSamuel/EllicottMisc.lib")(options "")(descr ""))
+  (lib (name EllicottPower)(type Legacy)(uri "C:/Users/mrose/Desktop/Cedarville 18-19/SuperMileage/KiCad/supermileageHW/EllicottSamuel/EllicottPower.lib")(options "")(descr ""))
+)

@@ -1,47 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:Wiring Diagram v2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:EllicottDisplay
-LIBS:EllicottInterface
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottMisc
-LIBS:EllicottPower
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:Wiring Diagram v2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 14
+Sheet 4 14
 Title "Sting - Gasoline Prototype"
 Date "2017-01-04"
 Rev "1.6"
@@ -52,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_SPST SW2
+L Supermileage:SW_SPST SW2
 U 1 1 57FAAED6
 P 2100 2100
+AR Path="/57E6D70C/57FAAED6" Ref="SW2"  Part="1" 
+AR Path="/5C847568/57FAAED6" Ref="SW?"  Part="1" 
 F 0 "SW2" H 2100 2250 60  0000 C CNN
 F 1 "Key" H 2100 2000 60  0000 C CNN
 F 2 "" H 2100 2100 60  0000 C CNN
@@ -63,9 +28,11 @@ F 3 "" H 2100 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW12
+L Supermileage:SW_SPST SW12
 U 1 1 57FAAF38
 P 2100 3350
+AR Path="/57E6D70C/57FAAF38" Ref="SW12"  Part="1" 
+AR Path="/5C847568/57FAAF38" Ref="SW?"  Part="1" 
 F 0 "SW12" H 1900 3475 60  0000 C CNN
 F 1 "Computer" H 2100 3250 60  0000 C CNN
 F 2 "" H 2100 3350 60  0000 C CNN
@@ -74,9 +41,11 @@ F 3 "" H 2100 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW1
+L Supermileage:SW_SPST SW1
 U 1 1 57FAAF6A
 P 2100 1700
+AR Path="/57E6D70C/57FAAF6A" Ref="SW1"  Part="1" 
+AR Path="/5C847568/57FAAF6A" Ref="SW?"  Part="1" 
 F 0 "SW1" H 2100 1850 60  0000 C CNN
 F 1 "Master Power" H 2100 1600 60  0000 C CNN
 F 2 "" H 2100 1700 60  0000 C CNN
@@ -85,9 +54,11 @@ F 3 "" H 2100 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB1
+L Supermileage:CB CB1
 U 1 1 57FB6243
 P 1500 1700
+AR Path="/57E6D70C/57FB6243" Ref="CB1"  Part="1" 
+AR Path="/5C847568/57FB6243" Ref="CB?"  Part="1" 
 F 0 "CB1" H 1500 1875 60  0000 C CNN
 F 1 "15A" H 1500 1625 60  0000 C CNN
 F 2 "" H 1500 1700 60  0000 C CNN
@@ -96,9 +67,11 @@ F 3 "" H 1500 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB2
+L Supermileage:CB CB2
 U 1 1 57FB631C
 P 1500 2100
+AR Path="/57E6D70C/57FB631C" Ref="CB2"  Part="1" 
+AR Path="/5C847568/57FB631C" Ref="CB?"  Part="1" 
 F 0 "CB2" H 1500 2275 60  0000 C CNN
 F 1 "5A" H 1500 2025 60  0000 C CNN
 F 2 "" H 1500 2100 60  0000 C CNN
@@ -107,9 +80,11 @@ F 3 "" H 1500 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB3
+L Supermileage:CB CB3
 U 1 1 57FB6351
 P 1500 2550
+AR Path="/57E6D70C/57FB6351" Ref="CB3"  Part="1" 
+AR Path="/5C847568/57FB6351" Ref="CB?"  Part="1" 
 F 0 "CB3" H 1500 2725 60  0000 C CNN
 F 1 "5A" H 1500 2475 60  0000 C CNN
 F 2 "" H 1500 2550 60  0000 C CNN
@@ -118,9 +93,11 @@ F 3 "" H 1500 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB5
+L Supermileage:CB CB5
 U 1 1 57FB6389
 P 1500 4200
+AR Path="/57E6D70C/57FB6389" Ref="CB5"  Part="1" 
+AR Path="/5C847568/57FB6389" Ref="CB?"  Part="1" 
 F 0 "CB5" H 1500 4400 60  0000 C CNN
 F 1 "5A" H 1500 4125 60  0000 C CNN
 F 2 "" H 1500 4200 60  0000 C CNN
@@ -129,9 +106,11 @@ F 3 "" H 1500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 58025EF3
 P 8575 3500
+AR Path="/57E6D70C/58025EF3" Ref="P?"  Part="1" 
+AR Path="/5C847568/58025EF3" Ref="P?"  Part="1" 
 F 0 "P?" H 8575 4150 50  0001 C CNN
 F 1 "Steering Wheel" V 8675 3500 50  0000 C CNN
 F 2 "" H 8575 3500 50  0000 C CNN
@@ -140,9 +119,11 @@ F 3 "" H 8575 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 58025FD5
 P 8550 2100
+AR Path="/57E6D70C/58025FD5" Ref="P?"  Part="1" 
+AR Path="/5C847568/58025FD5" Ref="P?"  Part="1" 
 F 0 "P?" H 8550 2750 50  0001 C CNN
 F 1 "To Engine" V 8650 2100 50  0000 C CNN
 F 2 "" H 8550 2100 50  0000 C CNN
@@ -151,9 +132,11 @@ F 3 "" H 8550 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 58026060
 P 8575 5300
+AR Path="/57E6D70C/58026060" Ref="P?"  Part="1" 
+AR Path="/5C847568/58026060" Ref="P?"  Part="1" 
 F 0 "P?" H 8575 5950 50  0001 C CNN
 F 1 "Computer" V 8675 5300 50  0000 C CNN
 F 2 "" H 8575 5300 50  0000 C CNN
@@ -162,9 +145,11 @@ F 3 "" H 8575 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 5804354D
 P 8775 5300
+AR Path="/57E6D70C/5804354D" Ref="P?"  Part="1" 
+AR Path="/5C847568/5804354D" Ref="P?"  Part="1" 
 F 0 "P?" H 8775 5950 50  0001 C CNN
 F 1 "Computer" V 8875 5300 50  0001 C CNN
 F 2 "" H 8775 5300 50  0000 C CNN
@@ -173,9 +158,11 @@ F 3 "" H 8775 5300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 58043E9C
 P 8775 3500
+AR Path="/57E6D70C/58043E9C" Ref="P?"  Part="1" 
+AR Path="/5C847568/58043E9C" Ref="P?"  Part="1" 
 F 0 "P?" H 8775 4150 50  0001 C CNN
 F 1 "To_Steering_Wheel" V 8875 3500 50  0001 C CNN
 F 2 "" H 8775 3500 50  0000 C CNN
@@ -184,9 +171,11 @@ F 3 "" H 8775 3500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12 P?
 U 1 1 5804442E
 P 8775 2100
+AR Path="/57E6D70C/5804442E" Ref="P?"  Part="1" 
+AR Path="/5C847568/5804442E" Ref="P?"  Part="1" 
 F 0 "P?" H 8775 2750 50  0001 C CNN
 F 1 "To_Engine" V 8875 2100 50  0001 C CNN
 F 2 "" H 8775 2100 50  0000 C CNN
@@ -231,21 +220,23 @@ S_W_12_GND
 Text HLabel 9375 5850 2    60   Output ~ 0
 C_12_GND
 Text HLabel 9375 5750 2    60   Output ~ 0
-C_11_Wake
+C_11_Wake_To_Parker
 Text HLabel 9375 5650 2    60   Output ~ 0
 C_10_CAN_Power
 Text HLabel 9375 5550 2    60   Output ~ 0
-C_9_Power
+C_9_Power_To_Parker
 Text HLabel 9375 5350 2    60   Input ~ 0
-C_7_E_Start
+C_7_E_Start_To_Parker
 Text HLabel 9375 5250 2    60   Input ~ 0
-C_6_E_Stop
+C_6_E_Stop_To_Parker
 Text HLabel 9375 5150 2    60   Input ~ 0
-C_5_Horn
+C_5_Horn_To_Parker
 $Comp
-L CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 581DEDA2
 P 8575 4400
+AR Path="/57E6D70C/581DEDA2" Ref="P?"  Part="1" 
+AR Path="/5C847568/581DEDA2" Ref="P?"  Part="1" 
 F 0 "P?" H 8575 4650 50  0001 C CNN
 F 1 "Horn" V 8675 4400 50  0000 C CNN
 F 2 "" H 8575 4400 50  0000 C CNN
@@ -254,9 +245,11 @@ F 3 "" H 8575 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04 P?
 U 1 1 581DEE44
 P 8775 4400
+AR Path="/57E6D70C/581DEE44" Ref="P?"  Part="1" 
+AR Path="/5C847568/581DEE44" Ref="P?"  Part="1" 
 F 0 "P?" H 8775 4650 50  0001 C CNN
 F 1 "HORN" V 8875 4400 50  0001 C CNN
 F 2 "" H 8775 4400 50  0000 C CNN
@@ -268,18 +261,14 @@ Text Label 6625 1550 0    49   ~ 0
 Lt_Blue-External
 Text Label 8350 2150 2    49   ~ 0
 Black
-Text Label 7675 2950 1    49   ~ 0
+Text Label 7675 3000 1    49   ~ 0
 Black
 Text Label 8375 2950 2    49   ~ 0
-Lt_Blue
+Purple
 Text Label 6625 2250 0    49   ~ 0
 Blue-Starter_Relay
-Text Label 8125 3650 0    49   ~ 0
-Brown
 Text Label 8075 4350 1    49   ~ 0
 Black
-Text Label 8125 4450 0    49   ~ 0
-Brown
 Text Label 8125 5150 0    49   ~ 0
 Brown
 Text Label 8125 5850 0    49   ~ 0
@@ -304,12 +293,12 @@ Text HLabel 9375 4850 2    60   Output ~ 0
 C_2_THROTTLE
 Text HLabel 9375 3950 2    60   Input ~ 0
 S_W_11_THROTTLE
-Text HLabel 9375 5050 2    60   Output ~ 0
-C_4_Arm_Status
 $Comp
-L CB CB4
+L Supermileage:CB CB4
 U 1 1 57FB63C4
 P 1500 3350
+AR Path="/57E6D70C/57FB63C4" Ref="CB4"  Part="1" 
+AR Path="/5C847568/57FB63C4" Ref="CB?"  Part="1" 
 F 0 "CB4" H 1500 3525 60  0000 C CNN
 F 1 "5A" H 1500 3275 60  0000 C CNN
 F 2 "" H 1500 3350 60  0000 C CNN
@@ -318,9 +307,11 @@ F 3 "" H 1500 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPDT SW9
+L Supermileage:SW_SPDT SW9
 U 1 1 58871F7E
 P 2100 2650
+AR Path="/57E6D70C/58871F7E" Ref="SW9"  Part="1" 
+AR Path="/5C847568/58871F7E" Ref="SW?"  Part="1" 
 F 0 "SW9" H 2100 2525 60  0000 C CNN
 F 1 "O2" H 2050 2775 60  0000 C CNN
 F 2 "" H 2100 2650 60  0000 C CNN
@@ -329,9 +320,11 @@ F 3 "" H 2100 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4PDT_Relay_b R2
+L Supermileage:4PDT_Relay_b R2
 U 1 1 5887AA0F
 P 3725 3950
+AR Path="/57E6D70C/5887AA0F" Ref="R2"  Part="1" 
+AR Path="/5C847568/5887AA0F" Ref="R?"  Part="1" 
 F 0 "R2" H 3725 3950 60  0000 C CNN
 F 1 "4PDT_Relay_b" H 3725 4000 60  0001 C CNN
 F 2 "" H 3625 3900 60  0001 C CNN
@@ -340,9 +333,11 @@ F 3 "" H 3625 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L Device:D D?
 U 1 1 5887E21B
 P 3875 4950
+AR Path="/57E6D70C/5887E21B" Ref="D?"  Part="1" 
+AR Path="/5C847568/5887E21B" Ref="D?"  Part="1" 
 F 0 "D?" H 3875 5050 50  0001 C CNN
 F 1 "D" H 3875 4850 50  0001 C CNN
 F 2 "" H 3875 4950 50  0000 C CNN
@@ -362,8 +357,6 @@ Text Label 4175 5825 1    49   ~ 0
 Purple-EFI_Power
 Text Label 4725 5825 1    49   ~ 0
 Black
-Text Label 4925 5825 1    49   ~ 0
-Lt_Blue-Arm_Status_C
 Text Label 5125 5825 1    49   ~ 0
 Green-E_Stop_C
 Entry Wire Line
@@ -408,8 +401,6 @@ Text Label 5025 5825 1    49   ~ 0
 Green-E_Stop
 Text Label 3975 5825 1    49   ~ 0
 Blue-E_Start_C
-Text Label 4825 5825 1    49   ~ 0
-Lt_Blue-Arm_Status
 Entry Wire Line
 	3875 5825 3975 5925
 Entry Wire Line
@@ -445,21 +436,15 @@ Black
 Text Label 6625 2550 0    49   ~ 0
 Red-Main_PWR
 Text Label 6625 2950 0    49   ~ 0
-Green-E_Stop
-Text Label 6625 3150 0    49   ~ 0
-Blue-E_Start_SW
-Text Label 6625 3250 0    49   ~ 0
-Lt_Blue-Arm_Status
+Grey-E_Stop
 Text Label 6625 3350 0    49   ~ 0
-Brown-PWR_LED
+Red-PWR_LED
 Text Label 6625 3550 0    49   ~ 0
-Purple-EFI_LED
+Yellow-EFI_LED
 Text Label 6625 4050 0    49   ~ 0
 Black
 Text Label 6625 5250 0    49   ~ 0
 Green-E_Stop_C
-Text Label 6625 5050 0    49   ~ 0
-Lt_Blue-Arm_Status_C
 Text Label 6625 5350 0    49   ~ 0
 Blue-E_Start_C
 Text Label 6625 5550 0    49   ~ 0
@@ -479,17 +464,11 @@ Entry Wire Line
 Entry Wire Line
 	6375 5350 6475 5250
 Entry Wire Line
-	6375 5150 6475 5050
-Entry Wire Line
 	6375 4150 6475 4050
 Entry Wire Line
 	6375 3650 6475 3550
 Entry Wire Line
 	6375 3450 6475 3350
-Entry Wire Line
-	6375 3350 6475 3250
-Entry Wire Line
-	6375 3250 6475 3150
 Entry Wire Line
 	6375 2650 6475 2550
 Entry Wire Line
@@ -502,7 +481,7 @@ Text Label 7675 4350 1    49   ~ 0
 Black
 Text Label 7775 4900 1    49   ~ 0
 Brown
-Text Label 7775 4350 1    49   ~ 0
+Text Label 6875 4450 2    49   ~ 0
 Brown
 Text Label 7875 4350 1    49   ~ 0
 Yellow
@@ -513,9 +492,11 @@ Black
 Text Notes 2175 6200 0    60   ~ 0
 Wires with a C sufix provide the same functionality as the non-C wire\nbut are connected to the computer.
 $Comp
-L SPDT_Relay R3
+L Supermileage:SPDT_Relay R3
 U 1 1 58BF4D51
 P 4875 3950
+AR Path="/57E6D70C/58BF4D51" Ref="R3"  Part="1" 
+AR Path="/5C847568/58BF4D51" Ref="R?"  Part="1" 
 F 0 "R3" H 4875 3950 60  0000 C CNN
 F 1 "SPDT_Relay" V 5165 3920 60  0001 C CNN
 F 2 "" H 4875 3900 60  0001 C CNN
@@ -524,9 +505,11 @@ F 3 "" H 4875 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPDT_Relay R1
+L Supermileage:SPDT_Relay R1
 U 1 1 59D1EFC0
 P 5625 3950
+AR Path="/57E6D70C/59D1EFC0" Ref="R1"  Part="1" 
+AR Path="/5C847568/59D1EFC0" Ref="R?"  Part="1" 
 F 0 "R1" H 5625 3950 60  0000 C CNN
 F 1 "SPDT_Relay" V 5915 3920 60  0001 C CNN
 F 2 "" H 5625 3900 60  0001 C CNN
@@ -534,8 +517,6 @@ F 3 "" H 5625 3900 60  0001 C CNN
 	1    5625 3950
 	1    0    0    -1  
 $EndComp
-Text Label 6625 3450 0    49   ~ 0
-Brown-Starter_PWR
 Text Label 5625 5825 1    49   ~ 0
 Brown-Starter_PWR
 Entry Wire Line
@@ -551,7 +532,7 @@ Entry Wire Line
 Text Label 5625 3200 1    49   ~ 0
 Blue-Starter_Relay
 Text Label 6625 3050 0    49   ~ 0
-Blue-E_Start_SW
+White-E_Start_SW
 Entry Wire Line
 	6375 3150 6475 3050
 Entry Wire Line
@@ -560,8 +541,6 @@ Text Label 5775 5825 1    49   ~ 0
 Blue-E_Start_SW
 Entry Wire Line
 	5775 5825 5875 5925
-Text Label 7900 2950 1    49   ~ 0
-Lt_Blue
 Text Label 8000 2950 1    49   ~ 0
 P_Green
 Text Label 8200 2550 1    49   ~ 0
@@ -576,8 +555,6 @@ Text Label 8125 5650 0    49   ~ 0
 White
 Text Label 8125 5750 0    49   ~ 0
 Grey
-Text Label 8125 5050 0    49   ~ 0
-Lt_Blue
 Text Label 8075 1550 0    49   ~ 0
 Lt_Blue
 Entry Wire Line
@@ -585,13 +562,7 @@ Entry Wire Line
 Text Label 8075 3450 0    49   ~ 0
 P_Green
 Entry Wire Line
-	6375 3550 6475 3450
-Wire Wire Line
-	8350 1650 7900 1650
-Wire Wire Line
-	7900 1650 7900 2950
-Wire Wire Line
-	7900 2950 8375 2950
+	6375 2900 6475 2800
 Wire Wire Line
 	8375 3450 8000 3450
 Wire Wire Line
@@ -612,8 +583,6 @@ Wire Wire Line
 	2600 2300 2600 5825
 Wire Wire Line
 	8375 5150 7775 5150
-Wire Wire Line
-	7775 3650 8375 3650
 Wire Wire Line
 	2400 3350 2400 5825
 Wire Wire Line
@@ -652,8 +621,6 @@ Wire Wire Line
 	9375 2550 8975 2550
 Wire Wire Line
 	8975 2250 9375 2250
-Wire Wire Line
-	7775 3650 7775 4450
 Wire Wire Line
 	7775 4450 8375 4450
 Wire Wire Line
@@ -710,8 +677,6 @@ Wire Wire Line
 	8200 2200 8350 2150
 Wire Wire Line
 	2700 5825 2700 2100
-Wire Wire Line
-	9375 5050 8975 5050
 Wire Wire Line
 	4825 4875 4825 5825
 Wire Wire Line
@@ -798,10 +763,6 @@ Wire Wire Line
 	8975 1650 9375 1650
 Wire Wire Line
 	9375 1550 8975 1550
-Wire Bus Line
-	6375 5925 6375 1500
-Wire Bus Line
-	1900 5925 6375 5925
 Wire Wire Line
 	2000 5825 2000 4275
 Wire Wire Line
@@ -849,19 +810,13 @@ Wire Wire Line
 Wire Wire Line
 	8350 2550 6475 2550
 Wire Wire Line
-	7400 3050 8375 3050
-Wire Wire Line
-	8375 3150 6475 3150
-Wire Wire Line
-	8375 3250 6475 3250
+	7400 3250 8375 3250
 Wire Wire Line
 	8375 3550 6475 3550
 Wire Wire Line
 	8375 4050 6475 4050
 Wire Wire Line
 	8375 5250 6475 5250
-Wire Wire Line
-	8375 5050 6475 5050
 Wire Wire Line
 	8375 5350 6475 5350
 Wire Wire Line
@@ -899,12 +854,6 @@ Wire Wire Line
 Wire Wire Line
 	5775 4600 5775 5825
 Wire Wire Line
-	7850 3450 6475 3450
-Wire Wire Line
-	7850 3350 7850 3450
-Wire Wire Line
-	8375 3350 7850 3350
-Wire Wire Line
 	8050 3300 8375 3350
 Wire Wire Line
 	7800 3300 8050 3300
@@ -913,9 +862,11 @@ Wire Wire Line
 Wire Wire Line
 	7800 3350 6475 3350
 $Comp
-L SW_Push SW10
+L Wiring-Diagram-v2-rescue:SW_Push SW10
 U 1 1 5AB5E5F2
 P 2075 3750
+AR Path="/57E6D70C/5AB5E5F2" Ref="SW10"  Part="1" 
+AR Path="/5C847568/5AB5E5F2" Ref="SW?"  Part="1" 
 F 0 "SW10" H 1900 3900 60  0000 C CNN
 F 1 "SW_Push" H 2075 3650 60  0000 C CNN
 F 2 "" H 2075 3750 60  0000 C CNN
@@ -978,7 +929,57 @@ Entry Wire Line
 Wire Wire Line
 	6475 2350 8350 2350
 Text HLabel 9375 2350 2    60   Output ~ 0
-E_9_CANOPY_GND
+E_9_RELAY_GND
 Wire Wire Line
 	9375 2350 8975 2350
+Wire Wire Line
+	7800 2950 7800 2800
+Wire Wire Line
+	7800 2800 6500 2800
+Wire Wire Line
+	7800 2950 8375 2950
+Entry Wire Line
+	6375 1750 6475 1650
+Wire Wire Line
+	6500 1650 8350 1650
+Wire Wire Line
+	7400 3250 7400 3150
+Wire Wire Line
+	7400 3150 6475 3150
+Text Label 6600 3150 0    47   ~ 0
+Blue-Sw_Power
+Entry Wire Line
+	6375 3750 6475 3650
+Wire Wire Line
+	6475 3650 8375 3650
+Entry Wire Line
+	6375 4550 6475 4450
+Wire Wire Line
+	8375 4450 6475 4450
+Text Label 6600 3650 0    60   ~ 0
+Orange-Horm
+Entry Wire Line
+	6375 3250 6475 3150
+Entry Wire Line
+	6375 3150 6475 3050
+Text Notes 6300 6900 0    60   ~ 0
+Edited by Madeline Chairvolotti Date: 02-23-2019
+Text HLabel 9375 5450 2    60   Output ~ 0
+C_8_To_Parker
+Wire Wire Line
+	8975 5450 9375 5450
+Text Label 6625 5450 0    49   ~ 0
+Grey-To_Parker
+Wire Wire Line
+	8375 5450 6475 5450
+Entry Wire Line
+	6375 5550 6475 5450
+Entry Wire Line
+	6375 5450 6475 5350
+Wire Bus Line
+	1900 5925 6375 5925
+Wire Bus Line
+	6375 1500 6375 5925
+Text Notes 9050 6050 0    60   ~ 0
+* Not using the Parker.
 $EndSCHEMATC

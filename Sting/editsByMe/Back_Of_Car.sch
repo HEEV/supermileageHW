@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 13 14
+Sheet 13 12
 Title "Sting - Gasoline Prototype"
 Date "2017-01-02"
 Rev "1.2"
@@ -848,16 +848,14 @@ Wire Wire Line
 Wire Wire Line
 	3925 5750 3925 5575
 Connection ~ 3925 5575
-Text HLabel 2575 3725 0    60   Input ~ 0
+Text Notes 3750 6300 0    50   ~ 0
+Breakout Box
+Text HLabel 2800 3650 0    50   Input ~ 0
 Relay_GND
+Entry Wire Line
+	3350 3950 3450 4050
 Wire Wire Line
-	3175 3725 3175 4125
+	3350 3950 2800 3950
 Wire Wire Line
-	2575 3725 3175 3725
-Wire Wire Line
-	3425 4225 3175 4125
-Text Notes 3750 6250 0    60   ~ 0
-Breakout Box\n
-Text Notes 3800 9400 0    60   ~ 0
-Edited by Madeline Chairvolotti Date: 02-23-2019
+	2800 3950 2800 3650
 $EndSCHEMATC

@@ -1,21 +1,53 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+LIBS:can_sensor-cache
+LIBS:Current Sensor-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 14
-Title "Current Sensor"
+Sheet 14 14
+Title "Can Node"
 Date "2016-05-09"
-Rev "2.0"
-Comp "Cedarville University"
+Rev "0.3"
+Comp "Cedarville Univerity"
 Comment1 "Samuel Ellicott"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EllicottInterface:mcp2562 U?
+L mcp2562 U?
 U 1 1 58900FE7
 P 8050 1800
 F 0 "U?" H 8050 1750 60  0001 C CNN
@@ -28,7 +60,7 @@ F 5 "579-MCP2562-E/SN" H 8050 1800 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58900FE8
 P 6450 2350
 F 0 "#PWR?" H 6450 2200 50  0001 C CNN
@@ -39,7 +71,7 @@ F 3 "" H 6450 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58900FE9
 P 5500 1750
 F 0 "C?" H 5510 1820 50  0001 L CNN
@@ -52,7 +84,7 @@ F 5 "80-C0603C105K8P" H 5500 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58900FEA
 P 5700 1750
 F 0 "C?" H 5710 1820 50  0001 L CNN
@@ -63,7 +95,7 @@ F 3 "" H 5700 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FEB
 P 8050 2350
 F 0 "#PWR?" H 8050 2100 50  0001 C CNN
@@ -74,7 +106,7 @@ F 3 "" H 8050 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58900FEC
 P 7900 1250
 F 0 "#PWR?" H 7900 1100 50  0001 C CNN
@@ -85,7 +117,7 @@ F 3 "" H 7900 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 58900FED
 P 8200 1250
 F 0 "#PWR?" H 8200 1100 50  0001 C CNN
@@ -96,7 +128,7 @@ F 3 "" H 8200 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58900FEE
 P 7150 1200
 F 0 "C?" H 7160 1270 50  0001 L CNN
@@ -107,7 +139,7 @@ F 3 "" H 7150 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FEF
 P 7150 1350
 F 0 "#PWR?" H 7150 1100 50  0001 C CNN
@@ -118,7 +150,7 @@ F 3 "" H 7150 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 58900FF0
 P 7150 1050
 F 0 "#PWR?" H 7150 900 50  0001 C CNN
@@ -137,7 +169,7 @@ SWDIO
 Text Label 1350 6100 0    60   ~ 0
 SWCLK
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FF1
 P 1300 6250
 F 0 "#PWR?" H 1300 6000 50  0001 C CNN
@@ -162,7 +194,7 @@ CAN_RX
 Text Label 7300 1700 2    60   ~ 0
 CAN_TX
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58900FF2
 P 9400 1800
 F 0 "R?" V 9480 1800 50  0001 C CNN
@@ -179,7 +211,7 @@ CAN_H
 Text Label 9400 2400 2    60   ~ 0
 CAN_L
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 58900FF3
 P 9600 3350
 F 0 "D?" H 9550 3475 50  0001 L CNN
@@ -190,7 +222,7 @@ F 3 "" V 9600 3350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 58900FF4
 P 9600 3650
 F 0 "D?" H 9550 3775 50  0001 L CNN
@@ -201,7 +233,7 @@ F 3 "" V 9600 3650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FF5
 P 9800 3750
 F 0 "#PWR?" H 9800 3500 50  0001 C CNN
@@ -220,7 +252,7 @@ LED2
 Text Label 7700 4650 0    60   ~ 0
 LED1
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FF6
 P 7350 2000
 F 0 "#PWR?" H 7350 1750 50  0001 C CNN
@@ -231,11 +263,9 @@ F 3 "" H 7350 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:USB_OTG-RESCUE-Wiring_Diagram_v2 P?
+L USB_OTG P?
 U 1 1 58900FF7
 P 1100 7000
-AR Path="/58900FF7" Ref="P?"  Part="1" 
-AR Path="/588FE424/589001DF/58900FF7" Ref="P?"  Part="1" 
 F 0 "P?" V 800 7000 50  0001 C CNN
 F 1 "USB" H 1100 7200 50  0000 C CNN
 F 2 "Connect:USB_Micro-B" H 1050 6900 50  0001 C CNN
@@ -250,7 +280,7 @@ USB_DM
 Text Label 1500 7000 0    60   ~ 0
 USB_DP
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 58900FF8
 P 1450 6750
 F 0 "#PWR?" H 1450 6600 50  0001 C CNN
@@ -261,7 +291,7 @@ F 3 "" H 1450 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FF9
 P 1400 7500
 F 0 "#PWR?" H 1400 7250 50  0001 C CNN
@@ -272,7 +302,7 @@ F 3 "" H 1400 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58900FFA
 P 6350 6150
 F 0 "C?" H 6360 6220 50  0001 L CNN
@@ -283,42 +313,42 @@ F 3 "" H 6350 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L SW_PUSH_SMALL SW?
 U 1 1 58900FFB
-P 7575 5850
-F 0 "SW?" H 7725 5960 50  0001 C CNN
-F 1 "BOOT" H 7450 5800 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" V 7575 5850 50  0001 C CNN
-F 3 "" H 7575 5850 50  0000 C CNN
-F 4 "Mouser" H 7575 5850 60  0001 C CNN "Distributor"
-F 5 "SKHHPPA010 " H 7575 5850 60  0001 C CNN "PN"
-	1    7575 5850
+P 8500 4850
+F 0 "SW?" H 8650 4960 50  0001 C CNN
+F 1 "BOOT" H 8375 4800 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" V 8500 4850 50  0001 C CNN
+F 3 "" H 8500 4850 50  0000 C CNN
+F 4 "Mouser" H 8500 4850 60  0001 C CNN "Distributor"
+F 5 "SKHHPPA010 " H 8500 4850 60  0001 C CNN "PN"
+	1    8500 4850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58900FFC
-P 7375 6400
-F 0 "#PWR?" H 7375 6150 50  0001 C CNN
-F 1 "GND" H 7375 6250 50  0000 C CNN
-F 2 "" H 7375 6400 50  0000 C CNN
-F 3 "" H 7375 6400 50  0000 C CNN
-	1    7375 6400
+P 8300 5400
+F 0 "#PWR?" H 8300 5150 50  0001 C CNN
+F 1 "GND" H 8300 5250 50  0000 C CNN
+F 2 "" H 8300 5400 50  0000 C CNN
+F 3 "" H 8300 5400 50  0000 C CNN
+	1    8300 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58900FFD
-P 7675 5700
-F 0 "#PWR?" H 7675 5550 50  0001 C CNN
-F 1 "+3.3V" H 7675 5840 50  0000 C CNN
-F 2 "" H 7675 5700 50  0000 C CNN
-F 3 "" H 7675 5700 50  0000 C CNN
-	1    7675 5700
+P 8600 4700
+F 0 "#PWR?" H 8600 4550 50  0001 C CNN
+F 1 "+3.3V" H 8600 4840 50  0000 C CNN
+F 2 "" H 8600 4700 50  0000 C CNN
+F 3 "" H 8600 4700 50  0000 C CNN
+	1    8600 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L SW_PUSH_SMALL SW?
 U 1 1 58900FFE
 P 6700 6000
 F 0 "SW?" H 6900 6000 50  0001 C CNN
@@ -331,20 +361,20 @@ F 5 "SKHHPPA010 " H 6700 6000 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58900FFF
-P 7375 6200
-F 0 "R?" V 7455 6200 50  0001 C CNN
-F 1 "100K" V 7475 6200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7305 6200 50  0001 C CNN
-F 3 "" H 7375 6200 50  0000 C CNN
-F 4 "Mouser" V 7375 6200 60  0001 C CNN "Distributor"
-F 5 "71-CRCW0603-100K-E3" V 7375 6200 60  0001 C CNN "PN"
-	1    7375 6200
+P 8300 5200
+F 0 "R?" V 8380 5200 50  0001 C CNN
+F 1 "100K" V 8400 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8230 5200 50  0001 C CNN
+F 3 "" H 8300 5200 50  0000 C CNN
+F 4 "Mouser" V 8300 5200 60  0001 C CNN "Distributor"
+F 5 "71-CRCW0603-100K-E3" V 8300 5200 60  0001 C CNN "PN"
+	1    8300 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901000
 P 1600 7250
 F 0 "R?" V 1680 7250 50  0001 C CNN
@@ -357,7 +387,7 @@ F 5 "71-CRCW0603-100K-E3" V 1600 7250 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901001
 P 9250 3350
 F 0 "R?" V 9330 3350 50  0001 C CNN
@@ -370,7 +400,7 @@ F 5 "71-CRCW0603-120-E3" V 9250 3350 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901002
 P 9250 3650
 F 0 "R?" V 9330 3650 50  0001 C CNN
@@ -383,7 +413,7 @@ F 5 "71-CRCW0603-120-E3" V 9250 3650 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901003
 P 6600 6400
 F 0 "#PWR?" H 6600 6150 50  0001 C CNN
@@ -394,7 +424,7 @@ F 3 "" H 6600 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58901004
 P 6200 1750
 F 0 "C?" H 6210 1820 50  0001 L CNN
@@ -405,7 +435,7 @@ F 3 "" H 6200 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58901005
 P 5350 1550
 F 0 "#PWR?" H 5350 1400 50  0001 C CNN
@@ -416,7 +446,7 @@ F 3 "" H 5350 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901006
 P 5350 1950
 F 0 "#PWR?" H 5350 1700 50  0001 C CNN
@@ -427,7 +457,7 @@ F 3 "" H 5350 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 58901007
 P 6000 1750
 F 0 "C?" H 6010 1820 50  0001 L CNN
@@ -440,7 +470,7 @@ F 5 "81-GRM188R61C106KALD" H 6000 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L CONN_01X03 P?
 U 1 1 58901008
 P 1000 6100
 F 0 "P?" H 1000 6300 50  0001 C CNN
@@ -451,7 +481,7 @@ F 3 "" H 1000 6100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901009
 P 5450 2550
 F 0 "#PWR?" H 5450 2300 50  0001 C CNN
@@ -466,7 +496,7 @@ CAN_RX
 Text Label 7700 3900 0    60   ~ 0
 CAN_TX
 $Comp
-L EllicottMicrocontrollers:STM32F042C6 U?
+L STM32F042C6 U?
 U 1 1 5890100A
 P 6300 4100
 F 0 "U?" H 6325 4050 60  0001 C CNN
@@ -479,7 +509,7 @@ F 5 "511-STM32F042C6T6 " H 6300 4100 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5890100B
 P 5000 1750
 F 0 "C?" H 5010 1820 50  0001 L CNN
@@ -492,7 +522,7 @@ F 5 "80-C0603C105K8P" H 5000 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5890100C
 P 5200 1750
 F 0 "C?" H 5210 1820 50  0001 L CNN
@@ -503,7 +533,7 @@ F 3 "" H 5200 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5890100D
 P 4500 1750
 F 0 "C?" H 4510 1820 50  0001 L CNN
@@ -516,7 +546,7 @@ F 5 "80-C0603C105K8P" H 4500 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5890100E
 P 4700 1750
 F 0 "C?" H 4710 1820 50  0001 L CNN
@@ -527,7 +557,7 @@ F 3 "" H 4700 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890100F
 P 3950 2400
 F 0 "R?" V 4030 2400 50  0001 C CNN
@@ -538,7 +568,7 @@ F 3 "" H 3950 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901010
 P 3950 2800
 F 0 "R?" V 4030 2800 50  0001 C CNN
@@ -549,7 +579,7 @@ F 3 "" H 3950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901011
 P 3950 3000
 F 0 "#PWR?" H 3950 2750 50  0001 C CNN
@@ -562,7 +592,7 @@ $EndComp
 Text Label 4400 2600 2    60   ~ 0
 ATEN3
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901012
 P 3950 3550
 F 0 "R?" V 4030 3550 50  0001 C CNN
@@ -573,7 +603,7 @@ F 3 "" H 3950 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901013
 P 3950 3950
 F 0 "R?" V 4030 3950 50  0001 C CNN
@@ -584,7 +614,7 @@ F 3 "" H 3950 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901014
 P 3950 4150
 F 0 "#PWR?" H 3950 3900 50  0001 C CNN
@@ -597,7 +627,7 @@ $EndComp
 Text Label 4400 3750 2    60   ~ 0
 ATEN2
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901015
 P 3950 4650
 F 0 "R?" V 4030 4650 50  0001 C CNN
@@ -608,7 +638,7 @@ F 3 "" H 3950 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901016
 P 3950 5050
 F 0 "R?" V 4030 5050 50  0001 C CNN
@@ -619,7 +649,7 @@ F 3 "" H 3950 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901017
 P 3950 5250
 F 0 "#PWR?" H 3950 5000 50  0001 C CNN
@@ -644,7 +674,7 @@ CANH
 Text HLabel 10050 1850 2    60   Output ~ 0
 CANL
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 58901018
 P 9600 2250
 F 0 "P?" H 9600 2400 50  0001 C CNN
@@ -661,7 +691,7 @@ CAN_L
 Text HLabel 1000 1150 0    60   Input ~ 0
 V3
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901019
 P 1700 1350
 F 0 "R?" V 1780 1350 50  0001 C CNN
@@ -673,7 +703,7 @@ F 4 "Mouser" H 1700 1350 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890101A
 P 1700 1950
 F 0 "R?" V 1780 1950 50  0001 C CNN
@@ -686,7 +716,7 @@ $EndComp
 Text Label 2850 1650 2    60   ~ 0
 V3a
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890101B
 P 1400 1350
 F 0 "R?" V 1480 1350 50  0001 C CNN
@@ -697,7 +727,7 @@ F 3 "" H 1400 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890101C
 P 1400 1950
 F 0 "R?" V 1480 1950 50  0001 C CNN
@@ -708,7 +738,7 @@ F 3 "" H 1400 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5890101D
 P 1400 2200
 F 0 "#PWR?" H 1400 1950 50  0001 C CNN
@@ -719,7 +749,7 @@ F 3 "" H 1400 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890101E
 P 1100 1350
 F 0 "R?" V 1180 1350 50  0001 C CNN
@@ -730,7 +760,7 @@ F 3 "" H 1100 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890101F
 P 1100 1950
 F 0 "R?" V 1180 1950 50  0001 C CNN
@@ -741,7 +771,7 @@ F 3 "" H 1100 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 58901020
 P 2600 1950
 F 0 "D?" H 2550 2030 50  0001 L CNN
@@ -754,7 +784,7 @@ F 5 "512-SS14FL " H 2600 1950 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 58901021
 P 2600 1350
 F 0 "D?" H 2550 1430 50  0001 L CNN
@@ -767,7 +797,7 @@ F 5 "512-SS14FL " H 2600 1350 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 58901022
 P 2600 2850
 F 0 "D?" H 2550 2930 50  0001 L CNN
@@ -780,15 +810,9 @@ F 5 "512-SS14FL " H 2600 2850 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6450 2350 6450 2400
+	6450 2350 6450 2550
 Wire Wire Line
-	6450 2400 6450 2550
-Wire Wire Line
-	6450 2400 6600 2400
-Wire Wire Line
-	6600 2400 6750 2400
-Wire Wire Line
-	6750 2400 6900 2400
+	6450 2400 6900 2400
 Connection ~ 6450 2400
 Wire Wire Line
 	7900 1250 7900 1300
@@ -823,9 +847,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3350 9800 3350
 Wire Wire Line
-	9800 3350 9800 3650
-Wire Wire Line
-	9800 3650 9800 3750
+	9800 3350 9800 3750
 Wire Wire Line
 	9800 3650 9700 3650
 Connection ~ 9800 3650
@@ -850,13 +872,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 6800 1400 6800
 Wire Wire Line
-	1400 7200 1400 7400
+	1400 7200 1400 7500
 Wire Wire Line
-	1400 7400 1400 7500
-Wire Wire Line
-	1000 7400 1400 7400
-Wire Wire Line
-	1400 7400 1600 7400
+	1000 7400 1600 7400
 Connection ~ 1400 7400
 Wire Wire Line
 	1400 7100 1600 7100
@@ -865,19 +883,19 @@ Wire Wire Line
 Wire Wire Line
 	6350 6250 6350 6400
 Wire Wire Line
-	7375 6050 7375 5950
-Connection ~ 7375 5950
+	7650 4950 8400 4950
 Wire Wire Line
-	7375 6400 7375 6350
+	8300 5050 8300 4950
+Connection ~ 8300 4950
 Wire Wire Line
-	7675 5700 7675 5750
+	8300 5400 8300 5350
+Wire Wire Line
+	8600 4700 8600 4750
 Connection ~ 6600 5900
 Wire Wire Line
 	6000 1600 6000 1650
 Wire Wire Line
-	6350 5900 6600 5900
-Wire Wire Line
-	6600 5900 6900 5900
+	6350 5900 6900 5900
 Wire Wire Line
 	6200 1600 6200 1650
 Wire Wire Line
@@ -891,13 +909,7 @@ Connection ~ 6750 2400
 Wire Wire Line
 	5450 2550 5450 2400
 Wire Wire Line
-	5450 2400 5700 2400
-Wire Wire Line
-	5700 2400 5850 2400
-Wire Wire Line
-	5850 2400 6000 2400
-Wire Wire Line
-	6000 2400 6150 2400
+	5450 2400 6150 2400
 Wire Wire Line
 	5700 2400 5700 2550
 Wire Wire Line
@@ -914,9 +926,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 6400 6800 6100
 Wire Wire Line
-	6350 6400 6600 6400
-Wire Wire Line
-	6600 6400 6800 6400
+	6350 6400 6800 6400
 Connection ~ 6600 6400
 Wire Wire Line
 	4900 5100 4950 5100
@@ -931,23 +941,11 @@ Wire Wire Line
 Wire Wire Line
 	7650 4050 7700 4050
 Wire Wire Line
+	7700 4500 7650 4500
+Wire Wire Line
 	4500 1650 4500 1600
 Wire Wire Line
-	4500 1600 4700 1600
-Wire Wire Line
-	4700 1600 5000 1600
-Wire Wire Line
-	5000 1600 5200 1600
-Wire Wire Line
-	5200 1600 5350 1600
-Wire Wire Line
-	5350 1600 5500 1600
-Wire Wire Line
-	5500 1600 5700 1600
-Wire Wire Line
-	5700 1600 6000 1600
-Wire Wire Line
-	6000 1600 6200 1600
+	4500 1600 6200 1600
 Wire Wire Line
 	4700 1650 4700 1600
 Connection ~ 4700 1600
@@ -967,21 +965,7 @@ Connection ~ 6000 1600
 Wire Wire Line
 	6200 1900 6200 1850
 Wire Wire Line
-	4500 1900 4700 1900
-Wire Wire Line
-	4700 1900 5000 1900
-Wire Wire Line
-	5000 1900 5200 1900
-Wire Wire Line
-	5200 1900 5350 1900
-Wire Wire Line
-	5350 1900 5500 1900
-Wire Wire Line
-	5500 1900 5700 1900
-Wire Wire Line
-	5700 1900 6000 1900
-Wire Wire Line
-	6000 1900 6200 1900
+	4500 1900 6200 1900
 Wire Wire Line
 	4500 1900 4500 1850
 Wire Wire Line
@@ -1015,9 +999,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2250 3950 2200
 Wire Wire Line
-	3950 2550 3950 2600
-Wire Wire Line
-	3950 2600 3950 2650
+	3950 2550 3950 2650
 Wire Wire Line
 	3950 2950 3950 3000
 Wire Wire Line
@@ -1026,18 +1008,14 @@ Connection ~ 3950 2600
 Wire Wire Line
 	3950 3400 3950 3350
 Wire Wire Line
-	3950 3700 3950 3750
-Wire Wire Line
-	3950 3750 3950 3800
+	3950 3700 3950 3800
 Wire Wire Line
 	3950 4100 3950 4150
 Connection ~ 3950 3750
 Wire Wire Line
 	3950 4500 3950 4450
 Wire Wire Line
-	3950 4800 3950 4850
-Wire Wire Line
-	3950 4850 3950 4900
+	3950 4800 3950 4900
 Wire Wire Line
 	3950 5200 3950 5250
 Wire Wire Line
@@ -1056,9 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2100 1100 2150
 Wire Wire Line
-	1400 2100 1400 2150
-Wire Wire Line
-	1400 2150 1400 2200
+	1400 2100 1400 2200
 Wire Wire Line
 	1700 1150 1700 1200
 Wire Wire Line
@@ -1066,7 +1042,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3900 4950 3900
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 58901023
 P 2550 4450
 F 0 "D?" H 2500 4530 50  0001 L CNN
@@ -1079,7 +1055,7 @@ F 5 "512-SS14FL " H 2550 4450 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_02X03 P?
+L CONN_02X03 P?
 U 1 1 58901024
 P 2250 1650
 F 0 "P?" H 2250 1850 50  0001 C CNN
@@ -1100,7 +1076,7 @@ V3a
 Wire Wire Line
 	4450 3300 4950 3300
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58901025
 P 2600 1200
 F 0 "#PWR?" H 2600 1050 50  0001 C CNN
@@ -1111,7 +1087,7 @@ F 3 "" H 2600 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901026
 P 2600 2100
 F 0 "#PWR?" H 2600 1850 50  0001 C CNN
@@ -1124,22 +1100,14 @@ $EndComp
 Wire Wire Line
 	4450 2600 4450 3300
 Wire Wire Line
-	1100 2150 1400 2150
-Wire Wire Line
-	1400 2150 1700 2150
+	1100 2150 1700 2150
 Connection ~ 1400 2150
 Wire Wire Line
-	1100 1500 1100 1550
+	1100 1500 1100 1800
 Wire Wire Line
-	1100 1550 1100 1800
+	1400 1500 1400 1800
 Wire Wire Line
-	1400 1500 1400 1650
-Wire Wire Line
-	1400 1650 1400 1800
-Wire Wire Line
-	1700 1500 1700 1750
-Wire Wire Line
-	1700 1750 1700 1800
+	1700 1500 1700 1800
 Wire Wire Line
 	1100 1550 2000 1550
 Connection ~ 1100 1550
@@ -1152,7 +1120,7 @@ Connection ~ 1700 1750
 Text HLabel 1000 2650 0    60   Input ~ 0
 V2
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901027
 P 1700 2850
 F 0 "R?" V 1780 2850 50  0001 C CNN
@@ -1164,7 +1132,7 @@ F 4 "Mouser" H 1700 2850 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901028
 P 1700 3450
 F 0 "R?" V 1780 3450 50  0001 C CNN
@@ -1175,7 +1143,7 @@ F 3 "" H 1700 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901029
 P 1400 2850
 F 0 "R?" V 1480 2850 50  0001 C CNN
@@ -1186,7 +1154,7 @@ F 3 "" H 1400 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890102A
 P 1400 3450
 F 0 "R?" V 1480 3450 50  0001 C CNN
@@ -1197,7 +1165,7 @@ F 3 "" H 1400 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5890102B
 P 1400 3700
 F 0 "#PWR?" H 1400 3450 50  0001 C CNN
@@ -1208,7 +1176,7 @@ F 3 "" H 1400 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890102C
 P 1100 2850
 F 0 "R?" V 1180 2850 50  0001 C CNN
@@ -1219,7 +1187,7 @@ F 3 "" H 1100 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 5890102D
 P 1100 3450
 F 0 "R?" V 1180 3450 50  0001 C CNN
@@ -1236,15 +1204,13 @@ Wire Wire Line
 Wire Wire Line
 	1400 2650 1400 2700
 Wire Wire Line
-	1400 3600 1400 3650
-Wire Wire Line
-	1400 3650 1400 3700
+	1400 3600 1400 3700
 Wire Wire Line
 	1700 2650 1700 2700
 Wire Wire Line
 	1700 3650 1700 3600
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_02X03 P?
+L CONN_02X03 P?
 U 1 1 5890102E
 P 2250 3150
 F 0 "P?" H 2250 3350 50  0001 C CNN
@@ -1255,7 +1221,7 @@ F 3 "" H 2250 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5890102F
 P 2600 2700
 F 0 "#PWR?" H 2600 2550 50  0001 C CNN
@@ -1266,7 +1232,7 @@ F 3 "" H 2600 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901030
 P 2600 3600
 F 0 "#PWR?" H 2600 3350 50  0001 C CNN
@@ -1277,22 +1243,14 @@ F 3 "" H 2600 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3650 1400 3650
-Wire Wire Line
-	1400 3650 1700 3650
+	1100 3650 1700 3650
 Connection ~ 1400 3650
 Wire Wire Line
-	1100 3000 1100 3050
+	1100 3000 1100 3300
 Wire Wire Line
-	1100 3050 1100 3300
+	1400 3000 1400 3300
 Wire Wire Line
-	1400 3000 1400 3150
-Wire Wire Line
-	1400 3150 1400 3300
-Wire Wire Line
-	1700 3000 1700 3250
-Wire Wire Line
-	1700 3250 1700 3300
+	1700 3000 1700 3300
 Wire Wire Line
 	1100 3050 2000 3050
 Connection ~ 1100 3050
@@ -1305,7 +1263,7 @@ Connection ~ 1700 3250
 Text HLabel 1000 4250 0    60   Input ~ 0
 V1
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901031
 P 1700 4450
 F 0 "R?" V 1780 4450 50  0001 C CNN
@@ -1317,7 +1275,7 @@ F 4 "Mouser" H 1700 4450 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901032
 P 1700 5050
 F 0 "R?" V 1780 5050 50  0001 C CNN
@@ -1328,7 +1286,7 @@ F 3 "" H 1700 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901033
 P 1400 4450
 F 0 "R?" V 1480 4450 50  0001 C CNN
@@ -1339,7 +1297,7 @@ F 3 "" H 1400 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901034
 P 1400 5050
 F 0 "R?" V 1480 5050 50  0001 C CNN
@@ -1350,7 +1308,7 @@ F 3 "" H 1400 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 58901035
 P 1400 5300
 F 0 "#PWR?" H 1400 5050 50  0001 C CNN
@@ -1361,7 +1319,7 @@ F 3 "" H 1400 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901036
 P 1100 4450
 F 0 "R?" V 1180 4450 50  0001 C CNN
@@ -1372,7 +1330,7 @@ F 3 "" H 1100 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 58901037
 P 1100 5050
 F 0 "R?" V 1180 5050 50  0001 C CNN
@@ -1391,15 +1349,13 @@ Wire Wire Line
 Wire Wire Line
 	1400 4250 1400 4300
 Wire Wire Line
-	1400 5200 1400 5250
-Wire Wire Line
-	1400 5250 1400 5300
+	1400 5200 1400 5300
 Wire Wire Line
 	1700 4250 1700 4300
 Wire Wire Line
 	1700 5250 1700 5200
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_02X03 P?
+L CONN_02X03 P?
 U 1 1 58901038
 P 2250 4750
 F 0 "P?" H 2250 4950 50  0001 C CNN
@@ -1410,7 +1366,7 @@ F 3 "" H 2250 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 58901039
 P 2550 4300
 F 0 "#PWR?" H 2550 4150 50  0001 C CNN
@@ -1421,7 +1377,7 @@ F 3 "" H 2550 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5890103A
 P 2550 5200
 F 0 "#PWR?" H 2550 4950 50  0001 C CNN
@@ -1432,22 +1388,14 @@ F 3 "" H 2550 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5250 1400 5250
-Wire Wire Line
-	1400 5250 1700 5250
+	1100 5250 1700 5250
 Connection ~ 1400 5250
 Wire Wire Line
-	1100 4600 1100 4650
+	1100 4600 1100 4900
 Wire Wire Line
-	1100 4650 1100 4900
+	1400 4600 1400 4900
 Wire Wire Line
-	1400 4600 1400 4750
-Wire Wire Line
-	1400 4750 1400 4900
-Wire Wire Line
-	1700 4600 1700 4850
-Wire Wire Line
-	1700 4850 1700 4900
+	1700 4600 1700 4900
 Wire Wire Line
 	1100 4650 2000 4650
 Connection ~ 1100 4650
@@ -1458,17 +1406,13 @@ Wire Wire Line
 	1700 4850 2000 4850
 Connection ~ 1700 4850
 Wire Wire Line
-	1000 1150 1100 1150
-Wire Wire Line
-	1100 1150 1400 1150
-Wire Wire Line
-	1400 1150 1700 1150
+	1000 1150 1700 1150
 Connection ~ 1400 1150
 Wire Wire Line
 	1400 1150 1400 1200
 Connection ~ 1100 1150
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5890103B
 P 2600 3450
 F 0 "D?" H 2550 3530 50  0001 L CNN
@@ -1481,7 +1425,7 @@ F 5 "512-SS14FL " H 2600 3450 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D?
+L D_Schottky_Small D?
 U 1 1 5890103C
 P 2550 5050
 F 0 "D?" H 2500 5130 50  0001 L CNN
@@ -1494,9 +1438,7 @@ F 5 "512-SS14FL " H 2550 5050 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 4750 2550 4750
-Wire Wire Line
-	2550 4750 2850 4750
+	2500 4750 2850 4750
 Wire Wire Line
 	2550 4300 2550 4350
 Wire Wire Line
@@ -1504,34 +1446,18 @@ Wire Wire Line
 Wire Wire Line
 	2550 4850 2500 4850
 Wire Wire Line
-	2550 4550 2550 4650
-Wire Wire Line
-	2550 4650 2550 4750
-Wire Wire Line
-	2550 4750 2550 4850
-Wire Wire Line
-	2550 4850 2550 4950
+	2550 4550 2550 4950
 Connection ~ 2550 4750
 Wire Wire Line
 	2500 4650 2550 4650
 Connection ~ 2550 4850
 Connection ~ 2550 4650
 Wire Wire Line
-	1000 4250 1100 4250
-Wire Wire Line
-	1100 4250 1400 4250
-Wire Wire Line
-	1400 4250 1700 4250
+	1000 4250 1700 4250
 Connection ~ 1100 4250
 Connection ~ 1400 4250
 Wire Wire Line
-	2600 2950 2600 3050
-Wire Wire Line
-	2600 3050 2600 3150
-Wire Wire Line
-	2600 3150 2600 3250
-Wire Wire Line
-	2600 3250 2600 3350
+	2600 2950 2600 3350
 Connection ~ 2600 3250
 Connection ~ 2600 3050
 Connection ~ 2600 3150
@@ -1544,34 +1470,20 @@ Wire Wire Line
 Wire Wire Line
 	2500 3250 2600 3250
 Wire Wire Line
-	2500 3150 2600 3150
-Wire Wire Line
-	2600 3150 2850 3150
+	2500 3150 2850 3150
 Wire Wire Line
 	2500 3050 2600 3050
 Wire Wire Line
-	1000 2650 1100 2650
-Wire Wire Line
-	1100 2650 1400 2650
-Wire Wire Line
-	1400 2650 1700 2650
+	1000 2650 1700 2650
 Connection ~ 1100 2650
 Connection ~ 1400 2650
 Wire Wire Line
-	2600 1450 2600 1550
-Wire Wire Line
-	2600 1550 2600 1650
-Wire Wire Line
-	2600 1650 2600 1750
-Wire Wire Line
-	2600 1750 2600 1850
+	2600 1450 2600 1850
 Wire Wire Line
 	2500 1550 2600 1550
 Connection ~ 2600 1550
 Wire Wire Line
-	2500 1650 2600 1650
-Wire Wire Line
-	2600 1650 2850 1650
+	2500 1650 2850 1650
 Connection ~ 2600 1650
 Wire Wire Line
 	2500 1750 2600 1750
@@ -1592,12 +1504,4 @@ Wire Wire Line
 	4900 3750 4950 3750
 Wire Wire Line
 	4950 4050 4900 4050
-Wire Wire Line
-	7475 5950 7375 5950
-Wire Wire Line
-	7375 5950 7150 5950
-Wire Wire Line
-	7150 5950 7150 5700
-Wire Wire Line
-	7150 5700 6750 5700
 $EndSCHEMATC

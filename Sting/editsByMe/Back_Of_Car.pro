@@ -1,4 +1,4 @@
-update=2/9/2019 11:18:38 AM
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
 [general]
@@ -27,16 +27,7 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]

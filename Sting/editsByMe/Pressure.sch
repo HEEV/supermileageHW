@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 14
+Sheet 9 12
 Title "Pressure Transducer Board"
 Date "2016-10-20"
 Rev "2"
@@ -425,7 +425,7 @@ Out
 Wire Wire Line
 	8350 5800 8350 5850
 Wire Wire Line
-	8350 5850 8500 5850
+	8350 5850 8650 5850
 Wire Wire Line
 	8650 5850 8650 5800
 Wire Wire Line
@@ -434,7 +434,7 @@ Connection ~ 8500 5850
 Wire Wire Line
 	8350 5500 8350 5450
 Wire Wire Line
-	8350 5450 8500 5450
+	8350 5450 8650 5450
 Wire Wire Line
 	8650 5450 8650 5500
 Wire Wire Line
@@ -467,15 +467,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 3850 3550 3850
 Wire Wire Line
-	4600 4300 4600 4350
+	4600 4300 4600 4400
 Wire Wire Line
-	3750 4350 4050 4350
+	3750 4350 5800 4350
 Wire Wire Line
-	3950 3850 4050 3850
+	3950 3850 4100 3850
 Wire Wire Line
 	4100 3650 4050 3650
 Wire Wire Line
-	4050 3650 4050 3850
+	4050 3650 4050 3900
 Connection ~ 4050 3850
 Wire Wire Line
 	4050 4200 4050 4350
@@ -488,7 +488,7 @@ Wire Wire Line
 	5200 4350 5200 4300
 Connection ~ 4600 4350
 Wire Wire Line
-	5100 3650 5500 3650
+	5100 3650 5800 3650
 Wire Wire Line
 	5500 3650 5500 4000
 Wire Wire Line
@@ -498,7 +498,7 @@ Wire Wire Line
 	5800 4350 5800 4300
 Connection ~ 5500 4350
 Wire Wire Line
-	5800 3600 5800 3650
+	5800 3600 5800 4000
 Connection ~ 5500 3650
 Connection ~ 5800 3650
 Wire Wire Line
@@ -508,17 +508,17 @@ Wire Wire Line
 Wire Wire Line
 	7200 3550 7050 3550
 Wire Wire Line
-	7050 3550 7050 3950
+	7050 3550 7050 4000
 Wire Wire Line
 	7200 3450 6650 3450
 Wire Wire Line
-	6650 3150 6650 3450
+	6650 3150 6650 4650
 Wire Wire Line
 	6750 3250 6950 3250
 Wire Wire Line
 	6550 3150 6550 3200
 Wire Wire Line
-	6550 3500 6550 3550
+	6550 3500 6550 3600
 Wire Wire Line
 	7050 3950 6550 3950
 Wire Wire Line
@@ -591,7 +591,7 @@ $EndComp
 Wire Wire Line
 	8300 3650 8300 3700
 Wire Wire Line
-	8300 3700 8500 3700
+	8300 3700 8650 3700
 Wire Wire Line
 	8650 3700 8650 3650
 Wire Wire Line
@@ -600,7 +600,7 @@ Connection ~ 8500 3700
 Wire Wire Line
 	8300 3350 8300 3300
 Wire Wire Line
-	8300 3300 8500 3300
+	8300 3300 8650 3300
 Wire Wire Line
 	8650 3300 8650 3350
 Wire Wire Line
@@ -773,36 +773,4 @@ Text Notes 725  7800 0    60   ~ 0
 Full schematics with reference numbers are in the \npressure_sensor folder in the supermileagehw git repo at \nhttps://github.com/HEEV/supermileageHW
 Text Notes 625  2900 0    60   ~ 0
 Comments:\n\nQ1 and Q2 are reverse polarity protection transistors. They are P-Channel\nMosfets, so they have a very small resistance when on. \nCare should be taken in their selection so that their V-GS threshold is\nunder 1v\n\nU2 is a 5v regulator for the 5v pressure transducer. The output of U3 \ngoes through a selectable attenuator for a full 5v output or a 3.3v output.\n\nThere are positions for three pressure transducers on this board; \nhowever only one of them can be populated at a time. The top two\ntransducers are 5v and have a selectable attenuator for using with a\n3.3v microcontroller. The bottom transducer is 3.3v.\n\nThe connector is a Molex DuraClik Part numbers are as follows\nFemale Socket:\nDigiKey:  WM12262-ND\nMouser: 538-505151-0400\nPCB Header:\nDigiKey: WM7171CT-ND\nMouser: 538-502352-0400\nPins:\nDigiKey: WM12344CT-ND\nMouser: 538-505153-8000-CT
-Wire Wire Line
-	8500 5850 8650 5850
-Wire Wire Line
-	8500 5450 8650 5450
-Wire Wire Line
-	4050 3850 4100 3850
-Wire Wire Line
-	4050 3850 4050 3900
-Wire Wire Line
-	4050 4350 4600 4350
-Wire Wire Line
-	4600 4350 4600 4400
-Wire Wire Line
-	4600 4350 5200 4350
-Wire Wire Line
-	5200 4350 5500 4350
-Wire Wire Line
-	5500 4350 5800 4350
-Wire Wire Line
-	5500 3650 5800 3650
-Wire Wire Line
-	5800 3650 5800 4000
-Wire Wire Line
-	7050 3950 7050 4000
-Wire Wire Line
-	6550 3550 6550 3600
-Wire Wire Line
-	8500 3700 8650 3700
-Wire Wire Line
-	8500 3300 8650 3300
-Wire Wire Line
-	6650 3450 6650 4650
 $EndSCHEMATC

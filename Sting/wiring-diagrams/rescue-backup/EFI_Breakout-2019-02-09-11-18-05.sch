@@ -1,10 +1,47 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 14
+Sheet 4 14
 Title "EFI Breakout"
 Date "2017-01-04"
 Rev "1.7"
@@ -15,7 +52,7 @@ Comment3 "Shematic for Megasquirt breakout box"
 Comment4 ""
 $EndDescr
 $Comp
-L Wiring-Diagram-v2-rescue:DB25 J?
+L DB25 J?
 U 1 1 586D10CA
 P 5425 3450
 AR Path="/57E22A72/586D10CA" Ref="J?"  Part="1" 
@@ -50,7 +87,7 @@ O2_4_12v
 Text HLabel 2325 1450 1    60   Input ~ 0
 O2_3_Sen
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10CB
 P 2375 2050
 AR Path="/57E22A72/586D10CB" Ref="P?"  Part="1" 
@@ -63,12 +100,11 @@ F 3 "" H 2375 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D10CC
 P 3525 2050
 AR Path="/57E22A72/586D10CC" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CC" Ref="P?"  Part="1" 
-AR Path="/586D10CC" Ref="P?"  Part="1" 
 F 0 "P?" V 3725 2050 50  0001 C CNN
 F 1 "Injector" V 3625 2050 50  0000 C CNN
 F 2 "" H 3525 2050 50  0001 C CNN
@@ -77,12 +113,11 @@ F 3 "" H 3525 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D10CD
 P 3975 2050
 AR Path="/57E22A72/586D10CD" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CD" Ref="P?"  Part="1" 
-AR Path="/586D10CD" Ref="P?"  Part="1" 
 F 0 "P?" V 4175 2050 50  0001 C CNN
 F 1 "Ignition" V 4075 2050 50  0000 C CNN
 F 2 "" H 3975 2050 50  0001 C CNN
@@ -91,7 +126,7 @@ F 3 "" H 3975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10CE
 P 2975 2050
 AR Path="/57E22A72/586D10CE" Ref="P?"  Part="1" 
@@ -104,7 +139,7 @@ F 3 "" H 2975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10CF
 P 1775 2050
 AR Path="/57E22A72/586D10CF" Ref="P?"  Part="1" 
@@ -121,7 +156,7 @@ O2_2_Cal
 Text HLabel 2525 1450 1    60   Output ~ 0
 O2_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:DB25 J?
+L DB25 J?
 U 1 1 586D10D0
 P 5925 3450
 AR Path="/57E22A72/586D10D0" Ref="J?"  Part="1" 
@@ -134,7 +169,7 @@ F 3 "" H 5925 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:DB37 J?
+L DB37 J?
 U 1 1 586D10D1
 P 9925 3400
 AR Path="/57E22A72/586D10D1" Ref="J?"  Part="1" 
@@ -186,6 +221,12 @@ Text Notes 5175 5000 0    60   ~ 0
                              Output Pin1\nConnected to Input Pin19 GND for Urbie\nConnected to Input Pin11 GND for Sting
 Text Label 6475 4450 0    60   ~ 0
 SEN_GND
+Text Notes 6925 4450 0    60   ~ 0
+ONLY ON STING!!!
+Text Notes 6925 2750 0    60   ~ 0
+ONLY ON STING
+Text Notes 6925 4250 0    60   ~ 0
+ONLY ON STING
 Text Label 6525 2450 0    60   ~ 0
 white
 Text Label 6475 2850 0    60   ~ 0
@@ -199,7 +240,7 @@ CLT_1_A
 Text HLabel 3675 7150 3    60   Output ~ 0
 CLT_2_B
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10D2
 P 2275 6500
 AR Path="/57E22A72/586D10D2" Ref="P?"  Part="1" 
@@ -212,7 +253,7 @@ F 3 "" H 2275 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10D3
 P 4425 6500
 AR Path="/57E22A72/586D10D3" Ref="P?"  Part="1" 
@@ -229,12 +270,11 @@ IAC_3_1B
 Text HLabel 4275 7150 3    60   Output ~ 0
 IAC_4_2B
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D10D4
 P 3125 6500
 AR Path="/57E22A72/586D10D4" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D4" Ref="P?"  Part="1" 
-AR Path="/586D10D4" Ref="P?"  Part="1" 
 F 0 "P?" V 3325 6500 50  0001 C CNN
 F 1 "Intake Air Temp" V 3225 6500 50  0000 C CNN
 F 2 "" H 3125 6500 50  0001 C CNN
@@ -243,12 +283,11 @@ F 3 "" H 3125 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D10D5
 P 3725 6500
 AR Path="/57E22A72/586D10D5" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D5" Ref="P?"  Part="1" 
-AR Path="/586D10D5" Ref="P?"  Part="1" 
 F 0 "P?" V 3925 6500 50  0001 C CNN
 F 1 "Coolant Temp" V 3825 6500 50  0000 C CNN
 F 2 "" H 3725 6500 50  0001 C CNN
@@ -425,7 +464,7 @@ Entry Wire Line
 Entry Wire Line
 	8975 4500 9075 4600
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D10D6
 P 1125 2050
 AR Path="/57E22A72/586D10D6" Ref="P?"  Part="1" 
@@ -447,7 +486,7 @@ CAN_3_CANH
 Text HLabel 975  1450 1    60   UnSpc ~ 0
 CAN_4_PWR
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D346A
 P 1125 1750
 AR Path="/57E22A72/586D346A" Ref="P?"  Part="1" 
@@ -460,7 +499,7 @@ F 3 "" H 1125 1750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D3DFD
 P 1775 1750
 AR Path="/57E22A72/586D3DFD" Ref="P?"  Part="1" 
@@ -473,7 +512,7 @@ F 3 "" H 1775 1750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1275 3050 1825 3050
+	1275 3050 4825 3050
 Connection ~ 1825 3050
 Connection ~ 1925 3050
 Wire Wire Line
@@ -489,11 +528,11 @@ Wire Wire Line
 Wire Wire Line
 	3025 3050 3025 2250
 Wire Wire Line
-	2825 2250 2825 2750
+	2825 2250 2825 3650
 Wire Wire Line
 	2925 2250 2925 4350
 Wire Wire Line
-	3475 2250 3475 2950
+	3475 2250 3475 3950
 Wire Wire Line
 	3925 2250 3925 2650
 Wire Wire Line
@@ -609,7 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	4925 4450 4925 4850
 Wire Wire Line
-	4925 4850 3675 4850
+	4925 4850 2325 4850
 Wire Wire Line
 	4975 3750 3775 3750
 Wire Wire Line
@@ -636,7 +675,7 @@ Wire Wire Line
 	4825 4650 4975 4650
 Connection ~ 2525 3050
 Wire Wire Line
-	4825 2250 4825 3050
+	4825 2250 4825 4650
 Connection ~ 3075 4850
 Connection ~ 3675 4850
 Wire Wire Line
@@ -652,7 +691,11 @@ Wire Wire Line
 Wire Wire Line
 	6375 4150 7725 4150
 Wire Bus Line
+	8975 1550 8975 5300
+Wire Bus Line
 	8975 5300 7825 5300
+Wire Bus Line
+	7825 5300 7825 2250
 Wire Wire Line
 	4975 2950 3475 2950
 Connection ~ 3475 2950
@@ -677,7 +720,7 @@ Wire Wire Line
 Text HLabel 1925 1450 1    60   Input ~ 0
 P_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D56B8
 P 2375 1750
 AR Path="/57E22A72/586D56B8" Ref="P?"  Part="1" 
@@ -698,7 +741,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 2250 2325 2350
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D6E55
 P 2975 1750
 AR Path="/57E22A72/586D6E55" Ref="P?"  Part="1" 
@@ -716,12 +759,11 @@ Wire Wire Line
 	3125 2250 3125 3050
 Connection ~ 2825 2750
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D7A2D
 P 3525 1750
 AR Path="/57E22A72/586D7A2D" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D7A2D" Ref="P?"  Part="1" 
-AR Path="/586D7A2D" Ref="P?"  Part="1" 
 F 0 "P?" V 3725 1750 50  0001 C CNN
 F 1 "Injector" V 3625 1750 50  0000 C CNN
 F 2 "" H 3525 1750 50  0001 C CNN
@@ -738,12 +780,11 @@ Wire Wire Line
 Wire Wire Line
 	3575 2250 3575 3050
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586D8B07
 P 3975 1750
 AR Path="/57E22A72/586D8B07" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D8B07" Ref="P?"  Part="1" 
-AR Path="/586D8B07" Ref="P?"  Part="1" 
 F 0 "P?" V 4175 1750 50  0001 C CNN
 F 1 "Ignition" V 4075 1750 50  0000 C CNN
 F 2 "" H 3975 1750 50  0001 C CNN
@@ -754,7 +795,7 @@ $EndComp
 Text HLabel 4025 1450 1    60   Output ~ 0
 IGN_1_A
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586D9544
 P 2275 6850
 AR Path="/57E22A72/586D9544" Ref="P?"  Part="1" 
@@ -775,7 +816,7 @@ TPS_2_GND
 Text HLabel 2425 7150 3    60   Output ~ 0
 TPS_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L CONN_01X04 P?
 U 1 1 586DAD2B
 P 4425 6850
 AR Path="/57E22A72/586DAD2B" Ref="P?"  Part="1" 
@@ -792,12 +833,11 @@ IAC_1_1A
 Text HLabel 4475 7150 3    60   Output ~ 0
 IAC_2_2A
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586DB7C8
 P 3125 6850
 AR Path="/57E22A72/586DB7C8" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586DB7C8" Ref="P?"  Part="1" 
-AR Path="/586DB7C8" Ref="P?"  Part="1" 
 F 0 "P?" V 3325 6850 50  0001 C CNN
 F 1 "Intake Air Temp" V 3225 6850 50  0000 C CNN
 F 2 "" H 3125 6850 50  0001 C CNN
@@ -806,12 +846,11 @@ F 3 "" H 3125 6850 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 586DCC77
 P 3725 6850
 AR Path="/57E22A72/586DCC77" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586DCC77" Ref="P?"  Part="1" 
-AR Path="/586DCC77" Ref="P?"  Part="1" 
 F 0 "P?" V 3925 6850 50  0001 C CNN
 F 1 "Coolant Temp" V 3825 6850 50  0000 C CNN
 F 2 "" H 3725 6850 50  0001 C CNN
@@ -891,44 +930,4 @@ Wire Wire Line
 	4475 7150 4475 7050
 Wire Wire Line
 	4575 7150 4575 7050
-Wire Wire Line
-	1825 3050 1925 3050
-Wire Wire Line
-	1925 3050 2525 3050
-Wire Wire Line
-	3125 3050 3575 3050
-Wire Wire Line
-	3575 3050 4025 3050
-Wire Wire Line
-	4025 3050 4825 3050
-Wire Wire Line
-	3025 3050 3125 3050
-Wire Wire Line
-	2525 3050 3025 3050
-Wire Wire Line
-	3075 4850 2425 4850
-Wire Wire Line
-	3675 4850 3075 4850
-Wire Wire Line
-	3475 2950 3475 3950
-Wire Wire Line
-	4825 4250 4825 4650
-Wire Wire Line
-	4825 3050 4825 4250
-Wire Wire Line
-	2825 2750 2825 3650
-Wire Wire Line
-	2425 4850 2325 4850
-Wire Bus Line
-	8975 1550 8975 5300
-Wire Bus Line
-	7825 2250 7825 5300
-Text Notes 6925 4450 0    60   ~ 0
-ONLY ON STING
-Text Notes 6925 4250 0    60   ~ 0
-ONLY ON STING
-Text Notes 6925 2750 0    60   ~ 0
-ONLY ON STING
-Text Notes 6350 6900 0    60   ~ 0
-Edited by Madeline Chairvolotti Date: 02-23-2019
 $EndSCHEMATC

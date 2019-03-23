@@ -1,6 +1,43 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Wiring Diagram v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Supermileage
+LIBS:EllicottDisplay
+LIBS:EllicottInterface
+LIBS:EllicottMicrocontrollers
+LIBS:EllicottMisc
+LIBS:EllicottPower
+LIBS:relays_switches
 LIBS:Wiring Diagram v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -15,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:SW_NO SW5
+L SW_NO SW5
 U 1 1 57E14402
 P 3550 6575
 F 0 "SW5" H 3675 6725 60  0000 C CNN
@@ -26,7 +63,7 @@ F 3 "" H 3550 6575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_NO SW7
+L SW_NO SW7
 U 1 1 57E14F53
 P 6150 4925
 F 0 "SW7" H 6275 5075 60  0000 C CNN
@@ -37,7 +74,7 @@ F 3 "" H 6150 4925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_NO SW6
+L SW_NO SW6
 U 1 1 57E1500F
 P 3550 6075
 F 0 "SW6" H 3675 6225 60  0000 C CNN
@@ -48,7 +85,7 @@ F 3 "" H 3550 6075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:Throttle U?
+L Throttle U?
 U 1 1 57E1510C
 P 5800 4025
 F 0 "U?" H 5450 4025 60  0001 C CNN
@@ -59,7 +96,7 @@ F 3 "" H 5800 4125 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 57E152BF
 P 4400 5075
 F 0 "D?" H 4350 5200 50  0001 L CNN
@@ -70,7 +107,7 @@ F 3 "" V 4400 5075 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 57E153DC
 P 4400 4775
 F 0 "D?" H 4350 4900 50  0001 L CNN
@@ -81,7 +118,7 @@ F 3 "" V 4400 4775 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 57E15580
 P 4400 4425
 F 0 "D?" H 4350 4550 50  0001 L CNN
@@ -92,7 +129,7 @@ F 3 "" V 4400 4425 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 57E155BC
 P 4400 5525
 F 0 "D?" H 4350 5650 50  0001 L CNN
@@ -103,7 +140,7 @@ F 3 "" V 4400 5525 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:SW_NO SW8
+L SW_NO SW8
 U 1 1 57E15EB3
 P 6150 5325
 F 0 "SW8" H 6275 5475 60  0000 C CNN
@@ -114,7 +151,7 @@ F 3 "" H 6150 5325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 57E1710F
 P 4850 5525
 F 0 "R?" V 4930 5525 50  0001 C CNN
@@ -125,7 +162,7 @@ F 3 "" H 4850 5525 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 57E17292
 P 4850 4775
 F 0 "R?" V 4930 4775 50  0001 C CNN
@@ -136,7 +173,7 @@ F 3 "" H 4850 4775 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 57E172E2
 P 4850 5075
 F 0 "R?" V 4930 5075 50  0001 C CNN
@@ -147,7 +184,7 @@ F 3 "" H 4850 5075 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L R R?
 U 1 1 57E17343
 P 4850 4425
 F 0 "R?" V 4930 4425 50  0001 C CNN
@@ -164,7 +201,7 @@ O2_INDICATOR
 Text HLabel 3150 7125 0    60   Input ~ 0
 GND
 $Comp
-L Supermileage:SW_SPST SW4
+L SW_SPST SW4
 U 1 1 57E14E5E
 P 3550 5525
 F 0 "SW4" H 3550 5675 60  0000 C CNN
@@ -198,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6575 3350 6575
 Wire Wire Line
-	3750 5525 4000 5525
+	3750 5525 4300 5525
 Wire Wire Line
 	4000 6075 3750 6075
 Connection ~ 4000 5525
@@ -210,20 +247,20 @@ Wire Wire Line
 Wire Wire Line
 	5850 4925 5850 5325
 Wire Wire Line
-	4000 5325 5850 5325
+	4000 5325 5950 5325
 Connection ~ 5850 5325
 Wire Wire Line
 	6350 4925 6450 4925
 Wire Wire Line
-	6450 4925 6450 5325
+	6450 4925 6450 7325
 Wire Wire Line
 	6450 5325 6350 5325
 Wire Wire Line
 	5450 5525 5000 5525
 Wire Wire Line
-	4000 5525 4000 6075
+	4000 5525 4000 6925
 Wire Wire Line
-	3150 5075 4000 5075
+	3150 5075 4300 5075
 Wire Wire Line
 	4300 4775 3150 4775
 Wire Wire Line
@@ -250,7 +287,7 @@ Connection ~ 5450 5525
 Wire Wire Line
 	5450 7125 3150 7125
 Wire Wire Line
-	5450 3975 5450 4425
+	5450 3975 5450 7125
 Wire Wire Line
 	6450 7325 3150 7325
 Text HLabel 3150 3875 0    60   Input ~ 0
@@ -264,24 +301,4 @@ Wire Wire Line
 Wire Wire Line
 	4000 5325 4000 5075
 Connection ~ 4000 5075
-Wire Wire Line
-	5450 5075 5450 5525
-Wire Wire Line
-	5450 4775 5450 5075
-Wire Wire Line
-	5450 4425 5450 4775
-Wire Wire Line
-	4000 5525 4300 5525
-Wire Wire Line
-	4000 6075 4000 6575
-Wire Wire Line
-	5850 5325 5950 5325
-Wire Wire Line
-	6450 5325 6450 7325
-Wire Wire Line
-	4000 6575 4000 6925
-Wire Wire Line
-	5450 5525 5450 7125
-Wire Wire Line
-	4000 5075 4300 5075
 $EndSCHEMATC
