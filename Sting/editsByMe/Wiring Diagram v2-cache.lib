@@ -216,144 +216,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EllicottInterface_mcp2562
+# Wiring-Diagram-v2-rescue_12v-DC_DC-Supermileage
 #
-DEF EllicottInterface_mcp2562 U 0 40 Y Y 1 F N
-F0 "U" 0 -50 60 H V C CNN
-F1 "EllicottInterface_mcp2562" 0 50 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -450 300 450 -300 0 1 0 f
-X TXD 1 -650 100 200 R 50 50 1 1 O
-X Vss 2 0 -500 200 U 50 50 1 1 W
-X Vdd 3 150 500 200 D 50 50 1 1 W
-X RXD 4 -650 0 200 R 50 50 1 1 I
-X VIO 5 -150 500 200 D 50 50 1 1 W
-X CANL 6 650 -100 200 L 50 50 1 1 B
-X CANH 7 650 0 200 L 50 50 1 1 B
-X STBY 8 -650 -100 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# EllicottMicrocontrollers_STM32F042C6
-#
-DEF EllicottMicrocontrollers_STM32F042C6 U 0 40 Y Y 1 F N
-F0 "U" 25 -50 60 H V C CNN
-F1 "EllicottMicrocontrollers_STM32F042C6" 25 100 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -1050 1250 1050 -1300 0 1 0 f
-X BAT 1 0 1550 300 D 50 50 1 1 W
-X PA0/WKP 10 -1350 1100 300 R 50 50 1 1 T
-X PA1 11 -1350 950 300 R 50 50 1 1 T
-X PA2 12 -1350 800 300 R 50 50 1 1 T
-X PA3 13 -1350 650 300 R 50 50 1 1 T
-X PA4 14 -1350 500 300 R 50 50 1 1 T
-X PA5 15 -1350 350 300 R 50 50 1 1 T
-X PA6 16 -1350 200 300 R 50 50 1 1 T
-X PA7 17 -1350 50 300 R 50 50 1 1 T
-X PB0 18 1350 -1150 300 L 50 50 1 1 T
-X PB1 19 1350 -1000 300 L 50 50 1 1 T
-X PC13/RTC 2 -450 -1600 300 U 50 50 1 1 P
-X PB2/BOOT1 20 1350 -850 300 L 50 50 1 1 T
-X PB10 21 1350 350 300 L 50 50 1 1 T
-X PB11 22 1350 500 300 L 50 50 1 1 T
-X VSS 23 -300 1550 300 D 50 50 1 1 W
-X VDD 24 300 1550 300 D 50 50 1 1 W
-X PB12 25 1350 650 300 L 50 50 1 1 T
-X PB13 26 1350 800 300 L 50 50 1 1 T
-X PB14 27 1350 950 300 L 50 50 1 1 T
-X PB15 28 1350 1100 300 L 50 50 1 1 T
-X PA8 29 -1350 -100 300 R 50 50 1 1 T
-X PC14/LSE_IN 3 -300 -1600 300 U 50 50 1 1 P
-X PA9 30 -1350 -250 300 R 50 50 1 1 T
-X PA10 31 -1350 -400 300 R 50 50 1 1 T
-X PA11 32 -1350 -550 300 R 50 50 1 1 T
-X PA12 33 -1350 -700 300 R 50 50 1 1 T
-X PA13/SWDIO 34 -1350 -850 300 R 50 50 1 1 T
-X VSS 35 -450 1550 300 D 50 50 1 1 W
-X VDD 36 450 1550 300 D 50 50 1 1 W
-X PA14/SWCLK 37 -1350 -1000 300 R 50 50 1 1 T
-X PA15 38 -1350 -1150 300 R 50 50 1 1 T
-X PB3 39 1350 -700 300 L 50 50 1 1 T
-X PC15/LSE_OUT 4 -150 -1600 300 U 50 50 1 1 P
-X PB4 40 1350 -550 300 L 50 50 1 1 T
-X PB5 41 1350 -400 300 L 50 50 1 1 T
-X PB6 42 1350 -250 300 L 50 50 1 1 T
-X PB7 43 1350 -100 300 L 50 50 1 1 T
-X PF11/BOOT0 44 450 -1600 300 U 50 50 1 1 T
-X PB8 45 1350 50 300 L 50 50 1 1 T
-X PB9 46 1350 200 300 L 50 50 1 1 T
-X VSS 47 -600 1550 300 D 50 50 1 1 W
-X VDD 48 600 1550 300 D 50 50 1 1 W
-X PF0/HSE_IN 5 0 -1600 300 U 50 50 1 1 P
-X PF1/HSE_OUT 6 150 -1600 300 U 50 50 1 1 P
-X RST 7 300 -1600 300 U 50 50 1 1 I
-X VSS 8 -150 1550 300 D 50 50 1 1 W
-X VDD 9 150 1550 300 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# EllicottMisc_SW_PUSH_SMALL
-#
-DEF EllicottMisc_SW_PUSH_SMALL SW 0 40 N N 1 F N
-F0 "SW" 150 110 50 H V C CNN
-F1 "EllicottMisc_SW_PUSH_SMALL" 0 -79 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-C -60 60 10 0 1 0 N
-C 60 -60 10 0 1 0 N
-P 3 0 1 0 -100 100 -60 60 -60 60 N
-P 4 0 1 0 60 -60 100 -100 100 -100 100 -100 N
-P 6 0 1 0 -10 60 10 70 70 10 60 -10 60 -10 60 -10 N
-P 7 0 1 0 -50 80 80 -50 90 -40 -40 90 -50 80 -50 80 -50 80 N
-X 1 1 -100 100 0 R 50 50 0 1 P
-X 2 2 100 -100 0 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# EllicottPower_MIC5317
-#
-DEF EllicottPower_MIC5317 U 0 40 Y Y 1 F N
-F0 "U" 0 0 60 H V C CNN
-F1 "EllicottPower_MIC5317" 0 250 60 H V C CNN
-F2 "" 0 -50 60 H V C CNN
-F3 "" 0 -50 60 H V C CNN
-DRAW
-S -300 200 300 -350 0 1 0 f
-X Vin 1 -500 100 200 R 50 50 1 1 W
-X GND 2 0 -550 200 U 50 50 1 1 W
-X EN 3 -500 -100 200 R 50 50 1 1 I
-X NC 4 500 -100 200 L 50 50 1 1 N
-X Vout 5 500 100 200 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# EllicottPower_NJM2870F0
-#
-DEF EllicottPower_NJM2870F0 U 0 40 Y Y 1 F N
-F0 "U" 0 -50 60 H V C CNN
-F1 "EllicottPower_NJM2870F0" 0 150 60 H V C CNN
-F2 "" 0 -50 60 H V C CNN
-F3 "" 0 -50 60 H V C CNN
-DRAW
-S -300 100 300 -450 0 1 0 f
-X CTL 1 -500 -200 200 R 50 50 1 1 I
-X GND 2 0 -650 200 U 50 50 1 1 W
-X BYPASS 3 500 -200 200 L 50 50 1 1 P
-X Vout 4 500 0 200 L 50 50 1 1 w
-X Vin 5 -500 0 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_12v-DC_DC
-#
-DEF Supermileage_12v-DC_DC U 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_12v-DC_DC-Supermileage U 0 40 Y Y 1 F N
 F0 "U" 0 200 60 H V C CNN
-F1 "Supermileage_12v-DC_DC" 0 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_12v-DC_DC-Supermileage" 0 0 60 H V C CNN
 F2 "" -100 0 60 H V C CNN
 F3 "" -100 0 60 H V C CNN
 DRAW
@@ -365,11 +232,11 @@ X GND 4 600 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Supermileage_4PDT_Relay_b
+# Wiring-Diagram-v2-rescue_4PDT_Relay_b-Supermileage
 #
-DEF Supermileage_4PDT_Relay_b R 0 0 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_4PDT_Relay_b-Supermileage R 0 0 Y N 1 F N
 F0 "R" 0 -50 60 H V C CNN
-F1 "Supermileage_4PDT_Relay_b" 0 50 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_4PDT_Relay_b-Supermileage" 0 50 60 H V C CNN
 F2 "" -100 -50 60 H I C CNN
 F3 "" -100 -50 60 H I C CNN
 DRAW
@@ -549,11 +416,11 @@ X C 9 450 -650 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Supermileage_5v-DC_DC
+# Wiring-Diagram-v2-rescue_5v-DC_DC-Supermileage
 #
-DEF Supermileage_5v-DC_DC U 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_5v-DC_DC-Supermileage U 0 40 Y Y 1 F N
 F0 "U" 0 200 60 H V C CNN
-F1 "Supermileage_5v-DC_DC" 0 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_5v-DC_DC-Supermileage" 0 0 60 H V C CNN
 F2 "" -100 0 60 H V C CNN
 F3 "" -100 0 60 H V C CNN
 DRAW
@@ -565,11 +432,11 @@ X GND 4 600 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Supermileage_8_Terminal_Strip
+# Wiring-Diagram-v2-rescue_8_Terminal_Strip-Supermileage
 #
-DEF Supermileage_8_Terminal_Strip P 0 1 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_8_Terminal_Strip-Supermileage P 0 1 Y N 1 F N
 F0 "P" 0 850 50 H V C CNN
-F1 "Supermileage_8_Terminal_Strip" 0 -850 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_8_Terminal_Strip-Supermileage" 0 -850 50 H V C CNN
 F2 "" 0 -1275 50 H V C CNN
 F3 "" 0 -1275 50 H V C CNN
 $FPLIST
@@ -695,11 +562,11 @@ X ~ 8 400 -650 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Supermileage_ASDX100A24R
+# Wiring-Diagram-v2-rescue_ASDX100A24R-Supermileage
 #
-DEF Supermileage_ASDX100A24R U 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_ASDX100A24R-Supermileage U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
-F1 "Supermileage_ASDX100A24R" 0 300 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_ASDX100A24R-Supermileage" 0 300 60 H V C CNN
 F2 "" -750 550 60 H V C CNN
 F3 "" -750 550 60 H V C CNN
 DRAW
@@ -715,11 +582,11 @@ X NC 8 400 150 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# Supermileage_Arduino
+# Wiring-Diagram-v2-rescue_Arduino-Supermileage
 #
-DEF Supermileage_Arduino U 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_Arduino-Supermileage U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "Supermileage_Arduino" 0 -50 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Arduino-Supermileage" 0 -50 60 H V C CNN
 F2 "" 0 300 60 H V C CNN
 F3 "" 0 300 60 H V C CNN
 DRAW
@@ -754,11 +621,11 @@ X A2 9 -750 300 200 R 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# Supermileage_CB
+# Wiring-Diagram-v2-rescue_CB-Supermileage
 #
-DEF Supermileage_CB CB 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_CB-Supermileage CB 0 40 Y Y 1 F N
 F0 "CB" 0 -75 60 H V C CNN
-F1 "Supermileage_CB" 0 -175 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_CB-Supermileage" 0 -175 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -770,11 +637,11 @@ X Load 2 150 0 0 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Supermileage_CM0711
+# Wiring-Diagram-v2-rescue_CM0711-Supermileage
 #
-DEF Supermileage_CM0711 U 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_CM0711-Supermileage U 0 40 Y Y 1 F N
 F0 "U" 0 -1050 60 H V C CNN
-F1 "Supermileage_CM0711" -50 1000 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_CM0711-Supermileage" -50 1000 60 H V C CNN
 F2 "" -50 -1750 60 H V C CNN
 F3 "" -50 -1750 60 H V C CNN
 DRAW
@@ -818,309 +685,11 @@ X Input7 2-9 900 50 300 L 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
-# Supermileage_Fuel_Injector
+# Wiring-Diagram-v2-rescue_CONN_01X02-Wiring-Diagram-v2-rescue
 #
-DEF Supermileage_Fuel_Injector L 0 40 Y Y 1 F N
-F0 "L" 0 -150 60 H V C CNN
-F1 "Supermileage_Fuel_Injector" 0 150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 100 200 -100 0 1 0 f
-X Inj+ 1 -300 50 100 R 50 50 1 1 W
-X Inj- 4 -300 -50 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_G4V-MINI
-#
-DEF Supermileage_G4V-MINI U 0 40 Y Y 1 F N
-F0 "U" 0 -300 60 H V C CNN
-F1 "Supermileage_G4V-MINI" 0 300 60 H V C CNN
-F2 "" -750 550 60 H V C CNN
-F3 "" -750 550 60 H V C CNN
-DRAW
-S -100 -250 100 250 0 1 0 f
-X Vcc 1 -300 150 200 R 50 50 1 1 W
-X GND 2 -300 50 200 R 50 50 1 1 W
-X Out 3 -300 -50 200 R 50 50 1 1 W
-X NC 4 -300 -150 200 R 50 50 1 1 N
-ENDDRAW
-ENDDEF
-#
-# Supermileage_HSCDRR004MD
-#
-DEF Supermileage_HSCDRR004MD U 0 40 Y Y 1 F N
-F0 "U" 0 -300 60 H V C CNN
-F1 "Supermileage_HSCDRR004MD" 0 300 60 H V C CNN
-F2 "" -750 550 60 H V C CNN
-F3 "" -750 550 60 H V C CNN
-DRAW
-S -200 -250 200 250 0 1 0 f
-X NC 1 -400 150 200 R 50 50 1 1 N
-X Vcc 2 -400 50 200 R 50 50 1 1 W
-X Out 3 -400 -50 200 R 50 50 1 1 W
-X GND 4 -400 -150 200 R 50 50 1 1 W
-X NC 5 400 -150 200 L 50 50 1 1 N
-X NC 6 400 -50 200 L 50 50 1 1 N
-X NC 7 400 50 200 L 50 50 1 1 N
-X NC 8 400 150 200 L 50 50 1 1 N
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Horn
-#
-DEF Supermileage_Horn SP 0 40 Y Y 1 F N
-F0 "SP" 0 400 60 H V C CNN
-F1 "Supermileage_Horn" 0 300 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -100 150 100 100 0 1 0 N
-P 4 0 1 0 -100 150 -150 250 150 250 100 150 N
-X ~ ~ -50 0 100 U 50 50 1 1 W
-X ~ ~ 50 0 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Ignition
-#
-DEF Supermileage_Ignition U 0 40 Y Y 1 F N
-F0 "U" 0 -150 60 H V C CNN
-F1 "Supermileage_Ignition" 0 150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 100 200 -100 0 1 0 f
-X Ing+ 1 -300 50 100 R 50 50 1 1 W
-X Ing- 4 -300 -50 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Motor
-#
-DEF Supermileage_Motor M 0 0 N N 1 F N
-F0 "M" 0 0 60 H V C CNN
-F1 "Supermileage_Motor" 0 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 0 150 0 1 0 N
-P 4 0 1 0 -110 100 -250 100 -250 -100 -110 -100 N
-P 4 0 1 0 110 100 250 100 250 -100 110 -100 N
-X ~ 1 -300 0 50 R 50 50 1 1 I
-X ~ 2 300 0 50 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Supermileage_O2_Sensor
-#
-DEF Supermileage_O2_Sensor U 0 40 Y Y 1 F N
-F0 "U" 0 -350 60 H V C CNN
-F1 "Supermileage_O2_Sensor" 0 150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 100 200 -300 0 1 0 f
-X 12v 1 -300 50 100 R 50 50 1 1 W
-X out 2 -300 -50 100 R 50 50 1 1 O
-X Cal 3 -300 -150 100 R 50 50 1 1 I
-X GND 4 -300 -250 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_RPM_Sensor
-#
-DEF Supermileage_RPM_Sensor U 0 40 Y Y 1 F N
-F0 "U" 0 -250 60 H V C CNN
-F1 "Supermileage_RPM_Sensor" 0 150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 100 200 -200 0 1 0 f
-X 12v 1 -300 50 100 R 50 50 1 1 W
-X out 2 -300 -50 100 R 50 50 1 1 O
-X GND 4 -300 -150 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Supermileage_SPDT_Relay
-#
-DEF Supermileage_SPDT_Relay R 0 0 Y N 1 F N
-F0 "R" 0 0 60 H V C CNN
-F1 "Supermileage_SPDT_Relay" 290 -30 60 V V C CNN
-F2 "" 0 -50 60 H I C CNN
-F3 "" 0 -50 60 H I C CNN
-DRAW
-C -150 -225 35 0 1 0 N
-C 0 -375 35 0 1 0 N
-C 0 225 35 0 1 0 N
-C 0 375 35 0 1 0 N
-C 150 -225 35 0 1 0 N
-T 0 75 -375 41 0 0 0 C Normal 0 C C
-T 0 -125 225 41 0 0 0 NC Normal 0 C C
-T 0 -125 375 41 0 0 0 NO Normal 0 C C
-T 0 -75 -225 41 0 0 0 R Normal 0 C C
-T 0 75 -225 41 0 0 0 R Normal 0 C C
-S 225 -450 -225 450 0 1 0 N
-P 2 0 1 0 -225 -150 225 -150 N
-P 2 0 1 0 -225 150 225 150 N
-P 2 0 1 0 -170 -225 -130 -225 N
-P 2 0 1 0 -150 -450 -150 -260 N
-P 2 0 1 0 -150 -205 -150 -245 N
-P 2 0 1 0 -20 -375 20 -375 N
-P 2 0 1 0 -20 225 20 225 N
-P 2 0 1 0 -20 375 20 375 N
-P 2 0 1 0 0 -450 0 -410 N
-P 2 0 1 0 0 -355 0 -395 N
-P 2 0 1 0 0 245 0 205 N
-P 2 0 1 0 0 395 0 355 N
-P 2 0 1 0 0 410 0 450 N
-P 2 0 1 0 35 225 85 225 N
-P 2 0 1 0 130 -225 170 -225 N
-P 2 0 1 0 150 -450 150 -260 N
-P 2 0 1 0 150 -205 150 -245 N
-P 2 0 1 0 225 -300 -225 -300 N
-P 2 0 1 0 225 300 -225 300 N
-P 3 0 1 0 150 450 150 290 85 225 N
-X NC 1 150 650 200 D 50 50 1 1 I
-X R 13 150 -650 200 U 50 50 1 1 I
-X R 14 -150 -650 200 U 50 50 1 1 I
-X NO 5 0 650 200 D 50 50 1 1 I
-X C 9 0 -650 200 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Supermileage_SW_NO
-#
-DEF Supermileage_SW_NO SW 0 40 N N 1 F N
-F0 "SW" 125 150 60 H V C CNN
-F1 "Supermileage_SW_NO" 0 -100 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -175 0 25 0 1 0 N
-C 175 0 25 0 1 0 N
-P 2 0 1 0 -175 75 175 75 N
-P 2 0 1 0 0 175 0 75 N
-X ~ 1 -200 0 0 R 50 50 1 1 P N
-X ~ 2 200 0 0 R 50 50 1 1 P N
-ENDDRAW
-ENDDEF
-#
-# Supermileage_SW_SPDT
-#
-DEF Supermileage_SW_SPDT SW 0 40 N N 1 F N
-F0 "SW" -150 100 60 H V C CNN
-F1 "Supermileage_SW_SPDT" 0 -225 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -175 0 25 0 0 0 N
-C 175 -100 25 0 0 0 N
-C 175 100 25 0 0 0 N
-P 2 0 1 0 -150 0 175 0 N
-P 2 0 2 0 -150 0 175 75 N
-X C 1 -200 0 0 R 50 50 1 1 P N
-X NO 2 200 -100 0 R 50 50 1 1 P N
-X NC 3 200 100 0 L 50 50 1 1 P
-X C 1 -200 0 0 R 50 50 1 2 P N
-X NO 2 200 -100 0 R 50 50 1 2 P N
-X NC 3 200 100 0 L 50 50 1 2 P
-ENDDRAW
-ENDDEF
-#
-# Supermileage_SW_SPST
-#
-DEF Supermileage_SW_SPST SW 0 40 N N 1 F N
-F0 "SW" 0 150 60 H V C CNN
-F1 "Supermileage_SW_SPST" 0 -100 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -175 0 25 0 0 0 N
-C 175 0 25 0 0 0 N
-P 2 0 1 0 -150 0 175 125 N
-P 2 0 2 0 -150 0 170 30 N
-X ~ 1 -200 0 0 R 50 50 1 1 P N
-X ~ 2 200 0 0 R 50 50 1 1 P N
-X ~ 1 -200 0 0 R 50 50 1 2 P N
-X ~ 2 200 0 0 R 50 50 1 2 P N
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Servo
-#
-DEF Supermileage_Servo M 0 40 Y Y 1 F N
-F0 "M" 100 0 60 H V C CNN
-F1 "Supermileage_Servo" 0 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 150 200 -150 0 1 0 f
-X 5v 1 -400 100 200 R 50 50 1 1 I
-X GND 2 -400 0 200 R 50 50 1 1 I
-X CTL 3 -400 -100 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Starter_Relay
-#
-DEF Supermileage_Starter_Relay CR 0 0 Y Y 1 F N
-F0 "CR" 0 210 60 H V C CNN
-F1 "Supermileage_Starter_Relay" 10 -210 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-A -67 -62 18 1373 -252 0 1 0 N -80 -50 -50 -70
-A -67 -42 18 1373 -252 0 1 0 N -80 -30 -50 -50
-A -67 -22 18 1373 -252 0 1 0 N -80 -10 -50 -30
-A -67 -2 18 1373 -252 0 1 0 N -80 10 -50 -10
-A -67 18 18 1373 -252 0 1 0 N -80 30 -50 10
-A -67 38 18 1373 -252 0 1 0 N -80 50 -50 30
-A -67 61 17 -34 -1398 0 1 0 N -50 60 -80 50
-A -65 -40 18 -337 -1463 0 1 0 N -50 -50 -80 -50
-A -65 -20 18 -337 -1463 0 1 0 N -50 -30 -80 -30
-A -65 0 18 -337 -1463 0 1 0 N -50 -10 -80 -10
-A -65 20 18 -337 -1463 0 1 0 N -50 10 -80 10
-A -65 40 18 -337 -1463 0 1 0 N -50 30 -80 30
-A -64 57 14 1148 121 0 1 0 N -70 70 -50 60
-A -60 -60 14 -1350 -450 0 1 0 N -70 -70 -50 -70
-C 0 0 160 0 1 0 N
-C 70 -50 10 0 1 0 F
-C 70 50 10 0 1 0 F
-P 3 0 1 0 -150 -100 -70 -100 -70 -70 N
-P 3 0 1 0 -150 100 -70 100 -70 70 N
-P 3 0 1 0 150 -100 70 -100 70 -50 N
-P 4 0 1 0 150 100 70 100 70 50 20 -50 N
-X C1 ~ -300 100 150 R 50 50 1 1 I
-X C2 ~ -300 -100 150 R 50 50 1 1 I
-X R1 ~ 300 100 150 L 50 50 1 1 P
-X R2 ~ 300 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Supermileage_Throttle
-#
-DEF Supermileage_Throttle U 0 40 Y Y 1 F N
-F0 "U" -350 0 60 H V C CNN
-F1 "Supermileage_Throttle" -200 -250 60 H V C CNN
-F2 "" 0 100 60 H V C CNN
-F3 "" 0 100 60 H V C CNN
-DRAW
-S 0 200 -450 -200 0 1 0 f
-X GND blk 200 50 200 L 50 50 1 1 W
-X batt_v brn 200 -150 200 L 50 50 1 1 I
-X sig grn 200 -50 200 L 50 50 1 1 O
-X 5v red 200 150 200 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Wiring-Diagram-v2-rescue_CONN_01X02
-#
-DEF Wiring-Diagram-v2-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_CONN_01X02-Wiring-Diagram-v2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_CONN_01X02-Wiring-Diagram-v2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1138,11 +707,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_CONN_01X03
+# Wiring-Diagram-v2-rescue_CONN_01X03-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_CONN_01X03 P 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_CONN_01X03-Wiring-Diagram-v2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_CONN_01X03-Wiring-Diagram-v2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1162,11 +731,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_CONN_01X04
+# Wiring-Diagram-v2-rescue_CONN_01X04-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_CONN_01X04 P 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_CONN_01X04-Wiring-Diagram-v2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_CONN_01X04" 100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_CONN_01X04-Wiring-Diagram-v2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1188,11 +757,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_CONN_01X12
+# Wiring-Diagram-v2-rescue_CONN_01X12-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_CONN_01X12 P 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_CONN_01X12-Wiring-Diagram-v2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 650 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_CONN_01X12" 100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_CONN_01X12-Wiring-Diagram-v2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1230,11 +799,11 @@ X P9 9 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_CONN_01X18
+# Wiring-Diagram-v2-rescue_CONN_01X18-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_CONN_01X18 P 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_CONN_01X18-Wiring-Diagram-v2-rescue P 0 40 Y N 1 F N
 F0 "P" 0 950 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_CONN_01X18" 100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_CONN_01X18-Wiring-Diagram-v2-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1284,11 +853,11 @@ X P9 9 -200 50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_DB25
+# Wiring-Diagram-v2-rescue_DB25-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_DB25 J 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_DB25-Wiring-Diagram-v2-rescue J 0 40 Y N 1 F N
 F0 "J" 50 1350 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_DB25" -50 -1350 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_DB25-Wiring-Diagram-v2-rescue" -50 -1350 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1381,11 +950,11 @@ X 9 9 -450 400 300 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_DB37
+# Wiring-Diagram-v2-rescue_DB37-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_DB37 J 0 40 Y N 1 F N
+DEF Wiring-Diagram-v2-rescue_DB37-Wiring-Diagram-v2-rescue J 0 40 Y N 1 F N
 F0 "J" 100 1900 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_DB37" -50 -1950 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_DB37-Wiring-Diagram-v2-rescue" -50 -1950 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1514,11 +1083,11 @@ X 9 9 -450 -200 300 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_FUSE
+# Wiring-Diagram-v2-rescue_FUSE-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_FUSE F 0 10 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_FUSE-Wiring-Diagram-v2-rescue F 0 10 Y Y 1 F N
 F0 "F" 100 50 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_FUSE" -100 -50 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_FUSE-Wiring-Diagram-v2-rescue" -100 -50 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1529,11 +1098,90 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_Led_Small
+# Wiring-Diagram-v2-rescue_Fuel_Injector-Supermileage
 #
-DEF Wiring-Diagram-v2-rescue_Led_Small D 0 10 N N 1 F N
+DEF Wiring-Diagram-v2-rescue_Fuel_Injector-Supermileage L 0 40 Y Y 1 F N
+F0 "L" 0 -150 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Fuel_Injector-Supermileage" 0 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 100 200 -100 0 1 0 f
+X Inj+ 1 -300 50 100 R 50 50 1 1 W
+X Inj- 4 -300 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_G4V-MINI-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_G4V-MINI-Supermileage U 0 40 Y Y 1 F N
+F0 "U" 0 -300 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_G4V-MINI-Supermileage" 0 300 60 H V C CNN
+F2 "" -750 550 60 H V C CNN
+F3 "" -750 550 60 H V C CNN
+DRAW
+S -100 -250 100 250 0 1 0 f
+X Vcc 1 -300 150 200 R 50 50 1 1 W
+X GND 2 -300 50 200 R 50 50 1 1 W
+X Out 3 -300 -50 200 R 50 50 1 1 W
+X NC 4 -300 -150 200 R 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_HSCDRR004MD-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_HSCDRR004MD-Supermileage U 0 40 Y Y 1 F N
+F0 "U" 0 -300 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_HSCDRR004MD-Supermileage" 0 300 60 H V C CNN
+F2 "" -750 550 60 H V C CNN
+F3 "" -750 550 60 H V C CNN
+DRAW
+S -200 -250 200 250 0 1 0 f
+X NC 1 -400 150 200 R 50 50 1 1 N
+X Vcc 2 -400 50 200 R 50 50 1 1 W
+X Out 3 -400 -50 200 R 50 50 1 1 W
+X GND 4 -400 -150 200 R 50 50 1 1 W
+X NC 5 400 -150 200 L 50 50 1 1 N
+X NC 6 400 -50 200 L 50 50 1 1 N
+X NC 7 400 50 200 L 50 50 1 1 N
+X NC 8 400 150 200 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Horn-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_Horn-Supermileage SP 0 40 Y Y 1 F N
+F0 "SP" 0 400 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Horn-Supermileage" 0 300 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 150 100 100 0 1 0 N
+P 4 0 1 0 -100 150 -150 250 150 250 100 150 N
+X ~ ~ -50 0 100 U 50 50 1 1 W
+X ~ ~ 50 0 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Ignition-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_Ignition-Supermileage U 0 40 Y Y 1 F N
+F0 "U" 0 -150 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Ignition-Supermileage" 0 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 100 200 -100 0 1 0 f
+X Ing+ 1 -300 50 100 R 50 50 1 1 W
+X Ing- 4 -300 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Led_Small-Wiring-Diagram-v2-rescue
+#
+DEF Wiring-Diagram-v2-rescue_Led_Small-Wiring-Diagram-v2-rescue D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Wiring-Diagram-v2-rescue_Led_Small" -175 -100 50 H V L CNN
+F1 "Wiring-Diagram-v2-rescue_Led_Small-Wiring-Diagram-v2-rescue" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -1550,11 +1198,77 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_POT
+# Wiring-Diagram-v2-rescue_MIC5317-EllicottPower
 #
-DEF Wiring-Diagram-v2-rescue_POT RV 0 40 N N 1 F N
+DEF Wiring-Diagram-v2-rescue_MIC5317-EllicottPower U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_MIC5317-EllicottPower" 0 250 60 H V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+DRAW
+S -300 200 300 -350 0 1 0 f
+X Vin 1 -500 100 200 R 50 50 1 1 W
+X GND 2 0 -550 200 U 50 50 1 1 W
+X EN 3 -500 -100 200 R 50 50 1 1 I
+X NC 4 500 -100 200 L 50 50 1 1 N
+X Vout 5 500 100 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Motor-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_Motor-Supermileage M 0 0 N N 1 F N
+F0 "M" 0 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Motor-Supermileage" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 150 0 1 0 N
+P 4 0 1 0 -110 100 -250 100 -250 -100 -110 -100 N
+P 4 0 1 0 110 100 250 100 250 -100 110 -100 N
+X ~ 1 -300 0 50 R 50 50 1 1 I
+X ~ 2 300 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_NJM2870F0-EllicottPower
+#
+DEF Wiring-Diagram-v2-rescue_NJM2870F0-EllicottPower U 0 40 Y Y 1 F N
+F0 "U" 0 -50 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_NJM2870F0-EllicottPower" 0 150 60 H V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+DRAW
+S -300 100 300 -450 0 1 0 f
+X CTL 1 -500 -200 200 R 50 50 1 1 I
+X GND 2 0 -650 200 U 50 50 1 1 W
+X BYPASS 3 500 -200 200 L 50 50 1 1 P
+X Vout 4 500 0 200 L 50 50 1 1 w
+X Vin 5 -500 0 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_O2_Sensor-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_O2_Sensor-Supermileage U 0 40 Y Y 1 F N
+F0 "U" 0 -350 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_O2_Sensor-Supermileage" 0 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 100 200 -300 0 1 0 f
+X 12v 1 -300 50 100 R 50 50 1 1 W
+X out 2 -300 -50 100 R 50 50 1 1 O
+X Cal 3 -300 -150 100 R 50 50 1 1 I
+X GND 4 -300 -250 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_POT-Wiring-Diagram-v2-rescue
+#
+DEF Wiring-Diagram-v2-rescue_POT-Wiring-Diagram-v2-rescue RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Wiring-Diagram-v2-rescue_POT" -100 0 50 V V C CNN
+F1 "Wiring-Diagram-v2-rescue_POT-Wiring-Diagram-v2-rescue" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1570,11 +1284,169 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_SW_Push
+# Wiring-Diagram-v2-rescue_RPM_Sensor-Supermileage
 #
-DEF Wiring-Diagram-v2-rescue_SW_Push SW 0 40 N N 1 F N
+DEF Wiring-Diagram-v2-rescue_RPM_Sensor-Supermileage U 0 40 Y Y 1 F N
+F0 "U" 0 -250 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_RPM_Sensor-Supermileage" 0 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 100 200 -200 0 1 0 f
+X 12v 1 -300 50 100 R 50 50 1 1 W
+X out 2 -300 -50 100 R 50 50 1 1 O
+X GND 4 -300 -150 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_SPDT_Relay-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_SPDT_Relay-Supermileage R 0 0 Y N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SPDT_Relay-Supermileage" 290 -30 60 V V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+C -150 -225 35 0 1 0 N
+C 0 -375 35 0 1 0 N
+C 0 225 35 0 1 0 N
+C 0 375 35 0 1 0 N
+C 150 -225 35 0 1 0 N
+T 0 75 -375 41 0 0 0 C Normal 0 C C
+T 0 -125 225 41 0 0 0 NC Normal 0 C C
+T 0 -125 375 41 0 0 0 NO Normal 0 C C
+T 0 -75 -225 41 0 0 0 R Normal 0 C C
+T 0 75 -225 41 0 0 0 R Normal 0 C C
+S 225 -450 -225 450 0 1 0 N
+P 2 0 1 0 -225 -150 225 -150 N
+P 2 0 1 0 -225 150 225 150 N
+P 2 0 1 0 -170 -225 -130 -225 N
+P 2 0 1 0 -150 -450 -150 -260 N
+P 2 0 1 0 -150 -205 -150 -245 N
+P 2 0 1 0 -20 -375 20 -375 N
+P 2 0 1 0 -20 225 20 225 N
+P 2 0 1 0 -20 375 20 375 N
+P 2 0 1 0 0 -450 0 -410 N
+P 2 0 1 0 0 -355 0 -395 N
+P 2 0 1 0 0 245 0 205 N
+P 2 0 1 0 0 395 0 355 N
+P 2 0 1 0 0 410 0 450 N
+P 2 0 1 0 35 225 85 225 N
+P 2 0 1 0 130 -225 170 -225 N
+P 2 0 1 0 150 -450 150 -260 N
+P 2 0 1 0 150 -205 150 -245 N
+P 2 0 1 0 225 -300 -225 -300 N
+P 2 0 1 0 225 300 -225 300 N
+P 3 0 1 0 150 450 150 290 85 225 N
+X NC 1 150 650 200 D 50 50 1 1 I
+X R 13 150 -650 200 U 50 50 1 1 I
+X R 14 -150 -650 200 U 50 50 1 1 I
+X NO 5 0 650 200 D 50 50 1 1 I
+X C 9 0 -650 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_STM32F042C6-EllicottMicrocontrollers
+#
+DEF Wiring-Diagram-v2-rescue_STM32F042C6-EllicottMicrocontrollers U 0 40 Y Y 1 F N
+F0 "U" 25 -50 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_STM32F042C6-EllicottMicrocontrollers" 25 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -1050 1250 1050 -1300 0 1 0 f
+X BAT 1 0 1550 300 D 50 50 1 1 W
+X PA0/WKP 10 -1350 1100 300 R 50 50 1 1 T
+X PA1 11 -1350 950 300 R 50 50 1 1 T
+X PA2 12 -1350 800 300 R 50 50 1 1 T
+X PA3 13 -1350 650 300 R 50 50 1 1 T
+X PA4 14 -1350 500 300 R 50 50 1 1 T
+X PA5 15 -1350 350 300 R 50 50 1 1 T
+X PA6 16 -1350 200 300 R 50 50 1 1 T
+X PA7 17 -1350 50 300 R 50 50 1 1 T
+X PB0 18 1350 -1150 300 L 50 50 1 1 T
+X PB1 19 1350 -1000 300 L 50 50 1 1 T
+X PC13/RTC 2 -450 -1600 300 U 50 50 1 1 P
+X PB2/BOOT1 20 1350 -850 300 L 50 50 1 1 T
+X PB10 21 1350 350 300 L 50 50 1 1 T
+X PB11 22 1350 500 300 L 50 50 1 1 T
+X VSS 23 -300 1550 300 D 50 50 1 1 W
+X VDD 24 300 1550 300 D 50 50 1 1 W
+X PB12 25 1350 650 300 L 50 50 1 1 T
+X PB13 26 1350 800 300 L 50 50 1 1 T
+X PB14 27 1350 950 300 L 50 50 1 1 T
+X PB15 28 1350 1100 300 L 50 50 1 1 T
+X PA8 29 -1350 -100 300 R 50 50 1 1 T
+X PC14/LSE_IN 3 -300 -1600 300 U 50 50 1 1 P
+X PA9 30 -1350 -250 300 R 50 50 1 1 T
+X PA10 31 -1350 -400 300 R 50 50 1 1 T
+X PA11 32 -1350 -550 300 R 50 50 1 1 T
+X PA12 33 -1350 -700 300 R 50 50 1 1 T
+X PA13/SWDIO 34 -1350 -850 300 R 50 50 1 1 T
+X VSS 35 -450 1550 300 D 50 50 1 1 W
+X VDD 36 450 1550 300 D 50 50 1 1 W
+X PA14/SWCLK 37 -1350 -1000 300 R 50 50 1 1 T
+X PA15 38 -1350 -1150 300 R 50 50 1 1 T
+X PB3 39 1350 -700 300 L 50 50 1 1 T
+X PC15/LSE_OUT 4 -150 -1600 300 U 50 50 1 1 P
+X PB4 40 1350 -550 300 L 50 50 1 1 T
+X PB5 41 1350 -400 300 L 50 50 1 1 T
+X PB6 42 1350 -250 300 L 50 50 1 1 T
+X PB7 43 1350 -100 300 L 50 50 1 1 T
+X PF11/BOOT0 44 450 -1600 300 U 50 50 1 1 T
+X PB8 45 1350 50 300 L 50 50 1 1 T
+X PB9 46 1350 200 300 L 50 50 1 1 T
+X VSS 47 -600 1550 300 D 50 50 1 1 W
+X VDD 48 600 1550 300 D 50 50 1 1 W
+X PF0/HSE_IN 5 0 -1600 300 U 50 50 1 1 P
+X PF1/HSE_OUT 6 150 -1600 300 U 50 50 1 1 P
+X RST 7 300 -1600 300 U 50 50 1 1 I
+X VSS 8 -150 1550 300 D 50 50 1 1 W
+X VDD 9 150 1550 300 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_SW_NO-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_SW_NO-Supermileage SW 0 40 N N 1 F N
 F0 "SW" 125 150 60 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_SW_Push" 0 -100 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SW_NO-Supermileage" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -175 0 25 0 1 0 N
+C 175 0 25 0 1 0 N
+P 2 0 1 0 -175 75 175 75 N
+P 2 0 1 0 0 175 0 75 N
+X ~ 1 -200 0 0 R 50 50 1 1 P N
+X ~ 2 200 0 0 R 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_SW_PUSH_SMALL-EllicottMisc
+#
+DEF Wiring-Diagram-v2-rescue_SW_PUSH_SMALL-EllicottMisc SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SW_PUSH_SMALL-EllicottMisc" 0 -79 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C -60 60 10 0 1 0 N
+C 60 -60 10 0 1 0 N
+P 3 0 1 0 -100 100 -60 60 -60 60 N
+P 4 0 1 0 60 -60 100 -100 100 -100 100 -100 N
+P 6 0 1 0 -10 60 10 70 70 10 60 -10 60 -10 60 -10 N
+P 7 0 1 0 -50 80 80 -50 90 -40 -40 90 -50 80 -50 80 -50 80 N
+X 1 1 -100 100 0 R 50 50 0 1 P
+X 2 2 100 -100 0 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_SW_Push-Wiring-Diagram-v2-rescue
+#
+DEF Wiring-Diagram-v2-rescue_SW_Push-Wiring-Diagram-v2-rescue SW 0 40 N N 1 F N
+F0 "SW" 125 150 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SW_Push-Wiring-Diagram-v2-rescue" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1592,11 +1464,103 @@ X ~ 2 200 0 0 R 50 50 0 0 P N
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_TEST_1P
+# Wiring-Diagram-v2-rescue_SW_SPDT-Supermileage
 #
-DEF Wiring-Diagram-v2-rescue_TEST_1P J 0 30 N N 1 F N
+DEF Wiring-Diagram-v2-rescue_SW_SPDT-Supermileage SW 0 40 N N 1 F N
+F0 "SW" -150 100 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SW_SPDT-Supermileage" 0 -225 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -175 0 25 0 0 0 N
+C 175 -100 25 0 0 0 N
+C 175 100 25 0 0 0 N
+P 2 0 1 0 -150 0 175 0 N
+P 2 0 2 0 -150 0 175 75 N
+X C 1 -200 0 0 R 50 50 1 1 P N
+X NO 2 200 -100 0 R 50 50 1 1 P N
+X NC 3 200 100 0 L 50 50 1 1 P
+X C 1 -200 0 0 R 50 50 1 2 P N
+X NO 2 200 -100 0 R 50 50 1 2 P N
+X NC 3 200 100 0 L 50 50 1 2 P
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_SW_SPST-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_SW_SPST-Supermileage SW 0 40 N N 1 F N
+F0 "SW" 0 150 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_SW_SPST-Supermileage" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -175 0 25 0 0 0 N
+C 175 0 25 0 0 0 N
+P 2 0 1 0 -150 0 175 125 N
+P 2 0 2 0 -150 0 170 30 N
+X ~ 1 -200 0 0 R 50 50 1 1 P N
+X ~ 2 200 0 0 R 50 50 1 1 P N
+X ~ 1 -200 0 0 R 50 50 1 2 P N
+X ~ 2 200 0 0 R 50 50 1 2 P N
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Servo-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_Servo-Supermileage M 0 40 Y Y 1 F N
+F0 "M" 100 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Servo-Supermileage" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 150 200 -150 0 1 0 f
+X 5v 1 -400 100 200 R 50 50 1 1 I
+X GND 2 -400 0 200 R 50 50 1 1 I
+X CTL 3 -400 -100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_Starter_Relay-Supermileage
+#
+DEF Wiring-Diagram-v2-rescue_Starter_Relay-Supermileage CR 0 0 Y Y 1 F N
+F0 "CR" 0 210 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Starter_Relay-Supermileage" 10 -210 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A -67 -62 18 1373 -252 0 1 0 N -80 -50 -50 -70
+A -67 -42 18 1373 -252 0 1 0 N -80 -30 -50 -50
+A -67 -22 18 1373 -252 0 1 0 N -80 -10 -50 -30
+A -67 -2 18 1373 -252 0 1 0 N -80 10 -50 -10
+A -67 18 18 1373 -252 0 1 0 N -80 30 -50 10
+A -67 38 18 1373 -252 0 1 0 N -80 50 -50 30
+A -67 61 17 -34 -1398 0 1 0 N -50 60 -80 50
+A -65 -40 18 -337 -1463 0 1 0 N -50 -50 -80 -50
+A -65 -20 18 -337 -1463 0 1 0 N -50 -30 -80 -30
+A -65 0 18 -337 -1463 0 1 0 N -50 -10 -80 -10
+A -65 20 18 -337 -1463 0 1 0 N -50 10 -80 10
+A -65 40 18 -337 -1463 0 1 0 N -50 30 -80 30
+A -64 57 14 1148 121 0 1 0 N -70 70 -50 60
+A -60 -60 14 -1350 -450 0 1 0 N -70 -70 -50 -70
+C 0 0 160 0 1 0 N
+C 70 -50 10 0 1 0 F
+C 70 50 10 0 1 0 F
+P 3 0 1 0 -150 -100 -70 -100 -70 -70 N
+P 3 0 1 0 -150 100 -70 100 -70 70 N
+P 3 0 1 0 150 -100 70 -100 70 -50 N
+P 4 0 1 0 150 100 70 100 70 50 20 -50 N
+X C1 ~ -300 100 150 R 50 50 1 1 I
+X C2 ~ -300 -100 150 R 50 50 1 1 I
+X R1 ~ 300 100 150 L 50 50 1 1 P
+X R2 ~ 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_TEST_1P-Wiring-Diagram-v2-rescue
+#
+DEF Wiring-Diagram-v2-rescue_TEST_1P-Wiring-Diagram-v2-rescue J 0 30 N N 1 F N
 F0 "J" 0 270 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_TEST_1P" 0 200 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_TEST_1P-Wiring-Diagram-v2-rescue" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
@@ -1605,11 +1569,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_THERMISTOR
+# Wiring-Diagram-v2-rescue_THERMISTOR-Wiring-Diagram-v2-rescue
 #
-DEF Wiring-Diagram-v2-rescue_THERMISTOR TH 0 0 N Y 1 F N
+DEF Wiring-Diagram-v2-rescue_THERMISTOR-Wiring-Diagram-v2-rescue TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
-F1 "Wiring-Diagram-v2-rescue_THERMISTOR" -100 0 50 V V C BNN
+F1 "Wiring-Diagram-v2-rescue_THERMISTOR-Wiring-Diagram-v2-rescue" -100 0 50 V V C BNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1626,11 +1590,27 @@ X ~ 2 0 -250 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2
+# Wiring-Diagram-v2-rescue_Throttle-Supermileage
 #
-DEF Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2 P 0 40 Y Y 1 F N
+DEF Wiring-Diagram-v2-rescue_Throttle-Supermileage U 0 40 Y Y 1 F N
+F0 "U" -350 0 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_Throttle-Supermileage" -200 -250 60 H V C CNN
+F2 "" 0 100 60 H V C CNN
+F3 "" 0 100 60 H V C CNN
+DRAW
+S 0 200 -450 -200 0 1 0 f
+X GND blk 200 50 200 L 50 50 1 1 W
+X batt_v brn 200 -150 200 L 50 50 1 1 I
+X sig grn 200 -50 200 L 50 50 1 1 O
+X 5v red 200 150 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2-Wiring-Diagram-v2-rescue
+#
+DEF Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2-Wiring-Diagram-v2-rescue P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2" 0 200 50 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_USB_OTG-RESCUE-Wiring_Diagram_v2-Wiring-Diagram-v2-rescue" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -1649,6 +1629,26 @@ X D+ 3 0 -300 150 U 50 50 1 1 P
 X ID 4 100 -300 150 U 50 50 1 1 W
 X GND 5 200 -300 150 U 50 50 1 1 W
 X shield 6 400 100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Wiring-Diagram-v2-rescue_mcp2562-EllicottInterface
+#
+DEF Wiring-Diagram-v2-rescue_mcp2562-EllicottInterface U 0 40 Y Y 1 F N
+F0 "U" 0 -50 60 H V C CNN
+F1 "Wiring-Diagram-v2-rescue_mcp2562-EllicottInterface" 0 50 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -450 300 450 -300 0 1 0 f
+X TXD 1 -650 100 200 R 50 50 1 1 O
+X Vss 2 0 -500 200 U 50 50 1 1 W
+X Vdd 3 150 500 200 D 50 50 1 1 W
+X RXD 4 -650 0 200 R 50 50 1 1 I
+X VIO 5 -150 500 200 D 50 50 1 1 W
+X CANL 6 650 -100 200 L 50 50 1 1 B
+X CANH 7 650 0 200 L 50 50 1 1 B
+X STBY 8 -650 -100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

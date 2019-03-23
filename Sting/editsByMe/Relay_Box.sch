@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:SW_SPST SW2
+L Wiring-Diagram-v2-rescue:SW_SPST-Supermileage SW2
 U 1 1 57FAAED6
 P 2100 2100
 F 0 "SW2" H 2100 2250 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 2100 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_SPST SW12
+L Wiring-Diagram-v2-rescue:SW_SPST-Supermileage SW12
 U 1 1 57FAAF38
 P 2100 3350
 F 0 "SW12" H 1900 3475 60  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 2100 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_SPST SW1
+L Wiring-Diagram-v2-rescue:SW_SPST-Supermileage SW1
 U 1 1 57FAAF6A
 P 2100 1700
 F 0 "SW1" H 2100 1850 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 2100 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:CB CB1
+L Wiring-Diagram-v2-rescue:CB-Supermileage CB1
 U 1 1 57FB6243
 P 1500 1700
 F 0 "CB1" H 1500 1875 60  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 1500 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:CB CB2
+L Wiring-Diagram-v2-rescue:CB-Supermileage CB2
 U 1 1 57FB631C
 P 1500 2100
 F 0 "CB2" H 1500 2275 60  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 1500 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:CB CB3
+L Wiring-Diagram-v2-rescue:CB-Supermileage CB3
 U 1 1 57FB6351
 P 1500 2550
 F 0 "CB3" H 1500 2725 60  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 1500 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:CB CB5
+L Wiring-Diagram-v2-rescue:CB-Supermileage CB5
 U 1 1 57FB6389
 P 1500 4200
 F 0 "CB5" H 1500 4400 60  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 1500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58025EF3
 P 8575 3500
 F 0 "P?" H 8575 4150 50  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 8575 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58025FD5
 P 8550 2100
 F 0 "P?" H 8550 2750 50  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 8550 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58026060
 P 8575 5300
 F 0 "P?" H 8575 5950 50  0001 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 8575 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 5804354D
 P 8775 5300
 F 0 "P?" H 8775 5950 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 8775 5300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58043E9C
 P 8775 3500
 F 0 "P?" H 8775 4150 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 8775 3500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 5804442E
 P 8775 2100
 F 0 "P?" H 8775 2750 50  0001 C CNN
@@ -206,7 +206,7 @@ C_6_E_Stop
 Text HLabel 9375 5150 2    60   Input ~ 0
 C_5_Horn
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 581DEDA2
 P 8575 4400
 F 0 "P?" H 8575 4650 50  0001 C CNN
@@ -217,7 +217,7 @@ F 3 "" H 8575 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 581DEE44
 P 8775 4400
 F 0 "P?" H 8775 4650 50  0001 C CNN
@@ -268,7 +268,7 @@ C_2_THROTTLE
 Text HLabel 9375 3950 2    60   Input ~ 0
 S_W_11_THROTTLE
 $Comp
-L Supermileage:CB CB4
+L Wiring-Diagram-v2-rescue:CB-Supermileage CB4
 U 1 1 57FB63C4
 P 1500 3350
 F 0 "CB4" H 1500 3525 60  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 1500 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_SPDT SW9
+L Wiring-Diagram-v2-rescue:SW_SPDT-Supermileage SW9
 U 1 1 58871F7E
 P 2100 2650
 F 0 "SW9" H 2100 2525 60  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 2100 2650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:4PDT_Relay_b R2
+L Wiring-Diagram-v2-rescue:4PDT_Relay_b-Supermileage R2
 U 1 1 5887AA0F
 P 3725 3950
 F 0 "R2" H 3725 3950 60  0000 C CNN
@@ -464,7 +464,7 @@ Black
 Text Notes 2175 6200 0    60   ~ 0
 Wires with a C sufix provide the same functionality as the non-C wire\nbut are connected to the computer.
 $Comp
-L Supermileage:SPDT_Relay R3
+L Wiring-Diagram-v2-rescue:SPDT_Relay-Supermileage R3
 U 1 1 58BF4D51
 P 4875 3950
 F 0 "R3" H 4875 3950 60  0000 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 4875 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SPDT_Relay R1
+L Wiring-Diagram-v2-rescue:SPDT_Relay-Supermileage R1
 U 1 1 59D1EFC0
 P 5625 3950
 F 0 "R1" H 5625 3950 60  0000 C CNN
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3350 6475 3350
 $Comp
-L Wiring-Diagram-v2-rescue:SW_Push SW10
+L Wiring-Diagram-v2-rescue:SW_Push-Wiring-Diagram-v2-rescue SW10
 U 1 1 5AB5E5F2
 P 2075 3750
 F 0 "SW10" H 1900 3900 60  0000 C CNN

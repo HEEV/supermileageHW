@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:SW_NO SW5
+L Wiring-Diagram-v2-rescue:SW_NO-Supermileage SW5
 U 1 1 57E14402
 P 3550 6575
 F 0 "SW5" H 3675 6725 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3550 6575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_NO SW7
+L Wiring-Diagram-v2-rescue:SW_NO-Supermileage SW7
 U 1 1 57E14F53
 P 6150 4925
 F 0 "SW7" H 6275 5075 60  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 6150 4925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_NO SW6
+L Wiring-Diagram-v2-rescue:SW_NO-Supermileage SW6
 U 1 1 57E1500F
 P 3550 6075
 F 0 "SW6" H 3675 6225 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 3550 6075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:Throttle U?
+L Wiring-Diagram-v2-rescue:Throttle-Supermileage U?
 U 1 1 57E1510C
 P 5800 4025
 F 0 "U?" H 5450 4025 60  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 5800 4125 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 57E152BF
 P 4400 5075
 F 0 "D?" H 4350 5200 50  0001 L CNN
@@ -70,7 +70,7 @@ F 3 "" V 4400 5075 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 57E153DC
 P 4400 4775
 F 0 "D?" H 4350 4900 50  0001 L CNN
@@ -81,7 +81,7 @@ F 3 "" V 4400 4775 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 57E15580
 P 4400 4425
 F 0 "D?" H 4350 4550 50  0001 L CNN
@@ -92,7 +92,7 @@ F 3 "" V 4400 4425 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 57E155BC
 P 4400 5525
 F 0 "D?" H 4350 5650 50  0001 L CNN
@@ -103,7 +103,7 @@ F 3 "" V 4400 5525 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:SW_NO SW8
+L Wiring-Diagram-v2-rescue:SW_NO-Supermileage SW8
 U 1 1 57E15EB3
 P 6150 5325
 F 0 "SW8" H 6275 5475 60  0000 C CNN
@@ -164,7 +164,7 @@ O2_INDICATOR
 Text HLabel 3150 7125 0    60   Input ~ 0
 GND
 $Comp
-L Supermileage:SW_SPST SW4
+L Wiring-Diagram-v2-rescue:SW_SPST-Supermileage SW4
 U 1 1 57E14E5E
 P 3550 5525
 F 0 "SW4" H 3550 5675 60  0000 C CNN

@@ -15,7 +15,7 @@ Comment3 "Wiring diagram for the back of Sting"
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:Motor M1
+L Wiring-Diagram-v2-rescue:Motor-Supermileage M1
 U 1 1 57E6F264
 P 4925 4025
 F 0 "M1" H 4925 4025 60  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "Mouser" H 4925 4025 60  0001 C CNN "Distributor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Supermileage:Starter_Relay CR1
+L Wiring-Diagram-v2-rescue:Starter_Relay-Supermileage CR1
 U 1 1 57E6F37B
 P 3975 3925
 F 0 "CR1" H 3975 4150 60  0000 C CNN
@@ -57,7 +57,7 @@ F 3 "" V 6275 3465 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:SW_SPST SW3
+L Wiring-Diagram-v2-rescue:SW_SPST-Supermileage SW3
 U 1 1 57FB6E88
 P 3575 4875
 F 0 "SW3" H 3575 5025 60  0000 C CNN
@@ -110,7 +110,7 @@ F32 "IAC_1_1A" O L 3725 7950 60
 F33 "IAC_2_2A" O L 3725 7850 60 
 $EndSheet
 $Comp
-L Supermileage:RPM_Sensor U?
+L Wiring-Diagram-v2-rescue:RPM_Sensor-Supermileage U?
 U 1 1 58736630
 P 6050 7250
 F 0 "U?" H 6050 7000 60  0001 C CNN
@@ -121,7 +121,7 @@ F 3 "" H 6050 7250 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Supermileage:O2_Sensor U?
+L Wiring-Diagram-v2-rescue:O2_Sensor-Supermileage U?
 U 1 1 58736636
 P 6050 6800
 F 0 "U?" H 6050 6450 60  0001 C CNN
@@ -138,7 +138,7 @@ O2_Power
 Text HLabel 2975 6750 0    60   Input ~ 0
 EFI_GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587D9944
 P 3275 6700
 F 0 "P?" H 3275 6950 50  0001 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 3275 6700 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587D9B20
 P 3425 6700
 F 0 "P?" H 3425 6950 50  0001 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 3425 6700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587DD173
 P 3425 7250
 F 0 "P?" H 3425 7500 50  0001 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 3425 7250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587E05EC
 P 3275 7250
 F 0 "P?" H 3275 7500 50  0001 C CNN
@@ -190,7 +190,7 @@ CANL
 Text HLabel 2975 7400 0    60   Input ~ 0
 CAN_GND
 $Comp
-L Supermileage:8_Terminal_Strip P?
+L Wiring-Diagram-v2-rescue:8_Terminal_Strip-Supermileage P?
 U 1 1 587F01AE
 P 4725 2525
 F 0 "P?" H 4725 3375 50  0001 C CNN
@@ -201,7 +201,7 @@ F 3 "" H 4725 1250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:FUSE F?
+L Wiring-Diagram-v2-rescue:FUSE-Wiring-Diagram-v2-rescue F?
 U 1 1 587FE842
 P 5875 3175
 F 0 "F?" H 5975 3225 50  0001 C CNN
@@ -235,7 +235,7 @@ Lt_Blue
 Text Label 2925 5075 0    60   ~ 0
 Lt_Blue
 $Comp
-L Wiring-Diagram-v2-rescue:POT TPS?
+L Wiring-Diagram-v2-rescue:POT-Wiring-Diagram-v2-rescue TPS?
 U 1 1 5893DA3D
 P 6000 7825
 AR Path="/5893DA3D" Ref="TPS?"  Part="1" 
@@ -464,7 +464,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 7750 5700 7750
 $Comp
-L Supermileage:Fuel_Injector L?
+L Wiring-Diagram-v2-rescue:Fuel_Injector-Supermileage L?
 U 1 1 5893FCDD
 P 6150 8250
 F 0 "L?" H 6150 8100 60  0001 C CNN
@@ -479,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 8300 5700 8300
 $Comp
-L Supermileage:Ignition U?
+L Wiring-Diagram-v2-rescue:Ignition-Supermileage U?
 U 1 1 5894001C
 P 6150 8600
 F 0 "U?" H 6150 8450 60  0001 C CNN
@@ -494,7 +494,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 8550 5700 8550
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 589435FC
 P 5500 6700
 F 0 "P?" H 5500 6950 50  0001 C CNN
@@ -505,7 +505,7 @@ F 3 "" H 5500 6700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5894426D
 P 5500 7250
 F 0 "P?" H 5500 7500 50  0001 C CNN
@@ -516,7 +516,7 @@ F 3 "" H 5500 7250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5894481D
 P 5500 7800
 F 0 "P?" H 5500 8050 50  0001 C CNN
@@ -527,7 +527,7 @@ F 3 "" H 5500 7800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 58944FE1
 P 5500 8250
 AR Path="/58944FE1" Ref="P?"  Part="1" 
@@ -540,7 +540,7 @@ F 3 "" H 5500 8250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 5894539F
 P 5500 8600
 AR Path="/5894539F" Ref="P?"  Part="1" 
@@ -553,7 +553,7 @@ F 3 "" H 5500 8600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 58945D6C
 P 5350 8600
 AR Path="/58945D6C" Ref="P?"  Part="1" 
@@ -566,7 +566,7 @@ F 3 "" H 5350 8600 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 589461F6
 P 5350 8250
 AR Path="/589461F6" Ref="P?"  Part="1" 
@@ -579,7 +579,7 @@ F 3 "" H 5350 8250 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 589464BE
 P 5350 7800
 F 0 "P?" H 5350 8050 50  0001 C CNN
@@ -590,7 +590,7 @@ F 3 "" H 5350 7800 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 589466E5
 P 5350 7250
 F 0 "P?" H 5350 7500 50  0001 C CNN
@@ -601,7 +601,7 @@ F 3 "" H 5350 7250 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5894690C
 P 5350 6700
 F 0 "P?" H 5350 6950 50  0001 C CNN
@@ -644,7 +644,7 @@ Wire Wire Line
 Wire Wire Line
 	5075 8650 5150 8650
 $Comp
-L Wiring-Diagram-v2-rescue:THERMISTOR TH?
+L Wiring-Diagram-v2-rescue:THERMISTOR-Wiring-Diagram-v2-rescue TH?
 U 1 1 5894C2EE
 P 2575 8100
 F 0 "TH?" V 2675 8150 50  0001 C CNN
@@ -655,7 +655,7 @@ F 3 "" H 2575 8100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:THERMISTOR TH?
+L Wiring-Diagram-v2-rescue:THERMISTOR-Wiring-Diagram-v2-rescue TH?
 U 1 1 5894C50E
 P 2575 8650
 F 0 "TH?" V 2675 8700 50  0001 C CNN
@@ -680,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	2225 8650 2325 8650
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 5894F13E
 P 3275 8250
 AR Path="/5894F13E" Ref="P?"  Part="1" 
@@ -693,7 +693,7 @@ F 3 "" H 3275 8250 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 5894FBB5
 P 3425 8250
 AR Path="/5894FBB5" Ref="P?"  Part="1" 
@@ -716,7 +716,7 @@ Wire Wire Line
 Wire Wire Line
 	3625 8300 3725 8300
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 5895025A
 P 3275 8600
 AR Path="/5895025A" Ref="P?"  Part="1" 
@@ -729,7 +729,7 @@ F 3 "" H 3275 8600 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 5895064C
 P 3425 8600
 AR Path="/5895064C" Ref="P?"  Part="1" 
@@ -750,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 8650 2825 8650
 $Comp
-L Supermileage:12v-DC_DC U?
+L Wiring-Diagram-v2-rescue:12v-DC_DC-Supermileage U?
 U 1 1 589B1E06
 P 3425 2325
 F 0 "U?" H 3425 2525 60  0001 C CNN
@@ -810,7 +810,7 @@ Canopy_SW
 Text HLabel 2875 5900 0    60   Input ~ 0
 Canopy_GND
 $Comp
-L Wiring-Diagram-v2-rescue:SW_Push SW11
+L Wiring-Diagram-v2-rescue:SW_Push-Wiring-Diagram-v2-rescue SW11
 U 1 1 5AB67834
 P 3575 5575
 F 0 "SW11" H 3400 5750 60  0000 C CNN

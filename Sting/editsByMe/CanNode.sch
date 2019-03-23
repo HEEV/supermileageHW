@@ -15,11 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EllicottInterface:mcp2562 U?
+L Wiring-Diagram-v2-rescue:mcp2562-EllicottInterface U?
 U 1 1 5880F9AE
 P 6700 1500
 AR Path="/5880E829/5880F9AE" Ref="U?"  Part="1" 
 AR Path="/58828DB7/5880F9AE" Ref="U?"  Part="1" 
+AR Path="/5880F9AE" Ref="U?"  Part="1" 
 F 0 "U?" H 6700 1450 60  0001 C CNN
 F 1 "mcp2562" H 6700 1550 60  0000 C CNN
 F 2 "SMD_Packages:SOIC-8-N" H 6700 1500 60  0001 C CNN
@@ -30,11 +31,12 @@ F 5 "579-MCP2562-E/SN" H 6700 1500 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:MIC5317 U?
+L Wiring-Diagram-v2-rescue:MIC5317-EllicottPower U?
 U 1 1 5880F9AF
 P 3800 1350
 AR Path="/5880E829/5880F9AF" Ref="U?"  Part="1" 
 AR Path="/58828DB7/5880F9AF" Ref="U?"  Part="1" 
+AR Path="/5880F9AF" Ref="U?"  Part="1" 
 F 0 "U?" H 3800 1350 60  0001 C CNN
 F 1 "MIC5317" H 3800 1600 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3800 1300 60  0001 C CNN
@@ -272,11 +274,12 @@ F 3 "" H 700 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9C1
 P 9150 1150
 AR Path="/5880E829/5880F9C1" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9C1" Ref="P?"  Part="1" 
+AR Path="/5880F9C1" Ref="P?"  Part="1" 
 F 0 "P?" H 9150 1400 50  0001 C CNN
 F 1 "CAN_IN" V 9250 1150 50  0001 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 9150 1150 50  0001 C CNN
@@ -287,11 +290,12 @@ F 5 "538-53261-0471" H 9150 1150 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9C2
 P 9150 1950
 AR Path="/5880E829/5880F9C2" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9C2" Ref="P?"  Part="1" 
+AR Path="/5880F9C2" Ref="P?"  Part="1" 
 F 0 "P?" H 9150 2200 50  0001 C CNN
 F 1 "CAN_OUT" V 9250 1950 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 9150 1950 50  0001 C CNN
@@ -424,11 +428,12 @@ F 5 "80-C0603C105K8P" H 3000 1750 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9CB
 P 1800 4200
 AR Path="/5880E829/5880F9CB" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9CB" Ref="P?"  Part="1" 
+AR Path="/5880F9CB" Ref="P?"  Part="1" 
 F 0 "P?" H 1800 4450 50  0001 C CNN
 F 1 "IO1" V 1900 4200 50  0001 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 2050 4200 50  0001 C CNN
@@ -467,11 +472,12 @@ F 3 "" H 2300 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9CE
 P 1800 5250
 AR Path="/5880E829/5880F9CE" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9CE" Ref="P?"  Part="1" 
+AR Path="/5880F9CE" Ref="P?"  Part="1" 
 F 0 "P?" H 1800 5500 50  0001 C CNN
 F 1 "IO2" V 1900 5250 50  0001 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 1800 5250 50  0001 C CNN
@@ -562,11 +568,12 @@ CAN_H
 Text Label 8100 2000 2    60   ~ 0
 CAN_L
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 5880F9D3
 P 9350 3550
 AR Path="/5880E829/5880F9D3" Ref="D?"  Part="1" 
 AR Path="/58828DB7/5880F9D3" Ref="D?"  Part="1" 
+AR Path="/5880F9D3" Ref="D?"  Part="1" 
 F 0 "D?" H 9300 3675 50  0001 L CNN
 F 1 "LED1" H 9250 3450 50  0000 L CNN
 F 2 "LEDs:LED_0603" H 9350 3550 50  0001 C CNN
@@ -575,11 +582,12 @@ F 3 "" V 9350 3550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:Led_Small D?
+L Wiring-Diagram-v2-rescue:Led_Small-Wiring-Diagram-v2-rescue D?
 U 1 1 5880F9D4
 P 9350 3850
 AR Path="/5880E829/5880F9D4" Ref="D?"  Part="1" 
 AR Path="/58828DB7/5880F9D4" Ref="D?"  Part="1" 
+AR Path="/5880F9D4" Ref="D?"  Part="1" 
 F 0 "D?" H 9300 3975 50  0001 L CNN
 F 1 "LED2" H 9250 3750 50  0000 L CNN
 F 2 "LEDs:LED_0603" H 9350 3850 50  0001 C CNN
@@ -622,7 +630,7 @@ F 3 "" H 6000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:USB_OTG-RESCUE-Wiring_Diagram_v2 P?
+L Wiring-Diagram-v2-rescue:USB_OTG-RESCUE-Wiring_Diagram_v2-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9D7
 P 1275 7225
 AR Path="/5880E829/5880F9D7" Ref="P?"  Part="1" 
@@ -681,11 +689,12 @@ F 3 "" H 5200 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L Wiring-Diagram-v2-rescue:SW_PUSH_SMALL-EllicottMisc SW?
 U 1 1 5880F9DB
 P 6275 6400
 AR Path="/5880E829/5880F9DB" Ref="SW?"  Part="1" 
 AR Path="/58828DB7/5880F9DB" Ref="SW?"  Part="1" 
+AR Path="/5880F9DB" Ref="SW?"  Part="1" 
 F 0 "SW?" H 6425 6510 50  0001 C CNN
 F 1 "BOOT" H 6150 6325 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_FSMSM" V 6275 6400 50  0001 C CNN
@@ -720,11 +729,12 @@ F 3 "" H 6375 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottMisc:SW_PUSH_SMALL SW?
+L Wiring-Diagram-v2-rescue:SW_PUSH_SMALL-EllicottMisc SW?
 U 1 1 5880F9DE
 P 5550 6600
 AR Path="/5880E829/5880F9DE" Ref="SW?"  Part="1" 
 AR Path="/58828DB7/5880F9DE" Ref="SW?"  Part="1" 
+AR Path="/5880F9DE" Ref="SW?"  Part="1" 
 F 0 "SW?" H 5750 6600 50  0001 C CNN
 F 1 "RESET" H 5450 6550 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_FSMSM" H 5550 6600 50  0001 C CNN
@@ -733,11 +743,12 @@ F 3 "" H 5550 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:NJM2870F0 U?
+L Wiring-Diagram-v2-rescue:NJM2870F0-EllicottPower U?
 U 1 1 5880F9DF
 P 1900 1250
 AR Path="/5880E829/5880F9DF" Ref="U?"  Part="1" 
 AR Path="/58828DB7/5880F9DF" Ref="U?"  Part="1" 
+AR Path="/5880F9DF" Ref="U?"  Part="1" 
 F 0 "U?" H 1900 1200 60  0001 C CNN
 F 1 "NJM2870F0" H 1900 1400 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" V 1900 1200 60  0001 C CNN
@@ -903,11 +914,12 @@ F 5 "81-GRM188R61C106KALD" H 7950 2850 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L Wiring-Diagram-v2-rescue:CONN_01X03-Wiring-Diagram-v2-rescue P?
 U 1 1 5880F9EB
 P 1175 6325
 AR Path="/5880E829/5880F9EB" Ref="P?"  Part="1" 
 AR Path="/58828DB7/5880F9EB" Ref="P?"  Part="1" 
+AR Path="/5880F9EB" Ref="P?"  Part="1" 
 F 0 "P?" H 1175 6525 50  0001 C CNN
 F 1 "Prog" V 1275 6325 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1175 6325 50  0001 C CNN
@@ -1040,11 +1052,12 @@ F 3 "" H 2200 4250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EllicottMicrocontrollers:STM32F042C6 U?
+L Wiring-Diagram-v2-rescue:STM32F042C6-EllicottMicrocontrollers U?
 U 1 1 5880F9F5
 P 5150 4550
 AR Path="/5880E829/5880F9F5" Ref="U?"  Part="1" 
 AR Path="/58828DB7/5880F9F5" Ref="U?"  Part="1" 
+AR Path="/5880F9F5" Ref="U?"  Part="1" 
 F 0 "U?" H 5175 4500 60  0001 C CNN
 F 1 "STM32F042C6" H 5175 4650 60  0000 C CNN
 F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 5150 4550 60  0001 C CNN
@@ -1555,11 +1568,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 5700 6500 5700
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58810BE7
 P 1650 4200
 AR Path="/5880E829/58810BE7" Ref="P?"  Part="1" 
 AR Path="/58828DB7/58810BE7" Ref="P?"  Part="1" 
+AR Path="/58810BE7" Ref="P?"  Part="1" 
 F 0 "P?" H 1650 4450 50  0001 C CNN
 F 1 "IO1" H 1725 3925 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 1900 4200 50  0001 C CNN
@@ -1570,11 +1584,12 @@ F 5 "538-53261-0471" H 1650 4200 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58810D3D
 P 1650 5250
 AR Path="/5880E829/58810D3D" Ref="P?"  Part="1" 
 AR Path="/58828DB7/58810D3D" Ref="P?"  Part="1" 
+AR Path="/58810D3D" Ref="P?"  Part="1" 
 F 0 "P?" H 1650 5500 50  0001 C CNN
 F 1 "IO2" H 1725 4975 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 1650 5250 50  0001 C CNN
@@ -1585,11 +1600,12 @@ F 5 "538-53261-0471" H 1650 5250 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58811550
 P 9300 1150
 AR Path="/5880E829/58811550" Ref="P?"  Part="1" 
 AR Path="/58828DB7/58811550" Ref="P?"  Part="1" 
+AR Path="/58811550" Ref="P?"  Part="1" 
 F 0 "P?" H 9300 1400 50  0001 C CNN
 F 1 "CAN_IN" H 9375 875 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" V 9300 1150 50  0001 C CNN

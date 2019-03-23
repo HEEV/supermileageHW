@@ -15,11 +15,12 @@ Comment3 "Shematic for Megasquirt breakout box"
 Comment4 ""
 $EndDescr
 $Comp
-L Wiring-Diagram-v2-rescue:DB25 J?
+L Wiring-Diagram-v2-rescue:DB25-Wiring-Diagram-v2-rescue J?
 U 1 1 586D10CA
 P 5425 3450
 AR Path="/57E22A72/586D10CA" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CA" Ref="J?"  Part="1" 
+AR Path="/586D10CA" Ref="J?"  Part="1" 
 F 0 "J?" H 5475 4800 50  0001 C CNN
 F 1 "DB25" H 5375 2100 50  0000 C CNN
 F 2 "Connect:DB25MC" H 5425 3450 50  0001 C CNN
@@ -50,11 +51,12 @@ O2_4_12v
 Text HLabel 2325 1450 1    60   Input ~ 0
 O2_3_Sen
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10CB
 P 2375 2050
 AR Path="/57E22A72/586D10CB" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CB" Ref="P?"  Part="1" 
+AR Path="/586D10CB" Ref="P?"  Part="1" 
 F 0 "P?" V 2575 2050 50  0001 C CNN
 F 1 "O2 Sensor" V 2475 2050 50  0000 C CNN
 F 2 "" H 2375 2050 50  0001 C CNN
@@ -63,7 +65,7 @@ F 3 "" H 2375 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10CC
 P 3525 2050
 AR Path="/57E22A72/586D10CC" Ref="P?"  Part="1" 
@@ -77,7 +79,7 @@ F 3 "" H 3525 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10CD
 P 3975 2050
 AR Path="/57E22A72/586D10CD" Ref="P?"  Part="1" 
@@ -91,11 +93,12 @@ F 3 "" H 3975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10CE
 P 2975 2050
 AR Path="/57E22A72/586D10CE" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CE" Ref="P?"  Part="1" 
+AR Path="/586D10CE" Ref="P?"  Part="1" 
 F 0 "P?" V 3175 2050 50  0001 C CNN
 F 1 "RPM" V 3075 2050 50  0000 C CNN
 F 2 "" H 2975 2050 50  0001 C CNN
@@ -104,11 +107,12 @@ F 3 "" H 2975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10CF
 P 1775 2050
 AR Path="/57E22A72/586D10CF" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10CF" Ref="P?"  Part="1" 
+AR Path="/586D10CF" Ref="P?"  Part="1" 
 F 0 "P?" V 1975 2050 50  0001 C CNN
 F 1 "Power" V 1875 2050 50  0000 C CNN
 F 2 "Supermileage:Molex-UltraFit-4p" H 1775 2050 50  0001 C CNN
@@ -121,11 +125,12 @@ O2_2_Cal
 Text HLabel 2525 1450 1    60   Output ~ 0
 O2_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:DB25 J?
+L Wiring-Diagram-v2-rescue:DB25-Wiring-Diagram-v2-rescue J?
 U 1 1 586D10D0
 P 5925 3450
 AR Path="/57E22A72/586D10D0" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D0" Ref="J?"  Part="1" 
+AR Path="/586D10D0" Ref="J?"  Part="1" 
 F 0 "J?" H 5975 4800 50  0001 C CNN
 F 1 "DB25" H 5875 2100 50  0000 C CNN
 F 2 "" H 5925 3450 50  0001 C CNN
@@ -134,11 +139,12 @@ F 3 "" H 5925 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:DB37 J?
+L Wiring-Diagram-v2-rescue:DB37-Wiring-Diagram-v2-rescue J?
 U 1 1 586D10D1
 P 9925 3400
 AR Path="/57E22A72/586D10D1" Ref="J?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D1" Ref="J?"  Part="1" 
+AR Path="/586D10D1" Ref="J?"  Part="1" 
 F 0 "J?" H 10025 5300 50  0001 C CNN
 F 1 "Megasquirt" H 9875 1450 50  0000 C CNN
 F 2 "" H 9925 3400 50  0001 C CNN
@@ -205,11 +211,12 @@ CLT_1_A
 Text HLabel 3675 7150 3    60   Output ~ 0
 CLT_2_B
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10D2
 P 2275 6500
 AR Path="/57E22A72/586D10D2" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D2" Ref="P?"  Part="1" 
+AR Path="/586D10D2" Ref="P?"  Part="1" 
 F 0 "P?" V 2475 6500 50  0001 C CNN
 F 1 "Throttle Position Sensor" V 2375 6500 50  0000 C CNN
 F 2 "" H 2275 6500 50  0001 C CNN
@@ -218,11 +225,12 @@ F 3 "" H 2275 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10D3
 P 4425 6500
 AR Path="/57E22A72/586D10D3" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D3" Ref="P?"  Part="1" 
+AR Path="/586D10D3" Ref="P?"  Part="1" 
 F 0 "P?" V 4625 6500 50  0001 C CNN
 F 1 "Stepper IAC" V 4525 6500 50  0000 C CNN
 F 2 "" H 4425 6500 50  0001 C CNN
@@ -235,7 +243,7 @@ IAC_3_1B
 Text HLabel 4275 7150 3    60   Output ~ 0
 IAC_4_2B
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10D4
 P 3125 6500
 AR Path="/57E22A72/586D10D4" Ref="P?"  Part="1" 
@@ -249,7 +257,7 @@ F 3 "" H 3125 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10D5
 P 3725 6500
 AR Path="/57E22A72/586D10D5" Ref="P?"  Part="1" 
@@ -431,11 +439,12 @@ Entry Wire Line
 Entry Wire Line
 	8975 4500 9075 4600
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D10D6
 P 1125 2050
 AR Path="/57E22A72/586D10D6" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D10D6" Ref="P?"  Part="1" 
+AR Path="/586D10D6" Ref="P?"  Part="1" 
 F 0 "P?" V 1325 2050 50  0001 C CNN
 F 1 "CAN" V 1225 2050 50  0000 C CNN
 F 2 "" H 1125 2050 50  0000 C CNN
@@ -453,11 +462,12 @@ CAN_3_CANH
 Text HLabel 975  1450 1    60   UnSpc ~ 0
 CAN_4_PWR
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D346A
 P 1125 1750
 AR Path="/57E22A72/586D346A" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D346A" Ref="P?"  Part="1" 
+AR Path="/586D346A" Ref="P?"  Part="1" 
 F 0 "P?" V 1325 1750 50  0001 C CNN
 F 1 "CAN" V 1225 1750 50  0000 C CNN
 F 2 "" H 1125 1750 50  0000 C CNN
@@ -466,11 +476,12 @@ F 3 "" H 1125 1750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D3DFD
 P 1775 1750
 AR Path="/57E22A72/586D3DFD" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D3DFD" Ref="P?"  Part="1" 
+AR Path="/586D3DFD" Ref="P?"  Part="1" 
 F 0 "P?" V 1975 1750 50  0001 C CNN
 F 1 "Power" V 1875 1750 50  0000 C CNN
 F 2 "Supermileage:Molex-UltraFit-4p" H 1775 1750 50  0001 C CNN
@@ -679,11 +690,12 @@ Wire Wire Line
 Text HLabel 1925 1450 1    60   Input ~ 0
 P_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D56B8
 P 2375 1750
 AR Path="/57E22A72/586D56B8" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D56B8" Ref="P?"  Part="1" 
+AR Path="/586D56B8" Ref="P?"  Part="1" 
 F 0 "P?" V 2575 1750 50  0001 C CNN
 F 1 "O2 Sensor" V 2475 1750 50  0000 C CNN
 F 2 "" H 2375 1750 50  0001 C CNN
@@ -700,11 +712,12 @@ Wire Wire Line
 Wire Wire Line
 	2325 2250 2325 2350
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D6E55
 P 2975 1750
 AR Path="/57E22A72/586D6E55" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D6E55" Ref="P?"  Part="1" 
+AR Path="/586D6E55" Ref="P?"  Part="1" 
 F 0 "P?" V 3175 1750 50  0001 C CNN
 F 1 "RPM" V 3075 1750 50  0000 C CNN
 F 2 "" H 2975 1750 50  0001 C CNN
@@ -718,7 +731,7 @@ Wire Wire Line
 	3125 2250 3125 3050
 Connection ~ 2825 2750
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D7A2D
 P 3525 1750
 AR Path="/57E22A72/586D7A2D" Ref="P?"  Part="1" 
@@ -740,7 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 2250 3575 3050
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D8B07
 P 3975 1750
 AR Path="/57E22A72/586D8B07" Ref="P?"  Part="1" 
@@ -756,11 +769,12 @@ $EndComp
 Text HLabel 4025 1450 1    60   Output ~ 0
 IGN_1_A
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586D9544
 P 2275 6850
 AR Path="/57E22A72/586D9544" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586D9544" Ref="P?"  Part="1" 
+AR Path="/586D9544" Ref="P?"  Part="1" 
 F 0 "P?" V 2475 6850 50  0001 C CNN
 F 1 "Throttle Position Sensor" V 2375 6850 50  0000 C CNN
 F 2 "" H 2275 6850 50  0001 C CNN
@@ -777,11 +791,12 @@ TPS_2_GND
 Text HLabel 2425 7150 3    60   Output ~ 0
 TPS_1_GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 586DAD2B
 P 4425 6850
 AR Path="/57E22A72/586DAD2B" Ref="P?"  Part="1" 
 AR Path="/57E2AF30/5873550E/586DAD2B" Ref="P?"  Part="1" 
+AR Path="/586DAD2B" Ref="P?"  Part="1" 
 F 0 "P?" V 4625 6850 50  0001 C CNN
 F 1 "Stepper IAC" V 4525 6850 50  0000 C CNN
 F 2 "" H 4425 6850 50  0001 C CNN
@@ -794,7 +809,7 @@ IAC_1_1A
 Text HLabel 4475 7150 3    60   Output ~ 0
 IAC_2_2A
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586DB7C8
 P 3125 6850
 AR Path="/57E22A72/586DB7C8" Ref="P?"  Part="1" 
@@ -808,7 +823,7 @@ F 3 "" H 3125 6850 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X02 P?
+L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586DCC77
 P 3725 6850
 AR Path="/57E22A72/586DCC77" Ref="P?"  Part="1" 

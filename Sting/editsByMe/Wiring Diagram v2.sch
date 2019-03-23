@@ -58,7 +58,7 @@ F20 "J1_3_CAN_H" B L 2000 5150 60
 F21 "J1_9_CAN_L" B L 2000 5750 60 
 $EndSheet
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue P?
 U 1 1 586B46AB
 P 1700 5800
 F 0 "P?" H 1700 6750 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 1700 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue P?
 U 1 1 586BFED3
 P 1700 7850
 F 0 "P?" H 1700 8800 50  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 1700 7850 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue P?
 U 1 1 58707A2D
 P 1550 5800
 F 0 "P?" H 1550 6750 50  0001 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 1550 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 P?
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue P?
 U 1 1 58707FEE
 P 1550 7850
 F 0 "P?" H 1550 8800 50  0001 C CNN
@@ -102,7 +102,7 @@ F 3 "" H 1550 7850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58718B57
 P 3000 3250
 F 0 "P?" H 3000 3900 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 3000 3250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58721B64
 P 3000 1650
 F 0 "P?" H 3000 2300 50  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 3000 1650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58723F53
 P 2850 1650
 F 0 "P?" H 2850 2300 50  0001 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 2850 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58739874
 P 5275 1650
 F 0 "P?" H 5275 2300 50  0001 C CNN
@@ -146,7 +146,7 @@ F 3 "" H 5275 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 5873A376
 P 5425 1650
 F 0 "P?" H 5425 2300 50  0001 C CNN
@@ -157,7 +157,7 @@ F 3 "" H 5425 1650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587447E1
 P 5275 3650
 F 0 "P?" H 5275 3900 50  0001 C CNN
@@ -168,7 +168,7 @@ F 3 "" H 5275 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58745FFC
 P 5425 3650
 F 0 "P?" H 5425 3900 50  0001 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 5425 3650 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X12 P?
+L Wiring-Diagram-v2-rescue:CONN_01X12-Wiring-Diagram-v2-rescue P?
 U 1 1 58752B64
 P 2850 3250
 F 0 "P?" H 2850 3900 50  0001 C CNN
@@ -472,7 +472,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 9450 2000 9450
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587A95C2
 P 1700 9300
 F 0 "P?" H 1700 9550 50  0001 C CNN
@@ -483,7 +483,7 @@ F 3 "" H 1700 9300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 587A9C8F
 P 1550 9300
 F 0 "P?" H 1550 9550 50  0001 C CNN
@@ -674,7 +674,7 @@ Entry Wire Line
 Entry Wire Line
 	7700 4950 7800 4850
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58841380
 P 4950 5100
 F 0 "P?" H 4950 5350 50  0001 C CNN
@@ -685,7 +685,7 @@ F 3 "" H 4950 5100 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884291A
 P 5100 5100
 F 0 "P?" H 5100 5350 50  0001 C CNN
@@ -712,7 +712,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5250 5350 5250
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58849FE2
 P 4950 6450
 F 0 "P?" H 4950 6700 50  0001 C CNN
@@ -723,7 +723,7 @@ F 3 "" H 4950 6450 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58849FE8
 P 5100 6450
 F 0 "P?" H 5100 6700 50  0001 C CNN
@@ -750,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 6600 5350 6600
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884A358
 P 4950 7050
 F 0 "P?" H 4950 7300 50  0001 C CNN
@@ -761,7 +761,7 @@ F 3 "" H 4950 7050 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884A35E
 P 5100 7050
 F 0 "P?" H 5100 7300 50  0001 C CNN
@@ -788,7 +788,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 7200 5350 7200
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884C276
 P 6850 5100
 F 0 "P?" H 6850 5350 50  0001 C CNN
@@ -799,7 +799,7 @@ F 3 "" H 6850 5100 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884C27C
 P 7000 5100
 F 0 "P?" H 7000 5350 50  0001 C CNN
@@ -818,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5250 6650 5250
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884EDF8
 P 6850 6450
 F 0 "P?" H 6850 6700 50  0001 C CNN
@@ -829,7 +829,7 @@ F 3 "" H 6850 6450 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 5884EDFE
 P 7000 6450
 F 0 "P?" H 7000 6700 50  0001 C CNN
@@ -892,7 +892,7 @@ Lt_Blue
 Text Label 5800 1100 0    60   ~ 0
 Lt_Blue
 $Comp
-L Supermileage:Servo M?
+L Wiring-Diagram-v2-rescue:Servo-Supermileage M?
 U 1 1 58993384
 P 2800 9950
 F 0 "M?" H 2800 10050 60  0001 C CNN
@@ -917,7 +917,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 10050 3400 9350
 $Comp
-L Supermileage:Horn SP1
+L Wiring-Diagram-v2-rescue:Horn-Supermileage SP1
 U 1 1 587EEE96
 P 5800 3750
 F 0 "SP1" H 5800 4150 60  0001 C CNN

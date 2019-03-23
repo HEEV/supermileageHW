@@ -15,13 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:HSCDRR004MD U?
+L Wiring-Diagram-v2-rescue:HSCDRR004MD-Supermileage U?
 U 1 1 58275680
 P 7600 5650
 AR Path="/582DB1D2/58275680" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/58275680" Ref="U?"  Part="1" 
 AR Path="/58828DE1/58275680" Ref="U?"  Part="1" 
 AR Path="/5882A967/58275680" Ref="U?"  Part="1" 
+AR Path="/58275680" Ref="U?"  Part="1" 
 F 0 "U?" H 7600 5350 60  0001 C CNN
 F 1 "HSCDRR004MD" H 7600 5950 60  0000 C CNN
 F 2 "supermileage:DIP-8" H 6850 6200 60  0001 C CNN
@@ -30,13 +31,14 @@ F 3 "" H 6850 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58275681
 P 2750 4500
 AR Path="/582DB1D2/58275681" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58275681" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58275681" Ref="P?"  Part="1" 
 AR Path="/5882A967/58275681" Ref="P?"  Part="1" 
+AR Path="/58275681" Ref="P?"  Part="1" 
 F 0 "P?" H 2750 4750 50  0001 C CNN
 F 1 "CONN_01X04" V 2850 4500 50  0000 C CNN
 F 2 "User_Connectors:Molex-duraClick-4conn" H 2750 4500 50  0001 C CNN
@@ -170,13 +172,14 @@ Out
 Text Label 7050 5700 0    60   ~ 0
 Out
 $Comp
-L Wiring-Diagram-v2-rescue:TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P-Wiring-Diagram-v2-rescue W?
 U 1 1 5827568A
 P 4075 3200
 AR Path="/582DB1D2/5827568A" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568A" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568A" Ref="W?"  Part="1" 
 AR Path="/5882A967/5827568A" Ref="W?"  Part="1" 
+AR Path="/5827568A" Ref="W?"  Part="1" 
 F 0 "W?" H 4075 3470 50  0001 C CNN
 F 1 "Mount" H 4075 3400 50  0001 C CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4275 3200 50  0001 C CNN
@@ -185,13 +188,14 @@ F 3 "" H 4275 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P-Wiring-Diagram-v2-rescue W?
 U 1 1 5827568B
 P 4425 3200
 AR Path="/582DB1D2/5827568B" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568B" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568B" Ref="W?"  Part="1" 
 AR Path="/5882A967/5827568B" Ref="W?"  Part="1" 
+AR Path="/5827568B" Ref="W?"  Part="1" 
 F 0 "W?" H 4425 3470 50  0001 C CNN
 F 1 "Mount" H 4425 3400 50  0001 C CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4625 3200 50  0001 C CNN
@@ -200,13 +204,14 @@ F 3 "" H 4625 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P-Wiring-Diagram-v2-rescue W?
 U 1 1 5827568C
 P 4725 3200
 AR Path="/582DB1D2/5827568C" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568C" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568C" Ref="W?"  Part="1" 
 AR Path="/5882A967/5827568C" Ref="W?"  Part="1" 
+AR Path="/5827568C" Ref="W?"  Part="1" 
 F 0 "W?" H 4725 3470 50  0001 C CNN
 F 1 "Mount" H 4725 3400 50  0001 C CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 4925 3200 50  0001 C CNN
@@ -215,13 +220,14 @@ F 3 "" H 4925 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:TEST_1P W?
+L Wiring-Diagram-v2-rescue:TEST_1P-Wiring-Diagram-v2-rescue W?
 U 1 1 5827568D
 P 5075 3200
 AR Path="/582DB1D2/5827568D" Ref="W?"  Part="1" 
 AR Path="/5827D1EC/5827568D" Ref="W?"  Part="1" 
 AR Path="/58828DE1/5827568D" Ref="W?"  Part="1" 
 AR Path="/5882A967/5827568D" Ref="W?"  Part="1" 
+AR Path="/5827568D" Ref="W?"  Part="1" 
 F 0 "W?" H 5075 3470 50  0001 C CNN
 F 1 "Mount" H 5075 3400 50  0001 C CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 5275 3200 50  0001 C CNN
@@ -245,13 +251,14 @@ F 3 "" H 4600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EllicottPower:NJM2870F0 U?
+L Wiring-Diagram-v2-rescue:NJM2870F0-EllicottPower U?
 U 1 1 5827568F
 P 4600 3650
 AR Path="/582DB1D2/5827568F" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/5827568F" Ref="U?"  Part="1" 
 AR Path="/58828DE1/5827568F" Ref="U?"  Part="1" 
 AR Path="/5882A967/5827568F" Ref="U?"  Part="1" 
+AR Path="/5827568F" Ref="U?"  Part="1" 
 F 0 "U?" H 4600 3600 60  0001 C CNN
 F 1 "NJM2870F0" H 4600 3800 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4600 3600 60  0001 C CNN
@@ -327,13 +334,14 @@ Mounting Holes
 Text Notes 2250 4200 0    60   ~ 0
 Molex DuraClik
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L Wiring-Diagram-v2-rescue:CONN_01X03-Wiring-Diagram-v2-rescue P?
 U 1 1 58275694
 P 6650 2950
 AR Path="/582DB1D2/58275694" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58275694" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58275694" Ref="P?"  Part="1" 
 AR Path="/5882A967/58275694" Ref="P?"  Part="1" 
+AR Path="/58275694" Ref="P?"  Part="1" 
 F 0 "P?" H 6650 3150 50  0001 C CNN
 F 1 "CONN_01X03" V 6800 2950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6650 2950 50  0001 C CNN
@@ -666,13 +674,14 @@ Wire Wire Line
 Wire Wire Line
 	6750 3150 6750 3250
 $Comp
-L Supermileage:ASDX100A24R U?
+L Wiring-Diagram-v2-rescue:ASDX100A24R-Supermileage U?
 U 1 1 582756A1
 P 7600 3500
 AR Path="/582DB1D2/582756A1" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/582756A1" Ref="U?"  Part="1" 
 AR Path="/58828DE1/582756A1" Ref="U?"  Part="1" 
 AR Path="/5882A967/582756A1" Ref="U?"  Part="1" 
+AR Path="/582756A1" Ref="U?"  Part="1" 
 F 0 "U?" H 7600 3200 60  0001 C CNN
 F 1 "ASDX100A24R" H 7600 3800 60  0000 C CNN
 F 2 "supermileage:ASDX100A24R" H 6850 4050 60  0001 C CNN
@@ -681,13 +690,14 @@ F 3 "" H 6850 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Supermileage:G4V-MINI U?
+L Wiring-Diagram-v2-rescue:G4V-MINI-Supermileage U?
 U 1 1 582756A2
 P 7700 4600
 AR Path="/582DB1D2/582756A2" Ref="U?"  Part="1" 
 AR Path="/5827D1EC/582756A2" Ref="U?"  Part="1" 
 AR Path="/58828DE1/582756A2" Ref="U?"  Part="1" 
 AR Path="/5882A967/582756A2" Ref="U?"  Part="1" 
+AR Path="/582756A2" Ref="U?"  Part="1" 
 F 0 "U?" H 7700 4300 60  0001 C CNN
 F 1 "G4V-MINI" H 7700 4900 60  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6950 5150 60  0001 C CNN
@@ -739,13 +749,14 @@ Wire Wire Line
 Text Notes 7300 4150 0    60   ~ 0
 5V differential pressure transducer
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58276BE6
 P 2400 4500
 AR Path="/582DB1D2/58276BE6" Ref="P?"  Part="1" 
 AR Path="/5827D1EC/58276BE6" Ref="P?"  Part="1" 
 AR Path="/58828DE1/58276BE6" Ref="P?"  Part="1" 
 AR Path="/5882A967/58276BE6" Ref="P?"  Part="1" 
+AR Path="/58276BE6" Ref="P?"  Part="1" 
 F 0 "P?" H 2400 4750 50  0001 C CNN
 F 1 "CONN_01X04" V 2500 4500 50  0000 C CNN
 F 2 "" H 2400 4500 50  0000 C CNN

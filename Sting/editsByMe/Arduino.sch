@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Supermileage:Arduino U?
+L Wiring-Diagram-v2-rescue:Arduino-Supermileage U?
 U 1 1 589816B6
 P 5425 3650
 F 0 "U?" H 5425 3700 60  0001 C CNN
@@ -40,7 +40,7 @@ CANH
 Text HLabel 3400 2925 0    60   Input ~ 0
 GND
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L Wiring-Diagram-v2-rescue:CONN_01X03-Wiring-Diagram-v2-rescue P?
 U 1 1 58983E27
 P 3650 3250
 F 0 "P?" H 3650 3450 50  0001 C CNN
@@ -51,7 +51,7 @@ F 3 "" H 3650 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X03 P?
+L Wiring-Diagram-v2-rescue:CONN_01X03-Wiring-Diagram-v2-rescue P?
 U 1 1 58983E2D
 P 3800 3250
 F 0 "P?" H 3800 3450 50  0001 C CNN
@@ -95,7 +95,7 @@ Wire Wire Line
 	5325 2725 5325 2800
 Connection ~ 4350 2725
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58986906
 P 3650 2775
 F 0 "P?" H 3650 3025 50  0001 C CNN
@@ -106,7 +106,7 @@ F 3 "" H 3650 2775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X04 P?
+L Wiring-Diagram-v2-rescue:CONN_01X04-Wiring-Diagram-v2-rescue P?
 U 1 1 58986989
 P 3800 2775
 F 0 "P?" H 3800 3025 50  0001 C CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2925 3450 2925
 $Comp
-L Supermileage:5v-DC_DC U?
+L Wiring-Diagram-v2-rescue:5v-DC_DC-Supermileage U?
 U 1 1 58987E67
 P 4925 2000
 F 0 "U?" H 4925 2200 60  0001 C CNN

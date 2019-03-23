@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 J2
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue J2
 U 1 1 58203D67
 P 7200 4000
 F 0 "J2" H 7200 4950 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 7200 4000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 J1
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue J1
 U 1 1 58203DE6
 P 4850 4000
 F 0 "J1" H 4850 4950 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 4850 4000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 J1
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue J1
 U 1 1 5820426E
 P 4700 4000
 F 0 "J1" H 4700 4950 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 4700 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wiring-Diagram-v2-rescue:CONN_01X18 J2
+L Wiring-Diagram-v2-rescue:CONN_01X18-Wiring-Diagram-v2-rescue J2
 U 1 1 58204275
 P 7050 4000
 F 0 "J2" H 7050 4950 50  0000 C CNN
@@ -97,7 +97,7 @@ J1_6_SEN_5V
 Text HLabel 4400 4150 0    60   Output ~ 0
 J1_11_SEN_GND
 $Comp
-L Supermileage:CM0711 U?
+L Wiring-Diagram-v2-rescue:CM0711-Supermileage U?
 U 1 1 5869945B
 P 5950 4000
 F 0 "U?" H 5950 2950 60  0001 C CNN
