@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:StingSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:StingSchematics-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -61,7 +29,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3450 1800 3450
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 574C77EF
 P 2250 3750
 AR Path="/574DBC57/574C77EF" Ref="#PWR?"  Part="1" 
@@ -118,7 +86,7 @@ Arm_Status
 Wire Wire Line
 	3250 4350 3350 4350
 $Comp
-L CM0711_b U?
+L Supermileage:CM0711_b U?
 U 1 1 5869477B
 P 4400 5050
 AR Path="/574DBC57/5869477B" Ref="U?"  Part="1" 
@@ -143,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 6350 4500 6250
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5869577C
 P 4400 6400
 AR Path="/574DBC57/5869577C" Ref="#PWR?"  Part="1" 

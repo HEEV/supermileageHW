@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 12
+Sheet 13 13
 Title "EFI Breakout"
 Date "2017-01-04"
 Rev "1.7"
@@ -498,23 +498,15 @@ Wire Wire Line
 Wire Wire Line
 	1825 3050 1825 2250
 Wire Wire Line
-	1625 2750 2825 2750
-Wire Wire Line
-	1625 2750 1625 2250
-Wire Wire Line
 	1725 2250 1725 2350
 Wire Wire Line
 	3025 3050 3025 2250
-Wire Wire Line
-	2825 2250 2825 2750
 Wire Wire Line
 	2925 2250 2925 4350
 Wire Wire Line
 	3475 2250 3475 2950
 Wire Wire Line
 	3925 2250 3925 2650
-Wire Wire Line
-	4025 2250 4025 3050
 Wire Wire Line
 	6375 3450 7725 3450
 Wire Wire Line
@@ -616,8 +608,6 @@ Wire Wire Line
 Wire Wire Line
 	4975 3850 4375 3850
 Wire Wire Line
-	2825 3650 4975 3650
-Wire Wire Line
 	4975 4450 4925 4450
 Wire Wire Line
 	4925 4450 4925 4850
@@ -632,8 +622,6 @@ Wire Wire Line
 Wire Wire Line
 	2925 4350 4975 4350
 Connection ~ 3125 3050
-Connection ~ 3575 3050
-Connection ~ 4025 3050
 Connection ~ 3025 3050
 Wire Wire Line
 	3925 2650 4975 2650
@@ -729,7 +717,6 @@ Text HLabel 3125 1450 1    60   Output ~ 0
 RPM_1_GND
 Wire Wire Line
 	3125 2250 3125 3050
-Connection ~ 2825 2750
 $Comp
 L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D7A2D
@@ -750,8 +737,6 @@ Wire Wire Line
 	3575 1550 3575 1450
 Wire Wire Line
 	3475 3950 4975 3950
-Wire Wire Line
-	3575 2250 3575 3050
 $Comp
 L Wiring-Diagram-v2-rescue:CONN_01X02-Wiring-Diagram-v2-rescue P?
 U 1 1 586D8B07
@@ -913,12 +898,6 @@ Wire Wire Line
 Wire Wire Line
 	1925 3050 2525 3050
 Wire Wire Line
-	3125 3050 3575 3050
-Wire Wire Line
-	3575 3050 4025 3050
-Wire Wire Line
-	4025 3050 4825 3050
-Wire Wire Line
 	3025 3050 3125 3050
 Wire Wire Line
 	2525 3050 3025 3050
@@ -933,17 +912,54 @@ Wire Wire Line
 Wire Wire Line
 	4825 3050 4825 4250
 Wire Wire Line
-	2825 2750 2825 3650
-Wire Wire Line
 	2425 4850 2325 4850
-Entry Bus Bus
-	4650 3150 4750 3250
 Wire Wire Line
 	2225 3150 4975 3150
 Wire Wire Line
 	4275 3250 4975 3250
+Wire Wire Line
+	3125 3050 4825 3050
+Text Label 1625 2775 1    60   ~ 0
+12v
+Text Label 2825 3500 1    60   ~ 0
+12v
+Text Label 3575 3500 1    60   ~ 0
+12v
+Text Label 2000 3050 0    60   ~ 0
+GND
+Text Label 4075 3050 0    60   ~ 0
+GND
+Text Label 4825 3500 1    60   ~ 0
+GND
+Wire Wire Line
+	1625 3650 2825 3650
+Text Label 1700 3650 0    60   ~ 0
+12v
+Wire Wire Line
+	1625 2250 1625 3650
+Wire Wire Line
+	2825 2250 2825 3650
+Connection ~ 2825 3650
+Wire Wire Line
+	2825 3650 3575 3650
+Wire Wire Line
+	3575 2250 3575 3650
+Connection ~ 3575 3650
+Wire Wire Line
+	3575 3650 4025 3650
+Wire Wire Line
+	4025 2250 4025 3650
 Wire Bus Line
 	8975 1550 8975 5300
 Wire Bus Line
 	7825 2250 7825 5300
+Connection ~ 4025 3650
+Wire Wire Line
+	4025 3650 4975 3650
+Text Label 4025 3500 1    60   ~ 0
+12v
+Text Label 2825 2775 1    60   ~ 0
+12v
+Text Label 3575 2775 1    60   ~ 0
+12v
 $EndSCHEMATC

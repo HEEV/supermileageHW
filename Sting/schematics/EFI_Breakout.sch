@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:StingSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:StingSchematics-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 "Shematic for Megasquirt breakout box"
 Comment4 ""
 $EndDescr
 $Comp
-L DB25 J?
+L StingSchematics-rescue:DB25 J?
 U 1 1 587A40E4
 P 5425 3450
 F 0 "J?" H 5475 4800 50  0001 C CNN
@@ -80,7 +48,7 @@ O2_4_12v
 Text HLabel 2325 1375 1    60   Input ~ 0
 O2_3_Sen
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40E5
 P 2375 2050
 F 0 "P?" V 2575 2050 50  0001 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 2375 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40E6
 P 3525 2050
 F 0 "P?" V 3725 2050 50  0001 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 3525 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40E7
 P 3975 2050
 F 0 "P?" V 4175 2050 50  0001 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 3975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40E8
 P 2975 2050
 F 0 "P?" V 3175 2050 50  0001 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 2975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40E9
 P 1775 2050
 F 0 "P?" V 1975 2050 50  0001 C CNN
@@ -139,7 +107,7 @@ O2_2_Cal
 Text HLabel 2525 1375 1    60   Output ~ 0
 O2_1_GND
 $Comp
-L DB25 J?
+L StingSchematics-rescue:DB25 J?
 U 1 1 587A40EA
 P 5925 3450
 F 0 "J?" H 5975 4800 50  0001 C CNN
@@ -150,7 +118,7 @@ F 3 "" H 5925 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DB37 J?
+L StingSchematics-rescue:DB37 J?
 U 1 1 587A40EB
 P 9925 3400
 F 0 "J?" H 10025 5300 50  0001 C CNN
@@ -219,7 +187,7 @@ CLT_1_A
 Text HLabel 3675 7150 3    60   Output ~ 0
 CLT_2_B
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40EC
 P 2275 6500
 F 0 "P?" V 2475 6500 50  0001 C CNN
@@ -230,7 +198,7 @@ F 3 "" H 2275 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40ED
 P 4425 6500
 F 0 "P?" V 4625 6500 50  0001 C CNN
@@ -245,7 +213,7 @@ IAC_3_1B
 Text HLabel 4275 7150 3    60   Output ~ 0
 IAC_4_2B
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40EE
 P 3125 6500
 F 0 "P?" V 3325 6500 50  0001 C CNN
@@ -256,7 +224,7 @@ F 3 "" H 3125 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40EF
 P 3725 6500
 F 0 "P?" V 3925 6500 50  0001 C CNN
@@ -435,7 +403,7 @@ Entry Wire Line
 Entry Wire Line
 	8975 4500 9075 4600
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F0
 P 1125 2050
 F 0 "P?" V 1325 2050 50  0001 C CNN
@@ -455,7 +423,7 @@ CAN_3_CANH
 Text HLabel 975  1375 1    60   UnSpc ~ 0
 CAN_4_PWR
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F1
 P 1125 1675
 F 0 "P?" V 1325 1675 50  0001 C CNN
@@ -466,7 +434,7 @@ F 3 "" H 1125 1675 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F2
 P 1775 1675
 F 0 "P?" V 1975 1675 50  0001 C CNN
@@ -685,7 +653,7 @@ Wire Wire Line
 Text HLabel 1925 1375 1    60   Input ~ 0
 P_1_GND
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F3
 P 2375 1675
 F 0 "P?" V 2575 1675 50  0001 C CNN
@@ -704,7 +672,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 2250 2325 2350
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F4
 P 2975 1675
 F 0 "P?" V 3175 1675 50  0001 C CNN
@@ -720,7 +688,7 @@ Wire Wire Line
 	3125 2250 3125 3050
 Connection ~ 2825 2750
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40F5
 P 3525 1675
 F 0 "P?" V 3725 1675 50  0001 C CNN
@@ -739,7 +707,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 2250 3575 3050
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40F6
 P 3975 1675
 F 0 "P?" V 4175 1675 50  0001 C CNN
@@ -752,7 +720,7 @@ $EndComp
 Text HLabel 4025 1375 1    60   Output ~ 0
 IGN_1_A
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F7
 P 2275 6850
 F 0 "P?" V 2475 6850 50  0001 C CNN
@@ -771,7 +739,7 @@ TPS_2_GND
 Text HLabel 2425 7150 3    60   Output ~ 0
 TPS_1_GND
 $Comp
-L CONN_01X04 P?
+L StingSchematics-rescue:CONN_01X04 P?
 U 1 1 587A40F8
 P 4425 6850
 F 0 "P?" V 4625 6850 50  0001 C CNN
@@ -786,7 +754,7 @@ IAC_1_1A
 Text HLabel 4475 7150 3    60   Output ~ 0
 IAC_2_2A
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40F9
 P 3125 6850
 F 0 "P?" V 3325 6850 50  0001 C CNN
@@ -797,7 +765,7 @@ F 3 "" H 3125 6850 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P?
+L StingSchematics-rescue:CONN_01X02 P?
 U 1 1 587A40FA
 P 3725 6850
 F 0 "P?" V 3925 6850 50  0001 C CNN

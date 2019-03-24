@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "Sting - Gasoline Prototype"
 Date "2016-05-25"
 Rev "1.6"
@@ -287,15 +287,15 @@ Brown
 $Sheet
 S 2000 9050 1200 525 
 U 58788C84
-F0 "Arduino" 60
-F1 "Arduino.sch" 60
+F0 "Throttle" 60
+F1 "Throttle.sch" 60
 F2 "Power" I L 2000 9150 60 
 F3 "GND" I L 2000 9450 60 
 F4 "Servo_5v" O R 3200 9150 60 
 F5 "Servo_out" O R 3200 9350 60 
 F6 "Servo_GND" O R 3200 9250 60 
-F7 "Throttle_in" I L 2000 9350 60 
-F8 "Throttle_5v" O L 2000 9250 60 
+F7 "Throttle" I L 2000 9350 60 
+F8 "5v" O L 2000 9250 60 
 $EndSheet
 Wire Wire Line
 	1900 4950 2000 4950

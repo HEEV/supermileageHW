@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 13 12
+Sheet 12 13
 Title "Sting - Gasoline Prototype"
 Date "2017-01-02"
 Rev "1.2"

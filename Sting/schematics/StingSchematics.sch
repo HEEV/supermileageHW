@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:StingSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:StingSchematics-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery-RESCUE-StingSchematics BT?
+L StingSchematics-rescue:Battery-RESCUE-StingSchematics BT?
 U 1 1 5745DF94
 P 6550 1100
 F 0 "BT?" H 6650 1150 50  0001 L CNN
@@ -58,7 +26,7 @@ F 3 "" V 6550 1140 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12V #PWR?
+L power:+12V #PWR?
 U 1 1 5745E309
 P 1500 900
 F 0 "#PWR?" H 1500 750 50  0001 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 1500 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB1
+L Supermileage:CB CB1
 U 1 1 5745EB4B
 P 1850 1100
 F 0 "CB1" H 1850 1300 60  0000 C CNN
@@ -81,7 +49,7 @@ F 4 "Mouser" H 1850 1100 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB2
+L Supermileage:CB CB2
 U 1 1 5745ECAF
 P 1850 2900
 F 0 "CB2" H 1850 3100 60  0000 C CNN
@@ -93,7 +61,7 @@ F 4 "Mouser" H 1850 2900 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB3
+L Supermileage:CB CB3
 U 1 1 5745ED2E
 P 1850 6450
 F 0 "CB3" H 1850 6650 60  0000 C CNN
@@ -104,7 +72,7 @@ F 3 "" H 1850 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW1
+L Supermileage:SW_SPST SW1
 U 1 1 5745EFDC
 P 2550 1100
 F 0 "SW1" H 2550 1250 60  0000 C CNN
@@ -115,7 +83,7 @@ F 3 "" H 2550 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW2
+L Supermileage:SW_SPST SW2
 U 1 1 5745F17B
 P 2550 2900
 F 0 "SW2" H 2550 3050 60  0000 C CNN
@@ -126,7 +94,7 @@ F 3 "" H 2550 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW3
+L Supermileage:SW_SPST SW3
 U 1 1 5745F1FD
 P 3100 2900
 F 0 "SW3" H 3100 3050 60  0000 C CNN
@@ -137,7 +105,7 @@ F 3 "" H 3100 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW4
+L Supermileage:SW_SPST SW4
 U 1 1 5745F230
 P 3650 2900
 F 0 "SW4" H 3650 3050 60  0000 C CNN
@@ -148,7 +116,7 @@ F 3 "" H 3650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_NO SW5
+L Supermileage:SW_NO SW5
 U 1 1 5745FA2B
 P 4800 2900
 F 0 "SW5" H 4925 3050 60  0000 C CNN
@@ -159,7 +127,7 @@ F 3 "" H 4800 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CR CR4
+L Supermileage:CR CR4
 U 1 1 574604CA
 P 6700 4700
 F 0 "CR4" H 6700 4550 60  0000 C CNN
@@ -171,7 +139,7 @@ F 4 "Mouser" H 6700 4700 60  0001 C CNN "Distributor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CR CR4
+L Supermileage:CR CR4
 U 2 1 57460537
 P 5900 1650
 F 0 "CR4" H 5900 1475 60  0000 C CNN
@@ -182,7 +150,7 @@ F 3 "" H 5900 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L StingSchematics-rescue:D D?
 U 1 1 574B62AD
 P 6050 3300
 F 0 "D?" H 6050 3400 50  0001 C CNN
@@ -193,7 +161,7 @@ F 3 "" H 6050 3300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RESCUE-StingSchematics D?
+L StingSchematics-rescue:LED-RESCUE-StingSchematics D?
 U 1 1 574B6632
 P 6700 3350
 F 0 "D?" H 6700 3450 50  0001 C CNN
@@ -204,7 +172,7 @@ F 3 "" H 6700 3350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CR CR3
+L Supermileage:CR CR3
 U 1 1 574B6FFB
 P 6700 4200
 F 0 "CR3" H 6700 4025 60  0000 C CNN
@@ -215,7 +183,7 @@ F 3 "" H 6700 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CR CR3
+L Supermileage:CR CR3
 U 3 1 574B710A
 P 4800 3700
 F 0 "CR3" H 4800 3525 60  0000 C CNN
@@ -226,7 +194,7 @@ F 3 "" H 4800 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_NO SW6
+L Supermileage:SW_NO SW6
 U 1 1 574B71D3
 P 4800 4200
 F 0 "SW6" H 4925 4350 60  0000 C CNN
@@ -237,7 +205,7 @@ F 3 "" H 4800 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_NO SW7
+L Supermileage:SW_NO SW7
 U 1 1 574B8E3A
 P 2600 5100
 F 0 "SW7" H 2725 5250 60  0000 C CNN
@@ -248,7 +216,7 @@ F 3 "" H 2600 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_NO SW8
+L Supermileage:SW_NO SW8
 U 1 1 574B8F31
 P 2600 5500
 F 0 "SW8" H 2725 5650 60  0000 C CNN
@@ -336,7 +304,7 @@ Wire Wire Line
 Connection ~ 2150 5100
 Connection ~ 7200 5500
 $Comp
-L LED-RESCUE-StingSchematics D?
+L StingSchematics-rescue:LED-RESCUE-StingSchematics D?
 U 1 1 574BA137
 P 5600 2600
 F 0 "D?" H 5600 2700 50  0001 C CNN
@@ -347,7 +315,7 @@ F 3 "" H 5600 2600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-StingSchematics D?
+L StingSchematics-rescue:LED-RESCUE-StingSchematics D?
 U 1 1 574BA223
 P 5200 2400
 F 0 "D?" H 5200 2500 50  0001 C CNN
@@ -358,7 +326,7 @@ F 3 "" H 5200 2400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L StingSchematics-rescue:R R?
 U 1 1 574BA2CD
 P 6000 2600
 F 0 "R?" V 6080 2600 50  0001 C CNN
@@ -369,7 +337,7 @@ F 3 "" H 6000 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L StingSchematics-rescue:R R?
 U 1 1 574BA322
 P 6000 2400
 F 0 "R?" V 6080 2400 50  0001 C CNN
@@ -401,7 +369,7 @@ Wire Wire Line
 	3100 5500 3100 5800
 Connection ~ 3100 5500
 $Comp
-L LED-RESCUE-StingSchematics D?
+L StingSchematics-rescue:LED-RESCUE-StingSchematics D?
 U 1 1 574BCF95
 P 6200 6150
 F 0 "D?" H 6200 6250 50  0001 C CNN
@@ -412,7 +380,7 @@ F 3 "" H 6200 6150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L StingSchematics-rescue:R R?
 U 1 1 574BD060
 P 6650 6150
 F 0 "R?" V 6730 6150 50  0001 C CNN
@@ -423,7 +391,7 @@ F 3 "" H 6650 6150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_SPDT SW9
+L Supermileage:SW_SPDT SW9
 U 1 1 574BE58C
 P 3550 7050
 F 0 "SW9" H 3550 6950 60  0000 C CNN
@@ -434,7 +402,7 @@ F 3 "" H 3550 7050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L O2_Sensor U?
+L Supermileage:O2_Sensor U?
 U 1 1 574BF13D
 P 6850 8200
 F 0 "U?" H 6850 7850 60  0001 C CNN
@@ -501,7 +469,7 @@ Wire Wire Line
 	7200 6450 5750 6450
 Connection ~ 7200 6450
 $Comp
-L RPM_Sensor U?
+L Supermileage:RPM_Sensor U?
 U 1 1 574C7D55
 P 6850 7650
 F 0 "U?" H 6850 7400 60  0001 C CNN
@@ -528,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 7800 6300 7400
 $Comp
-L Fuel_Injector L?
+L Supermileage:Fuel_Injector L?
 U 1 1 574C922C
 P 6850 6750
 F 0 "L?" H 6850 6600 60  0001 C CNN
@@ -555,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 6800 6550 6800
 $Comp
-L Ignition U?
+L Supermileage:Ignition U?
 U 1 1 574CABB8
 P 6850 7200
 F 0 "U?" H 6850 7050 60  0001 C CNN
@@ -566,7 +534,7 @@ F 3 "" H 6850 7200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 574CD77C
 P 7200 8850
 F 0 "#PWR?" H 7200 8600 50  0001 C CNN
@@ -577,7 +545,7 @@ F 3 "" H 7200 8850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Horn SP?
+L Supermileage:Horn SP?
 U 1 1 574CF991
 P 6700 5500
 F 0 "SP?" H 6700 5400 60  0001 C CNN
@@ -683,7 +651,7 @@ F29 "CAN_H" B L 4750 7650 60
 F30 "CAN_PWR" U L 4750 7500 60 
 $EndSheet
 $Comp
-L +12V #PWR?
+L power:+12V #PWR?
 U 1 1 574D131E
 P 1500 8850
 F 0 "#PWR?" H 1500 8700 50  0001 C CNN
@@ -694,7 +662,7 @@ F 3 "" H 1500 8850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4P_Relay CR2
+L Supermileage:4P_Relay CR2
 U 1 1 57A033A7
 P 6700 3700
 F 0 "CR2" H 6700 3525 60  0000 C CNN
@@ -705,7 +673,7 @@ F 3 "" H 6700 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4P_Relay CR2
+L Supermileage:4P_Relay CR2
 U 2 1 57A034BE
 P 2550 6450
 F 0 "CR2" H 2550 6275 60  0000 C CNN
@@ -716,7 +684,7 @@ F 3 "" H 2550 6450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 4P_Relay CR2
+L Supermileage:4P_Relay CR2
 U 4 1 57A04179
 P 5400 3700
 F 0 "CR2" H 5400 3525 60  0000 C CNN
@@ -732,7 +700,7 @@ Wire Wire Line
 	5500 1650 5500 1100
 Connection ~ 5500 1100
 $Comp
-L Motor M1
+L Supermileage:Motor M1
 U 1 1 57A0B372
 P 6550 1650
 F 0 "M1" H 6550 1650 60  0000 C CNN
@@ -807,7 +775,7 @@ Wire Wire Line
 Text GLabel 1600 1450 2    60   Output ~ 0
 System_V
 $Comp
-L FUSE F?
+L StingSchematics-rescue:FUSE F?
 U 1 1 586EB9BF
 P 5950 1100
 F 0 "F?" H 6050 1150 50  0001 C CNN
@@ -827,7 +795,7 @@ Wire Wire Line
 	1600 1450 1500 1450
 Connection ~ 1500 1450
 $Comp
-L CR CR1
+L Supermileage:CR CR1
 U 2 1 59D15580
 P 5400 4700
 F 0 "CR1" H 5400 4525 60  0000 C CNN
@@ -838,7 +806,7 @@ F 3 "" H 5400 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CR CR1
+L Supermileage:CR CR1
 U 1 1 59D156BB
 P 6700 2900
 F 0 "CR1" H 6700 2725 60  0000 C CNN

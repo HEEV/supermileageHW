@@ -197,19 +197,9 @@ CAN_GND
 Text GLabel 2250 5200 2    60   UnSpc ~ 0
 CAN_PWR
 Wire Wire Line
-	1400 900  1400 2050
+	1400 900  1400 8750
 Wire Wire Line
-	1400 2050 1400 2500
-Wire Wire Line
-	1400 2500 1400 8750
-Wire Wire Line
-	7100 850  7100 1550
-Wire Wire Line
-	7100 1550 7100 2050
-Wire Wire Line
-	7100 2050 7100 4350
-Wire Wire Line
-	7100 4350 7100 8750
+	7100 850  7100 8750
 Wire Wire Line
 	5900 4500 5000 4500
 Wire Wire Line
@@ -230,26 +220,20 @@ Wire Wire Line
 Wire Wire Line
 	1600 2500 1400 2500
 Wire Wire Line
-	1900 2050 2000 2050
-Wire Wire Line
-	2000 2050 2250 2050
+	1900 2050 2250 2050
 Wire Wire Line
 	2650 2050 4650 2050
 Wire Wire Line
 	5600 2050 7100 2050
 Wire Wire Line
-	1900 2500 2000 2500
-Wire Wire Line
-	2000 2500 4650 2500
+	1900 2500 4650 2500
 Connection ~ 1400 2500
 Connection ~ 1400 2050
 Connection ~ 7100 2050
 Wire Wire Line
 	3700 4350 2000 4350
 Wire Wire Line
-	2000 2500 2000 4350
-Wire Wire Line
-	2000 4350 2000 5200
+	2000 2500 2000 5200
 Connection ~ 2000 2500
 Wire Wire Line
 	4600 2650 4650 2650
@@ -275,9 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1550 2000 1550
 Wire Wire Line
-	2000 1050 2000 1550
-Wire Wire Line
-	2000 1550 2000 2050
+	2000 1050 2000 2050
 Connection ~ 2000 2050
 $Comp
 L Electromagnetic_Actor L1
@@ -291,9 +273,7 @@ F 3 "" V 5050 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2650 1550 2850 1550
-Wire Wire Line
-	2850 1550 4975 1550
+	2650 1550 4975 1550
 Wire Wire Line
 	5275 1550 7100 1550
 Connection ~ 7100 1550

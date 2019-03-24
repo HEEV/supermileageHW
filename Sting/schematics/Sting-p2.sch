@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:StingSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Supermileage
-LIBS:relays_switches
+EESchema Schematic File Version 4
 LIBS:StingSchematics-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +12V #PWR?
+L power:+12V #PWR?
 U 1 1 57A22BC1
 P 1400 900
 F 0 "#PWR?" H 1400 750 50  0001 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 1400 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57A22C57
 P 7100 8750
 F 0 "#PWR?" H 7100 8500 50  0001 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 7100 8750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57A22C69
 P 7100 850
 F 0 "#PWR?" H 7100 600 50  0001 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 7100 850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Servo M?
+L Supermileage:Servo M?
 U 1 1 57A231A6
 P 6300 4600
 F 0 "M?" H 6300 4700 60  0001 C CNN
@@ -105,7 +73,7 @@ F8 "Servo_gnd" O R 5000 4600 60
 F9 "Servo_ctl" O R 5000 4700 60 
 $EndSheet
 $Comp
-L Throttle U?
+L Supermileage:Throttle U?
 U 1 1 57A269DC
 P 2700 4650
 F 0 "U?" H 2350 4650 60  0001 C CNN
@@ -117,7 +85,7 @@ F 3 "" H 2700 4750 60  0000 C CNN
 $EndComp
 NoConn ~ 2900 4800
 $Comp
-L +12V #PWR?
+L power:+12V #PWR?
 U 1 1 5868B554
 P 1400 8750
 F 0 "#PWR?" H 1400 8600 50  0001 C CNN
@@ -128,7 +96,7 @@ F 3 "" H 1400 8750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CB CB4
+L Supermileage:CB CB4
 U 1 1 58697D6B
 P 1750 2050
 F 0 "CB4" H 1750 2250 60  0000 C CNN
@@ -139,7 +107,7 @@ F 3 "" H 1750 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CB CB5
+L Supermileage:CB CB5
 U 1 1 58697D72
 P 1750 2500
 F 0 "CB5" H 1750 2700 60  0000 C CNN
@@ -150,7 +118,7 @@ F 3 "" H 1750 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST SW12
+L Supermileage:SW_SPST SW12
 U 1 1 58697D79
 P 2450 2050
 F 0 "SW12" H 2450 2250 60  0000 C CNN
@@ -197,9 +165,9 @@ CAN_GND
 Text GLabel 2250 5200 2    60   UnSpc ~ 0
 CAN_PWR
 Wire Wire Line
-	1400 900  1400 8750
+	1400 900  1400 2050
 Wire Wire Line
-	7100 850  7100 8750
+	7100 850  7100 1550
 Wire Wire Line
 	5900 4500 5000 4500
 Wire Wire Line
@@ -220,20 +188,20 @@ Wire Wire Line
 Wire Wire Line
 	1600 2500 1400 2500
 Wire Wire Line
-	1900 2050 2250 2050
+	1900 2050 2000 2050
 Wire Wire Line
 	2650 2050 4650 2050
 Wire Wire Line
 	5600 2050 7100 2050
 Wire Wire Line
-	1900 2500 4650 2500
+	1900 2500 2000 2500
 Connection ~ 1400 2500
 Connection ~ 1400 2050
 Connection ~ 7100 2050
 Wire Wire Line
 	3700 4350 2000 4350
 Wire Wire Line
-	2000 2500 2000 5200
+	2000 2500 2000 4350
 Connection ~ 2000 2500
 Wire Wire Line
 	4600 2650 4650 2650
@@ -259,10 +227,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 1550 2000 1550
 Wire Wire Line
-	2000 1050 2000 2050
+	2000 1050 2000 1550
 Connection ~ 2000 2050
 $Comp
-L Electromagnetic_Actor L1
+L StingSchematics-rescue:Electromagnetic_Actor L1
 U 1 1 5AB5A7EA
 P 5075 1550
 F 0 "L1" V 5250 1575 50  0000 L CNN
@@ -273,12 +241,12 @@ F 3 "" V 5050 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2650 1550 4975 1550
+	2650 1550 2850 1550
 Wire Wire Line
 	5275 1550 7100 1550
 Connection ~ 7100 1550
 $Comp
-L SW_Push SW10
+L relays_switches:SW_Push SW10
 U 1 1 5AB5B029
 P 2450 1050
 F 0 "SW10" H 2675 1225 60  0000 C CNN
@@ -289,7 +257,7 @@ F 3 "" H 2450 1050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW11
+L relays_switches:SW_Push SW11
 U 1 1 5AB5D23C
 P 2450 1550
 F 0 "SW11" H 2650 1725 60  0000 C CNN
@@ -309,4 +277,24 @@ Wire Wire Line
 Connection ~ 2850 1550
 Text Label 3125 1550 0    60   ~ 0
 Canopy_Open
+Wire Wire Line
+	7100 4350 7100 8750
+Wire Wire Line
+	1400 2500 1400 8750
+Wire Wire Line
+	1400 2050 1400 2500
+Wire Wire Line
+	7100 2050 7100 4350
+Wire Wire Line
+	2000 2500 4650 2500
+Wire Wire Line
+	2000 4350 2000 5200
+Wire Wire Line
+	2000 2050 2250 2050
+Wire Wire Line
+	7100 1550 7100 2050
+Wire Wire Line
+	2000 1550 2000 2050
+Wire Wire Line
+	2850 1550 4975 1550
 $EndSCHEMATC
