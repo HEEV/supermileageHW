@@ -1,55 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:KarkSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:supermileage_sensors
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottInterface
-LIBS:EllicottDisplay
-LIBS:EllicottMisc
-LIBS:EllicottPower
+EESchema Schematic File Version 4
 LIBS:KarkSchematics-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 10
-Title "Can Node"
+Sheet 6 11
+Title "Kark - Gasoline Prototype"
 Date "2017-06-12"
-Rev "1.0"
+Rev "1.1"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mcp2562 U604
+L KarkSchematics-rescue:mcp2562 U604
 U 1 1 5AB6ADB9
 P 7200 1600
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADB9" Ref="U604"  Part="1" 
@@ -72,7 +30,7 @@ F 5 "579-MCP2562-E/SN" H 7200 1600 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MIC5317 U602
+L KarkSchematics-rescue:MIC5317 U602
 U 1 1 5AB6ADBA
 P 4600 1600
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBA" Ref="U602"  Part="1" 
@@ -87,7 +45,7 @@ F 5 "998-MIC5317-3.3YM5TR" H 4600 1600 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C608
+L KarkSchematics-rescue:C_Small C608
 U 1 1 5AB6ADBB
 P 5400 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBB" Ref="C608"  Part="1" 
@@ -102,7 +60,7 @@ F 5 "80-C0603C105K8P" H 5400 2000 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C606
+L KarkSchematics-rescue:C_Small C606
 U 1 1 5AB6ADBC
 P 4050 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBC" Ref="C606"  Part="1" 
@@ -115,7 +73,7 @@ F 3 "" H 4050 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR517
+L KarkSchematics-rescue:GND #PWR517
 U 1 1 5AB6ADBD
 P 4600 2300
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBD" Ref="#PWR517"  Part="1" 
@@ -128,7 +86,7 @@ F 3 "" H 4600 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR515
+L KarkSchematics-rescue:+5V #PWR515
 U 1 1 5AB6ADBE
 P 3800 1400
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBE" Ref="#PWR515"  Part="1" 
@@ -141,7 +99,7 @@ F 3 "" H 3800 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR520
+L KarkSchematics-rescue:+3.3V #PWR520
 U 1 1 5AB6ADBF
 P 5700 1400
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADBF" Ref="#PWR520"  Part="1" 
@@ -154,7 +112,7 @@ F 3 "" H 5700 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR518
+L KarkSchematics-rescue:+3.3V #PWR518
 U 1 1 5AB6ADC0
 P 5000 2750
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC0" Ref="#PWR518"  Part="1" 
@@ -167,7 +125,7 @@ F 3 "" H 5000 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C615
+L KarkSchematics-rescue:C_Small C615
 U 1 1 5AB6ADC1
 P 7150 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC1" Ref="C615"  Part="1" 
@@ -182,7 +140,7 @@ F 5 "80-C0603C105K8P" H 7150 2800 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C616
+L KarkSchematics-rescue:C_Small C616
 U 1 1 5AB6ADC2
 P 7350 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC2" Ref="C616"  Part="1" 
@@ -195,7 +153,7 @@ F 3 "" H 7350 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C609
+L KarkSchematics-rescue:C_Small C609
 U 1 1 5AB6ADC3
 P 5700 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC3" Ref="C609"  Part="1" 
@@ -208,7 +166,7 @@ F 3 "" H 5700 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR529
+L KarkSchematics-rescue:GND #PWR529
 U 1 1 5AB6ADC4
 P 7200 2150
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC4" Ref="#PWR529"  Part="1" 
@@ -221,7 +179,7 @@ F 3 "" H 7200 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR528
+L KarkSchematics-rescue:+3.3V #PWR528
 U 1 1 5AB6ADC5
 P 7050 1050
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC5" Ref="#PWR528"  Part="1" 
@@ -234,7 +192,7 @@ F 3 "" H 7050 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR530
+L KarkSchematics-rescue:+5V #PWR530
 U 1 1 5AB6ADC6
 P 7350 1050
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC6" Ref="#PWR530"  Part="1" 
@@ -247,7 +205,7 @@ F 3 "" H 7350 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C611
+L KarkSchematics-rescue:C_Small C611
 U 1 1 5AB6ADC7
 P 6300 1000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC7" Ref="C611"  Part="1" 
@@ -260,7 +218,7 @@ F 3 "" H 6300 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR524
+L KarkSchematics-rescue:GND #PWR524
 U 1 1 5AB6ADC8
 P 6300 1150
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC8" Ref="#PWR524"  Part="1" 
@@ -273,7 +231,7 @@ F 3 "" H 6300 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR523
+L KarkSchematics-rescue:+5V #PWR523
 U 1 1 5AB6ADC9
 P 6300 850
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADC9" Ref="#PWR523"  Part="1" 
@@ -286,7 +244,7 @@ F 3 "" H 6300 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR504
+L KarkSchematics-rescue:VDD #PWR504
 U 1 1 5AB6ADCA
 P 1500 1400
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADCA" Ref="#PWR504"  Part="1" 
@@ -303,7 +261,7 @@ CAN_H
 Text Label 7950 1700 0    60   ~ 0
 CAN_L
 $Comp
-L C_Small C603
+L KarkSchematics-rescue:C_Small C603
 U 1 1 5AB6ADCF
 P 3200 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADCF" Ref="C603"  Part="1" 
@@ -318,7 +276,7 @@ F 5 "81-GRM188R61C106KALD" H 3200 2000 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C601
+L KarkSchematics-rescue:C_Small C601
 U 1 1 5AB6ADD0
 P 1500 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADD0" Ref="C601"  Part="1" 
@@ -333,7 +291,7 @@ F 5 "81-GRM188R61C106KALD" H 1500 2000 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR513
+L KarkSchematics-rescue:GND #PWR513
 U 1 1 5AB6ADD1
 P 2700 2300
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADD1" Ref="#PWR513"  Part="1" 
@@ -346,7 +304,7 @@ F 3 "" H 2700 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR514
+L KarkSchematics-rescue:+5V #PWR514
 U 1 1 5AB6ADD2
 P 3500 1400
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADD2" Ref="#PWR514"  Part="1" 
@@ -359,7 +317,7 @@ F 3 "" H 3500 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C602
+L KarkSchematics-rescue:C_Small C602
 U 1 1 5AB6ADD3
 P 1800 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADD3" Ref="C602"  Part="1" 
@@ -372,7 +330,7 @@ F 3 "" H 1800 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C605
+L KarkSchematics-rescue:C_Small C605
 U 1 1 5AB6ADD4
 P 3800 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADD4" Ref="C605"  Part="1" 
@@ -391,7 +349,7 @@ SWDIO
 Text Label 1350 6100 0    60   ~ 0
 SWCLK
 $Comp
-L GND #PWR502
+L KarkSchematics-rescue:GND #PWR502
 U 1 1 5AB6ADDB
 P 1300 6250
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADDB" Ref="#PWR502"  Part="1" 
@@ -420,7 +378,7 @@ CAN_TX
 Text Label 3450 4450 2    60   ~ 0
 throttle
 $Comp
-L LED_Small D601
+L KarkSchematics-rescue:LED_Small D601
 U 1 1 5AB6ADDD
 P 9400 3500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADDD" Ref="D601"  Part="1" 
@@ -433,7 +391,7 @@ F 3 "" V 9400 3500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D602
+L KarkSchematics-rescue:LED_Small D602
 U 1 1 5AB6ADDE
 P 9400 3800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADDE" Ref="D602"  Part="1" 
@@ -446,7 +404,7 @@ F 3 "" V 9400 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR532
+L KarkSchematics-rescue:GND #PWR532
 U 1 1 5AB6ADDF
 P 9600 3900
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADDF" Ref="#PWR532"  Part="1" 
@@ -471,7 +429,7 @@ USB_DM
 Text Label 1400 7100 0    60   ~ 0
 USB_DP
 $Comp
-L +5V #PWR503
+L KarkSchematics-rescue:+5V #PWR503
 U 1 1 5AB6ADE1
 P 1350 6750
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE1" Ref="#PWR503"  Part="1" 
@@ -484,7 +442,7 @@ F 3 "" H 1350 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR501
+L KarkSchematics-rescue:GND #PWR501
 U 1 1 5AB6ADE2
 P 1000 7600
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE2" Ref="#PWR501"  Part="1" 
@@ -497,7 +455,7 @@ F 3 "" H 1000 7600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C607
+L KarkSchematics-rescue:C_Small C607
 U 1 1 5AB6ADE3
 P 4900 6700
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE3" Ref="C607"  Part="1" 
@@ -510,7 +468,7 @@ F 3 "" H 4900 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH_SMALL SW602
+L KarkSchematics-rescue:SW_PUSH_SMALL SW602
 U 1 1 5AB6ADE4
 P 6000 6300
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE4" Ref="SW602"  Part="1" 
@@ -523,7 +481,7 @@ F 3 "" H 6000 6300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR521
+L KarkSchematics-rescue:GND #PWR521
 U 1 1 5AB6ADE5
 P 5900 6950
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE5" Ref="#PWR521"  Part="1" 
@@ -536,7 +494,7 @@ F 3 "" H 5900 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR522
+L KarkSchematics-rescue:+3.3V #PWR522
 U 1 1 5AB6ADE6
 P 6100 6125
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE6" Ref="#PWR522"  Part="1" 
@@ -549,7 +507,7 @@ F 3 "" H 6100 6125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH_SMALL SW601
+L KarkSchematics-rescue:SW_PUSH_SMALL SW601
 U 1 1 5AB6ADE7
 P 5250 6550
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE7" Ref="SW601"  Part="1" 
@@ -562,7 +520,7 @@ F 3 "" H 5250 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NJM2870F0 U601
+L KarkSchematics-rescue:NJM2870F0 U601
 U 1 1 5AB6ADE8
 P 2700 1500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE8" Ref="U601"  Part="1" 
@@ -577,7 +535,7 @@ F 5 "513-NJM2870F05-TE2" H 2700 1500 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C604
+L KarkSchematics-rescue:C_Small C604
 U 1 1 5AB6ADE9
 P 3500 2000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADE9" Ref="C604"  Part="1" 
@@ -590,7 +548,7 @@ F 3 "" H 3500 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R602
+L KarkSchematics-rescue:R R602
 U 1 1 5AB6ADEA
 P 2000 1700
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADEA" Ref="R602"  Part="1" 
@@ -605,7 +563,7 @@ F 5 "71-CRCW0603-100K-E3" V 2000 1700 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R605
+L KarkSchematics-rescue:R R605
 U 1 1 5AB6ADEB
 P 5900 6700
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADEB" Ref="R605"  Part="1" 
@@ -620,7 +578,7 @@ F 5 "71-CRCW0603-100K-E3" V 5900 6700 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R601
+L KarkSchematics-rescue:R R601
 U 1 1 5AB6ADEC
 P 1400 7350
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADEC" Ref="R601"  Part="1" 
@@ -635,7 +593,7 @@ F 5 "71-CRCW0603-100K-E3" V 1400 7350 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R608
+L KarkSchematics-rescue:R R608
 U 1 1 5AB6ADED
 P 9050 3500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADED" Ref="R608"  Part="1" 
@@ -650,7 +608,7 @@ F 5 "71-CRCW0603-120-E3" V 9050 3500 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R609
+L KarkSchematics-rescue:R R609
 U 1 1 5AB6ADEE
 P 9050 3800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADEE" Ref="R609"  Part="1" 
@@ -665,7 +623,7 @@ F 5 "71-CRCW0603-120-E3" V 9050 3800 60  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR519
+L KarkSchematics-rescue:GND #PWR519
 U 1 1 5AB6ADEF
 P 5150 6950
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADEF" Ref="#PWR519"  Part="1" 
@@ -678,7 +636,7 @@ F 3 "" H 5150 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C618
+L KarkSchematics-rescue:C_Small C618
 U 1 1 5AB6ADF0
 P 7850 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF0" Ref="C618"  Part="1" 
@@ -691,7 +649,7 @@ F 3 "" H 7850 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR526
+L KarkSchematics-rescue:+3.3V #PWR526
 U 1 1 5AB6ADF1
 P 7000 2600
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF1" Ref="#PWR526"  Part="1" 
@@ -704,7 +662,7 @@ F 3 "" H 7000 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR527
+L KarkSchematics-rescue:GND #PWR527
 U 1 1 5AB6ADF2
 P 7000 3000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF2" Ref="#PWR527"  Part="1" 
@@ -717,7 +675,7 @@ F 3 "" H 7000 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C617
+L KarkSchematics-rescue:C_Small C617
 U 1 1 5AB6ADF3
 P 7650 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF3" Ref="C617"  Part="1" 
@@ -732,7 +690,7 @@ F 5 "81-GRM188R61C106KALD" H 7650 2800 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P601
+L KarkSchematics-rescue:CONN_01X03 P601
 U 1 1 5AB6ADF4
 P 1000 6100
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF4" Ref="P601"  Part="1" 
@@ -745,7 +703,7 @@ F 3 "" H 1000 6100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR516
+L KarkSchematics-rescue:GND #PWR516
 U 1 1 5AB6ADF5
 P 4000 2950
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADF5" Ref="#PWR516"  Part="1" 
@@ -764,7 +722,7 @@ CAN_TX
 Text Label 6300 5650 0    60   ~ 0
 io1
 $Comp
-L STM32F042C6 U603
+L KarkSchematics-rescue:STM32F042C6 U603
 U 1 1 5AB6ADFA
 P 4850 4500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADFA" Ref="U603"  Part="1" 
@@ -777,7 +735,7 @@ F 3 "" H 4850 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C613
+L KarkSchematics-rescue:C_Small C613
 U 1 1 5AB6ADFB
 P 6650 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADFB" Ref="C613"  Part="1" 
@@ -792,7 +750,7 @@ F 5 "80-C0603C105K8P" H 6650 2800 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C614
+L KarkSchematics-rescue:C_Small C614
 U 1 1 5AB6ADFC
 P 6850 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADFC" Ref="C614"  Part="1" 
@@ -805,7 +763,7 @@ F 3 "" H 6850 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C610
+L KarkSchematics-rescue:C_Small C610
 U 1 1 5AB6ADFD
 P 6150 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADFD" Ref="C610"  Part="1" 
@@ -820,7 +778,7 @@ F 5 "80-C0603C105K8P" H 6150 2800 60  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C612
+L KarkSchematics-rescue:C_Small C612
 U 1 1 5AB6ADFE
 P 6350 2800
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6ADFE" Ref="C612"  Part="1" 
@@ -1083,7 +1041,7 @@ Wire Wire Line
 Text Notes 775  5825 0    60   ~ 0
 On Chip Debugging connector.\nUse a stm32 Discovery board, or a STLinkv2 board.
 $Comp
-L GND #PWR525
+L KarkSchematics-rescue:GND #PWR525
 U 1 1 5AB6AE05
 P 6825 5500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE05" Ref="#PWR525"  Part="1" 
@@ -1121,7 +1079,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 2950 4850 2800
 $Comp
-L Q_PMOS_GSD Q601
+L KarkSchematics-rescue:Q_PMOS_GSD Q601
 U 1 1 5AB6AE08
 P 1000 1600
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE08" Ref="Q601"  Part="1" 
@@ -1134,7 +1092,7 @@ F 3 "" H 1000 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR505
+L KarkSchematics-rescue:GND #PWR505
 U 1 1 5AB6AE09
 P 1500 2250
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE09" Ref="#PWR505"  Part="1" 
@@ -1152,7 +1110,7 @@ Wire Wire Line
 Text Notes 750  1050 0    60   ~ 0
 Q1 is a P-Channel Mossfet acting as an ideal diode. 
 $Comp
-L TEST_1P J609
+L KarkSchematics-rescue:TEST_1P J609
 U 1 1 5AB6AE0B
 P 8300 5450
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE0B" Ref="J609"  Part="1" 
@@ -1165,7 +1123,7 @@ F 3 "" H 8500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J610
+L KarkSchematics-rescue:TEST_1P J610
 U 1 1 5AB6AE0C
 P 8450 5450
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE0C" Ref="J610"  Part="1" 
@@ -1178,7 +1136,7 @@ F 3 "" H 8650 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J611
+L KarkSchematics-rescue:TEST_1P J611
 U 1 1 5AB6AE0D
 P 8600 5450
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE0D" Ref="J611"  Part="1" 
@@ -1191,7 +1149,7 @@ F 3 "" H 8800 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J612
+L KarkSchematics-rescue:TEST_1P J612
 U 1 1 5AB6AE0E
 P 8750 5450
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6AE0E" Ref="J612"  Part="1" 
@@ -1210,7 +1168,7 @@ NoConn ~ 8450 5450
 NoConn ~ 8600 5450
 NoConn ~ 8750 5450
 $Comp
-L CONN_01X04 P603
+L KarkSchematics-rescue:CONN_01X04 P603
 U 1 1 5AB6DB2B
 P 9250 1350
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DB2B" Ref="P603"  Part="1" 
@@ -1225,7 +1183,7 @@ F 5 "538-53261-0471" H 9250 1350 60  0001 C CNN "PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR531
+L KarkSchematics-rescue:GND #PWR531
 U 1 1 5AB6DB32
 P 8950 1500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DB32" Ref="#PWR531"  Part="1" 
@@ -1242,7 +1200,7 @@ CAN_H
 Text Label 8950 1400 2    60   ~ 0
 CAN_L
 $Comp
-L R R606
+L KarkSchematics-rescue:R R606
 U 1 1 5AB6DB3C
 P 8950 2125
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DB3C" Ref="R606"  Part="1" 
@@ -1275,7 +1233,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 2275 8950 2375
 $Comp
-L CONN_01X02 P602
+L KarkSchematics-rescue:CONN_01X02 P602
 U 1 1 5AB6DB4C
 P 8750 2425
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DB4C" Ref="P602"  Part="1" 
@@ -1290,7 +1248,7 @@ $EndComp
 Wire Wire Line
 	8950 2475 8950 2625
 $Comp
-L R_Small R607
+L KarkSchematics-rescue:R_Small R607
 U 1 1 5AB6DB54
 P 9050 2425
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DB54" Ref="R607"  Part="1" 
@@ -1309,7 +1267,7 @@ Wire Wire Line
 	9050 2525 8950 2525
 Connection ~ 8950 2525
 $Comp
-L CONN_01X04 P604
+L KarkSchematics-rescue:CONN_01X04 P604
 U 1 1 5AB6DE5B
 P 9450 1350
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6DE5B" Ref="P604"  Part="1" 
@@ -1340,7 +1298,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 1200 9700 1200
 $Comp
-L Conn_01x02 J608
+L KarkSchematics-rescue:Conn_01x02 J608
 U 1 1 5AB6F0C9
 P 1500 3950
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6F0C9" Ref="J608"  Part="1" 
@@ -1353,7 +1311,7 @@ F 3 "" H 1500 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x04 J605
+L KarkSchematics-rescue:Conn_01x04 J605
 U 1 1 5AB6F2A0
 P 1475 4825
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6F2A0" Ref="J605"  Part="1" 
@@ -1366,7 +1324,7 @@ F 3 "" H 1475 4825 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR509
+L KarkSchematics-rescue:+5V #PWR509
 U 1 1 5AB6F619
 P 1825 4575
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6F619" Ref="#PWR509"  Part="1" 
@@ -1379,7 +1337,7 @@ F 3 "" H 1825 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR511
+L KarkSchematics-rescue:+3.3V #PWR511
 U 1 1 5AB6F68B
 P 2050 4575
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6F68B" Ref="#PWR511"  Part="1" 
@@ -1404,7 +1362,7 @@ throttle
 Wire Wire Line
 	2050 4825 1675 4825
 $Comp
-L R R603
+L KarkSchematics-rescue:R R603
 U 1 1 5AB6FD51
 P 2200 4825
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6FD51" Ref="R603"  Part="1" 
@@ -1417,7 +1375,7 @@ F 3 "" H 2200 4825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R604
+L KarkSchematics-rescue:R R604
 U 1 1 5AB6FE32
 P 2425 5050
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB6FE32" Ref="R604"  Part="1" 
@@ -1435,7 +1393,7 @@ Wire Wire Line
 	2425 4900 2425 4825
 Connection ~ 2425 4825
 $Comp
-L GND #PWR512
+L KarkSchematics-rescue:GND #PWR512
 U 1 1 5AB7023C
 P 2425 5275
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB7023C" Ref="#PWR512"  Part="1" 
@@ -1450,7 +1408,7 @@ $EndComp
 Wire Wire Line
 	2425 5275 2425 5200
 $Comp
-L GND #PWR510
+L KarkSchematics-rescue:GND #PWR510
 U 1 1 5AB70399
 P 1825 5075
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB70399" Ref="#PWR510"  Part="1" 
@@ -1467,7 +1425,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 4925 1675 4925
 $Comp
-L GND #PWR508
+L KarkSchematics-rescue:GND #PWR508
 U 1 1 5AB70FD4
 P 1825 4000
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB70FD4" Ref="#PWR508"  Part="1" 
@@ -1484,7 +1442,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 3950 1700 3950
 $Comp
-L Conn_01x02 J607
+L KarkSchematics-rescue:Conn_01x02 J607
 U 1 1 5AB71F52
 P 1500 3500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB71F52" Ref="J607"  Part="1" 
@@ -1497,7 +1455,7 @@ F 3 "" H 1500 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR507
+L KarkSchematics-rescue:GND #PWR507
 U 1 1 5AB71F58
 P 1825 3550
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB71F58" Ref="#PWR507"  Part="1" 
@@ -1514,7 +1472,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 3500 1700 3500
 $Comp
-L Conn_01x02 J606
+L KarkSchematics-rescue:Conn_01x02 J606
 U 1 1 5AB72170
 P 1500 3050
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB72170" Ref="J606"  Part="1" 
@@ -1527,7 +1485,7 @@ F 3 "" H 1500 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR506
+L KarkSchematics-rescue:GND #PWR506
 U 1 1 5AB72176
 P 1825 3100
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB72176" Ref="#PWR506"  Part="1" 
@@ -1568,7 +1526,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 4000 3500 4000
 $Comp
-L Conn_01x04 J602
+L KarkSchematics-rescue:Conn_01x04 J602
 U 1 1 5AB74101
 P 1275 4825
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB74101" Ref="J602"  Part="1" 
@@ -1581,7 +1539,7 @@ F 3 "" H 1275 4825 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J601
+L KarkSchematics-rescue:Conn_01x02 J601
 U 1 1 5AB74465
 P 1275 3950
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB74465" Ref="J601"  Part="1" 
@@ -1594,7 +1552,7 @@ F 3 "" H 1275 3950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J604
+L KarkSchematics-rescue:Conn_01x02 J604
 U 1 1 5AB747EF
 P 1300 3500
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB747EF" Ref="J604"  Part="1" 
@@ -1607,7 +1565,7 @@ F 3 "" H 1300 3500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J603
+L KarkSchematics-rescue:Conn_01x02 J603
 U 1 1 5AB7525D
 P 1300 3050
 AR Path="/5AB66DFC/5AB68374/5AB69D55/5AB7525D" Ref="J603"  Part="1" 
@@ -1660,7 +1618,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 3850 1075 3850
 $Comp
-L USB_OTG J613
+L KarkSchematics-rescue:USB_OTG J613
 U 1 1 5ABDC974
 P 1000 7000
 AR Path="/5AB66DFC/5AB68374/5AB81D7D/5ABDC974" Ref="J613"  Part="1" 

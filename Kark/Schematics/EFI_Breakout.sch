@@ -1,63 +1,21 @@
-EESchema Schematic File Version 2
-LIBS:KarkSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:supermileage_sensors
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottInterface
-LIBS:EllicottDisplay
-LIBS:EllicottMisc
-LIBS:EllicottPower
+EESchema Schematic File Version 4
 LIBS:KarkSchematics-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 10
-Title "EFI Breakout"
+Sheet 2 6
+Title "Kark - Gasoline Prototype"
 Date "2017-01-04"
-Rev "1.0"
-Comp "Cedarville University"
-Comment1 "Edited by Samuel Ellicott"
-Comment2 "Andy Raines"
+Rev "1.1"
+Comp "Cedarville Supermileage"
+Comment1 "Tineka Witt"
+Comment2 "Samuel Ellicott"
 Comment3 "Shematic for Megasquirt breakout box"
 Comment4 ""
 $EndDescr
 $Comp
-L DB25_Female J201
+L KarkSchematics-rescue:DB25_Female J201
 U 1 1 5AB7502A
 P 5275 3450
 F 0 "J201" H 5325 4800 50  0001 C CNN
@@ -90,7 +48,7 @@ O2_4_12v
 Text HLabel 2325 1375 1    60   Input ~ 0
 O2_3_Sen
 $Comp
-L CONN_01X04 P208
+L KarkSchematics-rescue:CONN_01X04 P208
 U 1 1 5AB7502B
 P 2375 2050
 F 0 "P208" V 2575 2050 50  0001 C CNN
@@ -101,7 +59,7 @@ F 3 "" H 2375 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P214
+L KarkSchematics-rescue:CONN_01X02 P214
 U 1 1 5AB7502C
 P 3525 2050
 F 0 "P214" V 3725 2050 50  0001 C CNN
@@ -112,7 +70,7 @@ F 3 "" H 3525 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P218
+L KarkSchematics-rescue:CONN_01X02 P218
 U 1 1 5AB7502D
 P 3975 2050
 F 0 "P218" V 4175 2050 50  0001 C CNN
@@ -123,7 +81,7 @@ F 3 "" H 3975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P210
+L KarkSchematics-rescue:CONN_01X04 P210
 U 1 1 5AB7502E
 P 2975 2050
 F 0 "P210" V 3175 2050 50  0001 C CNN
@@ -134,7 +92,7 @@ F 3 "" H 2975 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P204
+L KarkSchematics-rescue:CONN_01X04 P204
 U 1 1 5AB7502F
 P 1775 2050
 F 0 "P204" V 1975 2050 50  0001 C CNN
@@ -149,7 +107,7 @@ O2_2_Cal
 Text HLabel 2525 1375 1    60   Output ~ 0
 O2_1_GND
 $Comp
-L DB25_Male J202
+L KarkSchematics-rescue:DB25_Male J202
 U 1 1 5AB75030
 P 5925 3450
 F 0 "J202" H 5975 4800 50  0001 C CNN
@@ -160,7 +118,7 @@ F 3 "" H 5925 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DB37_Female J203
+L KarkSchematics-rescue:DB37_Female J203
 U 1 1 5AB75031
 P 9775 3400
 F 0 "J203" H 9875 5300 50  0001 C CNN
@@ -229,7 +187,7 @@ CLT_1_A
 Text HLabel 3675 7150 3    60   Output ~ 0
 CLT_2_B
 $Comp
-L CONN_01X04 P205
+L KarkSchematics-rescue:CONN_01X04 P205
 U 1 1 5AB75032
 P 2275 6500
 F 0 "P205" V 2475 6500 50  0001 C CNN
@@ -240,7 +198,7 @@ F 3 "" H 2275 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X04 P219
+L KarkSchematics-rescue:CONN_01X04 P219
 U 1 1 5AB75033
 P 4425 6500
 F 0 "P219" V 4625 6500 50  0001 C CNN
@@ -255,7 +213,7 @@ IAC_3_1B
 Text HLabel 4275 7150 3    60   Output ~ 0
 IAC_4_2B
 $Comp
-L CONN_01X02 P211
+L KarkSchematics-rescue:CONN_01X02 P211
 U 1 1 5AB75034
 P 3125 6500
 F 0 "P211" V 3325 6500 50  0001 C CNN
@@ -266,7 +224,7 @@ F 3 "" H 3125 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X02 P215
+L KarkSchematics-rescue:CONN_01X02 P215
 U 1 1 5AB75035
 P 3725 6500
 F 0 "P215" V 3925 6500 50  0001 C CNN
@@ -445,7 +403,7 @@ Entry Wire Line
 Entry Wire Line
 	8975 4500 9075 4600
 $Comp
-L CONN_01X04 P202
+L KarkSchematics-rescue:CONN_01X04 P202
 U 1 1 5AB75036
 P 1125 2050
 F 0 "P202" V 1325 2050 50  0001 C CNN
@@ -465,7 +423,7 @@ CAN_3_CANH
 Text HLabel 975  1375 1    60   UnSpc ~ 0
 CAN_4_PWR
 $Comp
-L CONN_01X04 P201
+L KarkSchematics-rescue:CONN_01X04 P201
 U 1 1 5AB75037
 P 1125 1675
 F 0 "P201" V 1325 1675 50  0001 C CNN
@@ -476,7 +434,7 @@ F 3 "" H 1125 1675 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X04 P203
+L KarkSchematics-rescue:CONN_01X04 P203
 U 1 1 5AB75038
 P 1775 1675
 F 0 "P203" V 1975 1675 50  0001 C CNN
@@ -695,7 +653,7 @@ Wire Wire Line
 Text HLabel 1925 1375 1    60   Input ~ 0
 P_1_GND
 $Comp
-L CONN_01X04 P207
+L KarkSchematics-rescue:CONN_01X04 P207
 U 1 1 5AB75039
 P 2375 1675
 F 0 "P207" V 2575 1675 50  0001 C CNN
@@ -714,7 +672,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 2250 2325 2350
 $Comp
-L CONN_01X04 P209
+L KarkSchematics-rescue:CONN_01X04 P209
 U 1 1 5AB7503A
 P 2975 1675
 F 0 "P209" V 3175 1675 50  0001 C CNN
@@ -730,7 +688,7 @@ Wire Wire Line
 	3125 2250 3125 3050
 Connection ~ 2825 2750
 $Comp
-L CONN_01X02 P213
+L KarkSchematics-rescue:CONN_01X02 P213
 U 1 1 5AB7503B
 P 3525 1675
 F 0 "P213" V 3725 1675 50  0001 C CNN
@@ -749,7 +707,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 2250 3575 3050
 $Comp
-L CONN_01X02 P217
+L KarkSchematics-rescue:CONN_01X02 P217
 U 1 1 5AB7503C
 P 3975 1675
 F 0 "P217" V 4175 1675 50  0001 C CNN
@@ -762,7 +720,7 @@ $EndComp
 Text HLabel 4025 1375 1    60   Output ~ 0
 IGN_1_A
 $Comp
-L CONN_01X04 P206
+L KarkSchematics-rescue:CONN_01X04 P206
 U 1 1 5AB7503D
 P 2275 6850
 F 0 "P206" V 2475 6850 50  0001 C CNN
@@ -781,7 +739,7 @@ TPS_2_GND
 Text HLabel 2425 7150 3    60   Output ~ 0
 TPS_1_GND
 $Comp
-L CONN_01X04 P220
+L KarkSchematics-rescue:CONN_01X04 P220
 U 1 1 5AB7503E
 P 4425 6850
 F 0 "P220" V 4625 6850 50  0001 C CNN
@@ -796,7 +754,7 @@ IAC_1_1A
 Text HLabel 4475 7150 3    60   Output ~ 0
 IAC_2_2A
 $Comp
-L CONN_01X02 P212
+L KarkSchematics-rescue:CONN_01X02 P212
 U 1 1 5AB7503F
 P 3125 6850
 F 0 "P212" V 3325 6850 50  0001 C CNN
@@ -807,7 +765,7 @@ F 3 "" H 3125 6850 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P216
+L KarkSchematics-rescue:CONN_01X02 P216
 U 1 1 5AB75040
 P 3725 6850
 F 0 "P216" V 3925 6850 50  0001 C CNN

@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+LIBS:KarkSchematics-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 6 5
+Title "Kark - Gasoline Prototype"
+Date "2019-05-17"
+Rev "1.1"
+Comp "Cedarville Supermileage"
+Comment1 "Tineka Witt"
+Comment2 "Samuel Ellicott"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:7402 U?
+U 1 2 5CE625D4
+P 5725 2450
+F 0 "U?" H 5725 2775 50  0000 C CNN
+F 1 "7402" H 5725 2684 50  0000 C CNN
+F 2 "" H 5725 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 5725 2450 50  0001 C CNN
+	1    5725 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7402 U?
+U 2 1 5CE62FF5
+P 4925 2350
+F 0 "U?" H 4925 2675 50  0001 C CNN
+F 1 "7402" H 4925 2584 50  0000 C CNN
+F 2 "" H 4925 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 4925 2350 50  0001 C CNN
+	2    4925 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7402 U?
+U 4 1 5CE65869
+P 6900 2550
+F 0 "U?" H 6900 2225 50  0001 C CNN
+F 1 "7402" H 6900 2325 50  0000 C CNN
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 6900 2550 50  0001 C CNN
+	4    6900 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7402 U?
+U 5 1 5CE66996
+P 5200 5150
+F 0 "U?" H 5430 5196 50  0001 L CNN
+F 1 "7402" H 5430 5105 50  0000 L CNN
+F 2 "" H 5200 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 5200 5150 50  0001 C CNN
+	5    5200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2550 7625 2550
+Wire Wire Line
+	7175 2850 6400 3000
+Wire Wire Line
+	6400 3000 6400 3275
+Wire Wire Line
+	6400 3275 6600 3275
+Wire Wire Line
+	7200 3375 7625 3375
+Wire Wire Line
+	6400 2825 6400 2650
+Wire Wire Line
+	6400 2650 6600 2650
+Wire Wire Line
+	7175 3025 6400 2825
+Wire Wire Line
+	7175 2850 7625 2850
+Wire Wire Line
+	7625 2850 7625 2550
+Wire Wire Line
+	7175 3025 7625 3025
+Wire Wire Line
+	7625 3025 7625 3375
+Text HLabel 8025 2550 2    60   Output ~ 0
+EFI_En
+Wire Wire Line
+	8025 2550 7625 2550
+Connection ~ 7625 2550
+$Comp
+L 74xx:7402 U?
+U 3 1 5CE641E4
+P 6900 3375
+F 0 "U?" H 6900 3075 50  0001 C CNN
+F 1 "7402" H 6900 3175 50  0000 C CNN
+F 2 "" H 6900 3375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 6900 3375 50  0001 C CNN
+	3    6900 3375
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6600 2450 6325 2450
+Wire Wire Line
+	6600 3475 5325 3475
+Text HLabel 2600 2250 0    60   Input ~ 0
+Start
+Text HLabel 2600 3475 0    60   Input ~ 0
+Stop
+Text HLabel 8025 2150 2    60   Output ~ 0
+Starter
+Wire Wire Line
+	8025 2150 6325 2150
+Wire Wire Line
+	6325 2150 6325 2450
+Connection ~ 6325 2450
+Wire Wire Line
+	6325 2450 6025 2450
+$Comp
+L KarkSchematics-rescue:+5V #PWR?
+U 1 1 5CEC8B48
+P 5200 4550
+F 0 "#PWR?" H 5200 4400 50  0001 C CNN
+F 1 "+5V" H 5215 4723 50  0000 C CNN
+F 2 "" H 5200 4550 50  0001 C CNN
+F 3 "" H 5200 4550 50  0001 C CNN
+	1    5200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5CEC9AF4
+P 5200 5750
+F 0 "#PWR?" H 5200 5500 50  0001 C CNN
+F 1 "GND" H 5205 5577 50  0000 C CNN
+F 2 "" H 5200 5750 50  0001 C CNN
+F 3 "" H 5200 5750 50  0001 C CNN
+	1    5200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5750 5200 5650
+Wire Wire Line
+	5200 4650 5200 4550
+Text HLabel 2625 2025 0    60   Output ~ 0
+5v
+$Comp
+L KarkSchematics-rescue:+5V #PWR?
+U 1 1 5CEDD8D6
+P 2725 1825
+F 0 "#PWR?" H 2725 1675 50  0001 C CNN
+F 1 "+5V" H 2740 1998 50  0000 C CNN
+F 2 "" H 2725 1825 50  0001 C CNN
+F 3 "" H 2725 1825 50  0001 C CNN
+	1    2725 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 1825 2725 2025
+Wire Wire Line
+	2725 2025 2625 2025
+Wire Wire Line
+	4625 2450 4525 2450
+Wire Wire Line
+	4525 2250 4625 2250
+Wire Wire Line
+	5425 2550 5325 2550
+Wire Wire Line
+	5325 2550 5325 3475
+Connection ~ 5325 3475
+Wire Wire Line
+	5325 3475 3525 3475
+Wire Wire Line
+	5225 2350 5425 2350
+Wire Wire Line
+	4525 2450 4525 2250
+Connection ~ 4525 2250
+Wire Notes Line
+	4400 3600 6025 3600
+Wire Notes Line
+	6025 3600 6025 3550
+Wire Notes Line
+	4400 3600 4400 3550
+Wire Notes Line
+	6225 3600 7850 3600
+Wire Notes Line
+	7850 3600 7850 3550
+Wire Notes Line
+	6225 3600 6225 3550
+Text Notes 4800 3750 0    60   ~ 0
+Start AND ~Stop
+Text Notes 6850 3750 0    60   ~ 0
+SR Latch
+Text HLabel 2600 3875 0    60   Input ~ 0
+GND
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5D12B1E5
+P 2675 4000
+F 0 "#PWR?" H 2675 3750 50  0001 C CNN
+F 1 "GND" H 2680 3827 50  0000 C CNN
+F 2 "" H 2675 4000 50  0001 C CNN
+F 3 "" H 2675 4000 50  0001 C CNN
+	1    2675 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 4000 2675 3875
+Wire Wire Line
+	2675 3875 2600 3875
+Wire Wire Line
+	4525 2250 3525 2250
+$Comp
+L Device:R R?
+U 1 1 5D14E5D2
+P 3525 2550
+F 0 "R?" H 3595 2596 50  0001 L CNN
+F 1 "1K" H 3595 2550 50  0000 L CNN
+F 2 "" V 3455 2550 50  0001 C CNN
+F 3 "~" H 3525 2550 50  0001 C CNN
+	1    3525 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D14ECD2
+P 3525 3750
+F 0 "R?" H 3595 3796 50  0001 L CNN
+F 1 "1K" H 3595 3750 50  0000 L CNN
+F 2 "" V 3455 3750 50  0001 C CNN
+F 3 "~" H 3525 3750 50  0001 C CNN
+	1    3525 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 3600 3525 3475
+Connection ~ 3525 3475
+Wire Wire Line
+	3525 3475 2600 3475
+Wire Wire Line
+	3525 2250 3525 2400
+Connection ~ 3525 2250
+Wire Wire Line
+	3525 2250 2600 2250
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5D151B09
+P 3525 2775
+F 0 "#PWR?" H 3525 2525 50  0001 C CNN
+F 1 "GND" H 3530 2602 50  0000 C CNN
+F 2 "" H 3525 2775 50  0001 C CNN
+F 3 "" H 3525 2775 50  0001 C CNN
+	1    3525 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5D151F8E
+P 3525 3975
+F 0 "#PWR?" H 3525 3725 50  0001 C CNN
+F 1 "GND" H 3530 3802 50  0000 C CNN
+F 2 "" H 3525 3975 50  0001 C CNN
+F 3 "" H 3525 3975 50  0001 C CNN
+	1    3525 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 3975 3525 3900
+Wire Wire Line
+	3525 2775 3525 2700
+$Comp
+L Device:C C?
+U 1 1 5D16F6B0
+P 4625 5175
+F 0 "C?" H 4740 5221 50  0001 L CNN
+F 1 "0.1u" H 4740 5175 50  0000 L CNN
+F 2 "" H 4663 5025 50  0001 C CNN
+F 3 "~" H 4625 5175 50  0001 C CNN
+	1    4625 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:+5V #PWR?
+U 1 1 5D1705FA
+P 4625 4950
+F 0 "#PWR?" H 4625 4800 50  0001 C CNN
+F 1 "+5V" H 4640 5123 50  0000 C CNN
+F 2 "" H 4625 4950 50  0001 C CNN
+F 3 "" H 4625 4950 50  0001 C CNN
+	1    4625 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5D170A77
+P 4625 5425
+F 0 "#PWR?" H 4625 5175 50  0001 C CNN
+F 1 "GND" H 4630 5252 50  0000 C CNN
+F 2 "" H 4625 5425 50  0001 C CNN
+F 3 "" H 4625 5425 50  0001 C CNN
+	1    4625 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 5325 4625 5425
+Wire Wire Line
+	4625 5025 4625 4950
+$Comp
+L Device:C C?
+U 1 1 5D17657C
+P 4225 5175
+F 0 "C?" H 4340 5221 50  0001 L CNN
+F 1 "1u" H 4340 5175 50  0000 L CNN
+F 2 "" H 4263 5025 50  0001 C CNN
+F 3 "~" H 4225 5175 50  0001 C CNN
+	1    4225 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:+5V #PWR?
+U 1 1 5D176582
+P 4225 4950
+F 0 "#PWR?" H 4225 4800 50  0001 C CNN
+F 1 "+5V" H 4240 5123 50  0000 C CNN
+F 2 "" H 4225 4950 50  0001 C CNN
+F 3 "" H 4225 4950 50  0001 C CNN
+	1    4225 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KarkSchematics-rescue:GND #PWR?
+U 1 1 5D176588
+P 4225 5425
+F 0 "#PWR?" H 4225 5175 50  0001 C CNN
+F 1 "GND" H 4230 5252 50  0000 C CNN
+F 2 "" H 4225 5425 50  0001 C CNN
+F 3 "" H 4225 5425 50  0001 C CNN
+	1    4225 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 5325 4225 5425
+Wire Wire Line
+	4225 5025 4225 4950
+Text Notes 4550 1375 0    118  ~ 0
+EFI Latch System
+$EndSCHEMATC

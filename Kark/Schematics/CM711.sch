@@ -1,55 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:KarkSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:supermileage_sensors
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottInterface
-LIBS:EllicottDisplay
-LIBS:EllicottMisc
-LIBS:EllicottPower
+EESchema Schematic File Version 4
 LIBS:KarkSchematics-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 10
-Title "CM711 Computer"
+Sheet 8 11
+Title "Kark - Gasoline Prototype"
 Date "2018-03-24"
-Rev "1.0"
+Rev "1.1"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CM0711_b U901
+L KarkSchematics-rescue:CM0711_b U901
 U 1 1 5AADE38C
 P 5875 3650
 F 0 "U901" H 5875 3650 60  0000 C CNN
@@ -96,13 +54,13 @@ GND
 Wire Wire Line
 	5850 5225 5975 5225
 Wire Wire Line
-	5975 5225 5975 4850
+	5975 5225 5975 4975
 Text Label 5725 2175 2    60   ~ 0
 12V
 Wire Wire Line
 	5775 2300 5775 2175
 Wire Wire Line
-	5725 2175 5975 2175
+	5725 2175 5775 2175
 Wire Wire Line
 	5875 2175 5875 2300
 Connection ~ 5775 2175
@@ -118,4 +76,10 @@ Wire Wire Line
 Wire Wire Line
 	5775 4975 5975 4975
 Connection ~ 5975 4975
+Wire Wire Line
+	5775 2175 5875 2175
+Wire Wire Line
+	5875 2175 5975 2175
+Wire Wire Line
+	5975 4975 5975 4850
 $EndSCHEMATC

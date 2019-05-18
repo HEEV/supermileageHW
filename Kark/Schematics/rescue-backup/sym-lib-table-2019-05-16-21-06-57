@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name KarkSchematics-rescue)(type Legacy)(uri ${KIPRJMOD}/KarkSchematics-rescue.lib)(options "")(descr ""))
+  (lib (name relays_switches)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/Kark/KarkPower/kicad-parts/relays_switches.lib)(options "")(descr ""))
+  (lib (name supermileage)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/Kark/KarkPower/kicad-parts/supermileage.lib)(options "")(descr ""))
+  (lib (name supermileage_computers)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/Kark/KarkPower/kicad-parts/supermileage_computers.lib)(options "")(descr ""))
+  (lib (name supermileage_sensors)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/Kark/KarkPower/kicad-parts/supermileage_sensors.lib)(options "")(descr ""))
+  (lib (name EllicottMicrocontrollers)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/EllicottSamuel/EllicottMicrocontrollers.lib)(options "")(descr ""))
+  (lib (name EllicottInterface)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/EllicottSamuel/EllicottInterface.lib)(options "")(descr ""))
+  (lib (name EllicottDisplay)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/EllicottSamuel/EllicottDisplay.lib)(options "")(descr ""))
+  (lib (name EllicottMisc)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/EllicottSamuel/EllicottMisc.lib)(options "")(descr ""))
+  (lib (name EllicottPower)(type Legacy)(uri /home/nebk/Documents/supermileage/old_files/supermileagehw/EllicottSamuel/EllicottPower.lib)(options "")(descr ""))
+)

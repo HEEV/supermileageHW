@@ -1,52 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:KarkSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:supermileage_sensors
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottInterface
-LIBS:EllicottDisplay
-LIBS:EllicottMisc
-LIBS:EllicottPower
-LIBS:KarkSchematics-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:KarkPower-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 11
+Sheet 1 1
 Title "Karch Main Power Distribution Hub"
 Date "01/13/18"
 Rev "1.0"
@@ -57,7 +15,7 @@ Comment3 "A example of usable art"
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X02 J119
+L KarkPower-rescue:CONN_01X02 J119
 U 1 1 5A22B983
 P 3475 2875
 F 0 "J119" H 3475 3025 50  0000 C CNN
@@ -68,7 +26,7 @@ F 3 "" H 3475 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 J121
+L KarkPower-rescue:CONN_01X02 J121
 U 1 1 5A22B9F3
 P 4900 2875
 F 0 "J121" H 4900 3025 50  0000 C CNN
@@ -79,7 +37,7 @@ F 3 "" H 4900 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 J126
+L KarkPower-rescue:CONN_01X02 J126
 U 1 1 5A22BA46
 P 6825 2875
 F 0 "J126" H 6825 3025 50  0000 C CNN
@@ -90,7 +48,7 @@ F 3 "" H 6825 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X04 J120
+L KarkPower-rescue:CONN_01X04 J120
 U 1 1 5A22BAAE
 P 4400 2875
 F 0 "J120" H 4400 3125 50  0000 C CNN
@@ -101,7 +59,7 @@ F 3 "" H 4400 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 5v_Regulator U101
+L supermileage:5v_Regulator U101
 U 1 1 5A22C75F
 P 2300 3250
 F 0 "U101" H 2300 3400 60  0000 C CNN
@@ -112,7 +70,7 @@ F 3 "" H 2100 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PN2222A Q101
+L KarkPower-rescue:PN2222A Q101
 U 1 1 5A22CAF1
 P 6025 4925
 F 0 "Q101" H 6225 5000 50  0000 L CNN
@@ -127,7 +85,7 @@ O2pwr
 Text Label 5475 3800 1    60   ~ 0
 EFIonb
 $Comp
-L CONN_01X02 J125
+L KarkPower-rescue:CONN_01X02 J125
 U 1 1 5A22D9EA
 P 7175 2875
 F 0 "J125" H 7175 3025 50  0000 C CNN
@@ -138,7 +96,7 @@ F 3 "" H 7175 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D101
+L KarkPower-rescue:LED D101
 U 1 1 5A22DD28
 P 3050 3650
 F 0 "D101" H 3050 3750 50  0000 C CNN
@@ -153,7 +111,7 @@ CanHI
 Text Label 1600 4150 0    60   ~ 0
 CanLo
 $Comp
-L CONN_01X02 J122
+L KarkPower-rescue:CONN_01X02 J122
 U 1 1 5A22E491
 P 5675 2875
 F 0 "J122" H 5675 3025 50  0000 C CNN
@@ -164,7 +122,7 @@ F 3 "" H 5675 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 J123
+L KarkPower-rescue:CONN_01X02 J123
 U 1 1 5A22E519
 P 6000 2875
 F 0 "J123" H 6000 3025 50  0000 C CNN
@@ -175,7 +133,7 @@ F 3 "" H 6000 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 J124
+L KarkPower-rescue:CONN_01X02 J124
 U 1 1 5A22E5B5
 P 6325 2875
 F 0 "J124" H 6325 3025 50  0000 C CNN
@@ -186,7 +144,7 @@ F 3 "" H 6325 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X04 J101
+L KarkPower-rescue:CONN_01X04 J101
 U 1 1 5A230FBE
 P 1025 5075
 F 0 "J101" H 1025 5325 50  0000 C CNN
@@ -201,7 +159,7 @@ Text Label 2825 5025 0    60   ~ 0
 Text Notes 925  4775 0    60   ~ 0
 EFI to
 $Comp
-L CONN_01X04 J102
+L KarkPower-rescue:CONN_01X04 J102
 U 1 1 5A231440
 P 1025 5750
 F 0 "J102" H 1025 6000 50  0000 C CNN
@@ -212,7 +170,7 @@ F 3 "" H 1025 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J111
+L KarkPower-rescue:CONN_02X02 J111
 U 1 1 5A2315B0
 P 2200 5650
 F 0 "J111" H 2200 5800 50  0000 C CNN
@@ -225,7 +183,7 @@ $EndComp
 Text Label 2450 5600 0    60   ~ 0
 5
 $Comp
-L CONN_02X02 J110
+L KarkPower-rescue:CONN_02X02 J110
 U 1 1 5A23168D
 P 2200 4975
 F 0 "J110" H 2200 5125 50  0000 C CNN
@@ -238,7 +196,7 @@ $EndComp
 Text Label 2450 4925 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J103
+L KarkPower-rescue:CONN_01X04 J103
 U 1 1 5A231905
 P 1025 6425
 F 0 "J103" H 1025 6675 50  0000 C CNN
@@ -249,7 +207,7 @@ F 3 "" H 1025 6425 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J112
+L KarkPower-rescue:CONN_02X02 J112
 U 1 1 5A231910
 P 2200 6325
 F 0 "J112" H 2200 6475 50  0000 C CNN
@@ -262,7 +220,7 @@ $EndComp
 Text Label 2450 6275 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J104
+L KarkPower-rescue:CONN_01X04 J104
 U 1 1 5A231A12
 P 1025 7100
 F 0 "J104" H 1025 7350 50  0000 C CNN
@@ -273,7 +231,7 @@ F 3 "" H 1025 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J113
+L KarkPower-rescue:CONN_02X02 J113
 U 1 1 5A231A1D
 P 2200 7000
 F 0 "J113" H 2200 7150 50  0000 C CNN
@@ -286,7 +244,7 @@ $EndComp
 Text Label 2450 6950 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J105
+L KarkPower-rescue:CONN_01X04 J105
 U 1 1 5A231A33
 P 1025 7775
 F 0 "J105" H 1025 8025 50  0000 C CNN
@@ -297,7 +255,7 @@ F 3 "" H 1025 7775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J114
+L KarkPower-rescue:CONN_02X02 J114
 U 1 1 5A231A3E
 P 2200 7675
 F 0 "J114" H 2200 7825 50  0000 C CNN
@@ -310,7 +268,7 @@ $EndComp
 Text Label 2450 7625 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J106
+L KarkPower-rescue:CONN_01X04 J106
 U 1 1 5A23262E
 P 1025 8450
 F 0 "J106" H 1025 8700 50  0000 C CNN
@@ -321,7 +279,7 @@ F 3 "" H 1025 8450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J115
+L KarkPower-rescue:CONN_02X02 J115
 U 1 1 5A232639
 P 2200 8350
 F 0 "J115" H 2200 8500 50  0000 C CNN
@@ -334,7 +292,7 @@ $EndComp
 Text Label 2450 8300 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J107
+L KarkPower-rescue:CONN_01X04 J107
 U 1 1 5A23264F
 P 1025 9125
 F 0 "J107" H 1025 9375 50  0000 C CNN
@@ -345,7 +303,7 @@ F 3 "" H 1025 9125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J116
+L KarkPower-rescue:CONN_02X02 J116
 U 1 1 5A23265A
 P 2200 9025
 F 0 "J116" H 2200 9175 50  0000 C CNN
@@ -358,7 +316,7 @@ $EndComp
 Text Label 2450 8975 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J108
+L KarkPower-rescue:CONN_01X04 J108
 U 1 1 5A232670
 P 1025 9800
 F 0 "J108" H 1025 10050 50  0000 C CNN
@@ -369,7 +327,7 @@ F 3 "" H 1025 9800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J117
+L KarkPower-rescue:CONN_02X02 J117
 U 1 1 5A23267B
 P 2200 9700
 F 0 "J117" H 2200 9850 50  0000 C CNN
@@ -382,7 +340,7 @@ $EndComp
 Text Label 2450 9650 0    60   ~ 0
 5
 $Comp
-L CONN_01X04 J109
+L KarkPower-rescue:CONN_01X04 J109
 U 1 1 5A232691
 P 1025 10475
 F 0 "J109" H 1025 10725 50  0000 C CNN
@@ -393,7 +351,7 @@ F 3 "" H 1025 10475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X02 J118
+L KarkPower-rescue:CONN_02X02 J118
 U 1 1 5A23269C
 P 2200 10375
 F 0 "J118" H 2200 10525 50  0000 C CNN
@@ -406,7 +364,7 @@ $EndComp
 Text Label 2450 10325 0    60   ~ 0
 5
 $Comp
-L R R103
+L KarkPower-rescue:R R103
 U 1 1 5A234471
 P 6425 5125
 F 0 "R103" V 6505 5125 50  0000 C CNN
@@ -417,7 +375,7 @@ F 3 "" H 6425 5125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R104
+L KarkPower-rescue:R R104
 U 1 1 5A234900
 P 6425 4925
 F 0 "R104" V 6505 4925 50  0000 C CNN
@@ -428,7 +386,7 @@ F 3 "" H 6425 4925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +12V #PWR304
+L power:+12V #PWR304
 U 1 1 5A2C0920
 P 2825 4800
 F 0 "#PWR304" H 2825 4650 50  0001 C CNN
@@ -439,7 +397,7 @@ F 3 "" H 2825 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR301
+L power:GND #PWR301
 U 1 1 5A2C0A3E
 P 1700 10750
 F 0 "#PWR301" H 1700 10500 50  0001 C CNN
@@ -450,7 +408,7 @@ F 3 "" H 1700 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR315
+L power:GND #PWR315
 U 1 1 5A2C4A1A
 P 5925 5300
 F 0 "#PWR315" H 5925 5050 50  0001 C CNN
@@ -461,7 +419,7 @@ F 3 "" H 5925 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPDT_PCB_Relay CR101
+L relays_switches:SPDT_PCB_Relay CR101
 U 1 1 5A2C6065
 P 5775 4225
 F 0 "CR101" V 6200 4225 60  0000 C CNN
@@ -472,7 +430,7 @@ F 3 "" V 5475 4225 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR314
+L power:+12V #PWR314
 U 1 1 5A2C6E9E
 P 5925 3450
 F 0 "#PWR314" H 5925 3300 50  0001 C CNN
@@ -483,7 +441,7 @@ F 3 "" H 5925 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR303
+L power:+12V #PWR303
 U 1 1 5A2C94FF
 P 2450 4050
 F 0 "#PWR303" H 2450 3900 50  0001 C CNN
@@ -494,7 +452,7 @@ F 3 "" H 2450 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR307
+L power:+12V #PWR307
 U 1 1 5A2C9C11
 P 3675 3200
 F 0 "#PWR307" H 3675 3050 50  0001 C CNN
@@ -505,7 +463,7 @@ F 3 "" H 3675 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR317
+L power:+12V #PWR317
 U 1 1 5A2CA7FA
 P 6575 2700
 F 0 "#PWR317" H 6575 2550 50  0001 C CNN
@@ -516,7 +474,7 @@ F 3 "" H 6575 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR318
+L power:GND #PWR318
 U 1 1 5A2CB042
 P 7125 3150
 F 0 "#PWR318" H 7125 2900 50  0001 C CNN
@@ -527,7 +485,7 @@ F 3 "" H 7125 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR308
+L power:GND #PWR308
 U 1 1 5A2CB4EE
 P 4350 3125
 F 0 "#PWR308" H 4350 2875 50  0001 C CNN
@@ -538,7 +496,7 @@ F 3 "" H 4350 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR306
+L power:GND #PWR306
 U 1 1 5A2CB766
 P 3425 3150
 F 0 "#PWR306" H 3425 2900 50  0001 C CNN
@@ -549,7 +507,7 @@ F 3 "" H 3425 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR312
+L power:GND #PWR312
 U 1 1 5A2CB947
 P 4850 3125
 F 0 "#PWR312" H 4850 2875 50  0001 C CNN
@@ -560,7 +518,7 @@ F 3 "" H 4850 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR311
+L power:GND #PWR311
 U 1 1 5A2CBB18
 P 4550 3125
 F 0 "#PWR311" H 4550 2875 50  0001 C CNN
@@ -571,7 +529,7 @@ F 3 "" H 4550 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR302
+L power:GND #PWR302
 U 1 1 5A2CC05B
 P 2150 3950
 F 0 "#PWR302" H 2150 3700 50  0001 C CNN
@@ -582,7 +540,7 @@ F 3 "" H 2150 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR305
+L power:+12V #PWR305
 U 1 1 5A5A26C4
 P 3050 2925
 F 0 "#PWR305" H 3050 2775 50  0001 C CNN
@@ -593,7 +551,7 @@ F 3 "" H 3050 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R101
+L KarkPower-rescue:R R101
 U 1 1 5A5A28A6
 P 3050 3250
 F 0 "R101" V 3130 3250 50  0000 C CNN
@@ -604,7 +562,7 @@ F 3 "" H 3050 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R102
+L KarkPower-rescue:R R102
 U 1 1 5A5A4103
 P 5925 3600
 F 0 "R102" V 6005 3600 50  0000 C CNN
@@ -615,7 +573,7 @@ F 3 "" H 5925 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D102
+L KarkPower-rescue:D D102
 U 1 1 5A5A4892
 P 6300 4300
 F 0 "D102" H 6300 4400 50  0000 C CNN
@@ -626,7 +584,7 @@ F 3 "" H 6300 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +12V #PWR316
+L power:+12V #PWR316
 U 1 1 5A5A4A51
 P 6300 4025
 F 0 "#PWR316" H 6300 3875 50  0001 C CNN
@@ -637,7 +595,7 @@ F 3 "" H 6300 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP101
+L KarkPower-rescue:TEST TP101
 U 1 1 5A635A3C
 P 1075 2000
 F 0 "TP101" H 1075 2300 50  0000 C BNN
@@ -648,7 +606,7 @@ F 3 "" H 1075 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP102
+L KarkPower-rescue:TEST TP102
 U 1 1 5A635CC5
 P 1300 2000
 F 0 "TP102" H 1300 2300 50  0000 C BNN
@@ -659,7 +617,7 @@ F 3 "" H 1300 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP103
+L KarkPower-rescue:TEST TP103
 U 1 1 5A635D55
 P 1525 2000
 F 0 "TP103" H 1525 2300 50  0000 C BNN
@@ -670,7 +628,7 @@ F 3 "" H 1525 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP104
+L KarkPower-rescue:TEST TP104
 U 1 1 5A635DDC
 P 1750 2000
 F 0 "TP104" H 1750 2300 50  0000 C BNN
@@ -681,7 +639,7 @@ F 3 "" H 1750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J302
+L KarkPower-rescue:CONN_01X02 J302
 U 1 1 5AB5FEAD
 P 5300 2875
 F 0 "J302" H 5300 3025 50  0000 C CNN
@@ -692,7 +650,7 @@ F 3 "" H 5300 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR313
+L power:GND #PWR313
 U 1 1 5AB6008C
 P 5250 3125
 F 0 "#PWR313" H 5250 2875 50  0001 C CNN
@@ -705,9 +663,9 @@ $EndComp
 Text Label 5625 3800 1    60   ~ 0
 Kill_Switch
 Wire Wire Line
-	1400 3975 1400 10425
+	1400 3975 1400 5025
 Wire Wire Line
-	1550 4150 1550 10525
+	1550 4150 1550 5125
 Wire Wire Line
 	5725 3075 5725 3200
 Wire Wire Line
@@ -721,11 +679,11 @@ Wire Wire Line
 Wire Wire Line
 	6275 3200 6275 3075
 Wire Wire Line
-	2525 4550 2525 10325
+	2525 4550 2525 4925
 Connection ~ 2525 4925
 Connection ~ 2825 5025
 Wire Wire Line
-	1700 5225 1700 10750
+	1700 5225 1700 5900
 Wire Wire Line
 	1550 4150 1600 4150
 Wire Wire Line
@@ -737,7 +695,7 @@ Wire Wire Line
 	1225 5025 1400 5025
 Connection ~ 1400 5025
 Wire Wire Line
-	1225 5600 1950 5600
+	1225 5600 1900 5600
 Wire Wire Line
 	1700 5900 1225 5900
 Wire Wire Line
@@ -759,7 +717,7 @@ Connection ~ 1700 5900
 Connection ~ 2525 5600
 Connection ~ 2825 5700
 Wire Wire Line
-	1225 4925 1950 4925
+	1225 4925 1900 4925
 Wire Wire Line
 	2525 4925 2450 4925
 Wire Wire Line
@@ -770,7 +728,7 @@ Wire Wire Line
 	1900 5025 1950 5025
 Connection ~ 1900 4925
 Wire Wire Line
-	1225 6275 1950 6275
+	1225 6275 1900 6275
 Wire Wire Line
 	1700 6575 1225 6575
 Wire Wire Line
@@ -792,7 +750,7 @@ Connection ~ 1700 6575
 Connection ~ 2525 6275
 Connection ~ 2825 6375
 Wire Wire Line
-	1225 6950 1950 6950
+	1225 6950 1900 6950
 Wire Wire Line
 	1700 7250 1225 7250
 Wire Wire Line
@@ -814,7 +772,7 @@ Connection ~ 1700 7250
 Connection ~ 2525 6950
 Connection ~ 2825 7050
 Wire Wire Line
-	1225 7625 1950 7625
+	1225 7625 1900 7625
 Wire Wire Line
 	1700 7925 1225 7925
 Wire Wire Line
@@ -835,7 +793,7 @@ Connection ~ 1550 7825
 Connection ~ 1700 7925
 Connection ~ 2525 7625
 Wire Wire Line
-	1225 8300 1950 8300
+	1225 8300 1900 8300
 Wire Wire Line
 	1700 8600 1225 8600
 Wire Wire Line
@@ -857,7 +815,7 @@ Connection ~ 1700 8600
 Connection ~ 2525 8300
 Connection ~ 2825 8400
 Wire Wire Line
-	1225 8975 1950 8975
+	1225 8975 1900 8975
 Wire Wire Line
 	1700 9275 1225 9275
 Wire Wire Line
@@ -879,7 +837,7 @@ Connection ~ 1700 9275
 Connection ~ 2525 8975
 Connection ~ 2825 9075
 Wire Wire Line
-	1225 9650 1950 9650
+	1225 9650 1900 9650
 Wire Wire Line
 	1700 9950 1225 9950
 Wire Wire Line
@@ -901,7 +859,7 @@ Connection ~ 1700 9950
 Connection ~ 2525 9650
 Connection ~ 2825 9750
 Wire Wire Line
-	1225 10325 1950 10325
+	1225 10325 1900 10325
 Wire Wire Line
 	1700 10625 1225 10625
 Wire Wire Line
@@ -918,10 +876,8 @@ Wire Wire Line
 	1900 10425 1950 10425
 Connection ~ 1900 10325
 Connection ~ 1700 10625
-Connection ~ 2525 10325
-Connection ~ 2825 10425
 Wire Wire Line
-	6225 4925 6275 4925
+	6225 4925 6250 4925
 Wire Wire Line
 	6250 4925 6250 5125
 Wire Wire Line
@@ -930,11 +886,11 @@ Wire Wire Line
 	1225 5225 1700 5225
 Connection ~ 6250 4925
 Wire Wire Line
-	5925 4575 5925 4725
+	5925 4575 5925 4650
 Wire Wire Line
 	4250 3075 4250 3500
 Wire Wire Line
-	2825 4800 2825 10425
+	2825 4800 2825 5025
 Connection ~ 2825 7725
 Wire Wire Line
 	2300 3850 2300 4125
@@ -947,7 +903,7 @@ Wire Wire Line
 Wire Wire Line
 	6375 3075 6375 3200
 Wire Wire Line
-	6375 3200 6775 3200
+	6375 3200 6575 3200
 Wire Wire Line
 	6575 3200 6575 2700
 Wire Wire Line
@@ -971,7 +927,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3400 4450 3075
 Wire Wire Line
-	4250 3500 5475 3500
+	4250 3500 5350 3500
 Wire Wire Line
 	7225 5125 7225 3075
 Wire Wire Line
@@ -1015,7 +971,7 @@ Connection ~ 5350 3500
 Wire Wire Line
 	5350 3075 5350 3500
 $Comp
-L PN2222A Q301
+L KarkPower-rescue:PN2222A Q301
 U 1 1 5AB62D36
 P 4450 4925
 F 0 "Q301" H 4650 5000 50  0000 L CNN
@@ -1027,7 +983,7 @@ F 3 "" H 4450 4925 50  0001 L CNN
 $EndComp
 Connection ~ 6575 3200
 $Comp
-L CONN_01X02 J303
+L KarkPower-rescue:CONN_01X02 J303
 U 1 1 5AB64205
 P 7525 2875
 F 0 "J303" H 7525 3025 50  0000 C CNN
@@ -1038,7 +994,7 @@ F 3 "" H 7525 2875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR319
+L power:GND #PWR319
 U 1 1 5AB643B2
 P 7475 3150
 F 0 "#PWR319" H 7475 2900 50  0001 C CNN
@@ -1051,7 +1007,7 @@ $EndComp
 Wire Wire Line
 	7475 3150 7475 3075
 $Comp
-L R R301
+L KarkPower-rescue:R R301
 U 1 1 5AB6493E
 P 4350 4450
 F 0 "R301" V 4430 4450 50  0000 C CNN
@@ -1062,7 +1018,7 @@ F 3 "" H 4350 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R302
+L KarkPower-rescue:R R302
 U 1 1 5AB64C82
 P 4900 4925
 F 0 "R302" V 4980 4925 50  0000 C CNN
@@ -1075,7 +1031,7 @@ $EndComp
 Wire Wire Line
 	7575 3075 7575 5650
 $Comp
-L GND #PWR310
+L power:GND #PWR310
 U 1 1 5AB655C6
 P 4350 5275
 F 0 "#PWR310" H 4350 5025 50  0001 C CNN
@@ -1088,9 +1044,9 @@ $EndComp
 Wire Wire Line
 	4350 5275 4350 5125
 Wire Wire Line
-	4350 4600 4350 4725
+	4350 4600 4350 4675
 $Comp
-L +12V #PWR309
+L power:+12V #PWR309
 U 1 1 5AB662EE
 P 4350 4200
 F 0 "#PWR309" H 4350 4050 50  0001 C CNN
@@ -1111,7 +1067,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5650 7575 5650
 $Comp
-L CONN_01X02 J301
+L KarkPower-rescue:CONN_01X02 J301
 U 1 1 5AB66AEA
 P 3925 2875
 F 0 "J301" H 3925 3025 50  0000 C CNN
@@ -1134,4 +1090,112 @@ Wire Wire Line
 	3525 3275 3675 3275
 Text Label 3975 3675 1    60   ~ 0
 Kill_Switch
+Wire Wire Line
+	2525 4925 2525 5600
+Wire Wire Line
+	2825 5025 2825 5700
+Wire Wire Line
+	1550 5125 1550 5800
+Wire Wire Line
+	1400 5025 1400 5700
+Wire Wire Line
+	1900 5600 1950 5600
+Wire Wire Line
+	1400 5700 1400 6375
+Wire Wire Line
+	1550 5800 1550 6475
+Wire Wire Line
+	1700 5900 1700 6575
+Wire Wire Line
+	2525 5600 2525 6275
+Wire Wire Line
+	2825 5700 2825 6375
+Wire Wire Line
+	1900 4925 1950 4925
+Wire Wire Line
+	1900 6275 1950 6275
+Wire Wire Line
+	1400 6375 1400 7050
+Wire Wire Line
+	1550 6475 1550 7150
+Wire Wire Line
+	1700 6575 1700 7250
+Wire Wire Line
+	2525 6275 2525 6950
+Wire Wire Line
+	2825 6375 2825 7050
+Wire Wire Line
+	1900 6950 1950 6950
+Wire Wire Line
+	1400 7050 1400 7725
+Wire Wire Line
+	1550 7150 1550 7825
+Wire Wire Line
+	1700 7250 1700 7925
+Wire Wire Line
+	2525 6950 2525 7625
+Wire Wire Line
+	2825 7050 2825 7725
+Wire Wire Line
+	1900 7625 1950 7625
+Wire Wire Line
+	1400 7725 1400 8400
+Wire Wire Line
+	1550 7825 1550 8500
+Wire Wire Line
+	1700 7925 1700 8600
+Wire Wire Line
+	2525 7625 2525 8300
+Wire Wire Line
+	1900 8300 1950 8300
+Wire Wire Line
+	1400 8400 1400 9075
+Wire Wire Line
+	1550 8500 1550 9175
+Wire Wire Line
+	1700 8600 1700 9275
+Wire Wire Line
+	2525 8300 2525 8975
+Wire Wire Line
+	2825 8400 2825 9075
+Wire Wire Line
+	1900 8975 1950 8975
+Wire Wire Line
+	1400 9075 1400 9750
+Wire Wire Line
+	1550 9175 1550 9850
+Wire Wire Line
+	1700 9275 1700 9950
+Wire Wire Line
+	2525 8975 2525 9650
+Wire Wire Line
+	2825 9075 2825 9750
+Wire Wire Line
+	1900 9650 1950 9650
+Wire Wire Line
+	1400 9750 1400 10425
+Wire Wire Line
+	1550 9850 1550 10525
+Wire Wire Line
+	1700 9950 1700 10625
+Wire Wire Line
+	2525 9650 2525 10325
+Wire Wire Line
+	2825 9750 2825 10425
+Wire Wire Line
+	1900 10325 1950 10325
+Wire Wire Line
+	1700 10625 1700 10750
+Wire Wire Line
+	6250 4925 6275 4925
+Wire Wire Line
+	2825 7725 2825 8400
+Wire Wire Line
+	5925 4650 5925 4725
+Wire Wire Line
+	5350 3500 5475 3500
+Wire Wire Line
+	6575 3200 6775 3200
+Wire Wire Line
+	4350 4675 4350 4725
 $EndSCHEMATC

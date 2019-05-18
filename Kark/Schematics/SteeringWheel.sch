@@ -1,55 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:KarkSchematics-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays_switches
-LIBS:supermileage
-LIBS:supermileage_computers
-LIBS:supermileage_sensors
-LIBS:EllicottMicrocontrollers
-LIBS:EllicottInterface
-LIBS:EllicottDisplay
-LIBS:EllicottMisc
-LIBS:EllicottPower
+EESchema Schematic File Version 4
 LIBS:KarkSchematics-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
-Sheet 4 10
-Title "Kark Steering Wheel"
+Sheet 4 11
+Title "Kark - Gasoline Prototype"
 Date "2018-03-24"
-Rev "1.0"
+Rev "1.1"
 Comp "Cedarville Supermileage"
 Comment1 "Tineka Witt"
 Comment2 "Samuel Ellicott"
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_Push SW504
+L KarkSchematics-rescue:SW_Push SW504
 U 1 1 5AB71A2D
 P 2800 1450
 F 0 "SW504" H 2850 1550 50  0000 L CNN
@@ -68,7 +26,7 @@ F 3 "" H 2800 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW503
+L KarkSchematics-rescue:SW_Push SW503
 U 1 1 5AB71A80
 P 2175 1700
 F 0 "SW503" H 2225 1800 50  0000 L CNN
@@ -79,7 +37,7 @@ F 3 "" H 2175 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW501
+L KarkSchematics-rescue:SW_Push SW501
 U 1 1 5AB71AD9
 P 1525 1950
 F 0 "SW501" H 1575 2050 50  0000 L CNN
@@ -90,7 +48,7 @@ F 3 "" H 1525 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW505
+L KarkSchematics-rescue:SW_Push SW505
 U 1 1 5AB71B03
 P 2800 4000
 F 0 "SW505" H 2850 4100 50  0000 L CNN
@@ -101,7 +59,7 @@ F 3 "" H 2800 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Throttle U501
+L KarkSchematics-rescue:Throttle U501
 U 1 1 5AB71B5E
 P 2150 4900
 F 0 "U501" H 1800 4900 60  0000 C CNN
@@ -200,9 +158,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 4750 3900 4750
 Wire Wire Line
-	5275 1450 5975 1450
+	5275 1450 5550 1450
 Wire Wire Line
-	5275 1750 5975 1750
+	5275 1750 5650 1750
 Wire Wire Line
 	5275 4000 5550 4000
 Wire Wire Line
@@ -216,7 +174,7 @@ Connection ~ 5650 1750
 Wire Wire Line
 	5275 4075 5275 4100
 Wire Wire Line
-	5275 1550 5975 1550
+	5275 1550 5350 1550
 Wire Wire Line
 	5350 1550 5350 4075
 Wire Wire Line
@@ -226,11 +184,11 @@ Wire Wire Line
 Wire Wire Line
 	5450 4200 5450 1650
 Wire Wire Line
-	5275 1650 5975 1650
+	5275 1650 5450 1650
 Connection ~ 5350 1550
 Connection ~ 5450 1650
 $Comp
-L SW_Push SW502
+L KarkSchematics-rescue:SW_Push SW502
 U 1 1 5AB88CE3
 P 1525 4500
 F 0 "SW502" H 1575 4600 50  0000 L CNN
@@ -260,4 +218,12 @@ Wire Wire Line
 	2525 4100 2525 4000
 Wire Wire Line
 	2525 4000 2600 4000
+Wire Wire Line
+	5550 1450 5975 1450
+Wire Wire Line
+	5650 1750 5975 1750
+Wire Wire Line
+	5350 1550 5975 1550
+Wire Wire Line
+	5450 1650 5975 1650
 $EndSCHEMATC
