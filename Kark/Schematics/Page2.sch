@@ -229,27 +229,7 @@ F 3 "" H 3500 3050 60  0000 C CNN
 	1    3500 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L KarkSchematics-rescue:CB CB402
-U 1 1 5AB9FFDC
-P 1800 3050
-F 0 "CB402" H 1800 3225 60  0000 C CNN
-F 1 "5A" H 1800 2975 60  0000 C CNN
-F 2 "" H 1800 3050 60  0000 C CNN
-F 3 "" H 1800 3050 60  0000 C CNN
-	1    1800 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 3050 1950 3050
-Wire Wire Line
-	1650 3050 1500 3050
-Connection ~ 1500 3050
 Connection ~ 7200 4425
-Text GLabel 3650 3950 0    60   Input ~ 0
-Brake_Light
-Wire Wire Line
-	3650 3950 6325 3950
 $Sheet
 S 4475 7025 1225 1100
 U 5ABBD830
@@ -304,7 +284,7 @@ Wire Wire Line
 Connection ~ 2050 1400
 Wire Wire Line
 	2050 1100 2050 1400
-Text Label 1525 3050 0    60   ~ 0
+Text Label 2075 3050 0    60   ~ 0
 5
 $Comp
 L KarkSchematics-rescue:LED_ALT D401
@@ -322,11 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1100 1950 1100
 Wire Wire Line
-	1500 1100 1500 3050
-Wire Wire Line
 	7200 8550 7200 8800
-Wire Wire Line
-	1500 3050 1500 8850
 Wire Wire Line
 	7200 7125 7200 8550
 Wire Wire Line
@@ -392,63 +368,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2250 2900 4625
 Wire Wire Line
-	7200 3050 7200 3575
-Wire Wire Line
-	2050 1700 2050 4425
-$Comp
-L KarkSchematics-rescue:SW_Push SW?
-U 1 1 5D1A9525
-P 3500 3575
-AR Path="/5AB66DFC/5AB68374/5D1A9525" Ref="SW?"  Part="1" 
-AR Path="/5AB66DFC/5D1A9525" Ref="SW?"  Part="1" 
-F 0 "SW?" H 3550 3675 50  0001 L CNN
-F 1 "Brake" H 3500 3515 50  0000 C CNN
-F 2 "" H 3500 3775 50  0001 C CNN
-F 3 "" H 3500 3775 50  0001 C CNN
-	1    3500 3575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3575 2200 3575
-$Comp
-L KarkSchematics-rescue:SPDT_Relay CR?
-U 1 1 5D1A952C
-P 6475 3575
-F 0 "CR?" H 6475 3862 60  0001 C CNN
-F 1 "Brake Relay" H 6475 3756 60  0000 C CNN
-F 2 "" H 6475 3575 60  0000 C CNN
-F 3 "" H 6475 3575 60  0000 C CNN
-	1    6475 3575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6275 3575 3700 3575
-$Comp
-L KarkSchematics-rescue:SPDT_Relay CR?
-U 2 1 5D1B14CF
-P 6475 3950
-F 0 "CR?" H 6475 4237 60  0001 C CNN
-F 1 "Brake Relay" H 6475 4131 60  0000 C CNN
-F 2 "" H 6475 3950 60  0000 C CNN
-F 3 "" H 6475 3950 60  0000 C CNN
-	2    6475 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6625 3950 7200 3950
-Connection ~ 7200 3950
-Wire Wire Line
-	7200 3950 7200 4425
-Wire Wire Line
-	2200 2525 2200 3575
-Connection ~ 2200 3575
-Wire Wire Line
-	2200 3575 2200 7100
-Wire Wire Line
-	6675 3575 7200 3575
-Connection ~ 7200 3575
-Wire Wire Line
-	7200 3575 7200 3950
+	2050 1700 2050 3050
 Wire Wire Line
 	2675 4525 2675 7200
 Wire Wire Line
@@ -457,4 +377,15 @@ Wire Wire Line
 	7200 4425 7200 7125
 Wire Wire Line
 	2050 4425 2050 8725
+Wire Wire Line
+	7200 3050 7200 4425
+Wire Wire Line
+	2200 2525 2200 7100
+Wire Wire Line
+	1500 1100 1500 8850
+Wire Wire Line
+	2050 3050 3450 3050
+Connection ~ 2050 3050
+Wire Wire Line
+	2050 3050 2050 4425
 $EndSCHEMATC

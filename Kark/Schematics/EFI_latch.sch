@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 5
+Sheet 5 5
 Title "Kark - Gasoline Prototype"
 Date "2019-05-17"
 Rev "1.1"
@@ -82,11 +82,8 @@ Wire Wire Line
 	7175 3025 7625 3025
 Wire Wire Line
 	7625 3025 7625 3375
-Text HLabel 8025 2550 2    60   Output ~ 0
+Text HLabel 7975 3375 2    60   Output ~ 0
 EFI_En
-Wire Wire Line
-	8025 2550 7625 2550
-Connection ~ 7625 2550
 $Comp
 L 74xx:7402 U?
 U 3 1 5CE641E4
@@ -343,4 +340,7 @@ Wire Wire Line
 	4225 5025 4225 4950
 Text Notes 4550 1375 0    118  ~ 0
 EFI Latch System
+Wire Wire Line
+	7975 3375 7625 3375
+Connection ~ 7625 3375
 $EndSCHEMATC
